@@ -2,7 +2,7 @@ name: 每日监测与新活动发现
 
 on:
   schedule:
-    - cron: "17 0 * * *"   # 每天 UTC 00:00 = 吉隆坡时间 08:00
+    - cron: "0 0 * * *"    # 每天 UTC 00:00 = 吉隆坡时间 08:00（GitHub 高峰期可能延后几分钟到半小时）
   workflow_dispatch: {}     # 也可以在 Actions 页面手动点 Run workflow
 
 permissions:
