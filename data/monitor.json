@@ -1,12 +1,12 @@
 {
  "generated": "2026-10-29",
- "generated_at": "2026-10-29T03:35:51+00:00",
+ "generated_at": "2026-10-29T08:11:46+00:00",
  "ai_enabled": false,
  "summary": {
-  "records": 221,
-  "urls": 355,
-  "changed": 4,
-  "unreachable": 43,
+  "records": 225,
+  "urls": 365,
+  "changed": 7,
+  "unreachable": 54,
   "ended_hint": 2,
   "new": 34,
   "discoveries": 34
@@ -45,10 +45,10 @@
    "errors": [],
    "ended_hint": "",
    "added": [
-    "10 Vanalano 5098.96 $50"
+    "5 kastto89 16519.97 $100"
    ],
    "removed": [
-    "10 Vanalano 5025.51 $50"
+    "5 kastto89 16301.74 $100"
    ],
    "sources_ok": 1,
    "sources_total": 1
@@ -187,12 +187,17 @@
   },
   "ir-mond-halloween": {
    "checked": "2026-10-29",
-   "changed": "",
+   "changed": "2026-10-29",
    "unreachable": [],
    "errors": [],
    "ended_hint": "",
-   "added": [],
-   "removed": [],
+   "added": [
+    "MondFx | Online Forex & CFD Broker",
+    "HALLOWEEN 2026 · MONDFX This Halloween, the choice is yours MondShield $200 | Up to 90% loss coverage PRO ECN $200 | 40% bonus Copy Trading 60% deposit bonus Deposit Bonus Up to 40% more capital Explo"
+   ],
+   "removed": [
+    "MondFx | Online Forex & CFD Broker HALLOWEEN 2026 · MONDFX This Halloween, the choice is yours MondShield $200 | Up to 90% loss coverage PRO ECN $200 | 40% bonus Copy Trading 60% deposit bonus Deposit"
+   ],
    "sources_ok": 3,
    "sources_total": 3
   },
@@ -824,23 +829,31 @@
   "latam-vantage-cpa": {
    "checked": "2026-10-29",
    "changed": "",
-   "unreachable": [],
-   "errors": [],
+   "unreachable": [
+    "https://partners.vantagemarkets.com/es/cpa-affiliates/"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
    "ended_hint": "",
    "added": [],
    "removed": [],
-   "sources_ok": 1,
+   "sources_ok": 0,
    "sources_total": 1
   },
   "latam-vantage-ib": {
    "checked": "2026-10-29",
    "changed": "",
-   "unreachable": [],
-   "errors": [],
+   "unreachable": [
+    "https://partners.vantagemarkets.com/es/ib-introducing-brokers/"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
    "ended_hint": "",
    "added": [],
    "removed": [],
-   "sources_ok": 1,
+   "sources_ok": 0,
    "sources_total": 1
   },
   "latam-vantage-peru-sponsorship": {
@@ -879,8 +892,19 @@
   "latam-ultima-cpa": {
    "checked": "2026-10-29",
    "changed": "",
+   "unreachable": [],
+   "errors": [],
+   "ended_hint": "",
+   "added": [],
+   "removed": [],
+   "sources_ok": 1,
+   "sources_total": 1
+  },
+  "latam-ultima-deposit-expired": {
+   "checked": "2026-10-29",
+   "changed": "",
    "unreachable": [
-    "https://partners.ultimamarkets.com/pdf/Ultima_Markets_CPA_Affiliate_Agreement.pdf?v=8"
+    "https://www.ultimamarkets.com/pdf/UM_50_credit_bonus_ENG.pdf?v=3"
    ],
    "errors": [
     "访问被拒绝或出错（403）"
@@ -891,47 +915,60 @@
    "sources_ok": 0,
    "sources_total": 1
   },
-  "latam-ultima-deposit-expired": {
-   "checked": "2026-10-29",
-   "changed": "",
-   "unreachable": [],
-   "errors": [],
-   "ended_hint": "",
-   "added": [],
-   "removed": [],
-   "sources_ok": 1,
-   "sources_total": 1
-  },
   "latam-ultima-champion": {
    "checked": "2026-10-29",
    "changed": "",
-   "unreachable": [],
-   "errors": [],
+   "unreachable": [
+    "https://www.ultimamarkets.com/promotions/champion-journey-nextlevel/",
+    "https://www.ultimamarkets.com/promotions/champion-journey-nextlevel-tnc/"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
    "ended_hint": "",
    "added": [],
    "removed": [],
-   "sources_ok": 2,
+   "sources_ok": 0,
    "sources_total": 2
   },
   "latam-ultima-brazil-event": {
    "checked": "2026-10-29",
    "changed": "",
-   "unreachable": [],
-   "errors": [],
+   "unreachable": [
+    "https://www.ultimamarkets.com/company-news/",
+    "https://www.ultimamarkets.com/company-news/ultima-markets-hosts-exclusive-networking-gathering-in-brazil/"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
    "ended_hint": "",
    "added": [],
    "removed": [],
-   "sources_ok": 2,
+   "sources_ok": 0,
    "sources_total": 2
   },
   "latam-pu-deposit": {
    "checked": "2026-10-29",
-   "changed": "",
+   "changed": "2026-10-29",
    "unreachable": [],
    "errors": [],
    "ended_hint": "",
-   "added": [],
-   "removed": [],
+   "added": [
+    "Estos Términos y Condiciones regulan la participación en el «Bono del 100% por depósito» (la «Promoción») y se componen de los Términos y Condiciones Específicos y los Términos y Condiciones Generales",
+    "1. Regiones de la promoción: La Promoción no está disponible en los países de Asia. Solo está disponible para los residentes de los países que PU Prime designe como elegibles en cada momento. Para obt",
+    "2. Tipos de cuenta elegibles: Cuenta Estándar, Cuenta Estándar Islámica, Cuenta Prime y Cuenta Prime Islámica.",
+    "a. Esta oferta es válida para todas las plataformas de trading.",
+    "b. PU Prime se reserva el derecho, a su entera discreción, de excluir tipos de cuenta o designar tipos de cuenta adicionales como elegibles en cualquier momento.",
+    "3. Si existen varias cuentas de trading a nombre del mismo cliente, todas las cuentas elegibles podrán participar en esta promoción, y el sistema contabilizará los depósitos y retiros de la cuenta que"
+   ],
+   "removed": [
+    "Estos Términos y Condiciones rigen la participación en el «Bono de depósito del 100%» (la «Promoción») y comprenden Términos y Condiciones Específicos y Términos y Condiciones Generales, en conjunto (",
+    "1. Áreas de la Promoción: La Promoción no está disponible para los países de la región de Asia. Solo está disponible para residentes de los países que PU Prime designe como elegibles en cada momento. ",
+    "2. Tipos de cuenta elegibles: Cuenta Estándar, Cuenta Estándar Islámica, Cuenta Prime, Cuenta Prime Islámica.",
+    "a. Esta oferta es válida para todas las plataformas de operaciones.",
+    "b. PU Prime se reserva el derecho de eliminar o designar tipos de cuenta adicionales como elegibles en cualquier momento, a su entera discreción.",
+    "3. Si hay varias cuentas de operaciones bajo el nombre del mismo cliente, todas las cuentas de operaciones elegibles pueden participar en esta promoción, y el sistema contabilizará los depósitos y ret"
+   ],
    "sources_ok": 1,
    "sources_total": 1
   },
@@ -1235,12 +1272,17 @@
   "latam-pu-afa-activation-2026": {
    "checked": "2026-10-29",
    "changed": "",
-   "unreachable": [],
-   "errors": [],
+   "unreachable": [
+    "https://www.puprime.com/pu-prime-deepens-argentina-presence-through-fx-expo-buenos-aires-2026/",
+    "https://www.puprime.com/pu-prime-and-afa-hold-official-signing-ceremony-in-madrid/"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
    "ended_hint": "",
    "added": [],
    "removed": [],
-   "sources_ok": 2,
+   "sources_ok": 0,
    "sources_total": 2
   },
   "sea-xm-deposit": {
@@ -1385,12 +1427,21 @@
   "sea-vantage-cpa": {
    "checked": "2026-10-29",
    "changed": "",
-   "unreachable": [],
-   "errors": [],
+   "unreachable": [
+    "https://partners.vantagemarkets.com/cpa-affiliates/",
+    "https://partners.vantagemarkets.com/ib-introducing-brokers/",
+    "https://partners.vantagemarkets.com/affiliate-success-stories/cbfx/",
+    "https://partners.vantagemarkets.com/affiliate-success-stories/financial-markets-online/",
+    "https://partners.vantagemarkets.com/pdf/The-Insider%E2%80%99s-Guide-to-CPA-Marketing-in-the-CFD-Industry.pdf",
+    "https://partners.vantagemarkets.com/pdf/Vantage_Partner_Compliance_Guidelines_2024.pdf"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
    "ended_hint": "",
    "added": [],
    "removed": [],
-   "sources_ok": 6,
+   "sources_ok": 0,
    "sources_total": 6
   },
   "sea-vantage-expired": {
@@ -1437,45 +1488,64 @@
   "sea-pu50": {
    "checked": "2026-10-29",
    "changed": "",
-   "unreachable": [],
-   "errors": [],
+   "unreachable": [
+    "https://www.puprime.com/50-deposit-bonus/",
+    "https://www.puprime.com/terms-and-conditions/50-deposit-bonus-terms/",
+    "https://www.puprime.com/promotions/"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
    "ended_hint": "",
    "added": [],
    "removed": [],
-   "sources_ok": 3,
+   "sources_ok": 0,
    "sources_total": 3
   },
   "sea-pu100-excluded": {
    "checked": "2026-10-29",
    "changed": "",
-   "unreachable": [],
-   "errors": [],
+   "unreachable": [
+    "https://www.puprime.com/terms-and-conditions/100-deposit-bonus-terms/"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
    "ended_hint": "",
    "added": [],
    "removed": [],
-   "sources_ok": 1,
+   "sources_ok": 0,
    "sources_total": 1
   },
   "sea-pu-cashback": {
    "checked": "2026-10-29",
    "changed": "",
-   "unreachable": [],
-   "errors": [],
+   "unreachable": [
+    "https://www.puprime.com/product-cashback-reward/",
+    "https://www.puprime.com/terms-and-conditions/productcashbackreward/"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
    "ended_hint": "",
    "added": [],
    "removed": [],
-   "sources_ok": 2,
+   "sources_ok": 0,
    "sources_total": 2
   },
   "sea-pu-starter": {
    "checked": "2026-10-29",
    "changed": "",
-   "unreachable": [],
-   "errors": [],
+   "unreachable": [
+    "https://www.puprime.com/terms-and-conditions/exclusive-starter-reward-3/"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
    "ended_hint": "",
    "added": [],
    "removed": [],
-   "sources_ok": 1,
+   "sources_ok": 0,
    "sources_total": 1
   },
   "sea-wetrade-oct": {
@@ -1694,12 +1764,26 @@
   },
   "sea-iux-credit": {
    "checked": "2026-10-29",
-   "changed": "",
+   "changed": "2026-10-29",
    "unreachable": [],
    "errors": [],
    "ended_hint": "",
-   "added": [],
-   "removed": [],
+   "added": [
+    "Key information about Trading Credit",
+    "3. Eligibility and Campaign Consent",
+    "7. Stop Out and Trading Credit Reset",
+    "11. Records, Complaints and Governing Law",
+    "Key information about Trading Credit",
+    "• You take part only if you choose to join the Campaign, and you can leave at any time (Clause 3.10)."
+   ],
+   "removed": [
+    "3. Eligibility and Automatic Enrolment",
+    "7. Stop Out and Trading Credit Removal",
+    "11. Records, Complaints and Governing Terms",
+    "1.1 The IUX Credit Campaign Terms and Conditions (hereinafter the “Terms and Conditions”) shall govern all the interaction and participation in the IUX Credit Campaign (hereinafter the “Campaign”) off",
+    "1.2 These Terms and Conditions must be read together with the Client Agreement, the General Terms and Conditions, the Risk Disclosure, the Privacy Policy, the Order Execution Policy, the IUX dormant a",
+    "1.3 The Campaign shall be available from the date and time determined and communicated by IUX through its official communications until 31 December 2026 at 23:59:59 (Trading Server Time) (hereinafter "
+   ],
    "sources_ok": 1,
    "sources_total": 1
   },
@@ -1754,7 +1838,7 @@
     "https://start.errante.com/"
    ],
    "errors": [
-    "无法访问：TimeoutError"
+    "访问被拒绝或出错（522）"
    ],
    "ended_hint": "",
    "added": [],
@@ -1891,10 +1975,10 @@
    "errors": [],
    "ended_hint": "",
    "added": [
-    "{\"l1\":\"var arg1='5dcf6303b138b426519aaa7f9c030c71af567693eee9025ea4';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
+    "{\"l1\":\"var arg1='5dcf225eda52c41c353e83fadfe3ff2c65e3a044cc49259d49';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
    ],
    "removed": [
-    "{\"l1\":\"var arg1='5dcf690a885d852d3bd4ce060178bcf273b25bc91e21300d29';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
+    "{\"l1\":\"var arg1='5dcf6303b138b426519aaa7f9c030c71af567693eee9025ea4';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
    ],
    "sources_ok": 3,
    "sources_total": 3
@@ -1906,10 +1990,10 @@
    "errors": [],
    "ended_hint": "",
    "added": [
-    "{\"l1\":\"var arg1='5dcf6303b138b426519aaa7f9c030c71af567693eee9025ea4';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
+    "{\"l1\":\"var arg1='5dcf225eda52c41c353e83fadfe3ff2c65e3a044cc49259d49';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
    ],
    "removed": [
-    "{\"l1\":\"var arg1='5dcf690a885d852d3bd4ce060178bcf273b25bc91e21300d29';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
+    "{\"l1\":\"var arg1='5dcf6303b138b426519aaa7f9c030c71af567693eee9025ea4';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
    ],
    "sources_ok": 2,
    "sources_total": 2
@@ -2100,12 +2184,17 @@
   "sea-vantage-switch-bonus": {
    "checked": "2026-10-29",
    "changed": "",
-   "unreachable": [],
-   "errors": [],
+   "unreachable": [
+    "https://partners.vantagemarkets.com/promotions/switch-bonus/",
+    "https://partners.vantagemarkets.com/promotions/switch-bonus-tnc/"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
    "ended_hint": "",
    "added": [],
    "removed": [],
-   "sources_ok": 2,
+   "sources_ok": 0,
    "sources_total": 2
   },
   "sea-pu-partner-marketing-support": {
@@ -2332,23 +2421,23 @@
    "errors": [],
    "ended_hint": "",
    "added": [
-    "SOUTH INDIA",
+    "WEST INDIA",
+    "MLC Poll results reflect growing discontent with BJP-led Mahayuti: Raut",
+    "Mumbai, Oct 29 (UNI) Shiv Sena (UBT) MP Sanjay Raut on Thursday launched a sharp attack on the rulin",
+    "Author : admin Published At: 29/10/26 07:14",
+    "Telangana Governor urges students to become cultural bridges between States",
+    "Hyderabad, Oct 29 (UNI) Telangana Governor Shiv Pratap Shukla has urged students to use educational"
+   ],
+   "removed": [
     "Velankanni Church-Murugan Temple claim triggers controversy, opens historical debate",
     "Kochi, Oct 29 (UNI) A controversy has erupted over Hindutva commentator Vidyasagar Gurumurthy's clai",
     "Author : admin Published At: 29/10/26 02:58",
     "North India",
-    "Haryana Sports Department seeks corporate partners to mobilise funds for flagship sports events"
+    "Haryana Sports Department seeks corporate partners to mobilise funds for flagship sports events",
+    "Panchkula, Oct 29 (UNI) The Haryana government has invited expressions of interest (EoIs) from priva"
    ],
-   "removed": [
-    "Entertainment",
-    "K.C. Bokadia celebrates the success of 'Sanskaar', aims to unite families",
-    "Mumbai, Oct 28 (UNI) Veteran filmmaker K.C. Bokadia celebrated the success of his family television",
-    "Author : admin Published At: 28/10/26 19:23",
-    "Entertainment",
-    "57th International Film Festival of India 2026 extends media accreditation deadline to November 4"
-   ],
-   "sources_ok": 1,
-   "sources_total": 1
+   "sources_ok": 2,
+   "sources_total": 2
   },
   "um-trader-cup-2026": {
    "checked": "2026-10-29",
@@ -2372,8 +2461,22 @@
    "unreachable": [],
    "errors": [],
    "ended_hint": "",
-   "added": [],
-   "removed": [],
+   "added": [
+    "FM Summit London 2026 Offers Sponsors Direct Access to Senior Industry Decision-Makers",
+    "Thursday, 29/10/2026 | 07:00 GMT",
+    "Spreads Grab the Headlines, but Infrastructure Gets the Institutional Flow",
+    "Thursday, 29/10/2026 | 06:30 GMT",
+    "Acting as Counterparty to Clients in South Africa Costs a Broker Almost 3 Times More",
+    "Thursday, 29/10/2026 | 05:06 GMT"
+   ],
+   "removed": [
+    "XTB's Quarterly Profit Quadruples and Beats Forecasts as Clients Trade Less",
+    "Wednesday, 28/10/2026 | 19:00 GMT",
+    "Google Cloud Plans Institutional Crypto Custody Service for Next Year’s Launch",
+    "Wednesday, 28/10/2026 | 16:21 GMT",
+    "dxFeed Courts Indicator Sellers Days Before TradingView Closes Off-Platform Sales",
+    "Wednesday, 28/10/2026 | 13:24 GMT"
+   ],
    "sources_ok": 1,
    "sources_total": 1
   },
@@ -2383,8 +2486,22 @@
    "unreachable": [],
    "errors": [],
    "ended_hint": "",
-   "added": [],
-   "removed": [],
+   "added": [
+    "FM Summit London 2026 Offers Sponsors Direct Access to Senior Industry Decision-Makers",
+    "Thursday, 29/10/2026 | 07:00 GMT",
+    "Spreads Grab the Headlines, but Infrastructure Gets the Institutional Flow",
+    "Thursday, 29/10/2026 | 06:30 GMT",
+    "Acting as Counterparty to Clients in South Africa Costs a Broker Almost 3 Times More",
+    "Thursday, 29/10/2026 | 05:06 GMT"
+   ],
+   "removed": [
+    "XTB's Quarterly Profit Quadruples and Beats Forecasts as Clients Trade Less",
+    "Wednesday, 28/10/2026 | 19:00 GMT",
+    "Google Cloud Plans Institutional Crypto Custody Service for Next Year’s Launch",
+    "Wednesday, 28/10/2026 | 16:21 GMT",
+    "dxFeed Courts Indicator Sellers Days Before TradingView Closes Off-Platform Sales",
+    "Wednesday, 28/10/2026 | 13:24 GMT"
+   ],
    "sources_ok": 1,
    "sources_total": 1
   },
@@ -2394,8 +2511,18 @@
    "unreachable": [],
    "errors": [],
    "ended_hint": "",
-   "added": [],
-   "removed": [],
+   "added": [
+    "XTB tops one million new clients in 2026 as active accounts jump 70%",
+    "Oct 29, 2026",
+    "Pepperstone signs Fernando Alonso as global ambassador, eyes Latin America",
+    "Oct 29, 2026"
+   ],
+   "removed": [
+    "Oct 28, 2026",
+    "IC Launches New Guillermo Ochoa Campaign Focused on Performance Under Pressure",
+    "Oct 28, 2026",
+    "MEXC reports 88% surge in AI-linked tokenised stock trading in September"
+   ],
    "sources_ok": 1,
    "sources_total": 1
   },
@@ -2405,8 +2532,18 @@
    "unreachable": [],
    "errors": [],
    "ended_hint": "",
-   "added": [],
-   "removed": [],
+   "added": [
+    "XTB tops one million new clients in 2026 as active accounts jump 70%",
+    "Oct 29, 2026",
+    "Pepperstone signs Fernando Alonso as global ambassador, eyes Latin America",
+    "Oct 29, 2026"
+   ],
+   "removed": [
+    "Oct 28, 2026",
+    "IC Launches New Guillermo Ochoa Campaign Focused on Performance Under Pressure",
+    "Oct 28, 2026",
+    "MEXC reports 88% surge in AI-linked tokenised stock trading in September"
+   ],
    "sources_ok": 1,
    "sources_total": 1
   },
@@ -2450,15 +2587,10 @@
    "errors": [],
    "ended_hint": "",
    "added": [
-    "中文繁體"
+    "한국어"
    ],
    "removed": [
-    "English",
-    "中文简体",
-    "Русский",
-    "Español",
-    "العربية",
-    "ภาษาไทย"
+    "中文繁體"
    ],
    "sources_ok": 1,
    "sources_total": 1
@@ -2469,8 +2601,16 @@
    "unreachable": [],
    "errors": [],
    "ended_hint": "",
-   "added": [],
-   "removed": [],
+   "added": [
+    "Pepperstone and Aston Martin Aramco extend and expand partnership with Fernando Alonso appointed Global Ambassador from 2027.",
+    "Payment Asia Launches Merchant Health Index (MHI) and ARCS Marketing Platform",
+    "UnionPay and Cuscal Paymark Discuss Payment Acceptance and Digital Innovation"
+   ],
+   "removed": [
+    "Fabarta Unveils Major Upgrade to Its AI for Science Platform, Named Among Inaugural \"Hong Kong Top Talent Ecosystem Partners\" Ahead of Hong Kong FinTech Week",
+    "Unleash Your Edge: ZHITAI Joins Forces with Phantom Blade Zero in Global Strategic Partnership",
+    "Straits Financial Services Pte Ltd Participates in First Trading Day of LME Steel HRC Shanghai Futures"
+   ],
    "sources_ok": 1,
    "sources_total": 1
   },
@@ -2480,8 +2620,16 @@
    "unreachable": [],
    "errors": [],
    "ended_hint": "",
-   "added": [],
-   "removed": [],
+   "added": [
+    "Pepperstone and Aston Martin Aramco extend and expand partnership with Fernando Alonso appointed Global Ambassador from 2027.",
+    "Payment Asia Launches Merchant Health Index (MHI) and ARCS Marketing Platform",
+    "UnionPay and Cuscal Paymark Discuss Payment Acceptance and Digital Innovation"
+   ],
+   "removed": [
+    "Fabarta Unveils Major Upgrade to Its AI for Science Platform, Named Among Inaugural \"Hong Kong Top Talent Ecosystem Partners\" Ahead of Hong Kong FinTech Week",
+    "Unleash Your Edge: ZHITAI Joins Forces with Phantom Blade Zero in Global Strategic Partnership",
+    "Straits Financial Services Pte Ltd Participates in First Trading Day of LME Steel HRC Shanghai Futures"
+   ],
    "sources_ok": 1,
    "sources_total": 1
   },
@@ -2503,20 +2651,20 @@
    "errors": [],
    "ended_hint": "",
    "added": [
-    "Gaming 29 Oct 2026",
-    "MGM China’s Q3 revenue hits record as market share climbs",
-    "MNA 29 Oct 2026",
-    "Ford profit dips but says US consumer still ‘resilient’",
-    "Singapore Corporate Services wins Silver at SkillsFuture Employer Awards 2026",
-    "29 Oct 2026 ​Professional learning and on-the-job experience help e"
+    "China 29 Oct 2026",
+    "Wynn champions Chinese wines on global stage at Tatler Best Asia Pacific 2026",
+    "International 29 Oct 2026",
+    "New York passes law restricting children’s use of AI chatbots",
+    "International 29 Oct 2026",
+    "41,000 DHS names leaked in major hack, collective says"
    ],
    "removed": [
     "International 29 Oct 2026",
-    "Canada hikes rates to contain oil price surge caused by Iran war",
+    "Microsoft beats expectations fueled by Azure cloud business",
     "International 29 Oct 2026",
-    "Local ceasefire in Russia-occupied Ukrainian city holds for second day",
-    "Total Investment of Approx. USD 6.8 Million in Product Development for Malaria, NTDs and Other Emerging & Re-emerging Infectious Diseases Such as Ebola Disease",
-    "29 Oct 2026 ​TOKYO, Oct. 29, 2026 /PRNewswire/ — The Global Health"
+    "Child attacked by wolf in German wildlife park",
+    "International 29 Oct 2026",
+    "UK hikes tax on bank profits to fund energy help"
    ],
    "sources_ok": 1,
    "sources_total": 1
@@ -2539,20 +2687,20 @@
    "errors": [],
    "ended_hint": "",
    "added": [
-    "Gaming 29 Oct 2026",
-    "MGM China’s Q3 revenue hits record as market share climbs",
-    "MNA 29 Oct 2026",
-    "Ford profit dips but says US consumer still ‘resilient’",
-    "美世教育：不止於大學錄取",
-    "Uncategorized 29 Oct 2026"
+    "China 29 Oct 2026",
+    "Wynn champions Chinese wines on global stage at Tatler Best Asia Pacific 2026",
+    "International 29 Oct 2026",
+    "New York passes law restricting children’s use of AI chatbots",
+    "International 29 Oct 2026",
+    "41,000 DHS names leaked in major hack, collective says"
    ],
    "removed": [
     "International 29 Oct 2026",
-    "Canada hikes rates to contain oil price surge caused by Iran war",
+    "Microsoft beats expectations fueled by Azure cloud business",
     "International 29 Oct 2026",
-    "Local ceasefire in Russia-occupied Ukrainian city holds for second day",
-    "Uncategorized 29 Oct 2026",
-    "太格地材引進「伊格潛水木地板」以精密防水科技打造居家新體驗"
+    "Child attacked by wolf in German wildlife park",
+    "International 29 Oct 2026",
+    "UK hikes tax on bank profits to fund energy help"
    ],
    "sources_ok": 1,
    "sources_total": 1
@@ -2643,6 +2791,65 @@
    "sources_ok": 1,
    "sources_total": 1
   },
+  "tmgm-demo-2026": {
+   "checked": "2026-10-29",
+   "changed": "",
+   "unreachable": [
+    "https://demo-competition.tradeginvest.com/zh-Hans"
+   ],
+   "errors": [
+    "访问被拒绝或出错（403）"
+   ],
+   "ended_hint": "",
+   "added": [],
+   "removed": [],
+   "sources_ok": 1,
+   "sources_total": 2
+  },
+  "tmgm-12th-comp-2026": {
+   "checked": "2026-10-29",
+   "changed": "",
+   "unreachable": [],
+   "errors": [],
+   "ended_hint": "",
+   "added": [],
+   "removed": [],
+   "sources_ok": 2,
+   "sources_total": 2
+  },
+  "atfx-world-trading-cup-2026": {
+   "checked": "2026-10-29",
+   "changed": "",
+   "unreachable": [],
+   "errors": [],
+   "ended_hint": "",
+   "added": [],
+   "removed": [],
+   "sources_ok": 3,
+   "sources_total": 3
+  },
+  "ebc-ifx-expo-hk-2026": {
+   "checked": "2026-10-29",
+   "changed": "",
+   "unreachable": [],
+   "errors": [],
+   "ended_hint": "",
+   "added": [],
+   "removed": [],
+   "sources_ok": 2,
+   "sources_total": 2
+  },
+  "ultima-taipei-expo-2025": {
+   "checked": "2026-10-29",
+   "changed": "",
+   "unreachable": [],
+   "errors": [],
+   "ended_hint": "",
+   "added": [],
+   "removed": [],
+   "sources_ok": 1,
+   "sources_total": 1
+  },
   "auto-bybit-8e5ed413": {
    "checked": "2026-10-29",
    "changed": "",
@@ -2698,17 +2905,6 @@
    "sources_ok": 1,
    "sources_total": 1
   },
-  "auto-bybit-c045e2a2": {
-   "checked": "2026-10-29",
-   "changed": "",
-   "unreachable": [],
-   "errors": [],
-   "ended_hint": "",
-   "added": [],
-   "removed": [],
-   "sources_ok": 1,
-   "sources_total": 1
-  },
   "auto-bybit-4ca0980f": {
    "checked": "2026-10-29",
    "changed": "",
@@ -2720,40 +2916,7 @@
    "sources_ok": 1,
    "sources_total": 1
   },
-  "auto-bybit-6114469b": {
-   "checked": "2026-10-29",
-   "changed": "",
-   "unreachable": [],
-   "errors": [],
-   "ended_hint": "",
-   "added": [],
-   "removed": [],
-   "sources_ok": 1,
-   "sources_total": 1
-  },
   "auto-bybit-e082b3b9": {
-   "checked": "2026-10-29",
-   "changed": "",
-   "unreachable": [],
-   "errors": [],
-   "ended_hint": "",
-   "added": [],
-   "removed": [],
-   "sources_ok": 1,
-   "sources_total": 1
-  },
-  "auto-bybit-971ac591": {
-   "checked": "2026-10-29",
-   "changed": "",
-   "unreachable": [],
-   "errors": [],
-   "ended_hint": "",
-   "added": [],
-   "removed": [],
-   "sources_ok": 1,
-   "sources_total": 1
-  },
-  "auto-bybit-a4222ef5": {
    "checked": "2026-10-29",
    "changed": "",
    "unreachable": [],
@@ -2787,6 +2950,39 @@
    "sources_total": 1
   },
   "auto-moneta-markets-b811233f": {
+   "checked": "2026-10-29",
+   "changed": "",
+   "unreachable": [],
+   "errors": [],
+   "ended_hint": "",
+   "added": [],
+   "removed": [],
+   "sources_ok": 1,
+   "sources_total": 1
+  },
+  "auto-bybit-b1bd5ea7": {
+   "checked": "2026-10-29",
+   "changed": "",
+   "unreachable": [],
+   "errors": [],
+   "ended_hint": "",
+   "added": [],
+   "removed": [],
+   "sources_ok": 1,
+   "sources_total": 1
+  },
+  "auto-bybit-066564ef": {
+   "checked": "2026-10-29",
+   "changed": "",
+   "unreachable": [],
+   "errors": [],
+   "ended_hint": "",
+   "added": [],
+   "removed": [],
+   "sources_ok": 1,
+   "sources_total": 1
+  },
+  "auto-bybit-89789e44": {
    "checked": "2026-10-29",
    "changed": "",
    "unreachable": [],
@@ -2942,6 +3138,28 @@
    "http": 403,
    "error": "访问被拒绝或出错（403）"
   },
+  "https://bernama.com/man/news.php?id=2616907": {
+   "url": "https://bernama.com/man/news.php?id=2616907",
+   "checked": "2026-10-29",
+   "http": 200,
+   "hash": "ebd25d8b20e1970359d78d82a8f0fd97eb3d4ceb",
+   "final_url": "",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
+  "https://businessfocus.io/article/361579/": {
+   "url": "https://businessfocus.io/article/361579/",
+   "checked": "2026-10-29",
+   "http": 200,
+   "hash": "e8eecf7b81b5c38bb3ba028ad78cd676dbdd2efd",
+   "final_url": "https://businessfocus.io/article/361579/atfx%E4%B8%96%E7%95%8C%E4%BA%A4%E6%98%93%E5%A4%A7%E8%B3%BD%E6%9D%AF%E6%8C%81%E7%BA%8C%E5%8D%87%E6%BA%AB-%E5%85%A8%E7%90%83%E4%BA%A4%E6%98%93%E8%80%85%E8%A7%92%E9%80%9021%E8%90%AC%E7%BE%8E%E5%85%83%E7%8D%8E%E9%87%91",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
   "https://cdn.fbs.com/docs/Partner_Agreement_en.pdf": {
    "url": "https://cdn.fbs.com/docs/Partner_Agreement_en.pdf",
    "checked": "2026-10-29",
@@ -2996,6 +3214,34 @@
    "error": "",
    "last_ok": "2026-10-29"
   },
+  "https://competition.tmgmcompete.com/zh-Hans": {
+   "url": "https://competition.tmgmcompete.com/zh-Hans",
+   "checked": "2026-10-29",
+   "http": 200,
+   "hash": "d551d81a62fa2c8898e4f3263b097d0e1bef2644",
+   "final_url": "",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
+  "https://competition.tmgmcompete.com/zh-Hant": {
+   "url": "https://competition.tmgmcompete.com/zh-Hant",
+   "checked": "2026-10-29",
+   "http": 200,
+   "hash": "bdc997506c54b67dd3f05add3ebc64e619fdd542",
+   "final_url": "",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
+  "https://demo-competition.tradeginvest.com/zh-Hans": {
+   "url": "https://demo-competition.tradeginvest.com/zh-Hans",
+   "checked": "2026-10-29",
+   "http": 403,
+   "error": "访问被拒绝或出错（403）"
+  },
   "https://dl.aron-groups.co/Terms-of-service/IB-Loyalty-Club.pdf": {
    "url": "https://dl.aron-groups.co/Terms-of-service/IB-Loyalty-Club.pdf",
    "checked": "2026-10-29",
@@ -3012,9 +3258,19 @@
    "url": "https://en.prnasia.com/releases/apac/atfx-ignites-football-passion-and-trading-ambition-with-road-to-goals-promotions-521036.shtml",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "57b5df59710deb0c6fcc6f380dff634232a14809",
+   "hash": "0e48098b8ae7800ff8b35f7fe10e6ada27b7c658",
    "final_url": "",
-   "changed": "",
+   "changed": "2026-10-29",
+   "added": [
+    "Pepperstone and Aston Martin Aramco extend and expand partnership with Fernando Alonso appointed Global Ambassador from 2027.",
+    "Payment Asia Launches Merchant Health Index (MHI) and ARCS Marketing Platform",
+    "UnionPay and Cuscal Paymark Discuss Payment Acceptance and Digital Innovation"
+   ],
+   "removed": [
+    "Fabarta Unveils Major Upgrade to Its AI for Science Platform, Named Among Inaugural \"Hong Kong Top Talent Ecosystem Partners\" Ahead of Hong Kong FinTech Week",
+    "Unleash Your Edge: ZHITAI Joins Forces with Phantom Blade Zero in Global Strategic Partnership",
+    "Straits Financial Services Pte Ltd Participates in First Trading Day of LME Steel HRC Shanghai Futures"
+   ],
    "ended_hint": "",
    "error": "",
    "last_ok": "2026-10-29"
@@ -3098,9 +3354,25 @@
    "url": "https://es.puprime.com/terms-and-conditions/100-deposit-bonus-terms/",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "cc9c010f467215aeece1e96fa986b9ba9bee137d",
+   "hash": "7a2f6cd894b4629cdeddf90d0cecd921f77ce013",
    "final_url": "",
-   "changed": "",
+   "changed": "2026-10-29",
+   "added": [
+    "Estos Términos y Condiciones regulan la participación en el «Bono del 100% por depósito» (la «Promoción») y se componen de los Términos y Condiciones Específicos y los Términos y Condiciones Generales",
+    "1. Regiones de la promoción: La Promoción no está disponible en los países de Asia. Solo está disponible para los residentes de los países que PU Prime designe como elegibles en cada momento. Para obt",
+    "2. Tipos de cuenta elegibles: Cuenta Estándar, Cuenta Estándar Islámica, Cuenta Prime y Cuenta Prime Islámica.",
+    "a. Esta oferta es válida para todas las plataformas de trading.",
+    "b. PU Prime se reserva el derecho, a su entera discreción, de excluir tipos de cuenta o designar tipos de cuenta adicionales como elegibles en cualquier momento.",
+    "3. Si existen varias cuentas de trading a nombre del mismo cliente, todas las cuentas elegibles podrán participar en esta promoción, y el sistema contabilizará los depósitos y retiros de la cuenta que"
+   ],
+   "removed": [
+    "Estos Términos y Condiciones rigen la participación en el «Bono de depósito del 100%» (la «Promoción») y comprenden Términos y Condiciones Específicos y Términos y Condiciones Generales, en conjunto (",
+    "1. Áreas de la Promoción: La Promoción no está disponible para los países de la región de Asia. Solo está disponible para residentes de los países que PU Prime designe como elegibles en cada momento. ",
+    "2. Tipos de cuenta elegibles: Cuenta Estándar, Cuenta Estándar Islámica, Cuenta Prime, Cuenta Prime Islámica.",
+    "a. Esta oferta es válida para todas las plataformas de operaciones.",
+    "b. PU Prime se reserva el derecho de eliminar o designar tipos de cuenta adicionales como elegibles en cualquier momento, a su entera discreción.",
+    "3. Si hay varias cuentas de operaciones bajo el nombre del mismo cliente, todas las cuentas de operaciones elegibles pueden participar en esta promoción, y el sistema contabilizará los depósitos y ret"
+   ],
    "ended_hint": "",
    "error": "",
    "last_ok": "2026-10-29"
@@ -3437,6 +3709,17 @@
    "http": 403,
    "error": "访问被拒绝或出错（403）"
   },
+  "https://investinglive.com/forex/ifx-expo-asia-2026-begins-tomorrow-as-the-global-trading-industry-gathers-in-hong-kong/": {
+   "url": "https://investinglive.com/forex/ifx-expo-asia-2026-begins-tomorrow-as-the-global-trading-industry-gathers-in-hong-kong/",
+   "checked": "2026-10-29",
+   "http": 200,
+   "hash": "5f6f0d24947dafda98d284d1ced26a01bf50d0a4",
+   "final_url": "",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
   "https://investizo.com/docs/affiliate-agreement": {
    "url": "https://investizo.com/docs/affiliate-agreement",
    "checked": "2026-10-29",
@@ -3597,24 +3880,24 @@
    "url": "https://macaubusiness.com/bybit-tradfi-trading-tools-arena-new-100000-usdt-prize-pool-amidst-earnings-season-16/",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "45d0096e7a69406f7f1e46542c20e566a329f28c",
+   "hash": "6505ac0d4d866ee01013859bb2cdca76b8f82d5c",
    "final_url": "",
    "changed": "2026-10-29",
    "added": [
-    "Gaming 29 Oct 2026",
-    "MGM China’s Q3 revenue hits record as market share climbs",
-    "MNA 29 Oct 2026",
-    "Ford profit dips but says US consumer still ‘resilient’",
-    "Singapore Corporate Services wins Silver at SkillsFuture Employer Awards 2026",
-    "29 Oct 2026 ​Professional learning and on-the-job experience help e"
+    "China 29 Oct 2026",
+    "Wynn champions Chinese wines on global stage at Tatler Best Asia Pacific 2026",
+    "International 29 Oct 2026",
+    "New York passes law restricting children’s use of AI chatbots",
+    "International 29 Oct 2026",
+    "41,000 DHS names leaked in major hack, collective says"
    ],
    "removed": [
     "International 29 Oct 2026",
-    "Canada hikes rates to contain oil price surge caused by Iran war",
+    "Microsoft beats expectations fueled by Azure cloud business",
     "International 29 Oct 2026",
-    "Local ceasefire in Russia-occupied Ukrainian city holds for second day",
-    "Total Investment of Approx. USD 6.8 Million in Product Development for Malaria, NTDs and Other Emerging & Re-emerging Infectious Diseases Such as Ebola Disease",
-    "29 Oct 2026 ​TOKYO, Oct. 29, 2026 /PRNewswire/ — The Global Health"
+    "Child attacked by wolf in German wildlife park",
+    "International 29 Oct 2026",
+    "UK hikes tax on bank profits to fund energy help"
    ],
    "ended_hint": "",
    "error": "",
@@ -3624,24 +3907,24 @@
    "url": "https://macaubusiness.com/elevate-your-strategy-global-trading-competition-launch-with-major-cash-prizes/",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "9492f341e78bb98ce5d10a0673a9e35258d31cee",
+   "hash": "8e0d28295cab32c94780b6fa39b1d571080e5946",
    "final_url": "",
    "changed": "2026-10-29",
    "added": [
-    "Gaming 29 Oct 2026",
-    "MGM China’s Q3 revenue hits record as market share climbs",
-    "MNA 29 Oct 2026",
-    "Ford profit dips but says US consumer still ‘resilient’",
-    "美世教育：不止於大學錄取",
-    "Uncategorized 29 Oct 2026"
+    "China 29 Oct 2026",
+    "Wynn champions Chinese wines on global stage at Tatler Best Asia Pacific 2026",
+    "International 29 Oct 2026",
+    "New York passes law restricting children’s use of AI chatbots",
+    "International 29 Oct 2026",
+    "41,000 DHS names leaked in major hack, collective says"
    ],
    "removed": [
     "International 29 Oct 2026",
-    "Canada hikes rates to contain oil price surge caused by Iran war",
+    "Microsoft beats expectations fueled by Azure cloud business",
     "International 29 Oct 2026",
-    "Local ceasefire in Russia-occupied Ukrainian city holds for second day",
-    "Uncategorized 29 Oct 2026",
-    "太格地材引進「伊格潛水木地板」以精密防水科技打造居家新體驗"
+    "Child attacked by wolf in German wildlife park",
+    "International 29 Oct 2026",
+    "UK hikes tax on bank profits to fund energy help"
    ],
    "ended_hint": "",
    "error": "",
@@ -3663,9 +3946,16 @@
    "url": "https://mondfx.com/",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "6f847610864c6f768765bbd5cb63330e83e366f7",
+   "hash": "5179bbf5b3c349daed27fc06c9c4c88585e230a0",
    "final_url": "",
-   "changed": "",
+   "changed": "2026-10-29",
+   "added": [
+    "MondFx | Online Forex & CFD Broker",
+    "HALLOWEEN 2026 · MONDFX This Halloween, the choice is yours MondShield $200 | Up to 90% loss coverage PRO ECN $200 | 40% bonus Copy Trading 60% deposit bonus Deposit Bonus Up to 40% more capital Explo"
+   ],
+   "removed": [
+    "MondFx | Online Forex & CFD Broker HALLOWEEN 2026 · MONDFX This Halloween, the choice is yours MondShield $200 | Up to 90% loss coverage PRO ECN $200 | 40% bonus Copy Trading 60% deposit bonus Deposit"
+   ],
    "ended_hint": "",
    "error": "",
    "last_ok": "2026-10-29"
@@ -3801,39 +4091,6 @@
    "error": "",
    "last_ok": "2026-10-29"
   },
-  "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNamtpZENuTHZHZDVTSVphdEhlRl9QODFLY294RkRZdUdnQWpfMW9oQXpiUzJ3Y1l3RHVGZl9VNTJLY05USXprZ3hRdWpKRWhyNnY4TFJRSFp5V1FJUGtkUmVLdXNydlhpNktUVG9DZFRpMUdWcXNLbkswZGMyMVEwRnJYSjhzd1VKRThTS2tYbl9MQkpsNjVhU2E1cXVTTUVkQlZWQmVxalN6bnhGYW8wR05McjdZdkV4aWhDd3JYRHk2NXRuQklrbGdFSXNUREFOMHhnTXNVbEx6cFJndnhVQ29CTQ?oc=5": {
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNamtpZENuTHZHZDVTSVphdEhlRl9QODFLY294RkRZdUdnQWpfMW9oQXpiUzJ3Y1l3RHVGZl9VNTJLY05USXprZ3hRdWpKRWhyNnY4TFJRSFp5V1FJUGtkUmVLdXNydlhpNktUVG9DZFRpMUdWcXNLbkswZGMyMVEwRnJYSjhzd1VKRThTS2tYbl9MQkpsNjVhU2E1cXVTTUVkQlZWQmVxalN6bnhGYW8wR05McjdZdkV4aWhDd3JYRHk2NXRuQklrbGdFSXNUREFOMHhnTXNVbEx6cFJndnhVQ29CTQ?oc=5",
-   "checked": "2026-10-29",
-   "http": 200,
-   "hash": "cfd024695de99a2148fddabe89a6b70993f3a9ce",
-   "final_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNamtpZENuTHZHZDVTSVphdEhlRl9QODFLY294RkRZdUdnQWpfMW9oQXpiUzJ3Y1l3RHVGZl9VNTJLY05USXprZ3hRdWpKRWhyNnY4TFJRSFp5V1FJUGtkUmVLdXNydlhpNktUVG9DZFRpMUdWcXNLbkswZGMyMVEwRnJYSjhzd1VKRThTS2tYbl9MQkpsNjVhU2E1cXVTTUVkQlZWQmVxalN6bnhGYW8wR05McjdZdkV4aWhDd3JYRHk2NXRuQklrbGdFSXNUREFOMHhnTXNVbEx6cFJndnhVQ29CTQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
-   "last_ok": "2026-10-29"
-  },
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41d2prcXZleFFRM1d0azh4eGdPdkduZ1ZERjQ2VDVLVDIzOHdfc1ZFbllvSUJwZ1JkcnpMYnFuZUtKXy1mcHhvXzlWVDRzTnY1VTBTdU5tONIBV0FVX3lxTE41d2prcXZleFFRM1d0azh4eGdPdkduZ1ZERjQ2VDVLVDIzOHdfc1ZFbllvSUJwZ1JkcnpMYnFuZUtKXy1mcHhvXzlWVDRzTnY1VTBTdU5tOA?oc=5": {
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41d2prcXZleFFRM1d0azh4eGdPdkduZ1ZERjQ2VDVLVDIzOHdfc1ZFbllvSUJwZ1JkcnpMYnFuZUtKXy1mcHhvXzlWVDRzTnY1VTBTdU5tONIBV0FVX3lxTE41d2prcXZleFFRM1d0azh4eGdPdkduZ1ZERjQ2VDVLVDIzOHdfc1ZFbllvSUJwZ1JkcnpMYnFuZUtKXy1mcHhvXzlWVDRzTnY1VTBTdU5tOA?oc=5",
-   "checked": "2026-10-29",
-   "http": 200,
-   "hash": "cfd024695de99a2148fddabe89a6b70993f3a9ce",
-   "final_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41d2prcXZleFFRM1d0azh4eGdPdkduZ1ZERjQ2VDVLVDIzOHdfc1ZFbllvSUJwZ1JkcnpMYnFuZUtKXy1mcHhvXzlWVDRzTnY1VTBTdU5tONIBV0FVX3lxTE41d2prcXZleFFRM1d0azh4eGdPdkduZ1ZERjQ2VDVLVDIzOHdfc1ZFbllvSUJwZ1JkcnpMYnFuZUtKXy1mcHhvXzlWVDRzTnY1VTBTdU5tOA?oc=5&hl=en-US&gl=US&ceid=US:en",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
-   "last_ok": "2026-10-29"
-  },
-  "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YXzA5QWhnMlN3LUhxQXVpaHlOLTNfdW9RVlYzaUtaaTVrc3hCcVpnNDAwNEk3WUJkM3l2MmlWX2dmNlVYY3dkOHJRM0FOd3piVUFRdg?oc=5": {
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YXzA5QWhnMlN3LUhxQXVpaHlOLTNfdW9RVlYzaUtaaTVrc3hCcVpnNDAwNEk3WUJkM3l2MmlWX2dmNlVYY3dkOHJRM0FOd3piVUFRdg?oc=5",
-   "checked": "2026-10-29",
-   "http": 200,
-   "hash": "cfd024695de99a2148fddabe89a6b70993f3a9ce",
-   "final_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YXzA5QWhnMlN3LUhxQXVpaHlOLTNfdW9RVlYzaUtaaTVrc3hCcVpnNDAwNEk3WUJkM3l2MmlWX2dmNlVYY3dkOHJRM0FOd3piVUFRdg?oc=5&hl=en-US&gl=US&ceid=US:en",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
-   "last_ok": "2026-10-29"
-  },
   "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb21LMzZlZC1hWGxUUm56Y0FTLUNKRktPMWJsX3ZCbDlPbE0xUmZkeHV0VHduSWpQZ3NQaHZ6ak9ERlU0elRGZG9iX0FvN0xnQkFpc1ZyTVNfX2pkSnpZMWdBT0ZQcEs1SHJjYUs0eDV1bk5fdFhjWWdpWHN4ZEptVW9iRHlyV25Ld0xmVXlIaFM?oc=5": {
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb21LMzZlZC1hWGxUUm56Y0FTLUNKRktPMWJsX3ZCbDlPbE0xUmZkeHV0VHduSWpQZ3NQaHZ6ak9ERlU0elRGZG9iX0FvN0xnQkFpc1ZyTVNfX2pkSnpZMWdBT0ZQcEs1SHJjYUs0eDV1bk5fdFhjWWdpWHN4ZEptVW9iRHlyV25Ld0xmVXlIaFM?oc=5",
    "checked": "2026-10-29",
@@ -3911,6 +4168,28 @@
    "error": "",
    "last_ok": "2026-10-29"
   },
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTWpTS2w3Qk5WWERoRjdNb1RicC1mc2JuazlicGZ5NEg0OTRKVzJ5TVN2VEx5TWJzbWM5aGlmS0dFR0ZWSnpCZHg1Y1FJRDFLSjlYYmtlNUZGWFJadFZPMGJhRFhTbXNBSi1IaTZRekVJLUpYOGNMMlJuQU15bEJHQ256S19SV2hqVUF0eGtoMEFwY1N3?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTWpTS2w3Qk5WWERoRjdNb1RicC1mc2JuazlicGZ5NEg0OTRKVzJ5TVN2VEx5TWJzbWM5aGlmS0dFR0ZWSnpCZHg1Y1FJRDFLSjlYYmtlNUZGWFJadFZPMGJhRFhTbXNBSi1IaTZRekVJLUpYOGNMMlJuQU15bEJHQ256S19SV2hqVUF0eGtoMEFwY1N3?oc=5",
+   "checked": "2026-10-29",
+   "http": 200,
+   "hash": "cfd024695de99a2148fddabe89a6b70993f3a9ce",
+   "final_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTWpTS2w3Qk5WWERoRjdNb1RicC1mc2JuazlicGZ5NEg0OTRKVzJ5TVN2VEx5TWJzbWM5aGlmS0dFR0ZWSnpCZHg1Y1FJRDFLSjlYYmtlNUZGWFJadFZPMGJhRFhTbXNBSi1IaTZRekVJLUpYOGNMMlJuQU15bEJHQ256S19SV2hqVUF0eGtoMEFwY1N3?oc=5&hl=en-US&gl=US&ceid=US:en",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRWRnUjBwa0lTNXBDalo2NXJRNkJuTHFpczlmU3hsdGM0dnJURlFxaVl1R09wdmN2NzNEY1pKYzhaeDFObjJZbThXa2VkVUd3czlSQmhZaTRGaDJTR212QjBybHhXZGZDWkgzanpraTloQ1lNSTZkdjZrc0VtaDhXTzFkTGlpM3lMVm5VVTVGV2E5b3VDUUQ3Tw?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRWRnUjBwa0lTNXBDalo2NXJRNkJuTHFpczlmU3hsdGM0dnJURlFxaVl1R09wdmN2NzNEY1pKYzhaeDFObjJZbThXa2VkVUd3czlSQmhZaTRGaDJTR212QjBybHhXZGZDWkgzanpraTloQ1lNSTZkdjZrc0VtaDhXTzFkTGlpM3lMVm5VVTVGV2E5b3VDUUQ3Tw?oc=5",
+   "checked": "2026-10-29",
+   "http": 200,
+   "hash": "cfd024695de99a2148fddabe89a6b70993f3a9ce",
+   "final_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRWRnUjBwa0lTNXBDalo2NXJRNkJuTHFpczlmU3hsdGM0dnJURlFxaVl1R09wdmN2NzNEY1pKYzhaeDFObjJZbThXa2VkVUd3czlSQmhZaTRGaDJTR212QjBybHhXZGZDWkgzanpraTloQ1lNSTZkdjZrc0VtaDhXTzFkTGlpM3lMVm5VVTVGV2E5b3VDUUQ3Tw?oc=5&hl=en-US&gl=US&ceid=US:en",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
   "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUhzalRVWm9RZnJSUGhTNG1XT2pPTlRsLVM2Z01YUmtfb0ZUVTdYcjZ4Ml9qWEVrX2ZhYngxOTlYRTdoT19KejlYVFRod3gwSWJiRUFXQnRQeVhSdzFMYWw3MTlmbi1hdXJLSDJHVzlBNHFRMk1VZmpaSjRHY015aklQZUZDc2Z6U05iUmdxSEtzTVlVeno0MWVB?oc=5": {
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUhzalRVWm9RZnJSUGhTNG1XT2pPTlRsLVM2Z01YUmtfb0ZUVTdYcjZ4Ml9qWEVrX2ZhYngxOTlYRTdoT19KejlYVFRod3gwSWJiRUFXQnRQeVhSdzFMYWw3MTlmbi1hdXJLSDJHVzlBNHFRMk1VZmpaSjRHY015aklQZUZDc2Z6U05iUmdxSEtzTVlVeno0MWVB?oc=5",
    "checked": "2026-10-29",
@@ -3922,12 +4201,12 @@
    "error": "",
    "last_ok": "2026-10-29"
   },
-  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWXcxajkzcDFPUXRKaUFTMlk3NHVnOFRpWHByVWpDODRKY0Y1NHhHZEQ2N2d2cEMzTE9ZUEpKQzM5YWhnMFlWMmx1WFBXNHkyY3JSckxlaWE4S0EteW1RY3VMT3JCSWU3ZGpKblA3aW44cW5VUnBROXlSUHpObTNRNVdvbE4tZ1hqS081LXFEQk12VDVrUFVuaDg1MzlkUXdGQ0pZYnZ0WTk?oc=5": {
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWXcxajkzcDFPUXRKaUFTMlk3NHVnOFRpWHByVWpDODRKY0Y1NHhHZEQ2N2d2cEMzTE9ZUEpKQzM5YWhnMFlWMmx1WFBXNHkyY3JSckxlaWE4S0EteW1RY3VMT3JCSWU3ZGpKblA3aW44cW5VUnBROXlSUHpObTNRNVdvbE4tZ1hqS081LXFEQk12VDVrUFVuaDg1MzlkUXdGQ0pZYnZ0WTk?oc=5",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxOa1dNekxQXzhSLUZaZVZVWlFabmhRelRNY2FPZnJQM2xGRDBNX210NGt3U1VGZXZPa1F3Z2M0WkZHeUhReE9VR09TUjhEaTBBUlREaG4yRnlISXVPQ0IxZV9GYm5LZUxfSnpzckgyWTY0V0dBckRHSzhVREdtWXRmWW4zQkdUTHE5a2UtY0dqdWpNa2xzVFNjVFZpdHlxdw?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa1dNekxQXzhSLUZaZVZVWlFabmhRelRNY2FPZnJQM2xGRDBNX210NGt3U1VGZXZPa1F3Z2M0WkZHeUhReE9VR09TUjhEaTBBUlREaG4yRnlISXVPQ0IxZV9GYm5LZUxfSnpzckgyWTY0V0dBckRHSzhVREdtWXRmWW4zQkdUTHE5a2UtY0dqdWpNa2xzVFNjVFZpdHlxdw?oc=5",
    "checked": "2026-10-29",
    "http": 200,
    "hash": "cfd024695de99a2148fddabe89a6b70993f3a9ce",
-   "final_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWXcxajkzcDFPUXRKaUFTMlk3NHVnOFRpWHByVWpDODRKY0Y1NHhHZEQ2N2d2cEMzTE9ZUEpKQzM5YWhnMFlWMmx1WFBXNHkyY3JSckxlaWE4S0EteW1RY3VMT3JCSWU3ZGpKblA3aW44cW5VUnBROXlSUHpObTNRNVdvbE4tZ1hqS081LXFEQk12VDVrUFVuaDg1MzlkUXdGQ0pZYnZ0WTk?oc=5&hl=en-US&gl=US&ceid=US:en",
+   "final_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa1dNekxQXzhSLUZaZVZVWlFabmhRelRNY2FPZnJQM2xGRDBNX210NGt3U1VGZXZPa1F3Z2M0WkZHeUhReE9VR09TUjhEaTBBUlREaG4yRnlISXVPQ0IxZV9GYm5LZUxfSnpzckgyWTY0V0dBckRHSzhVREdtWXRmWW4zQkdUTHE5a2UtY0dqdWpNa2xzVFNjVFZpdHlxdw?oc=5&hl=en-US&gl=US&ceid=US:en",
    "changed": "",
    "ended_hint": "",
    "error": "",
@@ -3944,122 +4223,107 @@
    "error": "",
    "last_ok": "2026-10-29"
   },
-  "https://partners.ultimamarkets.com/pdf/Ultima_Markets_CPA_Affiliate_Agreement.pdf?v=8": {
-   "url": "https://partners.ultimamarkets.com/pdf/Ultima_Markets_CPA_Affiliate_Agreement.pdf?v=8",
-   "checked": "2026-10-29",
-   "http": 403,
-   "error": "访问被拒绝或出错（403）"
-  },
-  "https://partners.vantagemarkets.com/affiliate-success-stories/cbfx/": {
-   "url": "https://partners.vantagemarkets.com/affiliate-success-stories/cbfx/",
+  "https://news.sina.cn/sx/2026-08-25/detail-inipprnk9640748.d.html": {
+   "url": "https://news.sina.cn/sx/2026-08-25/detail-inipprnk9640748.d.html",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "1aa135b6e4ca1ebd3089c44d7e70b4901f3b07a2",
+   "hash": "9b520ea9c4a97eceabd78925a9e188359c33454b",
    "final_url": "",
    "changed": "",
    "ended_hint": "",
    "error": "",
+   "last_ok": "2026-10-29"
+  },
+  "https://partners.ultimamarkets.com/pdf/Ultima_Markets_CPA_Affiliate_Agreement.pdf?v=8": {
+   "url": "https://partners.ultimamarkets.com/pdf/Ultima_Markets_CPA_Affiliate_Agreement.pdf?v=8",
+   "checked": "2026-10-29",
+   "http": 200,
+   "kind": "pdf",
+   "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "final_url": "",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
+  "https://partners.vantagemarkets.com/affiliate-success-stories/cbfx/": {
+   "url": "https://partners.vantagemarkets.com/affiliate-success-stories/cbfx/",
+   "checked": "2026-10-29",
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
+   "hash": "1aa135b6e4ca1ebd3089c44d7e70b4901f3b07a2",
    "last_ok": "2026-10-29"
   },
   "https://partners.vantagemarkets.com/affiliate-success-stories/financial-markets-online/": {
    "url": "https://partners.vantagemarkets.com/affiliate-success-stories/financial-markets-online/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "4f9fdf6be2cb6ee526f518d5d4df5166cbdf5a9c",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://partners.vantagemarkets.com/cpa-affiliates/": {
    "url": "https://partners.vantagemarkets.com/cpa-affiliates/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "2ade97c70992fd3480f4e2146389b1c39fd99b90",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://partners.vantagemarkets.com/es/cpa-affiliates/": {
    "url": "https://partners.vantagemarkets.com/es/cpa-affiliates/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "0cbff1e118d4b92cd303943137fd70253e690c80",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://partners.vantagemarkets.com/es/ib-introducing-brokers/": {
    "url": "https://partners.vantagemarkets.com/es/ib-introducing-brokers/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "d946eb56c1ab9bde4b21c69d3387bd2ff562bdfd",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://partners.vantagemarkets.com/ib-introducing-brokers/": {
    "url": "https://partners.vantagemarkets.com/ib-introducing-brokers/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "4ef6c848238410b3fa5a7bd8a4022f5842d2556c",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://partners.vantagemarkets.com/pdf/The-Insider%E2%80%99s-Guide-to-CPA-Marketing-in-the-CFD-Industry.pdf": {
    "url": "https://partners.vantagemarkets.com/pdf/The-Insider%E2%80%99s-Guide-to-CPA-Marketing-in-the-CFD-Industry.pdf",
    "checked": "2026-10-29",
-   "http": 200,
-   "kind": "pdf",
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://partners.vantagemarkets.com/pdf/Vantage_Partner_Compliance_Guidelines_2024.pdf": {
    "url": "https://partners.vantagemarkets.com/pdf/Vantage_Partner_Compliance_Guidelines_2024.pdf",
    "checked": "2026-10-29",
-   "http": 200,
-   "kind": "pdf",
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://partners.vantagemarkets.com/promotions/switch-bonus-tnc/": {
    "url": "https://partners.vantagemarkets.com/promotions/switch-bonus-tnc/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "3400453de8c98337f40107c19a398e72c91c8d2b",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://partners.vantagemarkets.com/promotions/switch-bonus/": {
    "url": "https://partners.vantagemarkets.com/promotions/switch-bonus/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "c19428c3e303cdbd90cfb466c004c63eab1cbe1f",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://partners.xm.com/": {
@@ -4165,9 +4429,25 @@
    "url": "https://policy.iux.com/en/iux-credit-campaign-terms-and-conditions/",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "240618e2d9b407ac4137b14d8a04341d4686f5d8",
+   "hash": "a2513a90e5f09a463a44ed228a473b7669b32aaf",
    "final_url": "",
-   "changed": "",
+   "changed": "2026-10-29",
+   "added": [
+    "Key information about Trading Credit",
+    "3. Eligibility and Campaign Consent",
+    "7. Stop Out and Trading Credit Reset",
+    "11. Records, Complaints and Governing Law",
+    "Key information about Trading Credit",
+    "• You take part only if you choose to join the Campaign, and you can leave at any time (Clause 3.10)."
+   ],
+   "removed": [
+    "3. Eligibility and Automatic Enrolment",
+    "7. Stop Out and Trading Credit Removal",
+    "11. Records, Complaints and Governing Terms",
+    "1.1 The IUX Credit Campaign Terms and Conditions (hereinafter the “Terms and Conditions”) shall govern all the interaction and participation in the IUX Credit Campaign (hereinafter the “Campaign”) off",
+    "1.2 These Terms and Conditions must be read together with the Client Agreement, the General Terms and Conditions, the Risk Disclosure, the Privacy Policy, the Order Execution Policy, the IUX dormant a",
+    "1.3 The Campaign shall be available from the date and time determined and communicated by IUX through its official communications until 31 December 2026 at 23:59:59 (Trading Server Time) (hereinafter "
+   ],
    "ended_hint": "",
    "error": "",
    "last_ok": "2026-10-29"
@@ -4253,7 +4533,8 @@
   "https://start.errante.com/": {
    "url": "https://start.errante.com/",
    "checked": "2026-10-29",
-   "error": "无法访问：TimeoutError"
+   "http": 522,
+   "error": "访问被拒绝或出错（522）"
   },
   "https://support.mtrading.app/hc/en-us/articles/6052966338717-What-are-the-benefits-of-the-IB-program": {
    "url": "https://support.mtrading.app/hc/en-us/articles/6052966338717-What-are-the-benefits-of-the-IB-program",
@@ -4369,9 +4650,21 @@
    "url": "https://tradeinformer.com/broker-news/traders-can-unlock-up-to-52500-in-bonuses-with-xm",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "1444195a9c2c8b7542314e83f092da266481a215",
+   "hash": "0ea3ae8df3a8f05c8d49347a21523ce0533fe73c",
    "final_url": "",
-   "changed": "",
+   "changed": "2026-10-29",
+   "added": [
+    "XTB tops one million new clients in 2026 as active accounts jump 70%",
+    "Oct 29, 2026",
+    "Pepperstone signs Fernando Alonso as global ambassador, eyes Latin America",
+    "Oct 29, 2026"
+   ],
+   "removed": [
+    "Oct 28, 2026",
+    "IC Launches New Guillermo Ochoa Campaign Focused on Performance Under Pressure",
+    "Oct 28, 2026",
+    "MEXC reports 88% surge in AI-linked tokenised stock trading in September"
+   ],
    "ended_hint": "",
    "error": "",
    "last_ok": "2026-10-29"
@@ -4394,6 +4687,17 @@
    "http": 200,
    "hash": "63ad25859e7f5c5346774fb97689be5eeb76744d",
    "final_url": "",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
+  "https://webmobi.com/discovery/events/ultima-markets-at-the-2025-taipei-international-financial-expo": {
+   "url": "https://webmobi.com/discovery/events/ultima-markets-at-the-2025-taipei-international-financial-expo",
+   "checked": "2026-10-29",
+   "http": 200,
+   "hash": "070613c9f64b8aa7d1a9d92e54fa988bb5d4253a",
+   "final_url": "https://www.webmobi.com/discovery/events/ultima-markets-at-the-2025-taipei-international-financial-expo",
    "changed": "",
    "ended_hint": "",
    "error": "",
@@ -4649,6 +4953,28 @@
    "checked": "2026-10-29",
    "http": 200,
    "hash": "0fb954b448927db1aee04003d0cdcfe339f8b004",
+   "final_url": "",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
+  "https://www.atfx.com/zh-hans/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage": {
+   "url": "https://www.atfx.com/zh-hans/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage",
+   "checked": "2026-10-29",
+   "http": 200,
+   "hash": "b071776452117231bd6c18f08b07156b2612ff2c",
+   "final_url": "",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
+  "https://www.atfx.com/zh-hant/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage": {
+   "url": "https://www.atfx.com/zh-hant/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage",
+   "checked": "2026-10-29",
+   "http": 200,
+   "hash": "288dd0dfd59b5e1927ddd3a65e8e78f9a3954af0",
    "final_url": "",
    "changed": "",
    "ended_hint": "",
@@ -5026,13 +5352,40 @@
    "error": "",
    "last_ok": "2026-10-29"
   },
+  "https://www.fastbull.com/brokersview/news/test-strategies-sharpen-discipline-and-compete-for-us5000-in-prizes-with-zero-risk-the-2026-tmgm-demo-trading-competition-officially-kicks-off-327547": {
+   "url": "https://www.fastbull.com/brokersview/news/test-strategies-sharpen-discipline-and-compete-for-us5000-in-prizes-with-zero-risk-the-2026-tmgm-demo-trading-competition-officially-kicks-off-327547",
+   "checked": "2026-10-29",
+   "http": 200,
+   "hash": "d43c6399753093a21cc47916dd76836f8abc3b58",
+   "final_url": "https://www.fastbull.com/brokersview/news/2026tmgmdemotradingcompetition5000prizepool-327547",
+   "changed": "",
+   "ended_hint": "",
+   "error": "",
+   "last_ok": "2026-10-29"
+  },
   "https://www.financemagnates.com/thought-leadership/tmgm-and-chelsea-football-club-extend-partnership-into-fourth-year-expanding-into-the-middle-east/": {
    "url": "https://www.financemagnates.com/thought-leadership/tmgm-and-chelsea-football-club-extend-partnership-into-fourth-year-expanding-into-the-middle-east/",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "3d0046d25b80aab3f9a301e3906380dc15e50b3f",
+   "hash": "79b92cbf81357c0af2ca809bf0b326f34957725e",
    "final_url": "",
-   "changed": "",
+   "changed": "2026-10-29",
+   "added": [
+    "FM Summit London 2026 Offers Sponsors Direct Access to Senior Industry Decision-Makers",
+    "Thursday, 29/10/2026 | 07:00 GMT",
+    "Spreads Grab the Headlines, but Infrastructure Gets the Institutional Flow",
+    "Thursday, 29/10/2026 | 06:30 GMT",
+    "Acting as Counterparty to Clients in South Africa Costs a Broker Almost 3 Times More",
+    "Thursday, 29/10/2026 | 05:06 GMT"
+   ],
+   "removed": [
+    "XTB's Quarterly Profit Quadruples and Beats Forecasts as Clients Trade Less",
+    "Wednesday, 28/10/2026 | 19:00 GMT",
+    "Google Cloud Plans Institutional Crypto Custody Service for Next Year’s Launch",
+    "Wednesday, 28/10/2026 | 16:21 GMT",
+    "dxFeed Courts Indicator Sellers Days Before TradingView Closes Off-Platform Sales",
+    "Wednesday, 28/10/2026 | 13:24 GMT"
+   ],
    "ended_hint": "",
    "error": "",
    "last_ok": "2026-10-29"
@@ -5041,9 +5394,25 @@
    "url": "https://www.financemagnates.com/thought-leadership/tmgm-launches-11th-global-trading-competition-with-record-usd-671500-prize-pool",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "643ec9e319182cd98536c792ebdc67203e2ce938",
+   "hash": "b09c41d27cca9b6acdab737187c17ca9e36ef4fd",
    "final_url": "https://www.financemagnates.com/thought-leadership/tmgm-launches-11th-global-trading-competition-with-record-usd-671500-prize-pool/",
-   "changed": "",
+   "changed": "2026-10-29",
+   "added": [
+    "FM Summit London 2026 Offers Sponsors Direct Access to Senior Industry Decision-Makers",
+    "Thursday, 29/10/2026 | 07:00 GMT",
+    "Spreads Grab the Headlines, but Infrastructure Gets the Institutional Flow",
+    "Thursday, 29/10/2026 | 06:30 GMT",
+    "Acting as Counterparty to Clients in South Africa Costs a Broker Almost 3 Times More",
+    "Thursday, 29/10/2026 | 05:06 GMT"
+   ],
+   "removed": [
+    "XTB's Quarterly Profit Quadruples and Beats Forecasts as Clients Trade Less",
+    "Wednesday, 28/10/2026 | 19:00 GMT",
+    "Google Cloud Plans Institutional Crypto Custody Service for Next Year’s Launch",
+    "Wednesday, 28/10/2026 | 16:21 GMT",
+    "dxFeed Courts Indicator Sellers Days Before TradingView Closes Off-Platform Sales",
+    "Wednesday, 28/10/2026 | 13:24 GMT"
+   ],
    "ended_hint": "",
    "error": "",
    "last_ok": "2026-10-29"
@@ -5281,14 +5650,14 @@
    "url": "https://www.litefinance.org/contests/partners/successful-partner/",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "42aaca90cd9c549760c21b16487f766094f60ad0",
+   "hash": "18cc7b06f79e52b431cb7d3acf1694dd47a7e945",
    "final_url": "",
    "changed": "2026-10-29",
    "added": [
-    "10 Vanalano 5098.96 $50"
+    "5 kastto89 16519.97 $100"
    ],
    "removed": [
-    "10 Vanalano 5025.51 $50"
+    "5 kastto89 16301.74 $100"
    ],
    "ended_hint": "",
    "error": "",
@@ -5309,7 +5678,7 @@
    "url": "https://www.litefinance.org/promo/codes/?code=Iran100",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "b6e6feb492632749889112f97557c57c967e73ec",
+   "hash": "d535f07481ddba40a57d0028dae6a3a424454dc5",
    "final_url": "",
    "changed": "2026-10-29",
    "added": [
@@ -5436,100 +5805,73 @@
   "https://www.puprime.com/50-deposit-bonus/": {
    "url": "https://www.puprime.com/50-deposit-bonus/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "3b1e12a820971a58d1ca0a3c3ba20b4933e72e83",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.puprime.com/product-cashback-reward/": {
    "url": "https://www.puprime.com/product-cashback-reward/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "a9b240e8e47b31a8611206a879070cc9223aa7c6",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.puprime.com/promotions/": {
    "url": "https://www.puprime.com/promotions/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "9baeb974248f99c6d7d96de13a6f4b9342495987",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.puprime.com/pu-prime-and-afa-hold-official-signing-ceremony-in-madrid/": {
    "url": "https://www.puprime.com/pu-prime-and-afa-hold-official-signing-ceremony-in-madrid/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "70219b49ec6d36ecb10157bdcf86eb2012728c8a",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.puprime.com/pu-prime-deepens-argentina-presence-through-fx-expo-buenos-aires-2026/": {
    "url": "https://www.puprime.com/pu-prime-deepens-argentina-presence-through-fx-expo-buenos-aires-2026/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "a0ecc5ff33e60426db868a547d40470080e51f8e",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.puprime.com/terms-and-conditions/100-deposit-bonus-terms/": {
    "url": "https://www.puprime.com/terms-and-conditions/100-deposit-bonus-terms/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "b317d73d89ac194eb028f2a725424f643ebfd1bd",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.puprime.com/terms-and-conditions/50-deposit-bonus-terms/": {
    "url": "https://www.puprime.com/terms-and-conditions/50-deposit-bonus-terms/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "0f1332d951466a9f594e87a7d3456a9aa53ed140",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.puprime.com/terms-and-conditions/exclusive-starter-reward-3/": {
    "url": "https://www.puprime.com/terms-and-conditions/exclusive-starter-reward-3/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "1c643fc5895c48131c1193639a68401dddaf7d73",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.puprime.com/terms-and-conditions/productcashbackreward/": {
    "url": "https://www.puprime.com/terms-and-conditions/productcashbackreward/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "ff22df3b6b786ec2f12657f1e350c68075a9454c",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.puprimepartners.com/assets-types/landing-page/sponsorship-page-website-url/": {
@@ -5655,19 +5997,14 @@
    "url": "https://www.tickmill.com/news/tickmill-introducing-brokers-compete-to-win-a-share-of-45000-tickmill-launches-ib-trading-cup-2026",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "af923bff801a61e2e84cc372c4d2bf2efa4f869e",
+   "hash": "ae42b485ce4aa6345df4f5e2d3317666f9833c26",
    "final_url": "",
    "changed": "2026-10-29",
    "added": [
-    "中文繁體"
+    "한국어"
    ],
    "removed": [
-    "English",
-    "中文简体",
-    "Русский",
-    "Español",
-    "العربية",
-    "ภาษาไทย"
+    "中文繁體"
    ],
    "ended_hint": "",
    "error": "",
@@ -5699,14 +6036,14 @@
    "url": "https://www.tmgm.com/en/",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "8cc90dd2b2d93f21432cb8bedf1af1c955132254",
+   "hash": "d8aac5ef0199a52a5bfbd0fe03c9fdce5065d863",
    "final_url": "",
    "changed": "2026-10-29",
    "added": [
-    "{\"l1\":\"var arg1='5dcf6303b138b426519aaa7f9c030c71af567693eee9025ea4';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
+    "{\"l1\":\"var arg1='5dcf225eda52c41c353e83fadfe3ff2c65e3a044cc49259d49';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
    ],
    "removed": [
-    "{\"l1\":\"var arg1='5dcf690a885d852d3bd4ce060178bcf273b25bc91e21300d29';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
+    "{\"l1\":\"var arg1='5dcf6303b138b426519aaa7f9c030c71af567693eee9025ea4';\", \"l2\":\"GET\"} oHhbljdwUXHjoCxImhBkYzc4pn89Ean7KdwWYpzd78OK0urk/N0WRYH1ju+l3Oru6HkBWNWh6fjsv2Y3cgcDeFexewECfFK87/uM4Y/+clRU9bvw+ylf"
    ],
    "ended_hint": "",
    "error": "",
@@ -5749,9 +6086,21 @@
    "url": "https://www.tradeinformer.com/broker-news/xm-launches-unlimited-cashback-promo-rewarding-traders-in-2026",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "1515209729e9bb8be2af0beec3e20beb56725b97",
+   "hash": "e27199e52edbacd3a6f348889f1af90f8f83c5e4",
    "final_url": "https://tradeinformer.com/broker-news/xm-launches-unlimited-cashback-promo-rewarding-traders-in-2026",
-   "changed": "",
+   "changed": "2026-10-29",
+   "added": [
+    "XTB tops one million new clients in 2026 as active accounts jump 70%",
+    "Oct 29, 2026",
+    "Pepperstone signs Fernando Alonso as global ambassador, eyes Latin America",
+    "Oct 29, 2026"
+   ],
+   "removed": [
+    "Oct 28, 2026",
+    "IC Launches New Guillermo Ochoa Campaign Focused on Performance Under Pressure",
+    "Oct 28, 2026",
+    "MEXC reports 88% surge in AI-linked tokenised stock trading in September"
+   ],
    "ended_hint": "",
    "error": "",
    "last_ok": "2026-10-29"
@@ -5759,81 +6108,65 @@
   "https://www.ultimamarkets.com/company-news/": {
    "url": "https://www.ultimamarkets.com/company-news/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "625a33e59078c83259b9367ca922bea2e3f080e8",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.ultimamarkets.com/company-news/ultima-markets-hosts-exclusive-networking-gathering-in-brazil/": {
    "url": "https://www.ultimamarkets.com/company-news/ultima-markets-hosts-exclusive-networking-gathering-in-brazil/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "77208ed976f7fe7a58197d282ba6d50677b83594",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.ultimamarkets.com/pdf/UM_50_credit_bonus_ENG.pdf?v=3": {
    "url": "https://www.ultimamarkets.com/pdf/UM_50_credit_bonus_ENG.pdf?v=3",
    "checked": "2026-10-29",
-   "http": 200,
-   "kind": "pdf",
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-   "final_url": "",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.ultimamarkets.com/promotions/champion-journey-nextlevel-tnc/": {
    "url": "https://www.ultimamarkets.com/promotions/champion-journey-nextlevel-tnc/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "fdf9a0ff7807e58edac20d7aa2f9ba058cf408b8",
-   "final_url": "https://www.ultimamarkets.com/promotions/",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.ultimamarkets.com/promotions/champion-journey-nextlevel/": {
    "url": "https://www.ultimamarkets.com/promotions/champion-journey-nextlevel/",
    "checked": "2026-10-29",
-   "http": 200,
+   "http": 403,
+   "error": "访问被拒绝或出错（403）",
    "hash": "fdf9a0ff7807e58edac20d7aa2f9ba058cf408b8",
-   "final_url": "https://www.ultimamarkets.com/promotions/",
-   "changed": "",
-   "ended_hint": "",
-   "error": "",
    "last_ok": "2026-10-29"
   },
   "https://www.uniindia.com/prnewswire/d-prime-launches-daily-roi-pk-feature-for-dootrader-international-cup-2627-usd-1m-trading-competitio/206700": {
    "url": "https://www.uniindia.com/prnewswire/d-prime-launches-daily-roi-pk-feature-for-dootrader-international-cup-2627-usd-1m-trading-competitio/206700",
    "checked": "2026-10-29",
    "http": 200,
-   "hash": "ef94aa4c41c34ad637e2de168acd4e1255f9b723",
+   "hash": "d96adf46e412cc760a1c5bcd28c183758adfe66e",
    "final_url": "https://www.uniindia.com/prnewswire/d-prime-launches-daily-roi-pk-feature-for-dootrader-international-cup-2627-usd-1m-trading-competitio-302902251/206700",
    "changed": "2026-10-29",
    "added": [
-    "SOUTH INDIA",
+    "WEST INDIA",
+    "MLC Poll results reflect growing discontent with BJP-led Mahayuti: Raut",
+    "Mumbai, Oct 29 (UNI) Shiv Sena (UBT) MP Sanjay Raut on Thursday launched a sharp attack on the rulin",
+    "Author : admin Published At: 29/10/26 07:14",
+    "Telangana Governor urges students to become cultural bridges between States",
+    "Hyderabad, Oct 29 (UNI) Telangana Governor Shiv Pratap Shukla has urged students to use educational"
+   ],
+   "removed": [
     "Velankanni Church-Murugan Temple claim triggers controversy, opens historical debate",
     "Kochi, Oct 29 (UNI) A controversy has erupted over Hindutva commentator Vidyasagar Gurumurthy's clai",
     "Author : admin Published At: 29/10/26 02:58",
     "North India",
-    "Haryana Sports Department seeks corporate partners to mobilise funds for flagship sports events"
-   ],
-   "removed": [
-    "Entertainment",
-    "K.C. Bokadia celebrates the success of 'Sanskaar', aims to unite families",
-    "Mumbai, Oct 28 (UNI) Veteran filmmaker K.C. Bokadia celebrated the success of his family television",
-    "Author : admin Published At: 28/10/26 19:23",
-    "Entertainment",
-    "57th International Film Festival of India 2026 extends media accreditation deadline to November 4"
+    "Haryana Sports Department seeks corporate partners to mobilise funds for flagship sports events",
+    "Panchkula, Oct 29 (UNI) The Haryana government has invited expressions of interest (EoIs) from priva"
    ],
    "ended_hint": "",
    "error": "",
@@ -6652,7 +6985,7 @@
     "https://www.ultimamarkets.com/tr/promotions",
     "https://www.ultimamarkets.com/vn/promotions"
    ],
-   "error": ""
+   "error": "HTTPError"
   },
   "https://wetrade.com/es/promotions/": {
    "checked": "2026-10-29",
@@ -7019,7 +7352,7 @@
     "https://www.startrader.com/tw/promotions",
     "https://www.startrader.com/vn/promotions"
    ],
-   "error": ""
+   "error": "HTTPError"
   },
   "https://www.atfxcapital.com/en/promotions/": {
    "checked": "2026-10-29",
@@ -7072,7 +7405,7 @@
     "https://partners.vantagemarketsea.com/promotions",
     "https://partners.vantagemarketsea.com/th/promotions"
    ],
-   "error": ""
+   "error": "HTTPError"
   },
   "https://fxverify.com/contests/": {
    "checked": "2026-10-29",
@@ -7113,6 +7446,67 @@
   "https://www.tmgm.com/en/promotions/": {
    "checked": "2026-10-29",
    "links": [],
+   "error": ""
+  },
+  "https://competition.tmgmcompete.com/zh-Hant": {
+   "checked": "2026-10-29",
+   "links": [
+    "https://competition.tmgmcompete.com/` + v.url +`",
+    "https://competition.tmgmcompete.com/about-us",
+    "https://competition.tmgmcompete.com/acuity",
+    "https://competition.tmgmcompete.com/cdn-cgi/l/email-protection",
+    "https://competition.tmgmcompete.com/contact",
+    "https://competition.tmgmcompete.com/crypto",
+    "https://competition.tmgmcompete.com/energies",
+    "https://competition.tmgmcompete.com/forex",
+    "https://competition.tmgmcompete.com/indices",
+    "https://competition.tmgmcompete.com/indices-cfd-dividends",
+    "https://competition.tmgmcompete.com/legal-documents",
+    "https://competition.tmgmcompete.com/mt4-download",
+    "https://competition.tmgmcompete.com/mt5-download",
+    "https://competition.tmgmcompete.com/precious-metal",
+    "https://competition.tmgmcompete.com/regulations",
+    "https://competition.tmgmcompete.com/shares",
+    "https://competition.tmgmcompete.com/shares-cfd-dividends",
+    "https://competition.tmgmcompete.com/sponsorship",
+    "https://competition.tmgmcompete.com/trading-accounts",
+    "https://competition.tmgmcompete.com/trading-calendar",
+    "https://competition.tmgmcompete.com/trading-platforms",
+    "https://competition.tmgmcompete.com/why-us",
+    "https://competition.tmgmcompete.com/zh-Hant",
+    "https://competition.tmgmcompete.com/zh-Hant/switch-language/en",
+    "https://competition.tmgmcompete.com/zh-Hant/switch-language/id",
+    "https://competition.tmgmcompete.com/zh-Hant/switch-language/ko",
+    "https://competition.tmgmcompete.com/zh-Hant/switch-language/ms",
+    "https://competition.tmgmcompete.com/zh-Hant/switch-language/th",
+    "https://competition.tmgmcompete.com/zh-Hant/switch-language/vi",
+    "https://competition.tmgmcompete.com/zh-Hant/switch-language/zh-Hans",
+    "https://competition.tmgmcompete.com/zh-Hant/switch-language/zh-Hant"
+   ],
+   "error": ""
+  },
+  "https://demo-competition.tradeginvest.com/zh-Hans": {
+   "checked": "2026-10-29",
+   "links": [],
+   "error": "HTTPError"
+  },
+  "https://www.atfx.com/zh-hant/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage": {
+   "checked": "2026-10-29",
+   "links": [
+    "https://www.atfx.com/ar/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage",
+    "https://www.atfx.com/en-ae/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage",
+    "https://www.atfx.com/en-za/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage",
+    "https://www.atfx.com/en-za/promotions/the-goal-of-trading",
+    "https://www.atfx.com/hi-in/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage",
+    "https://www.atfx.com/ko/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage",
+    "https://www.atfx.com/th/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage",
+    "https://www.atfx.com/vi/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage",
+    "https://www.atfx.com/zh-hans/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage",
+    "https://www.atfx.com/zh-hant/about-us/company-news/atfx-launches-world-trading-cup-bringing-regional-trading-competitions-to-a-global-stage",
+    "https://www.atfx.com/zh-hant/about-us/company-news/atfx-meets-her-royal-highness-the-duchess-of-edinburgh-at-the-duke-of-edinburgh-cup-royal-gala-dinner",
+    "https://www.atfx.com/zh-hant/duke-of-edinburgh-cup-sponsorship",
+    "https://www.atfx.com/zh-hant/trading-accounts/deposits-and-withdrawals"
+   ],
    "error": ""
   }
  },

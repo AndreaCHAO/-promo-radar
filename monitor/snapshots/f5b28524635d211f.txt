@@ -146,7 +146,7 @@ Ranking Nickname Commission Rate Prize sum
 2 Jadarylo 32570.27 $500
 3 Phoenixman 32547.12 $250
 4 Hothinh 22304.95 $150
-5 kastto89 16301.74 $100
+5 kastto89 16519.97 $100
 6 mqir 12702.81 $50
 7 MR_ONR 11819.34 $50
 8 LocaLservice 7629.58 $50
