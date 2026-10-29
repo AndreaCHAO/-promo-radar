@@ -83,7 +83,10 @@ PROMO = re.compile(r"(trading (competition|contest|cup|challenge|championship|to
                    r"交易大賽|比賽|活動|優惠|贈金|返現|抽獎|獎金|獎池|獎勵|"
                    r"concurso|competencia|promoción|bono|sorteo|premio|kontes|hadiah|bonus deposit|pertandingan)", re.I)
 NOT_PROMO = re.compile(r"(appoints|hires|joins as|steps down|fined|penalt|lawsuit|license|licence|quarterly results|"
-                       r"trading volume|earnings|revenue|acquires|acquisition|outage|scam warning|clone)", re.I)
+                       r"trading volume|earnings|revenue|acquires|acquisition|outage|scam warning|clone|"
+                       r"referral code|promo code|coupon|invite code|sign[- ]?up bonus code|"  # 第三方推荐码 / 优惠码广告页
+                       r"hold ?& ?earn|launchpool|launchpad|airdrop|staking|savings|\bAPR\b|\bAPY\b|"  # 加密理财，不是交易促销
+                       r"seeks .*partnership|enters? the (us|u\.s\.)|market entry|partnership with)", re.I)
 
 TYPE_RULES = [
     ("IB 奖励", r"\b(IB|introducing broker|partner|affiliate)s?\b.*(cup|contest|competition|reward|bonus|ladder|prize)|代理|合作伙伴奖励"),
@@ -352,7 +355,13 @@ def main():
         c["brand"], c["fp"], c["u"] = brand, fp, u
         picked.append(c)
     max_new = int(env("DISCOVERY_MAX_NEW", "40")) if env("DISCOVERY_MAX_NEW", "40").isdigit() else 40
-    picked = sorted(picked, key=lambda c: (c["brand"] not in CORE, -(c["date"] or cutoff).toordinal()))[:max_new]
+    picked = sorted(picked, key=lambda c: (c["brand"] not in CORE, -(c["date"] or cutoff).toordinal()))
+    per_brand = int(env("DISCOVERY_MAX_PER_BRAND", "3")) if env("DISCOVERY_MAX_PER_BRAND", "3").isdigit() else 3
+    counts, capped = {}, []
+    for c in picked:  # 每个品牌每天最多新增几条，避免发稿多的品牌刷屏；没轮到的明天再收
+        if counts.get(c["brand"], 0) < per_brand:
+            capped.append(c); counts[c["brand"]] = counts.get(c["brand"], 0) + 1
+    picked = capped[:max_new]
     log(f"新候选 {len(picked)} 条")
 
     # 3) 自动建档
