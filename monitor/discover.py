@@ -40,11 +40,11 @@ HEAD = ["ID", "品牌", "对象", "地区", "活动类型", "奖励性质", "标
 # 显示名 → 搜索 / 匹配用的别名（大小写不敏感，按词边界匹配）
 CORE = {
     "D Prime": ["D Prime", "Doo Prime", "DooTrader"],
-    "EC Markets": ["EC Markets"], "EBC": ["EBC Financial", "EBC Group"], "IC Markets (IC)": ["IC Markets", "IC Trading"],
+    "EC Markets": ["EC Markets"], "EBC": ["EBC Financial", "EBC Group", "EBC金融", "EBC 金融"], "IC Markets (IC)": ["IC Markets", "IC Trading"],
     "Exness": ["Exness"], "Bybit": ["Bybit"], "XM": ["XM.com", "XM Global", "XM broker", "XM Arabia", "XM 外汇"],
     "Pepperstone": ["Pepperstone"], "FxPro": ["FxPro"], "Axi": ["AxiTrader", "Axi Select", "Axi broker", "Axi Financial"],
-    "WeTrade": ["WeTrade"], "Hantec Markets": ["Hantec"], "ATFX": ["ATFX"], "Tickmill": ["Tickmill"],
-    "AvaTrade": ["AvaTrade"], "FXCM": ["FXCM"], "FOREX.com": ["FOREX.com"], "TMGM": ["TMGM"],
+    "WeTrade": ["WeTrade"], "Hantec Markets": ["Hantec", "亨达金融", "亨達金融", "亨达", "亨達"], "ATFX": ["ATFX"], "Tickmill": ["Tickmill"],
+    "AvaTrade": ["AvaTrade"], "FXCM": ["FXCM"], "FOREX.com": ["FOREX.com"], "TMGM": ["TMGM", "TMGM 外汇", "TMGM外匯"],
     "Ultima Markets": ["Ultima Markets"],
 }
 
@@ -62,7 +62,7 @@ def compile_brands(aliases):
     pats = []
     for brand, names in aliases.items():
         for n in names:
-            pats.append((brand, re.compile(r"(?<![\w.])" + re.escape(n) + r"(?![\w])", re.I)))
+            pats.append((brand, re.compile(r"(?<![A-Za-z0-9.])" + re.escape(n) + r"(?![A-Za-z0-9])", re.I)))
     return pats
 
 
@@ -90,7 +90,7 @@ NOT_PROMO = re.compile(r"(appoints|hires|joins as|steps down|fined|penalt|lawsui
 
 TYPE_RULES = [
     ("IB 奖励", r"\b(IB|introducing broker|partner|affiliate)s?\b.*(cup|contest|competition|reward|bonus|ladder|prize)|代理|合作伙伴奖励"),
-    ("模拟赛", r"demo (trading )?(competition|contest|cup)|模拟赛|模擬賽|virtual (funds|capital)"),
+    ("模拟赛", r"demo (trading )?(competition|contest|cup)|模拟赛|模擬賽|virtual (funds|capital)|模拟交易|模擬交易|虚拟资金|虛擬資金"),
     ("交易大赛", r"(trading )?(competition|contest|cup|championship|tournament|challenge|festival)|交易大赛|交易大賽|大赛|比赛|比賽|concurso|kontes"),
     ("抽奖", r"lucky (draw|spin)|giveaway|sweepstake|raffle|抽奖|抽獎|sorteo"),
     ("返现", r"cash ?back|rebate|返现|返現|返佣"),
@@ -198,7 +198,9 @@ def read_page_links(url, name):
 
 def google_news(q, lang):
     hl, gl, ceid = {"en": ("en-US", "US", "US:en"), "zh-TW": ("zh-TW", "TW", "TW:zh-Hant"),
-                    "zh-CN": ("zh-CN", "CN", "CN:zh-Hans"), "ms": ("ms-MY", "MY", "MY:ms")}[lang]
+                    "zh-HK": ("zh-HK", "HK", "HK:zh-Hant"), "zh-CN": ("zh-CN", "CN", "CN:zh-Hans"),
+                    "en-SG": ("en-SG", "SG", "SG:en"), "en-MY": ("en-MY", "MY", "MY:en"),
+                    "ms": ("ms-MY", "MY", "MY:ms")}[lang]
     url = env("DISCOVERY_GNEWS_BASE", "https://news.google.com/rss/search") + "?" + urllib.parse.urlencode({"q": q + f" when:{LOOKBACK_DAYS}d", "hl": hl, "gl": gl, "ceid": ceid})
     items = read_feed(url, "Google 新闻")
     for it in items:  # Google 新闻标题末尾带 “ - 媒体名”
@@ -213,11 +215,23 @@ def build_queries():
     for brand, names in CORE.items():
         name = names[0]
         qs.append((f'"{name}" {en_kw}', "en"))
-    for brand in ["D Prime", "EBC", "TMGM", "EC Markets", "ATFX", "Ultima Markets", "WeTrade", "Hantec Markets", "XM", "Exness"]:
-        qs.append((f'"{CORE[brand][0]}" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金)', "zh-TW"))
+    # 华语区：所有核心品牌都用繁体（台湾、香港）和简体（新马、海外华人）各搜一次
+    for brand, names in CORE.items():
+        if brand == "Bybit":
+            continue  # 加密交易所，中文新闻多为理财 / 空投，噪音大
+        name = names[0]
+        qs.append((f'"{name}" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)', "zh-TW"))
+        qs.append((f'"{name}" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)', "zh-CN"))
+    for brand in ["D Prime", "EBC", "TMGM", "ATFX", "Ultima Markets", "Hantec Markets", "XM", "Exness"]:
+        qs.append((f'"{CORE[brand][0]}" (交易大賽 OR 活動 OR 講座 OR 博覽會)', "zh-HK"))
+    for brand in ["D Prime", "EBC", "TMGM", "ATFX", "Ultima Markets", "WeTrade", "XM", "Exness", "Pepperstone"]:
+        qs.append((f'"{CORE[brand][0]}" (Singapore OR Malaysia OR "Kuala Lumpur") {en_kw}', "en-SG"))
     for q, lang in [('forex broker "trading competition"', "en"), ('CFD broker "trading contest" prize', "en"),
                     ('forex broker "deposit bonus" launch', "en"), ('broker "lucky draw" trading', "en"),
-                    ('外汇 交易大赛 奖金', "zh-CN"), ('外匯 交易大賽 獎金', "zh-TW"), ('forex "trading competition" Malaysia OR Thailand OR Indonesia OR Vietnam', "en"),
+                    ('外汇 交易大赛 奖金', "zh-CN"), ('外匯 交易大賽 獎金', "zh-TW"), ('外匯 交易大賽 獎金', "zh-HK"),
+                    ('外汇 模拟交易大赛', "zh-CN"), ('外匯 券商 贈金 活動', "zh-TW"), ('差價合約 交易比賽 香港', "zh-HK"),
+                    ('外汇 券商 马来西亚 活动 奖金', "zh-CN"), ('外匯 博覽會 台北 OR 香港 券商', "zh-TW"),
+                    ('forex broker "trading competition" Malaysia OR Singapore', "en-MY"), ('forex "trading competition" Malaysia OR Thailand OR Indonesia OR Vietnam', "en"),
                     ('pertandingan dagangan forex hadiah', "ms")]:
         qs.append((q, lang))
     return qs
@@ -237,7 +251,7 @@ def rule_record(c, brand):
     return {
         "ID": f"auto-{slug(brand)}-{h}", "品牌": brand,
         "对象": "IB" if IB_RE.search(c["title"]) else "直客",
-        "地区": guess(REGION_RULES, text, "全球"),
+        "地区": guess(REGION_RULES, text, "华语" if re.search(r"[\u4e00-\u9fff]{4,}", c["title"]) else "全球"),
         "活动类型": guess(TYPE_RULES, text, "其他活动"),
         "奖励性质": kind, "标题": c["title"][:120],
         "奖励摘要": "；".join(money[:3]) if money else "金额见来源",
