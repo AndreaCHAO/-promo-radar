@@ -34,8 +34,14 @@ PROMO_LINK = re.compile(r"(promo|promotion|bonus|cashback|rebate|contest|competi
 def log(*a): print(*a, flush=True)
 
 
+def env(name, default=""):
+    """GitHub 里没设置的变量会以空字符串传进来，这里统一当作“未设置”，用默认值。"""
+    v = (os.environ.get(name) or "").strip()
+    return v if v else default
+
+
 def load_records():
-    url = os.environ.get("SHEET_CSV_URL", "").strip()
+    url = env("SHEET_CSV_URL")
     if url:
         try:
             text = fetch(url, raw=True)[1]
@@ -131,10 +137,10 @@ def check_url(url, prev):
 
 
 def ai_suggest(record, page_text, cols):
-    key = os.environ.get("AI_API_KEY", "").strip()
+    key = env("AI_API_KEY")
     if not key: return None
-    provider = os.environ.get("AI_PROVIDER", "anthropic").lower()
-    model = os.environ.get("AI_MODEL", "claude-haiku-5-5" if provider == "anthropic" else "gpt-4o-mini")
+    provider = env("AI_PROVIDER", "anthropic").lower()
+    model = env("AI_MODEL", "claude-haiku-5-5" if provider == "anthropic" else "gpt-4o-mini")
     core = ["品牌", "对象", "地区", "活动类型", "奖励性质", "标题", "奖励摘要", "给谁", "门槛", "可参考点", "开始日期", "截止日期", "人工状态", "活动说明", "完整条款", "国家资格", "限制国家", "签约实体", "待核事项"]
     old = {k: record.get(k, "") for k in core}
     prompt = (
@@ -153,7 +159,7 @@ def ai_suggest(record, page_text, cols):
             with urllib.request.urlopen(req, timeout=90) as r:
                 out = json.loads(r.read())["content"][0]["text"]
         else:
-            base = os.environ.get("AI_BASE_URL", "https://api.openai.com/v1").rstrip("/")
+            base = env("AI_BASE_URL", "https://api.openai.com/v1").rstrip("/")
             req = urllib.request.Request(base + "/chat/completions", data=json.dumps({
                 "model": model, "messages": [{"role": "user", "content": prompt}], "temperature": 0}).encode(),
                 headers={"Authorization": "Bearer " + key, "content-type": "application/json"})
@@ -190,7 +196,7 @@ def main():
     url_state = {r["url"]: r for r in results}
 
     # 每条记录汇总：变化日期晚于“最后核查”才算需要处理
-    rec_state, ai_budget = {}, int(os.environ.get("AI_MAX_RECORDS", "15"))
+    rec_state, ai_budget = {}, int(env("AI_MAX_RECORDS", "15")) if env("AI_MAX_RECORDS", "15").isdigit() else 15
     prev_rec = prev.get("records", {})
     for r in records:
         rid = r.get("ID") or ""
@@ -246,7 +252,7 @@ def main():
 
     out = {
         "generated": TODAY, "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "ai_enabled": bool(os.environ.get("AI_API_KEY")),
+        "ai_enabled": bool(env("AI_API_KEY")),
         "summary": {
             "records": len(rec_state), "urls": len(urls),
             "changed": sum(1 for s in rec_state.values() if s["changed"]),
