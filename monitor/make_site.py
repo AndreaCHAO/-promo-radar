@@ -19,6 +19,8 @@ def embed(tag_id, kind, text):
 embed("seedData", "text/csv", open(os.path.join(ROOT, "data/records.csv"), encoding="utf-8-sig").read().strip())
 rp = os.path.join(ROOT, "data/research.json")
 embed("researchData", "application/json", open(rp, encoding="utf-8").read() if os.path.exists(rp) else "")
+ap = os.path.join(ROOT, "data/auto_records.csv")
+embed("autoData", "text/csv", open(ap, encoding="utf-8-sig").read().strip() if os.path.exists(ap) else "")
 mp = os.path.join(ROOT, "data/monitor.json")
 embed("monitorData", "application/json", open(mp, encoding="utf-8").read() if os.path.exists(mp) else "")
 open(idx, "w", encoding="utf-8").write(s)

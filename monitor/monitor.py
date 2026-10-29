@@ -183,8 +183,16 @@ def ai_suggest(record, page_text, cols):
         return None
 
 
+def load_auto():
+    p = os.path.join(ROOT, "data", "auto_records.csv")
+    if not os.path.exists(p): return []
+    with open(p, encoding="utf-8-sig") as f: return list(csv.DictReader(f))
+
+
 def main():
     records = load_records()
+    ids = {r.get("ID") for r in records}
+    records += [r for r in load_auto() if r.get("ID") not in ids]  # 自动发现的记录也每天复查
     cols = list(records[0].keys()) if records else []
     prev = {}
     if os.path.exists(OUT):
