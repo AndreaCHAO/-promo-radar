@@ -3,12 +3,7 @@ It looks like you are based in the
 Click proceed to be taken to .
 Proceed
 Select Language
-English
-中文简体
-Русский
-Español
-العربية
-ภาษาไทย
+中文繁體
 close
 Tickmill App
 Download

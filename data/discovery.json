@@ -1,0 +1,271 @@
+{
+"generated": "2026-10-29",
+"generated_at": "2026-10-29T03:34:19+00:00",
+"ai_enabled": false,
+"candidates": 412,
+"new_today": [
+"auto-bybit-8e5ed413",
+"auto-bybit-2bbaab7c",
+"auto-bybit-b55988d9",
+"auto-bybit-9fde4502",
+"auto-bybit-979742e1",
+"auto-bybit-c045e2a2",
+"auto-bybit-4ca0980f",
+"auto-bybit-6114469b",
+"auto-bybit-e082b3b9",
+"auto-bybit-971ac591",
+"auto-bybit-a4222ef5",
+"auto-bybit-b236d6b3",
+"auto-moneta-markets-a532557a",
+"auto-moneta-markets-b811233f"
+],
+"total_auto": 14,
+"sources": [
+{
+"source": "Google 新闻：\"D Prime\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 0
+},
+{
+"source": "Google 新闻：\"EC Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 5
+},
+{
+"source": "Google 新闻：\"EBC Financial\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 8
+},
+{
+"source": "Google 新闻：\"IC Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 4
+},
+{
+"source": "Google 新闻：\"Exness\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 5
+},
+{
+"source": "Google 新闻：\"Bybit\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 15
+},
+{
+"source": "Google 新闻：\"XM.com\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 7
+},
+{
+"source": "Google 新闻：\"Pepperstone\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 1
+},
+{
+"source": "Google 新闻：\"FxPro\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 0
+},
+{
+"source": "Google 新闻：\"AxiTrader\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 0
+},
+{
+"source": "Google 新闻：\"WeTrade\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 0
+},
+{
+"source": "Google 新闻：\"Hantec\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 1
+},
+{
+"source": "Google 新闻：\"ATFX\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 0
+},
+{
+"source": "Google 新闻：\"Tickmill\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 1
+},
+{
+"source": "Google 新闻：\"AvaTrade\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 2
+},
+{
+"source": "Google 新闻：\"FXCM\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 1
+},
+{
+"source": "Google 新闻：\"FOREX.com\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 69
+},
+{
+"source": "Google 新闻：\"TMGM\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 52
+},
+{
+"source": "Google 新闻：\"Ultima Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
+"ok": true,
+"items": 5
+},
+{
+"source": "Google 新闻：\"D Prime\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金)",
+"ok": true,
+"items": 0
+},
+{
+"source": "Google 新闻：\"EBC Financial\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金)",
+"ok": true,
+"items": 2
+},
+{
+"source": "Google 新闻：\"TMGM\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金)",
+"ok": true,
+"items": 10
+},
+{
+"source": "Google 新闻：\"EC Markets\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金)",
+"ok": true,
+"items": 0
+},
+{
+"source": "Google 新闻：\"ATFX\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金)",
+"ok": true,
+"items": 1
+},
+{
+"source": "Google 新闻：\"Ultima Markets\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金)",
+"ok": true,
+"items": 1
+},
+{
+"source": "Google 新闻：\"WeTrade\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金)",
+"ok": true,
+"items": 0
+},
+{
+"source": "Google 新闻：\"Hantec\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金)",
+"ok": true,
+"items": 1
+},
+{
+"source": "Google 新闻：\"XM.com\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金)",
+"ok": true,
+"items": 0
+},
+{
+"source": "Google 新闻：\"Exness\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金)",
+"ok": true,
+"items": 2
+},
+{
+"source": "Google 新闻：forex broker \"trading competition\"",
+"ok": true,
+"items": 25
+},
+{
+"source": "Google 新闻：CFD broker \"trading contest\" prize",
+"ok": true,
+"items": 3
+},
+{
+"source": "Google 新闻：forex broker \"deposit bonus\" launch",
+"ok": true,
+"items": 13
+},
+{
+"source": "Google 新闻：broker \"lucky draw\" trading",
+"ok": true,
+"items": 15
+},
+{
+"source": "Google 新闻：外汇 交易大赛 奖金",
+"ok": true,
+"items": 6
+},
+{
+"source": "Google 新闻：外匯 交易大賽 獎金",
+"ok": true,
+"items": 0
+},
+{
+"source": "Google 新闻：forex \"trading competition\" Malaysia OR Thailand OR Indonesia OR Vietnam",
+"ok": true,
+"items": 32
+},
+{
+"source": "Google 新闻：pertandingan dagangan forex hadiah",
+"ok": true,
+"items": 2
+},
+{
+"source": "FX News Group",
+"ok": true,
+"items": 10
+},
+{
+"source": "Finance Magnates",
+"ok": true,
+"items": 20
+},
+{
+"source": "LeapRate",
+"ok": false,
+"error": "ParseError"
+},
+{
+"source": "FinanceFeeds",
+"ok": true,
+"items": 20
+},
+{
+"source": "PR Newswire 金融服务",
+"ok": true,
+"items": 20
+},
+{
+"source": "EBC 官网新闻",
+"ok": true,
+"items": 53
+}
+],
+"rejected": [],
+"seen": [
+"2bbaab7cf80b",
+"4ca0980fc42d",
+"6114469bc8fa",
+"8e5ed4135c9b",
+"971ac5911c6d",
+"979742e1b063",
+"9fde45029b29",
+"a4222ef5d07a",
+"a532557a833c",
+"b236d6b397ef",
+"b55988d998cf",
+"b811233f849c",
+"c045e2a2a38c",
+"e082b3b94e8d",
+"https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVXFmQmJVOFlPUE9iTTRYRW5lXzRYc1FxTm9MY2lLTDBrSUdWMkMyZTBDeUwwcXlTOHFiNS1XYUd3WDBmQzliaUpEejRlRmlzSkU1MVgzLVRxZ2MzR0JUeHh6eU05MGh5amxDSWJGM2ZiMzFHeTBkdXRNNFVKd3praXdvd3Z4aWFEU0VtMUxMZUZGajZKRUszcTFlUWRlSHpacjFjamMzeDBqZm9LN2lqQkg3TkxQbTZhdmVadi1mWEdlUk1scVp0eXpfVXhVVVkwLTNtY0d6YW83QTA",
+"https://news.google.com/rss/articles/CBMi4wFBVV95cUxNamtpZENuTHZHZDVTSVphdEhlRl9QODFLY294RkRZdUdnQWpfMW9oQXpiUzJ3Y1l3RHVGZl9VNTJLY05USXprZ3hRdWpKRWhyNnY4TFJRSFp5V1FJUGtkUmVLdXNydlhpNktUVG9DZFRpMUdWcXNLbkswZGMyMVEwRnJYSjhzd1VKRThTS2tYbl9MQkpsNjVhU2E1cXVTTUVkQlZWQmVxalN6bnhGYW8wR05McjdZdkV4aWhDd3JYRHk2NXRuQklrbGdFSXNUREFOMHhnTXNVbEx6cFJndnhVQ29CTQ",
+"https://news.google.com/rss/articles/CBMiV0FVX3lxTE41d2prcXZleFFRM1d0azh4eGdPdkduZ1ZERjQ2VDVLVDIzOHdfc1ZFbllvSUJwZ1JkcnpMYnFuZUtKXy1mcHhvXzlWVDRzTnY1VTBTdU5tONIBV0FVX3lxTE41d2prcXZleFFRM1d0azh4eGdPdkduZ1ZERjQ2VDVLVDIzOHdfc1ZFbllvSUJwZ1JkcnpMYnFuZUtKXy1mcHhvXzlWVDRzTnY1VTBTdU5tOA",
+"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YXzA5QWhnMlN3LUhxQXVpaHlOLTNfdW9RVlYzaUtaaTVrc3hCcVpnNDAwNEk3WUJkM3l2MmlWX2dmNlVYY3dkOHJRM0FOd3piVUFRdg",
+"https://news.google.com/rss/articles/CBMikAFBVV95cUxOb21LMzZlZC1hWGxUUm56Y0FTLUNKRktPMWJsX3ZCbDlPbE0xUmZkeHV0VHduSWpQZ3NQaHZ6ak9ERlU0elRGZG9iX0FvN0xnQkFpc1ZyTVNfX2pkSnpZMWdBT0ZQcEs1SHJjYUs0eDV1bk5fdFhjWWdpWHN4ZEptVW9iRHlyV25Ld0xmVXlIaFM",
+"https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjliLW9MUlRUNFJrWWo3djd0OW1jSi03UXZrLWVaWXkwUlJObTczcGNqNDEyVVZkaVF6OEgyYkY2Nl9pOU5zdEJwdUFSeFB5MVV1M2haNTZTQjdkendDLVYxOGNNMktYM1VXTW1YT1JMem9pVktBd1RicmotUFZzLVAzUEtSMXV2V2V5UHIyZnREZw",
+"https://news.google.com/rss/articles/CBMikwFBVV95cUxOUTluQTBDdzg0V2lQYzU1aGVBNGFYaHZhbEtWTHFBLW1HSVpPdTR0dDAzQTFYNWR0WkU3a2o3TzdnTFNoOVU3dzQ5WUdSSWI2eF9PSGUyZ2dlSmk3c0IyaXJVVU0zYjdTbnNYUGZkQnRsQU9FbGpBTjZhajVXX2VkY2ZuVUVrNXdnbndWYkdCdzNsS0U",
+"https://news.google.com/rss/articles/CBMikwFBVV95cUxQU0F3UV9tMG9udVJ5eWd5ei0zdnFZQkFzNlZTMTZtWUNscUlNTkd4SE0zQVVLMkZjQXcxV3BWSUlpLTBuVnlYUm0wUzlHUFJ0YjNpN1lmQWY3N3RTamkxdldXbDNIcmYyN2FqUGhqSUpoSklTYTRfek1XTENORVdsWVF5TTQwcFJJSXA4VGNmaGEyVkE",
+"https://news.google.com/rss/articles/CBMikwFBVV95cUxQUnF5VExaLTk3NE9KVi1paU0wUjBKUmhaak13elRPenRHV2pXTGhvbHBHQTBNVm9wUkpDSjF4UlJZMW9oeFFocFUxU3YxNkNrMVdkV191SGlMakllZ2FndFo3UkwxcjN1MF8taTZlaWRpUTJydnpZbnFCVG5jemhab3R6NDZFZ0lrdXNwYm83aW45QVE",
+"https://news.google.com/rss/articles/CBMilAFBVV95cUxOZzV4V2hlRTdiR3lVNV90TUQ3X0tjYUJwSG1WSWhpenVQTmdiaW15QU82Wm9SOTEyQ1dRaGtfX1NZTTM4WkJxWWVvWVV1dUwzdDFpNG83Y3JCcFVKaE0zaldoQ1JidEFWaHFFQmZhVk1zNDVSeC1rLXhnQmlwOXBkQzllSTBPY2hhMWhxU1dWQXJlNjdp",
+"https://news.google.com/rss/articles/CBMilAFBVV95cUxPczV3X3NsbEFucmdEdEk4YU9sall0akQycHdWVGFWZHRUYzRFdV90NGdOZGFqelFpckpGcnNnYWhlQWVSbS1YeGxhakl0RHZWSE83MktTaVl0alpZVExfLVBwcTIxaVBMTGdHZkx1cmdVZVhhdnduTkxOT3I2TnNzQWo0WlFnd1BaQzVmdHZpdjlUR3hQ",
+"https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUhzalRVWm9RZnJSUGhTNG1XT2pPTlRsLVM2Z01YUmtfb0ZUVTdYcjZ4Ml9qWEVrX2ZhYngxOTlYRTdoT19KejlYVFRod3gwSWJiRUFXQnRQeVhSdzFMYWw3MTlmbi1hdXJLSDJHVzlBNHFRMk1VZmpaSjRHY015aklQZUZDc2Z6U05iUmdxSEtzTVlVeno0MWVB",
+"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWXcxajkzcDFPUXRKaUFTMlk3NHVnOFRpWHByVWpDODRKY0Y1NHhHZEQ2N2d2cEMzTE9ZUEpKQzM5YWhnMFlWMmx1WFBXNHkyY3JSckxlaWE4S0EteW1RY3VMT3JCSWU3ZGpKblA3aW44cW5VUnBROXlSUHpObTNRNVdvbE4tZ1hqS081LXFEQk12VDVrUFVuaDg1MzlkUXdGQ0pZYnZ0WTk",
+"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbjh3a3FacWhPMUxHanRwalNHZEZnUGk3U0s2UlVhd2c5WUFwODBWVEZ1cXZMR2lHVngta3ZrcmpMbGctMEVmWV9Xd3lsSjVxeHVzTHVmLWMxU19zcjlzYmhrTHZBMXRuWDlGc3ExMWt5TDZRTUhoV19TX2lGMUJjd2Nnbkx6ZmtSRFF3bzBXdDhhNkdQSnVqdDNvNzJfOHVMbkc1QmFSb05zWmFyZldEeWh5VHVQRG91UXRWTnlEYjRTTDDSAcgBQVVfeXFMTXpzMUhLY3VNQm5mZncydmNKTW9sZUg5UmRRU1A0MWtSdlJVeXZkR2w3cjJuanp1RGtSaUVwbHRsYkNMR0phSWFDMm52SnVTeGxuLWtLMUw4MlF4TUxodHJtbGkyOTctRzBZRTVGd1lONEVfazVnenZpSEhSOVZwWXhKWGlOQ3d0V091UU40UDhlYnJJMDFyVjhDTUlvYkQxeWlMcFYxNGpRUkd3ZjVhNHFRcmtjbjR1N2RJd0tMR0pYWVVZT3NrOHI"
+]
+}

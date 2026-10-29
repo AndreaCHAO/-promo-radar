@@ -151,7 +151,7 @@ Ranking Nickname Commission Rate Prize sum
 7 MR_ONR 11819.34 $50
 8 LocaLservice 7629.58 $50
 9 Azamikia 5821.04 $50
-10 Vanalano 5025.51 $50
+10 Vanalano 5098.96 $50
 11 PFOREX 4478.39 $20
 12 Aurra 4418.19 $20
 13 ehkam 4241.34 $20
