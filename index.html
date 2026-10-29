@@ -7303,7 +7303,10 @@ function normalize(raw, i) {
 function monFlag(r) {
   const m = r.mon; if (!m || r.status === 'expired' || r.status === 'excluded') return '';
   if (m.ended_hint) return 'ended';
-  if (m.changed) return 'changed';
+  // 用来源页最新变化日期 和 表格里当前的“最后核查”实时比较：同事改了核查日期，提醒立刻消失，不用等机器人下次运行
+  const urlChanged = r.sources.map(u => MON?.urls?.[u]?.changed || '').sort().pop() || m.changed || '';
+  const checked = fmt(parseDate(r['最后核查']));
+  if (urlChanged && (!checked || urlChanged > checked)) { m.changed = urlChanged; return 'changed'; }
   if (m.sources_total && m.sources_ok === 0) return 'down';
   return '';
 }

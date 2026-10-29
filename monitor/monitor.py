@@ -42,6 +42,12 @@ def env(name, default=""):
 
 def load_records():
     url = env("SHEET_CSV_URL")
+    if not url:  # 没在 GitHub 里设变量时，直接用网页 config.js 里填的同一个链接
+        try:
+            m = re.search(r"sheetCsvUrl:\s*['\"]([^'\"]+)['\"]", open(os.path.join(ROOT, "config.js"), encoding="utf-8").read())
+            url = m.group(1).strip() if m else ""
+        except Exception:
+            url = ""
     if url:
         try:
             text = fetch(url, raw=True)[1]
