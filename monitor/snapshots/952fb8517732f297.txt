@@ -1,0 +1,148 @@
+Headway Partner Contest | Terms and conditions
+Trade
+Analytics
+Learn
+Promo
+Partnership
+About us
+Log in Sign up
+العربية
+English
+Français
+Bahasa Indonesia
+日本語
+Bahasa Melayu
+Português
+Español
+ภาษาไทย
+Tiếng Việt
+O'zbek
+Kiswahili
+Back
+Documents
+/ Headway Partner Contest
+Headway Partner Contest
+Terms and Conditions
+1. General Provisions
+1.1 The Headway Partner Contest (hereinafter referred to as the "Contest") is organized by JAROCEL PTY LTD (operating under the trading name "Headway", hereinafter referred to as the "Company") and shall be conducted from September 15, 2026, at 11:00 until November 15, 2026, at 23:59 (MT server time).
+1.2 The results announcement will take place on November 18, 2026 . Notification will be sent via email and published on the Contest page in the Personal Area.
+1.3 The Contest is a special, limited-time competition for Headway Partners (hereinafter referred to as the "Partners") designed to encourage the acquisition of new clients, as well as activation and increased trading activity among already registered clients. It is also designed to attract and onboard new Partners. The Partners earn points for clients’ activity to win cash and physical prizes across regional leaderboards.
+1.4 By participating in the Contest, the Partner agrees to be legally bound by these Terms and Conditions, the Client Agreement, and the Partnership Agreement, all available on the Company’s official website ( https://hw.site/ or authorized domains).
+2. Participation
+2.1 Acceptance and Eligibility: To participate in the Contest and start accumulating points, the Partner must explicitly opt-in via the Contest section in the Personal Area or the official Mobile Application. Mobile Application users must ensure their software is updated to the latest available version to access promotional features.
+2.2 Partner and Verification Status: Upon joining the Contest, any participant not currently registered as a Partner shall be automatically onboarded into the Partnership Program. Full identity verification (KYC) within the Personal Area is a mandatory prerequisite to participate in the Contest and claim any prizes.
+2.3 Participants are assigned to regional leaderboards based on their location: Indonesia, Malaysia, Africa, Latam, MENA, and others.*
+*View the full breakdown in the Regional Country List .
+3. Points Accumulation Rules
+Partners earn points based on the activity of their directly solicited clients. Points earned across all categories are combined to calculate the Partner's total score and leaderboard ranking.
+3.1 New deposits
+A Partner receives 1 point when a directly solicited client completes their first-ever deposit on an account or wallet balance. This rule applies if the client has never deposited before, regardless of when they registered or were linked to the Partner. The deposit size and payment method do not matter, and exchanger operations are eligible, but internal transfers are strictly excluded.
+3.2 Lots traded
+A Partner receives 1 point for every 1 converted standard lot traded and closed by their directly solicited clients combined. Partial lots accumulate toward full points.
+3.3 Reactivation
+A Partner receives 1 point when a dormant client, defined as a client with no trades, Copytrade activity, or financial operations for the preceding 30 days, is reactivated. Reactivation requires the client to make a deposit and open a trade of any amount during the Active stage.
+4. Lot Calculation Rules
+4.1 1 lot on a Cent account is equivalent to 0.01 lot on a Standard or Pro account.
+4.2 For Stocks, Crypto, Indexes, Energies, and other index instruments, if the cost of 1 lot is less than 100,000 USD, the lot calculation formula is: 1 lot * Contract size * Price in USD / 100,000
+4.3 When closing positions using the "Close by" function, the trading volume is calculated as half of the volume of each closed position.
+5. Contest Stages and Results Tracking
+5.1 Personal Area tracking features are available to all registered Partners during the Contest.
+5.2 Stage breakdown:
+Active Stage (Sept 15, 11:00 AM – Nov 15, 23:59 MT): Registration is open. Partners earn points, track category breakdowns (New Deposits, Lots Traded, Reactivation), and monitor their progress.
+Ended Stage (Nov 15, 23:59 MT): Registration is closed. Client activity no longer affects results. Point verification and result calculations begin.
+Results Stage (Nov 18): Winners and final regional leaderboards are published.
+5.3 Leaderboards display Top 10 places per region and the user's current rank. Tooltips show points needed to reach 1st place or pass the nearest participant. Leaderboards update at least once every 2 hours.
+5. 4 Progress toward the special prize is displayed in the Personal Area. For every 10 points earned, one letter in the word HEADWAY lights up. Once all 7 letters are illuminated (totalling 70 points), the participant becomes eligible to receive the special gift box.
+6. Prizes
+6.1 Regional Prize Distribution: Prizes are awarded independently within each designated Regional Leaderboard. The Top 10 participants achieving the highest total points within their respective region upon the transition to the Results stage on November 18, 2026, shall receive rewards as follows:
+1st–3rd place: Physical prizes + 1 USD for each earned point;
+4th–5th place: 1 USD for each earned point;
+6th–10th place: 0.5 USD for each earned point.
+6.2 If several participants have the same number of points, the higher place is assigned to the participant who reached that score earlier.
+6.2 Every participant who earns more than 70 points will receive a Special Prize.
+6.3 Cash prizes will be automatically credited to Wallet USD when the contest reaches the Results stage.
+6.4 The list of available prizes is published on the Contest page. Prizes are subject to change based on availability, delivery possibilities to specific countries, and at the Company's discretion.
+6.5 If a Partner wins a prize, a Company representative will contact the Partner via an official Company email (@hw.site domain). If the Partner fails to respond within two (2) weeks, the prize may be canceled.
+6.6 The Company reserves the right to substitute a physical prize with an equivalent cash value if delivery to the winner's address is not possible. The Company shall not be held liable for any delays, loss, non-delivery, or administrative holds arising from the actions or omissions of customs authorities, postal and courier services, or any other third parties.
+7. Compliance and Fraud Prevention
+7.1 Violation of the Client Agreement, fraudulent activities, or abuse of the Contest will result in disqualification.
+7.2 Points earned through prohibited activity or improper client linkages may be rejected or revoked.
+7.3 The Company reserves the right to disqualify participants at its sole discretion in case of suspicious activity.
+7.4 Each activity condition is limited to legitimate client operations. Any attempt to artificially inflate points, utilize self-referral structures, or operate multiple Partner accounts to bypass limits is strictly prohibited pursuant to Clause 1.3(c) and Clause 4.6.5 of the Client Agreement, and shall result in immediate disqualification and forfeiture of all accumulated points and prizes.
+7.5 Prohibition of Self-Referral: Partners are strictly prohibited from earning points or rewards from trading accounts belonging to themselves, immediate family members, or accounts operating from identical payment credentials or IP addresses. Any points derived from self-referral structures shall be permanently voided.
+8. Technical Limitations and Liability
+8.1 The Company is not liable for technical failures, system errors, or disruptions affecting the Contest. However, the Company will make reasonable efforts to minimize or prevent such issues.
+8.2 Manual revalidation of tickets and tasks may occur at the Company's discretion.
+9. Amendments, Legal Disclaimers, and Final Provisions
+9.1 By participating, Partners acknowledge their understanding and acceptance of these Terms and Conditions.
+9.2 The Contest is open to Partners who are 18 years of age or older and are legally permitted to trade with Headway in their respective jurisdictions. Partners from jurisdictions where such promotions are restricted or prohibited are not eligible.
+9.3 Partners are solely responsible for any applicable taxes, fees, or other legal obligations related to receiving a prize.
+9.4 The Company shall not be held liable for any delay or failure to perform its obligations under this Contest due to circumstances beyond its reasonable control, including but not limited to natural disasters, war, government restrictions, and internet outages.
+9.5 While the Company will make reasonable efforts to deliver prizes, it does not guarantee successful delivery in regions where customs, logistics, or legal restrictions apply. Physical prizes may be substituted with cash equivalents at the Company's discretion.
+9.6 The Company reserves the right to revoke points or prizes at any time if it detects abuse, manipulation, or fraud, even after the Promotion has ended.
+9.7 The Company reserves the right to:
+Modify, suspend, or terminate the Contest at any time without prior notice.
+Close the Contest at its sole discretion.
+Use and publish information related to the Partner’s account for promotional purposes.
+Request the Partner to log in to the trading account from an alternative device for additional verification.
+Require verification in the Personal Area before awarding any prize.
+Settle any disputes. The Company’s decision is final and not subject to appeal.
+Contact us
+Headway cares about your happiness.
+Contact us anytime at care@hw.site
+Follow us on social media
+Install app
+Trade
+Platforms
+MT5
+MT4
+Platform comparison
+Trading app
+Markets
+Popular
+Forex
+Synthetics
+Crypto
+Metals
+Energies
+Stocks
+Indexes
+Tools
+Calculator
+Currency converter
+Accounts
+Cent
+Standard
+Pro
+Account comparison
+Learn
+How to start trading
+Courses
+Webinars
+Events
+Glossary
+Theory
+About Copytrade
+About us
+About Headway
+Help center
+Legal documents
+Awards
+Success stories
+Our news
+Analytics
+Economic calendar
+Market pulse
+Market insights
+Blog
+Trading strategies
+Copytrade
+Partnership
+Promo
+Regulation
+This website is operated by JAROCEL PTY LTD (registration number 2021/883863/07); address: 3 Flamingo Crescent, Beacon Bay, East London, 5241, South Africa, +27 10 140 0603. JAROCEL PTY LTD is authorized and regulated by FSCA (Financial Sector Conduct Authority), license number 52108.
+Risk warning
+Trading leveraged financial products involves a high level of risk and may not be suitable for all investors. Leveraged trading can magnify both gains and losses. Before trading, please consider your investment objectives, experience, and risk tolerance, and only trade with funds you can afford to risk.
+Headway does not offer its services to residents of countries that were, are, or will be blacklisted by the FATF. This website is not directed to the residents of countries where such financial services may violate the laws or regulations of the land. The information on this website is not aimed at solicitation or invitation. Anyone who accesses this website must therefore follow the laws and regulations applicable in their country of residence.
+The information on this website may only be copied with the express written permission of JAROCEL PTY LTD.
+2026 All rights reserved

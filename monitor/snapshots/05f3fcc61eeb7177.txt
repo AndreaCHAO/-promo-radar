@@ -1,0 +1,396 @@
+IUX Credit Campaign Terms and Conditions - Policy IUX
+Skip to content
+CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 76% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+Trade
+Markets
+Currency CFDs
+Commodity CFDs
+Stock CFDs
+Index CFDs
+Crypto CFDs
+Thematic Index CFDs
+Live Quotes
+Trading Conditions
+Client Security
+Payment Options
+Trading Fees
+Benefits
+LotBack Program
+Platforms
+Trading Platforms
+IUX Trade App
+IUX WebTerminal
+MetaTrader 5
+Education
+Learning Center
+Overview
+Articles
+Academy
+Stay Informed
+Podcast
+Tools & Analysis
+Economic Calendar
+Trading Calculators
+Technical Analysis
+Company
+About IUX
+About
+IUX Reviews
+Blog
+Partner
+Contact
+Legal & Support
+Regulation
+Terms and Policies
+Help Center
+Accounts
+Comparison
+EN English
+Español
+Bahasa Indonesia
+Português
+Tiếng Việt
+简体中文
+EN English
+Español
+Bahasa Indonesia
+Português
+Tiếng Việt
+简体中文
+Login
+Open Account
+Home >
+Terms and Policies >
+IUX Credit Campaign Terms and Conditions
+IUX Credit Campaign Terms and Conditions
+IUX Credit Campaign Terms and Conditions
+1. General Terms
+2. Definitions
+3. Eligibility and Automatic Enrolment
+4. Calculation of Trading Credit
+5. Use of Trading Credit
+6. Withdrawals and Internal Transfers
+7. Stop Out and Trading Credit Removal
+8. Expiry of Trading Credit
+9. Campaign Abuse and Prohibited Conduct
+10. Campaign Changes and Termination
+11. Records, Complaints and Governing Terms
+12. Risk Warning
+13. Suspension of Entitlement and Temporary Account Blocking During Investigation
+14. Force Majeure, System Errors and Manifest Errors
+15. Limitation of Liability
+16. Client Representations
+17. Personal Data and Detection of Linked Accounts
+18. Communications and Notices
+19. Miscellaneous
+IUX Credit Campaign Terms and Conditions
+1. General Terms
+1.1 The IUX Credit Campaign Terms and Conditions (hereinafter the “Terms and Conditions”) shall govern all the interaction and participation in the IUX Credit Campaign (hereinafter the “Campaign”) offered by IUX Markets (MU) Ltd (hereinafter the “IUX”). IUX Markets (MU) Ltd. is authorized by the Financial Services Commission (FSC) in Mauritius under Investment Dealer license number GB22200605. The company operates under and is registered at 18 Bank Street, Ground Floor, Silver Bank Tower, Cybercity, Ebene 72201, Mauritius, with its physical office located at Silver Bank Tower, Ground Floor, 18 Bank Street, Cybercity, Ebene 72201.
+1.2 These Terms and Conditions must be read together with the Client Agreement, the General Terms and Conditions, the Risk Disclosure, the Privacy Policy, the Order Execution Policy, the IUX dormant account policy, the complaints procedure, and any other terms or documents published by IUX.
+1.3 The Campaign shall be available from the date and time determined and communicated by IUX through its official communications until 31 December 2026 at 23:59:59 (Trading Server Time) (hereinafter the “Campaign Period”), subject to any earlier suspension or termination under Clause 10.2. The end of the Campaign Period shall not, by itself, cause Trading Credit already granted to expire; Clause 8 governs its expiry.
+1.4 Eligible Clients will be enrolled in the Campaign automatically. No promotional code, redemption request or separate registration is required.
+1.5 By making a Qualifying Deposit or by using Trading Credit granted under the Campaign, the Client confirms that the Client has read, understood and accepted these Terms and Conditions.
+1.6 Trading Credit is provided for trading purposes only. It does not constitute cash, does not constitute Client Money, and does not form part of the Balance available to the Client for withdrawal.
+1.7 In the event of any inconsistency between translated versions of these Terms and Conditions, the English version shall prevail, subject to applicable law.
+1.8 In matters relating specifically to Trading Credit, these Terms and Conditions shall prevail over the Client Agreement to the extent of any conflict or inconsistency, save that nothing in these Terms and Conditions shall reduce, exclude or qualify any protection, right or remedy conferred on the Client by the Client Agreement or by applicable law. In all other respects, the Client Agreement shall apply.
+1.9 Summary statements appearing on the promotion page, in advertising material, in emails or in any other marketing material are provided for general understanding only and do not create rights differing from those set out in this full version. However, IUX will not rely on this Clause 1.9 to deny a representation communicated to Clients that contradicts this full version.
+1.10 Publication of an amended version of these Terms and Conditions on the IUX website or in the Client’s Personal Area shall constitute valid notice to the Client, without prejudice to Clause 10.4 concerning changes having a material adverse effect.
+2. Definitions
+For the purposes of the Campaign:
+“Eligible Client” means a Client who:
+a. has successfully completed the required identity verification process;
+b. holds an Eligible Account;
+c. resides in an Eligible Jurisdiction;
+d. meets the legal age requirement applicable in the Client’s jurisdiction; and
+e. is not restricted, suspended or disqualified by IUX.
+“Eligible Account” means a trading account of a type designated by IUX as eligible to participate in the Campaign and published on the IUX website.
+“Qualifying Deposit” means a deposit that is successfully processed and credited to an Eligible Account during the Campaign Period, in accordance with the terms, conditions and arrangements governing accounts, deposits and payment processing as displayed in the IUX system.
+“First Qualifying Deposit” means the first Qualifying Deposit made by an Eligible Client during the Campaign Period after the Client has become eligible to participate in the Campaign.
+“Subsequent Qualifying Deposit” means each Qualifying Deposit made after the First Qualifying Deposit during the Campaign Period.
+“Trading Credit” means non-withdrawable promotional credit granted to an Eligible Account under the Campaign.
+“Real Balance” means that part of the account Balance which is derived solely from the Client’s deposited funds and realised trading profit or loss, excluding the value of any Trading Credit.
+“Real Equity” means the Real Balance plus or minus unrealised profit or loss on open positions, excluding Trading Credit, and is the sole basis used for the calculation of Margin Level and Stop Out under Clause 5.5.
+“Platform Equity” means the Real Balance plus Trading Credit, plus or minus unrealised profit or loss, being the figure displayed by the trading platform by default, and is not the basis used for the calculation of Stop Out.
+“Margin Level” means the ratio of Real Equity to Margin used, multiplied by one hundred.
+“Margin Call Level” and “Stop Out Level” mean the levels of Margin Level determined and published by IUX at which the system issues a warning and at which the system begins to close positions automatically, respectively.
+“Order Execution Policy” means the IUX Order Execution Policy as in force from time to time, which forms part of these Terms and Conditions pursuant to Clause 1.2.
+“Campaign Cap” means the maximum cumulative Trading Credit that may be granted to one Eligible Client under the Campaign.
+“Balance Before Transaction” means the Balance recorded in the Eligible Account immediately before a withdrawal or internal transfer is processed, which includes deposited funds and realised profit or loss but excludes Trading Credit and unrealised profit or loss on open positions.
+“Linked Accounts” means two or more accounts which IUX, on the basis of its system records, considers to be under the control of the same person or group, having regard to identity verification documents, devices, IP addresses, payment channels, contact details, or materially consistent patterns of deposit, withdrawal and trading behaviour.
+“Third-Party Money Manager” means any service or account operating as a Fund Manager, MAM or PAMM, any account receiving commercial trading signals, and any account managed by a person other than the account holder.
+“Manifest Error” means an obvious error of a liquidity provider or price source, including a price materially divergent from the prevailing market price at the relevant time, an incorrect calculation of Trading Credit, or the duplicate granting of Trading Credit.
+3. Eligibility and Automatic Enrolment
+3.1 Existing Clients who meet the Campaign eligibility requirements will be enrolled automatically at the commencement of the Campaign Period.
+3.2 New Clients will be enrolled automatically upon successful completion of identity verification and the opening of an Eligible Account during the Campaign Period.
+3.3 One entitlement per identity. Accounts identified by IUX as Linked Accounts will be treated as a single entitlement and will share a single Campaign Cap. IUX will notify the Client of the reasons and of the information relied upon when entitlements are aggregated, and the Client may submit a challenge in accordance with Clause 11.2.
+3.4 The following are not eligible to participate in the Campaign: (a) Third-Party Money Managers; (b) corporate accounts; ( c ) accounts of Introducing Brokers (IB) used for their own trading; (d) employees of IUX, of companies within its group and their close associates; and (e) accounts under regulatory or fraud investigation.
+3.5 The Campaign shall be available to Clients resident in any jurisdictions operated by IUX and its branches. The list of participated and excluded jurisdictions will be published on the Campaign page and may be updated at any time.
+3.6 Campaign eligibility and the Campaign Cap apply per Client and not per trading account. Opening multiple accounts does not confer any additional Campaign entitlement.
+3.7 Only deposits successfully processed and credited to an Eligible Account after the Client has become eligible and during the Campaign Period will qualify for Trading Credit. A deposit initiated or submitted during the Campaign Period but credited after it ends shall not qualify. Deposits made before the Campaign Period, any balance held at the start of the Campaign Period, deposits made before completion of Customer Due Diligence or Enhanced Customer Due Diligence under the IUX Anti-Money Laundering Policy, and third-party-funded deposits shall not qualify for Trading Credit retrospectively.
+3.8 IUX may refuse, suspend or withdraw a Client’s participation where the Client:
+a. fails to meet the eligibility requirements;
+b. provides false, inaccurate or incomplete information;
+c. breaches any applicable IUX agreement or policy;
+d. participates from a restricted jurisdiction; or
+e. is suspected of Campaign abuse, fraud or prohibited trading activity.
+3.9 Accounts within the same household or at the same address: where IUX identifies that two or more accounts share an address, a device or a payment channel, IUX will presume and notify the Client in writing that they constitute a single entitlement under Clause 3.3 within seven (7) business days following the decision. The Client may rebut that presumption by producing evidence that the accounts trade independently using the Client’s own funds within 30 days following the date on which the Clients receive notification, and IUX will consider such evidence before maintaining the aggregation.
+4. Calculation of Trading Credit
+4.1 An Eligible Client may receive Trading Credit equal to 100% of the First Qualifying Deposit, up to a maximum of USD 500 in Trading Credit.
+4.2 Having received Trading Credit under Clause 4.1, the Client may receive Trading Credit equal to 50% of each Subsequent Qualifying Deposit.
+4.3 Trading Credit granted under Clause 4.2 is cumulative and is subject to a further maximum of USD 1,000.
+4.4 The maximum cumulative Trading Credit that may be granted to one Client under the Campaign shall not exceed USD 1,500 in total, regardless of the number or amount of Qualifying Deposit made by the Client. The maximum cumulative Trading Credit comprising of:
+a. up to USD 500 under the 100% Trading Credit stage for the First Qualifying Deposit. However, the amount of Trading Credit available pursuant to Clause 4.1 shall be solely determined by the amount of First Qualifying Deposit only. Any portion of the maximum amount that is not fully utilized will not be carried forward, accumulated, or transferred to the maximum amount available under Clause 4.2 and 4.3; and
+b. up to USD 1,000 under the 50% Trading Credit stage.
+4.5 The Campaign Period shall conclude on 31 December 2026 at 23:59:59 (Trading Server Time). The Campaign and the entitlements under Clauses 4.1 to 4.4 shall not renew automatically, and the Campaign Cap shall not reset. Unused entitlement may not be applied to any deposit credited after the Campaign Period. The end of the Campaign Period does not prevent Trading Credit from being granted later for a Qualifying Deposit credited during the Campaign Period, subject to these Terms and Conditions. All Trading Credit granted under the Campaign remains subject to the expiry provisions in Clause 8.
+4.6 The Campaign Cap is calculated on the basis of the aggregate Trading Credit previously granted to the Client.
+4.7 Trading Credit that has been reduced, suspended, withdrawn, cancelled or has expired shall continue to count towards the Campaign Cap and shall not restore any entitlement already used.
+4.8 Internal transfers, refunds, reversed transactions, chargebacks, payment corrections and any other transactions not treated by the IUX system as a successful deposit shall not qualify for Trading Credit.
+4.9 Trading Credit shall be calculated on the amount of the Qualifying Deposit credited to the Eligible Account, as recorded in the IUX system.
+4.10 Trading Credit will ordinarily be granted after the Qualifying Deposit has been successfully processed. Delays may occur as a result of technical checks, payment verification, compliance review or risk controls.
+4.11 Campaign budget cap: IUX may set an aggregate maximum amount of Trading Credit for the Campaign. Once the Trading Credit granted reaches that amount, IUX may suspend the granting of further Trading Credit or terminate the Campaign in accordance with Clause 10, without affecting Trading Credit already granted to Clients. IUX will give notice where the granting of further Trading Credit is suspended on this basis.
+4.12 Where IUX identifies a Manifest Error in the granting of Trading Credit, IUX may correct the amount of Trading Credit, giving reasons to the Client. IUX will not rely on this Clause to cancel profits made in good faith by the Client before the correction, save to the extent that such profits arise directly from the excess Trading Credit granted.
+4.13 The value of Trading Credit shall be fixed in the currency of the account at the time it is granted and shall not be recalculated by reference to subsequent movements in exchange rates. The Client therefore does not lose Trading Credit as a result of currency movements.
+5. Use of Trading Credit
+5.1 Trading Credit may be used only as additional margin support for trading on an Eligible Account.
+5.2 Trading Credit may not be:
+a. withdrawn as cash;
+b. transferred to another trading account, wallet or Client, except where funds are transferred between Standard accounts held by the same Client in accordance with Clause 6.2. In that case, the corresponding Trading Credit shall be transferred to the destination Standard account in the same proportion as the funds transferred. The transfer itself shall not reduce the Client’s aggregate remaining Trading Credit across those Standard accounts;
+c. exchanged or converted into cash; or
+d. used outside the Eligible Account to which it was granted, except where transferred to another Standard account held by the same Client in accordance with Clause 6.2.
+5.3 Profits generated from trading may be withdrawn, subject to the Client Agreement, the withdrawal requirements, the margin requirements, compliance checks and these Terms and Conditions.
+5.4 Trading Credit does not guarantee that the Client will be able to open or maintain any particular position and does not protect the Client against trading losses.
+5.5 Subject to Clause 5.8, Stop Out and margin calculations shall be determined in accordance with the applicable IUX trading system and margin rules as expressed herein. Trading Credit shall not be included in the account value used by the system to determine Stop Out.
+5.6 The reduction, withdrawal, cancellation, removal or expiry of Trading Credit may reduce available margin and may result in a Margin Call, a Stop Out or the automatic closure of open positions.
+5.7 The Client is responsible for monitoring the account, open positions, margin level and the amount of Trading Credit available.
+5.8 Two separate calculation bases: (a) the margin check performed when a new position is opened shall include Trading Credit as available margin; and (b) the calculation of Margin Level and Stop Out shall use Real Equity as the sole basis, excluding Trading Credit.
+5.9 It follows from Clause 5.8 that a Client’s positions may be closed by the Stop Out mechanism while Platform Equity and/or Trading Credit remains in the account. The Client acknowledges that while Platform Equity is displayed by the trading platform by default, it displays the combination of Real Balance and Trading Credit. Trading Credit shall increase the capacity to open positions but does not bear losses in place of Real Equity and does not defer the Stop Out Level. IUX will display the Platform Equity and Real Equity, including the level used for the calculation of Stop Out in the Client interface.
+5.10 Minimum holding period: a position opened using margin derived from Trading Credit must be held for not less than five (5) minutes, calculated from the time of opening to the time of closing.
+5.11 Where a Client systematically closes positions before the period set out in Clause 5.10 has elapsed, IUX may decline to treat profits from those positions as withdrawable profits and may take measures under Clause 9.4. IUX will assess the Client’s overall pattern of conduct rather than any individual transaction, and will warn the Client before applying any measure affecting the Client’s entitlements, save where there is a clear risk to the system.
+5.12 All charges, including swap charges, commissions, payment fees and any other fees, shall be deducted from Real Equity only. Trading Credit may not be used to settle charges.
+5.13 Where an account incurs a negative balance arising from conduct prohibited under Clause 9, IUX reserves the right not to apply the IUX Negative Balance Protection to such negative balance . In this regard, IUX shall notify its decisions to the affected Client in writing no less than seven (7) business days prior to the date on which IUX exercises its right, subject to Clause 9.3 and 9.4.
+5.14 IUX may increase margin requirements or reduce leverage specifically for accounts holding Trading Credit, before or during major economic events, periods of low liquidity, public holidays or market open and close, and will publish the periods concerned in advance so far as reasonably practicable.
+5.15 Trading Credit may not be used on accounts managed by a Third-Party Money Manager or on accounts receiving commercial copy trading. Where this is identified subsequently, IUX may suspend or withdraw the Trading Credit, giving reasons.
+5.16 Upon reaching the Stop Out Level, the system will close positions automatically until the Margin Level returns within the required threshold, beginning with the most loss-making position. A Margin Call or Stop Out instruction takes precedence over all other order types.
+6. Withdrawals and Internal Transfers
+6.1 A Client may request a withdrawal or an internal transfer from an Eligible Account, subject to the ordinary IUX withdrawal, transfer, compliance and margin requirements.
+6.2 Where funds are withdrawn or internally transferred out of an Eligible Account:
+If funds are transferred to another Standard account held by the same Client, the Trading Credit shall be transferred to the destination account in the same proportion as the amount of funds transferred;
+If funds are transferred to the Raw or Pro account, the remaining Trading Credit shall be reduced in the same proportion as the amount deducted from the Balance Before Transaction.
+The applicable calculation is:
+Withdrawal Ratio = Amount Deducted ÷ Balance Before Transaction
+Trading Credit Deduction = Trading Credit Before Transaction × Withdrawal Ratio
+6.3 Worked example:
+Before the withdrawal — Balance Before Transaction: USD 500; Trading Credit: USD 300; withdrawal amount: USD 100.
+The Withdrawal Ratio is USD 100 ÷ USD 500 = 20%.
+The Trading Credit Deduction is USD 300 × 20% = USD 60.
+After the transaction — remaining Balance: USD 400; remaining Trading Credit: USD 240.
+6.4 If the Client withdraws the entire available Balance from an Eligible Account, or transfers it to a Raw or Pro account, all Trading Credit remaining in the originating Eligible Account shall be removed. If the Client transfers the entire available Balance to another Standard account held by the same Client, all Trading Credit remaining in the originating account shall be transferred to the destination Standard account in accordance with Clause 6.2. Such transfer shall not, by itself, reduce the Client’s aggregate remaining Trading Credit.
+6.5 Trading Credit may be reduced at the time the withdrawal or internal transfer is approved or processed by IUX.
+6.6 Prior to confirming a withdrawal or internal transfer, IUX shall display a preview of the Trading Credit amount to be deducted and the remaining Trading Credit after the transaction. The Client is responsible for maintaining sufficient margin before requesting a withdrawal or internal transfer. The reduction of Trading Credit may affect open positions and may result in a Margin Call, a Stop Out or the automatic closure of positions.
+6.7 If a deposit is refunded, reversed, cancelled, charged back or otherwise invalidated, IUX may recalculate or withdraw any Trading Credit granted in connection with that deposit.
+7. Stop Out and Trading Credit Removal
+7.1 If a Stop Out occurs on an Eligible Account, all remaining Trading Credit in that account will be removed.
+7.2 Trading Credit removed following a Stop Out will not be reinstated automatically.
+7.3 Trading Credit granted before the Stop Out shall continue to count towards the Client’s Campaign Cap.
+7.4 Where the Campaign remains in force and the Client remains eligible, a future Qualifying Deposit may attract Trading Credit only from such Campaign entitlement as has not previously been granted.
+7.5 A Stop Out, the removal of Trading Credit or the closure of positions does not create a new 100% Trading Credit entitlement and does not reset the Campaign Cap.
+8. Expiry of Trading Credit
+8.1 Trading Credit already granted and remaining when the Campaign Period ends may continue to be used after that date, subject to these Terms and Conditions. All Trading Credit granted under the Campaign shall expire on 31 March 2027 at 23:59:59 (Trading Server Time), irrespective of the date on which it was granted and subject to any earlier reduction, withdrawal, cancellation or removal under these Terms and Conditions. Trading Credit shall not renew automatically.
+8.2 Expired Trading Credit will not be reinstated, exchanged for cash, transferred or reissued.
+8.3 Expired Trading Credit shall continue to count towards the Client’s Campaign Cap.
+8.4 The removal of Trading Credit on the expiry date may reduce available margin and may result in a Margin Call, a Stop Out or the automatic closure of open positions.
+8.5 The Client is responsible for monitoring and managing all open positions before the Trading Credit expiry date.
+8.6 IUX will notify the Client in writing not less than seven (7) days before Trading Credit is removed under Clause 8.1, through the channels set out in Clause 18.
+9. Campaign Abuse and Prohibited Conduct
+9.1 The Campaign is intended for genuine trading activity. Clients must not use the Campaign to obtain an unfair or artificially created benefit.
+9.2 Prohibited techniques and conduct include, but are not limited to:
+a. creating duplicate or multiple Client profiles, or using Linked Accounts to circumvent the Campaign Cap;
+b. using false information, the identity of another person, or payment channels that are unauthorised or do not belong to the Client;
+c. opening opposing positions or coordinated hedging between related accounts or together with other parties;
+d. transferring, recycling or repeatedly depositing and withdrawing funds principally in order to obtain Trading Credit;
+e. conducting artificial trading activity with no genuine market exposure, including trading intended to generate volume in order to obtain a rebate;
+f. exploiting price errors, off-market prices, price or feed latency, execution delays, platform errors or system vulnerabilities;
+g. latency arbitrage, the use of expert advisors or algorithmic strategies in bad faith, the use of external price feeds to inform order placement, and the submission of orders in volumes affecting the stability of the system;
+h. exploiting IUX’s mechanism for the suspension and reinstatement of Trading Credit, in such a way that IUX Trading Credit bears losses in place of the Client’s Real Equity;
+i. trading on the basis of inside information concerning price movements, or systematically trading in anticipation of price gaps around scheduled events;
+j. using the Client’s account for the benefit of another person, managing funds on behalf of another person, or receiving commercial trading signals on an account holding Trading Credit;
+k. reversing or charging back a deposit after Trading Credit has been received;
+l. otherwise manipulating or exploiting the Campaign or the IUX trading system;
+m. swap manipulation, including holding opposing positions across accounts in order to capture the swap differential;
+n. submitting order flow that imposes a material burden on liquidity or on liquidity providers (toxic flow) without any genuine intention of assuming market risk;
+o. rebate arbitrage, including generating trading volume so that the rebate received exceeds the losses accepted;
+p. incurring systematic losses on an account while generating partner remuneration for a Linked Account or a linked person;
+q. using multi-account management tools, such as MT5 Multiterminal, APIs or copy trading systems, to manage accounts that do not belong to the Client;
+r. using software that submits orders in a volume or at a frequency which affects server stability or which prevents IUX from executing the orders of other Clients at ordinary standards of quality.
+9.3 IUX will determine whether Clause 9.2 has been breached by reference to its system records, including the transaction history, deposit and withdrawal history, trading activities, account activities, and other relevant information.. IUX will not exercise its discretion without supporting evidence from its system records.
+9.4 Subject to applicable law and to the Client Agreement, IUX may take one or more of the following actions:
+a. withhold, reduce, withdraw or cancel Trading Credit;
+b. cancel profits or benefits arising from the prohibited conduct;
+c. reverse the affected transactions;
+d. suspend or terminate participation in the Campaign;
+e. restrict, suspend or close the relevant account; and
+f. recover losses, costs or benefits obtained through the prohibited conduct.
+9.5 During an investigation, IUX may temporarily suspend or delay the granting of Trading Credit, withdrawals, transfers or other affected transactions, to the extent reasonably necessary.
+9.6 Pursuant to Clause 11.2 where applicable, IUX shall notify the Client regarding its suspicion of Prohibited techniques and conduct as specified herein before applying any measure affecting the Client’s entitlements, save where there is a clear risk to the system.
+10. Campaign Changes and Termination
+10.1 Qualifying Deposits must be made by 31 December 2026. For this purpose, a deposit is made when it is successfully processed and credited to an Eligible Account by 23:59:59 (Trading Server Time) on that date. Deposits credited after that time do not receive Trading Credit, even if initiated or submitted earlier. Any Trading Credit already granted and remaining may continue to be used until it expires on 31 March 2027 at 23:59:59 (Trading Server Time), subject to these Terms and Conditions.
+10.2 Subject to Clause 10.4, IUX may amend, suspend, restrict or terminate the Campaign where reasonably necessary by reason of:
+a. legal or regulatory requirements;
+b. technical or system issues;
+c. fraud or Campaign abuse;
+d. risk management requirements;
+e. market conditions; or
+f. any other circumstances outside the reasonable control of IUX.
+In this regard, such changes may take effect without prior notice to the extent permitted by applicable law.
+10.3 The scheduled end of the Campaign Period and the Trading Credit expiry date are stated in Clauses 1.3 and 8.1, respectively. Neither the Campaign Period nor the Trading Credit expiry date shall be extended or renewed automatically. Any change to either date requires an amendment to these Terms and Conditions.
+10.4 Where a change has a material adverse effect on Trading Credit already granted to a Client, IUX will give notice to the Client in writing no less than seven (7) business days prior to the change. Any other change that does not materially reduce the Client’s existing benefits may be implemented without prior notice.
+10.5 Use with other offers: the Campaign may not be used in conjunction with any other IUX promotion, offer or benefit that confers a return on the same deposit, unless IUX provides otherwise.
+11. Records, Complaints and Governing Terms
+11.1 IUX system records shall be used to determine eligibility, Qualifying Deposits, Trading Credit granted, withdrawals, internal transfers, Trading Credit deductions, Stop Out events, Campaign Cap usage, the end of the Campaign Period and Trading Credit expiry, save in the case of a Manifest Error.
+11.2 A Client may submit a challenge or complaint concerning eligibility, Trading Credit or any measure taken under Clause 9 to IUX Customer Support within thirty (30) calendar days of the relevant transaction or event. IUX will acknowledge receipt within five (5) business days and will notify the outcome within thirty (30) days, save where further investigation is required, in which case IUX will inform the Client and give reasons. In the event where the Client is not satisfied with the final response provided by IUX, the Client may seek to escalate the case with a copy of IUX’s final response to the relevant authority for further examination.
+11.3 IUX will retain the records relied upon in taking any measure under Clause 9 for not less than the period required by law and will disclose the relevant information to the Client upon request to the extent required by law.
+11.4 Complaints will be handled in accordance with the complaints procedure of the applicable IUX entity.
+11.5 These Terms and Conditions are governed by the same law and jurisdiction as specified in the Client Agreement with the applicable IUX entity, unless applicable law requires otherwise.
+11.6 Nothing in these Terms and Conditions limits any rights that cannot lawfully be excluded under applicable law.
+12. Risk Warning
+12.1 IUX Markets (MU) Ltd. is authorized by the Financial Services Commission (FSC) in Mauritius under Investment Dealer license number GB22200605. The Trading Contracts for Difference (CFDs) and other leveraged products involve a high level of risk and may not be suitable for all investors.
+12.2 Trading Credit does not reduce trading risk and does not provide any guarantee against loss, Margin Call, Stop Out or the closure of open positions.
+12.3 Clients may lose all deposited funds and may sustain rapid losses as a result of leverage and market volatility.
+12.4 The withdrawal, reduction, cancellation, removal or expiry of Trading Credit may materially reduce the margin available in the account and cause Stop Out.
+12.5 Clients should not make a deposit or enter into a trade solely for the purpose of receiving Trading Credit.
+12.6 Before trading, Clients should ensure that they understand how leveraged products operate, consider their financial situation and risk tolerance, and seek independent professional advice where appropriate.
+13. Suspension of Entitlement and Temporary Account Blocking During Investigation
+13.1 IUX may suspend a Client’s participation in the Campaign, or suspend transactions relating to Trading Credit, temporarily and without prior notice, where: (a) there are reasonable grounds to suspect a breach of Clause 9; (b) there are reasonable grounds to suspect that the Client’s access data has been used by an unauthorised third party; ( c ) an investigation is being conducted under anti-money laundering legislation or pursuant to the order of a competent authority; (d) a force majeure event within Clause 14 occurs; or (e) an error has occurred in a funds transfer or in the granting of Trading Credit.
+13.2 Any suspension under Clause 13.1 shall last only for such period as is necessary. IUX will notify the Client within two (2) business days of the suspension, stating the category of ground relied upon, and will conclude its investigation within thirty (30) days, unless disclosure is prohibited by law or an extension is necessary, in which case IUX will so inform the Client.
+13.3 A suspension under this Clause shall not restrict the Client’s right to withdraw Real Equity and profits unconnected with the matter under investigation, unless applicable law or a competent authority provides otherwise.
+13.4 Where an investigation concludes that no breach has occurred, IUX will lift the suspension and restore the Trading Credit suspended by reason of that investigation in its original amount, disregarding the period of suspension.
+14. Force Majeure, System Errors and Manifest Errors
+14.1 A force majeure event includes the events specified in the Client Agreement, namely acts of government, war, terrorism, natural events, epidemics, industrial action, the suspension of trading in an underlying market, measures of a regulatory authority, failure of network or communication systems not caused by the gross negligence of IUX, cyber attacks, and abnormally severe price movements.
+14.2 During a force majeure event, IUX may temporarily suspend the granting of new Trading Credit, suspend the reinstatement of Trading Credit, adjust margin requirements, or suspend any mechanism of the Campaign, acting only to the extent necessary and restoring ordinary operation once the event has ceased.
+14.3 The Client acknowledges that the operation of the mechanisms of this Campaign, including the leverage limitation applicable to the credit-derived portion, and the suspension or reinstatement of Trading Credit, depends upon the trading system, servers, third-party systems and technical infrastructure, all of which may fail.
+14.4 IUX shall not be liable for the consequences of any failure, outage or delay of the mechanisms referred to in Clause 14.3, save where caused by the fraud or gross negligence of IUX. Where a failure of an IUX system causes a Client’s Trading Credit to be suspended or removed incorrectly, IUX will restore the Trading Credit to the position in which it ought to have been.
+14.5 In the case of a Manifest Error, IUX may: (a) amend the opening or closing price of the transaction to the price that would have applied had the error not occurred; (b) close the transaction at the prevailing market price; ( c ) void the transaction as though it had never been made; or (d) take no action, selecting in each case the course least prejudicial to the Client so far as practicable, and giving the Client its reasons and the method of calculation.
+14.6 In determining whether a situation amounts to a Manifest Error, IUX will take into account all information in its possession, including the market conditions prevailing at the time and the clarity of the price source, and will act fairly towards the Client.
+14.7 Where a Client has received funds or Trading Credit from IUX as a result of a Manifest Error, that amount constitutes a debt repayable to IUX and may be set off. IUX will notify the amount and the method of calculation and will allow the Client a reasonable period to make representations before effecting the set-off, unless immediate action is necessary.
+14.8 IUX may reject any order at a price clearly divergent from the prevailing market price, whether by reason of a Manifest Error or of a stale, incorrect or disconnected price feed.
+15. Limitation of Liability
+15.1 Subject to applicable law, IUX shall not be liable for any loss, cost or expense suffered by the Client arising from: (a) the Client’s failure to monitor the status of Trading Credit or the margin level; (b) the configuration or operation of the Client’s equipment, expert advisors or connection; ( c ) the acts or omissions of third parties, including payment service providers and liquidity providers; and (d) force majeure events within Clause 14.
+15.2 Clause 15.1 does not exclude the liability of IUX for fraud, gross negligence, inaccurate or misleading communications by IUX, wilful breach of these Terms and Conditions, or any liability that cannot lawfully be excluded.
+15.3 The liability of IUX in connection with the Campaign, if any, shall be limited to restoring the Client’s Trading Credit position and compensating directly demonstrable loss, and shall exclude indirect loss, consequential loss and loss of anticipated profit.
+15.4 The Client shall indemnify IUX against any loss, cost and charge incurred by IUX arising from the Client’s breach of Clause 9 or from the provision of false information in order to obtain Trading Credit.
+16. Client Representations
+16.1 By participating in the Campaign the Client represents that: (a) the Client participates for the Client’s own benefit only and is not acting on behalf of or for the benefit of any other person; (b) the information and documents provided to IUX are accurate and current; ( c ) the funds deposited belong to the Client and derive from a lawful source; and (d) the payment channels used belong to the Client.
+16.2 The representations in Clause 16.1 are deemed repeated on each occasion on which a Qualifying Deposit is made and on each occasion on which Trading Credit is reinstated.
+16.3 The Client shall notify IUX without delay if any fact represented ceases to be accurate.
+17. Personal Data and Detection of Linked Accounts
+17.1 In order to give effect to the one-entitlement-per-identity condition in Clause 3.3 and to prevent fraud, IUX processes the relevant data, namely identity verification document data, device and browser data, IP addresses, payment channel data, contact details, and data concerning deposit, withdrawal and trading behaviour. In the event where the aggregated decisions are made by automated function, IUX reserves the right to process the relevant data as specified herein through manual review.
+17.2 The processing referred to in Clause 17.1 is carried out on the legal bases of legitimate interests in the prevention of fraud, compliance with legal obligations, and performance of a contract, as set out in the IUX Privacy Policy as in force from time to time.
+17.3 IUX retains the data referred to in Clause 17.1 only for so long as is necessary, in accordance with the retention periods specified in the Privacy Policy. The Client has the rights conferred by applicable data protection law, including the right to obtain the reasons for a decision affecting the Client’s entitlements under Clause 3.3 and Clause 9.
+17.4 Subject to IUX Privacy Policy, IUX shall collect, maintain, process, secure, and delete the Client’s personal data in adherence to the applicable laws and regulations of Mauritius. IUX ensures its commitment to providing secure services and safeguarding its Client’s personal data with the highest standard.
+18. Communications and Notices
+18.1 IUX will give notice of matters relating to the Campaign through one or more of the following channels: the Client’s Personal Area, the registered email address, notifications within the trading platform, announcements on the IUX website, or such other channel as IUX may announce.
+18.2 A notice given under Clause 18.1 shall be deemed received on the date of dispatch or the date of publication, as the case may be. The Client is responsible for keeping contact details up to date.
+19. Miscellaneous
+19.1 Assignment: the Client may not assign any right or obligation under these Terms and Conditions to any other person. Campaign entitlements are not transmissible and are not transferable. IUX may assign its rights and obligations to a company within its group without diminishing the Client’s existing rights.
+19.2 Non-exercise of rights: no failure or delay by IUX in exercising any right shall constitute a waiver of that right.
+19.3 Severability: if any provision is held to be void or unenforceable, the remaining provisions shall continue in full force and effect, and the provision in question shall be construed so far as enforceable in order to preserve the original intention.
+19.4 Third party rights: these Terms and Conditions do not confer any right on any person who is not a party to them.
+19.5 The Client shall be solely responsible for all filings, tax returns and reports on any transactions which should be made to any relevant authority, whether governmental or otherwise, and for payment of all taxes (including but not limited to any transfer or value added taxes), arising out of or in connection with any transaction.
+19.6 The Terms and Conditions may be amended from time to time. Any changes to the Terms and Conditions shall be effective upon publication. The Company shall notify any changes in the Terms and Conditions at least five (5) business days prior to the amendments coming into force.
+Markets
+Currency CFDs
+Commodity CFDs
+Stock CFDs
+Index CFDs
+Crypto CFDs
+Thematic Index CFDs
+Live Quotes
+Trading Conditions
+Accounts
+Client Security
+Payment Options
+Trading Fees
+Comparison
+Platforms
+IUX Trade App
+IUX WebTerminal
+MetaTrader 5
+Company
+About
+IUX Reviews
+Blog
+Partner
+Contact
+IUX Markets (MU) Ltd. is authorized by the Financial Services Commission (FSC) in Mauritius under Investment Dealer license No. GB22200605. The company operates under iux.com and is registered at 18 Bank Street, Ground Floor, Silver Bank Tower, Cybercity, Ebene 72201, Mauritius, with its physical office located at Silver Bank Tower, Ground Floor, 18 Bank Street, Cybercity, Ebene 72201
+IUX Markets Limited is incorporated with the Financial Services Authority in Saint Vincent and the Grenadines under registered number 26183 BC 2021. The company operates under www.iux.com and is registered at Euro House, Richmond Hill Road, Kingstown, VC0100, Saint Vincent & the Grenadines.
+Risk Warning: CFDs trading and other credit products carry high risks and are not suitable for all investors. Trading financial instruments may lead to losses, and these losses can exceed the initial investment. You should not spend more than you can afford to lose and should ensure that you fully understand the risks involved. The products offered may not be suitable for everyone. Before you use these products, please take into consideration your level of experience, financial objectives, and seek independent advice if necessary. It is your responsibility to ensure you are permitted to use IUX services based on your country’s legal requirements. IUX assumes no liability for any loss or damage resulting from any investment activity. This information is not intended for residents of countries or jurisdictions under significant sanctions, including but not limited to Afghanistan, Barbados, Belarus, Burkina Faso, Cameroon, Central African Republic, Cuba, Democratic Republic of Congo, Haiti, Iran, Libya, Mali, Mozambique, Myanmar, Nicaragua, North Korea, Russia, Senegal, Sudan, Syria, Tanzania, Venezuela, Yemen, and Zimbabwe.
+All trading-related information, products, and services offered on the IUX and its subsidiaries’ websites are not intended to solicit residents of Australia, the European Union and the European Economic Area, Japan, Malaysia, Ukraine, the United Kingdom, or the United States. The information on this website does not constitute investment advice or a recommendation or a solicitation to engage in any investment activity. The information on this website may only be copied with the express written permission of IUX.
+IUX ensures the security and privacy of its customers by complying with PCI DSS standards. Through partnerships with card processors audited under PCI DSS requirements, we prioritize the safety of customer funds and data.
+© 2026 IUX Markets Limited
+Trade
+Platforms
+Education
+Company
+Accounts
+Comparison
+Language
+English
+Login
+Open Account
+Important Information
+Access to this website is restricted. IUX does not solicit, market, or provide services to persons located in, resident in, or citizens of Australia, Canada, the United Kingdom, the United States of America, or Malaysia.
+By selecting “I Confirm” below, you expressly represent and warrant that you are not a citizen or resident of, and are not accessing this website from, any of the jurisdictions listed above. If you do not meet this requirement, you must refrain from accessing the website.
+I Confirm
+Before you continue
+IUX is not registered or licensed by the Japan Financial Services Agency (JFSA). The products and services offered on this website are not intended for residents of Japan and are not subject to Japanese financial regulations.
+If you do not meet this requirement, please refrain from accessing this Website.
+I Confirm
+Markets
+Currency CFDs
+Commodity CFDs
+Stock CFDs
+Index CFDs
+Crypto CFDs
+Thematic Index CFDs
+Live Quotes
+Trading Conditions
+Client Security
+Payment Options
+Trading Fees
+Benefits
+LotBack Program
+Trading Platforms
+IUX Trade App
+IUX WebTerminal
+MetaTrader 5
+Learning Center
+Overview
+Articles
+Academy
+Tools & Analysis
+Economic Calendar
+Trading Calculators
+Technical Analysis
+About IUX
+About
+IUX Reviews
+Blog
+Partner
+Contact
+Legal & Support
+Regulation
+Terms and Policies
+Help Center
+Select Language
+English
+Español
+Bahasa Indonesia
+Português
+Tiếng Việt
+简体中文
+English
+Español
+Bahasa Indonesia
+Português
+Tiếng Việt
+简体中文

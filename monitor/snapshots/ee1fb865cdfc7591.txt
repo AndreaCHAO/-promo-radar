@@ -1,0 +1,71 @@
+Forex and Gold Trading from Iran | TNFX
+EN English فارسی
+Log in Log in
+Open free account Open account
+Gold 4,164.68 ▼ −0.16% EUR/USD 1.12165 ▼ −0.01% LIVE TNFX live feed · updates every 10 s
+Markets
+Home All instruments Currency pairs Shares Crypto Gold price
+Events & analysis
+Forecasts US jobs report (NFP) Fed decision Central banks & interest rates Daily analysis News
+Tools & learning
+Trading calculators Webinars
+Account
+Open free account Log in Demo account
+Company
+About TNFX
+Language
+English فارسی
+Popular
+EUR/USD Gold price Bitcoin NFP Apple Fed
+TNFX › Forex trading from Iran
+Forex trading from Iran
+Iran is not blocked from opening an account with us — only the United States and Canada are. Opening one has never been the hard part. Funding one is: a card issued by an Iranian bank and a wire from an Iranian bank will not complete, and you should read that here rather than discover it at a deposit screen.
+Both platforms
+Live chart, on the phone you already have
+MetaTrader 4 iOS · Android · Windows · Web MetaTrader 5 iOS · Android · Windows · Web
+FSA-licensed broker · Licence SD133
+SD133 FSA Seychelles licence
+Offshore No Iranian licence
+USD account No rial, no local rail
++30 min Tehran ahead of platform
+One licence, and it is not an Iranian one
+TNFX Ltd holds one financial licence: SD133, Securities Dealer, from the Financial Services Authority of Seychelles. No Iranian authority has licensed, authorised or registered us — not the Central Bank of Iran, not the Securities and Exchange Organization — and we are not licensed by the FCA, ASIC or CySEC either.
+There is also no Iranian retail forex or CFD licence for an offshore broker to hold, so a firm advertising Iranian authorisation is advertising something that does not exist.
+What our licence costs you is specific: no Iranian supervision, no Iranian recourse, and a dispute heard in Seychelles. Check SD133 on the Seychelles register yourself rather than taking our word for it. Whether you may lawfully trade with an offshore broker, or move money to one, is a question for your own adviser and not advice we give.
+Why a card or wire from an Iranian bank will not complete
+Iranian banks sit outside the international payment networks. Shetab and Shaparak, the domestic switch and card systems, work inside Iran and nowhere else; Iranian banks do not issue Visa or Mastercard; and the large Iranian banks are disconnected from SWIFT.
+At its June 2026 plenary the Financial Action Task Force again listed Iran as a high-risk jurisdiction subject to a call for action, and asked jurisdictions to apply countermeasures under its Recommendation 19 — among them limiting transactions and not establishing new correspondent banking relationships.
+The practical result is that a deposit attempt from an Iranian-issued card or an Iranian bank is refused upstream, by the networks and the receiving bank, before it ever reaches our payment page. We cannot change that, and nothing on this page offers a way past it.
+What funding an account from Iran actually looks like
+The account is denominated in US dollars. There is no rial rail, no Iranian payment processor, and no funding route we can offer that starts at an Iranian bank.
+In practice, funding an account from inside Iran rarely completes. Anything that depends on a bank is refused upstream, and the payment providers each set their own country rules and commonly decline a resident of Iran outright. That is their decision rather than ours, we promise none of them, and we will not suggest a way around a refusal.
+Withdrawals are paid only to a method in the account holder's own name, never a third party, which binds the way out as tightly as the way in. Settle funding and payout before you open an account.
+The half hour that breaks a news calendar
+Iran runs three and a half hours ahead of Greenwich all year and abolished daylight saving in September 2022, so the offset no longer moves with the season. The platform clock runs three hours ahead of Greenwich, the same as Mecca time, which leaves a fixed thirty-minute gap: a candle stamped 15:00 on your chart opened at 15:30 in Tehran, and the daily candle rolls over at 00:30 local.
+A half-hour offset is unusual, easy to dismiss, and exactly the size that ruins an economic calendar — you read a release as still half an hour away when the number has already printed. Work the difference out once, write it down, and keep it next to the calendar.
+In local terms the London–New York overlap, the deepest liquidity of the day, covers your late afternoon and evening.
+Swap-free accounts, the shape of your week, and the platform
+A swap-free account is available on any account type on request, applied to your specific account rather than switched on by default. On one, no overnight financing is charged, none is earned, and no fee replaces it — but confirm it is active on your account before holding overnight. On a trade held for the interest-rate differential, cost and income vanish together, leaving direction as the only thing to be right about.
+Your week and the market's do not line up. The Iranian working week runs Saturday to Wednesday, Thursday short or closed, Friday off — while the market opens in the small hours of Monday in Tehran and closes late Friday night. Two working days have no market, and US employment data on the first Friday lands on your day of rest.
+MetaTrader 4 and MetaTrader 5 run on our London servers at the Equinix LD4 facility, orders are passed through to liquidity providers, and the desk works in Arabic, Kurdish and English.
+Check before you deposit from Iran
+The five facts to verify before sending money — every row is checkable, and the licence row links to the regulator's own register.
+Licence TNFX Ltd — Securities Dealer licence SD133 , Financial Services Authority of Seychelles. Verify on the FSA register . TNFX holds no licence from any authority in Iran.
+Deposit from Iran card (Visa/Mastercard) · USDT (TRC-20) · Ovadot wallet · Payeer · Ptop · international bank wire (from $100)
+Minimum first deposit $100 on Standard, Cent and Turbo; $500 on Zero. Card and wallet deposits from $5–10.
+Withdrawal Same routes. Minimum $50. USDT and wallet payouts usually within hours; bank wire 1–3 business days.
+Talk to a person Live chat on this page, 24 hours a day, six days a week (closed Saturday) · Dubai office +971 4 552 6527 · [email protected]
+Common questions
+Is TNFX licensed or regulated in Iran? No. TNFX Ltd holds one financial licence, SD133 from the Financial Services Authority of Seychelles, and no Iranian authorisation of any kind — nor an FCA, ASIC or CySEC licence. You would be dealing with an offshore broker, with no Iranian supervision and no Iranian recourse, and a dispute would be heard in Seychelles. Verify SD133 on the Seychelles register yourself.
+Can someone in Iran open an account? Iran is not on our blocked list — only the United States and Canada are — so the registration form will accept you. Opening the account is not the obstacle; funding it is, for the reasons set out above. Establish whether you can fund and be paid out before you spend any time on the account itself.
+Can I deposit with an Iranian bank card or a wire from an Iranian bank? No, neither will complete. Shetab cards work only inside Iran, Iranian banks do not issue Visa or Mastercard, and the large Iranian banks are disconnected from SWIFT. The refusal happens at the networks and the receiving bank, not on our payment page, so there is nothing for us to unlock at our end and no way past it that we would suggest.
+Can I hold my account in rial? No. Accounts are denominated in US dollars, and there is no rial rail and no Iranian payment processor, so no part of your balance is ever held in rial. Any currency conversion happens outside the account entirely, before the dollars reach it, and the dollar figure credited is what lands in your trading balance.
+Is overnight interest charged on a position I keep open? Only on a swap-free account, which is granted on request and applied to your specific account rather than switched on by default. On one, no overnight financing is charged or earned and no fee replaces it. On an ordinary account it is charged as normal, so confirm which you hold before carrying a position overnight. On a position you would otherwise hold for the carry, the cost and the income are both gone, which leaves direction as the only thing to be right about.
+Does the platform clock match Tehran time? Not quite, and the gap is an unusual size. Iran is three and a half hours ahead of Greenwich year-round, with no daylight saving since September 2022, while the platform runs three hours ahead, the same as Mecca time. Every chart timestamp therefore reads thirty minutes behind your watch, and the daily candle opens at 00:30 in Tehran.
+Related pages
+TNFX, in facts → Swap-free trading, on request → Leverage and margin, with real numbers → Risk management, with the arithmetic →
+Updated 2026-10-16
+© 2026 TNFX Ltd · FSA-licensed broker · Licence SD133
+All pages
+English · فارسی
+Risk warning: trading leveraged products such as forex and CFDs carries a high degree of risk to your capital and may not be suitable for everyone. Only trade with money you can afford to lose. Spreads and execution figures are typical values and can widen in fast markets.

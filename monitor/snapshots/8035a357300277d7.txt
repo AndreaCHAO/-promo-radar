@@ -1,0 +1,513 @@
+Help Centre | IC Markets EU
+Risk Warning: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 73.46% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+CLIENT
+BLOG
+WebTrader
+Start Trading
+Try a Free Demo
+Contact Us
+English
+Deutsch
+Français
+Português
+Español
+Русский
+Italiano
+Sponsorship NEW
+Quickstart
+Trade with a high-performance trading platform
+Start Trading
+Try Free Demo
+Introduction
+Why IC Markets
+What you can trade
+Your Account
+Live Accounts
+Demo Accounts
+How to deposit
+How to withdraw
+Trading Platform
+MetaTrader
+cTrader
+WebTrader
+Trading
+Trade CFDs on all major asset classes with a regulated CFD provider
+Start Trading
+Try Free Demo
+Trading Accounts
+Accounts Overview
+Raw Spread
+cTrader Raw Spread
+Standard
+How to deposit
+How to withdraw
+Professional Clients
+Products
+Range of Products
+Forex CFDs
+Commodity CFDs
+Index CFDs
+Bond CFDs
+Cryptocurrency CFDs
+Stock CFDs
+Futures CFDs
+Pricing
+Trading Costs
+Trading Hours
+Spreads and Swaps
+Calculator
+Platforms
+Trade from anywhere, on any device, at any time
+Start Trading
+Try Free Demo
+MetaTrader 5 & 4
+MetaTrader 5
+RECOMMENDED
+MetaTrader 4
+MetaTrader 5 for Mac
+MetaTrader 4 for Mac
+cTrader
+cTrader
+cTrader Web
+cTrader iPhone/iPad
+cTrader Android
+cTrader Algo
+cTrader Mac
+TradingView
+TradingView
+More
+Trade with a high-performance trading platform
+Start Trading
+Try Free Demo
+Company
+About IC Markets
+Why IC Markets
+Contact Us
+Regulation
+Careers
+Education
+Education Overview
+What is Forex?
+What is a CFD?
+Web TV
+Help & Resources
+FAQs
+IC Markets Blog
+Forex Calculators
+Economic Calendar
+Cybersecurity and Scams
+Protecting Your Account
+Start Trading
+Start Trading
+Client Login
+FAQs
+More Option
+FAQs
+Forex Calculators
+Economic Calendar
+General
+How long has IC Markets (EU) Ltd been in operation?
+IC Markets (EU) Ltd has been incorporated under the Cyprus Companies Law, Cap.113 as a Limited Liability Company, with registration number HE 356877, on the 15th of June 2016. The Company started its operation as a regulated CFD provider on the 25th of June 2018 after being granted its license by the Cyprus Securities and Exchange Commission (CySEC).
+Is IC Markets (EU) Ltd a regulated broker?
+IC Markets (EU) Ltd is authorized and regulated by the Cyprus Securities and Exchange Commission (CySEC) to act as a Cyprus Investment Firm (CIF) with CIF Licence No 362/18.
+How can I verify your firm's license?
+IC Markets (EU) Ltd license can be verified by visiting the Cyprus Securities and Exchange Commission (CySEC) website on the following link : https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/80418/
+What are the advantages of trading with IC Markets (EU) Ltd?
+IC Markets (EU) Ltd.’s mission is to create the best and most transparent trading environment for retail and institutional clients alike allowing traders to focus more on their trading. Built by traders for traders. IC Markets (EU) Ltd is dedicated to offering superior spreads, execution and service.
+The Company offers its clients cutting-edge trading platforms, low latency connectivity and superior liquidity.
+Our management team provides extensive experience of CFDs across multiple major global markets.
+The Company maintains appropriate controls and monitors the transfer of confidential and sensitive client information within and outside the Company on a need-to-know basis. IC Markets (EU) Ltd does not deliberately disclose client information unless this is upon request of the client, or as required to do so by law.
+The Company holds client money in segregated trust accounts with top-tier European banks. All client money is managed in accordance with the MiFID Client Money Handling rules and held separately from IC Markets company funds.
+Where is the Company located?
+The Company is located in Limassol, Cyprus.
+What services does your investment firm offer
+IC Markets (EU) Ltd offers a variety of trading services primarily centred around CFDs (Contracts for Difference) across multiple asset classes.
+What is the minimum age to trade with IC Markets (EU) Ltd?
+In order to be able to trade you need to be over 18 years of age.
+Do I need any computer specifications to trade with IC Markets (EU) Ltd?
+A computer is considered functioning if it includes: Explorer 8.0, Google Chrome 4.0, or Firefox 3.6. Also, installing a Flash Player may be necessary
+Do you offer educational resources for investors?
+IC Markets (EU) Ltd provides through its website an educational section ( https://www.icmarkets.eu/en/education/education-overview ) where a potential client can begin their journey into the trading world, learning and understanding the way in which the market operates, the basics of technical and fundamental analysis, and what could potentially influence the markets.
+How can I contact your customer service?
+You can contact the Company’s customer support team, by sending an email to support@icmarkets.eu or by sending a message through our website on the 'Contact-us' section ( https://www.icmarkets.eu/en/company/contact-us ).
+Investor Protection
+How are my investments protected under CySEC regulations?
+Investments under CySEC regulation are protected through several key measures:
+Investor Compensation Fund (ICF): Offers compensation up to €20,000 per client if the firm fails to return client funds.
+Segregation of Client Funds: Ensures client funds are kept separate from the firm's operational funds.
+Capital Adequacy Requirements: Firms must maintain sufficient capital reserves to cover operational risks.
+Regular Audits and Supervision: Ensures compliance with regulatory standards and financial integrity.
+Strict Reporting and Transparency: Mandates regular, accurate reporting on the firm’s financial health.
+Investor Protection Measures: Includes best execution practices, fair treatment of clients, and comprehensive disclosure of risks and costs.
+What is the Investor Compensation Fund (ICF)?
+The Investor Compensation Fund (“ICF”) for Investment Firms Clients is the Fund of its members, established pursuant to Article 59(1) and (2) of Law 144(Ι)/2007 which provides for the Provision of Investment Services, the Exercise of Investment Activities, the Operation of Regulated Markets and other Related Matters (“the Law”) as an investor compensation fund for Cyprus Investment Firms (CIFs) clients other than credit institutions and its powers and functions are regulated by the provisions of the Law and of the Directive 144-2007-15 of the Cyprus Securities and Exchange Commission (“CySEC”) for the Continuance of the Operation and the Operation of the IF Investor Compensation Fund (“the Directive”).
+How can I file a complaint if I have an issue with your firm?
+Clients may submit any official complaint in respect of the services provided by the Company using the relevant “Complaint Form” , which can be found on the Company’s “Complaints Handling Policy” on our website, to the Compliance Department by email at compliance@icmarkets.eu .
+Are my personal data secure with you?
+At IC Markets (EU) Ltd, safeguarding client data is a top priority. The company adheres to industry-leading practices detailed in our privacy policy. Additionally, we recommend several steps to enhance the security of your personal data:
+Password Security: Never disclose your password or sensitive account information to anyone.
+Fraud Awareness: Be cautious of fraudsters impersonating reputable companies and avoid sharing personal information with them.
+Email and SMS Safety: Refrain from clicking on links or opening attachments from unfamiliar emails or responding to unknown SMS messages. Always verify their legitimacy.
+Secure Transactions: Conduct transactions only through our secure portal and trading platforms, and never transfer funds to external sources.
+Regular Updates: Change your passwords frequently and install anti-malware software on all your devices.
+What should I do if I suspect fraudulent activity on my account?
+In case you suspect any fraudulent activity on your account, please contact the company directly to report the issue by sending an email to dpo@icmarkets.eu .
+How do you use my personal information?
+The Company may use your personal information for one or more of the following purposes:
+To confirm/verify your identity.
+To assess your appropriateness/suitability to the products and services we provide.
+To process your transactions.
+To manage the account a client holds with the Company.
+To provide you with transaction and post-transaction related services.
+To inform you of products and/or services that may be of interest to you.
+To keep you updated on the issues that are relevant to your business relationship with us.
+To analyse statistical data to enable us to provide you with better products and/or services.
+To enhance the security controls of the Company’s networks and systems.
+To identify, assess, mitigate, prevent and investigate fraudulent activity of any kind that is forbidden under the relevant legislation.
+To defend possible legal claims.
+Sharing your personal data within the Company’s Group (if applicable) for the purpose of updating/verifying your personal data in accordance with the relevant anti-money laundering compliance framework.
+Risk management.
+Account and Investment Information
+How do I open an account with your firm?
+Opening a live trading account with IC Markets (EU) Ltd is simple. Please follow these steps to get started:
+Fill the online registration form to create an IC Markets (EU) Ltd profile.
+You will receive an email containing a link to verify your email address.
+Verify, complete the application and submit your documents.
+Once your documents are approved you will receive your live trading login details by email.
+Login into the Secure Client Area.
+Fund your trading account and start trading.
+How long does it take to verify my documents?
+Please be informed that document verification could take up to 24 working hours (weekends are not deemed working hours).
+What documentation is required to open an account?
+Before a client can trade with us for the first time on a new account (even when they have previously held an account), we need to perform identity and residential address verification. Moreover, as part of the due diligence process, you may be required to provide proof of your residential verification and certain information regarding the payment method you wish to use to fund your account.
+Our requirements for identity verification may include the following:
+A government issued identification document that contains all the following information:
+Clear Coloured Photo
+Identification document number
+Full name
+Date of birth
+Date of expiry
+A residential verification document , displaying your full name and address. The residential verification document should be issued by a financial institution, utility company, government agency or a judicial authority and can be one of the following:
+Bank statement
+Credit card statement
+Electricity bill
+Water or gas bill
+Council tax bill
+Tax letter
+Landline bill
+Television services bill
+Internet bill
+What trading symbols can I trade?
+IC Markets (EU) offers the below products:
+Forex CFDs
+Commodity CFDs
+Index CFDs
+Bond CFDs
+Cryptocurrency CFDs
+Stock CFDs
+Futures CFDs
+Can I open a corporate account?
+You can register a trading account on your company’s name via our usual signup procedure. Please enter the personal details of the person who will be the authorised representative. You may then login to the account directly to upload official company documentation such as a certificate of incorporation and good standing, articles of association, certificate of registered office, directors & secretary, certificate of shareholders, latest audit financial statements, Bank Statements, etc. Once we receive all necessary documentation, we will review them and assist in the completion of the application.
+What base currencies can I open an account in?
+You may have trading accounts in EUR , USD or GBP .
+what account types do you offer?
+IC Markets (EU) Ltd offers two types of accounts: the Standard account and our market leader, the Raw Spread account .
+Raw Spread Account:
+This account shows the raw inter-bank spread received from our liquidity providers. There is a commission charge of $7 per standard lot round turn.
+Standard Account:
+We do not charge a commission on Standard accounts, but instead, there is a mark-up on the spread by 0.8 pip above the raw inter-bank rate received from our liquidity providers.
+Further information about the different types of trading accounts available can be found on our accounts overview page.
+Do you offer demo accounts?
+Yes, the Company offers access to a demo account . To open a demo account, please click on “Try Free Demo” and follow the instructions.
+How can I upload or send documents to you?
+You can upload your documents directly via the Secure Client Area .
+How can I verify my account?
+You will be requested to submit the following verification documents, issued in your name and showing your details:
+Valid Proof of ID – Photo identification, including passport (both pages need to be visible) or national ID card (front and back sides).
+Valid Proof of residence (issued within the last 3 months) – Bank or credit card statement (electronic PDF copies accepted) or recent utility bill (water, electricity or telephone bill, internet, council tax). Please note that we do not accept mobile phone bills.
+Bank Statement issued within the last 3 months.
+What should I do if I fail the appropriateness test?
+If you fail the appropriateness test you will be able to re-attempt it after 7 days have passed from the initial attempt day. You are able to use a demo account in the meantime for familiarization purposes.
+How do I check my trading account balance?
+Your trading account balance is visible when logged in to the trading account via the trading platform, or by accessing the Secure Client Area .
+What do I do if my personal information changes?
+In case your personal information has changed, you can inform our customer support department in regards to this by sending an email to: support@icmarkets.eu .
+How can I log in to my trading account?
+On PC: please click on “File” and then “login into an existing account”. On Mobile, once the application is installed you will need to access the top right corner, then select “manage accounts” and proceed with your personal information.
+How can I close my account?
+For assistance with this, please contact our support team via email at support@icmarkets.eu .
+How can I change my email address?
+Please email support@icmarkets.eu with your request. For security reasons, you are required to provide an image of yourself holding your ID and a paper (not newspaper) showing today's date.
+What is Margin?
+A margin deposit is a security that the trader has to deposit with the broker to cover some of the risks the trader generates. It is usually expressed as a percentage and represents a fraction of a trading position. Margin can be thought of as a deposit on all your open positions
+What is Margin call?
+Margin calls indicate that one or more securities in the margin account have decreased in value. IC Markets (EU) Ltd has a Margin Call Level of 100%. This means that we will send you a warning notification if your Margin Level reaches 100%, indicating that 100% of your Equity is equal to or lower than your Used Margin. Should you Margin Level continue to decrease, it may reach the Stop Out Level (50%), where your trades will begin to close to release margin.
+What is Take-Profit?
+A take-profit order is a limit order in which a trade is closed the moment a specific price is reached. We do not offer guaranteed execution of orders and these may endure positive or negative slippage.
+What is a stop-loss order?
+A stop-loss order is a limit order in which a trade is closed the moment a specific price is reached. We do not offer guaranteed execution of orders and these may endure positive or negative slippage.
+What is Leverage?
+Leverage is a key feature of CFD trading as it enables investors to increase their exposure to the market by paying less than the full investment amount. An IC Markets (EU) ltd account allows the use of leverage through margin trading. It is important to remember that leverage can amplify both profits and losses. IC Markets (EU) Ltd offers leverage up to 1:30 for Retail Clients and for Professional Clients up to 1:500.
+What is CFD?
+CFD stands for 'contract for difference' and consists of an agreement (contract) to exchange the difference in the value of an underlying (currency pair, commodity, share, index, crypto) between the time at which the contract is opened and the time at which it is closed. If the difference is negative, then the buyer must pay the difference to the seller. If the difference is positive, then the seller must pay the difference to the buyer. When trading CFDs traders buy (go long) when they are expecting a rise and sell (go short) when expecting a drop in value. The CFD derivatives market is not standardised and is made up of buyers and sellers who trade OTC ‘over the counter’ (not on any regulated exchange), meaning that the broker is the counterparty to every transaction and there is therefore counterparty risk.
+What Spreads do you offer?
+Our Raw Trading account offers some of the lowest possible spreads available. Our average EUR/USD spread is 0.1 pips , with a commission of $3.50 per lot payable per side. You can find detailed information on our spreads on our website , where you can see the minimum and the average spreads for all currency pairs we have.
+What commissions will I be charged for trading?
+IC Markets (EU) Ltd has two MetaTrader account types: a Standard account and our market-leading Raw Spread account . IC Markets (EU) Ltd does not charge a commission on Standard accounts but instead applies a spread mark-up of 0.8 pip above the raw inter-bank prices received from our liquidity providers. The IC Markets Raw Spread account shows the raw inter-bank spread received from our liquidity providers. On this account, we charge a commission of $7 per standard lot round turn. Below are commission rates for different base currency accounts:
+USD 7.00 round turn
+EUR 6.50 round turn
+GBP 5.50 round turn
+What leverage do you offer?
+IC Markets (EU) Ltd offers leverage-up to 1:30 for Retail Clients and for Professional Clients up to 1:500.
+How can I get higher leverage?
+IC Markets (EU) Ltd is authorized and regulated by the Cyprus Securities and Exchange Commission (CySEC) to act as a Cyprus Investment Firm (CIF) with CIF Licence No 362/18 , which offers CFDs on the following financial products with leverage up to 1:30 for Retail Clients and for Professional Clients up to 1:500 . You can check to see whether you qualify as a professional trader and how to apply for it https://secure.icmarkets.eu/Requests/ProfessionalClient . Please be informed this information is available for the approved clients of IC Markets (EU) Ltd only.
+What is a hedge position ?
+In the trading industry, a hedge position refers to a strategy used to reduce or mitigate the risk of adverse price movements in an asset. By taking a hedge position, traders aim to protect their investments from potential losses by offsetting potential risks. The main goal of hedging is to manage risk and provide some level of protection against price fluctuations. It does not aim to make a profit directly but rather to limit potential losses.
+In summary, a hedge position is a strategic move designed to protect an investment from adverse price movements and manage overall risk in a trading portfolio. All our accounts are Hedge accounts by default. Should you wish to, however, have a Netting account instead, please contact our Customer Support team.
+Do I need to have a free margin to open a hedge position?
+You are liable to pay a margin before the CFD product is issued, and you may be required to pay more margin before a trade is closed.
+What is slippage?
+Slippage is the difference between the expected price of a trade and the actual execution price, often occurring in volatile or low-liquidity markets. It can be positive (resulting in a better price) or negative (resulting in a worse price). Factors contributing to slippage include market volatility, low liquidity, and the type of order used (market orders are more prone to slippage than limit orders). To minimize slippage, traders can use limit orders, trade during high liquidity periods, and avoid trading during major news events.
+What is Swap (rollover)?
+A forex swap rate or rollover is defined as the overnight interest added or deducted for holding a position open overnight. Swap rates are determined by the overnight interest rate differential between the two currencies involved in the pair and whether the position is long or short. Some currency pairs may have negative swap rates on both sides, both ‘long’ and ‘short’. Swaps are applied only when positions are kept open until the next forex trading day.
+Each currency pair has its own swap charge and is measured on a standard size of 1.0 lots (100,000 base units). Swaps are charged at triple the usual rate on Wednesday or Friday night, depending on the financial instrument. Commodities, Energy, Equity Indices, Equities, and Crypto pairs are charged on Friday night, and the rest of the offering is charged on Wednesday night.
+What is TIN?
+The term TIN stands for Taxpayer Identification Number. It is a unique identifier used by tax authorities in various countries to track tax obligations and payments of individuals and businesses. The specific details about TIN can vary from country to country
+What is a municipality document?
+A municipality document is an official record or form issued by a municipal government, which is the local governing body responsible for administering a city, town, or other local area. These documents can serve a wide range of purposes and are typically used in the context of local governance, administration, public services, and legal compliance.
+What is an EA?
+An Expert Advisor (EA) in the context of Forex trading is an automated trading system or program that is used on trading platforms like MetaTrader 4 (MT4) or MetaTrader 5 (MT5). EAs are designed to perform various trading functions based on pre-defined rules and criteria.
+Can an EA be used?
+Yes, usage of an Expert Advisor is allowed within our terms and conditions.
+Where can I find the trading hours?
+Please note that different instruments have different trading hours attached to them. For detailed information, you may refer to the following link: trading hours .
+Can I hold my trade for an indefinite time?
+Yes, as long the margin required requirement is met the trade can be held for an indefinite amount of time.
+How can I calculate my commission?
+Please be informed that in order to calculate the commission, you may refer to the following formula for Forex and Metals: (7 USD x No of Lots (Round Turn)) . You may visit our website to access the calculator on the following link: Forex calculators .
+How can I calculate my swaps?
+In order to calculate your swaps, you may use the following formulas:
+Forex: (Pip Value for 1 Lot x No of Lots x Swap Rate in Points x Number of Nights) / 10
+Indices/Commodities: Swap rate x Lot size x Number of Nights
+Cryptocurrencies: Daily closing price x (No of lots x swap / 100 / 360)
+Shares: (Daily closing price x No of lots x Swap rate / 100) / 360
+You may visit our calculator on the following link: Forex calculators .
+Where is the server located?
+IC Markets (EU) Ltd MT4 and cTrader platform servers are located in the NY4 and LD5 IBX Equinix Data Centres in New York and London, providing clients with the fastest possible execution speeds. Equinix data centres are known globally for their secure and reliable infrastructure.
+Does IC Markets offer VPS?
+Unfortunately, IC Markets (EU) Ltd does not offer this feature. Please be aware that you are able to use a VPS should it be obtained through a 3rd party provider.
+What shall I do if my platform shows “old version”?
+If your MetaTrader 4 (MT4) platform is showing “old version”, you can take the following steps to update it and ensure you are running the latest version:
+Check for Updates within MT4
+Automatic Updates: MT4 is designed to update automatically when you restart the platform. Try closing MT4 completely and reopening it to see if it updates on its own.
+Manual Update Check: Within MT4, go to Help > Check for Updates. This option might not be available in all versions, but it's worth checking.
+Reinstallation: Download the latest MT4 installer from your client area and reinstall the platform. This will typically update MT4 to the latest version while retaining your account information and settings.
+You can download the latest version of our platform from the following link: https://secure.icmarkets.eu/Downloads .
+What is the webtrader?
+WebTrader refers to a web-based trading platform that allows traders to access and manage their trading accounts via a web browser without needing to download or install any software.
+Key Features of WebTrader
+Cross-Platform: WebTrader can be accessed from any device with a web browser, including desktops, laptops, tablets, and smartphones. No Installation Needed: Unlike desktop platforms, WebTrader doesn’t require any software installation, making it convenient for traders who are on the go or using multiple devices.
+My card is expired, what can I do?
+Kindly be advised that if your card is expired, replaced, or lost, you may upload a replacement card to be used. If the new card has the same number as the old card, then we can proceed as normal. However, if the new card has a different number from the old card, then you must provide a letter from the bank stating that the card has been replaced or a bank statement that will show a transaction made to us using the old card.
+Once that has been provided and approved, you are free to withdraw to your new card. Please send the document to accounts@icmarkets.eu .
+Can I use an MT4 account on the MT5 platform?
+No, each account can be operated individually on its specific platforms.
+Where can I see the trading conditions during holidays?
+This can be seen on our blog at: https://icmarkets.eu/blog/
+What does “invalid account” mean?
+An "Invalid account" message usually indicates an issue with the credentials or the account itself. By carefully checking your login details, verifying account status, and contacting customer support if needed, you can resolve the issue and regain access to your trading account.
+Steps to resolve the issue:
+Double-Check Credentials: Verify that you are entering the correct account number and password. Ensure there are no spaces or typos.
+Verify Platform and Browser: Ensure that you are using the correct trading platform version and try accessing your account from a different browser or device.
+Check for Platform Updates: Ensure that you are using the latest version of the trading software. Update if necessary.
+Verify Internet Connection: Make sure your internet connection is stable and that there are no connectivity issues that might affect the login process.
+Do you accept all trading strategies?
+Please be informed that we do not place any restrictions on strategies as long as they follow our Terms and Conditions. For more information, you may visit our website at the legal documents section here: https://www.icmarkets.eu/en/company/legal-documents
+Can I deposit with my wife's account?
+We do not accept third party deposits, therefore no.
+I am trading with IC Markets (EU) Ltd, where do I pay taxes?
+Paying taxes on trading income depends on several factors, including your country of residence, the type of trading you are engaged in, and your specific tax obligations. Here’s a general guide on how to handle tax-related queries:
+Country of Residence: You need to pay taxes according to the laws of the country where you reside and where you are considered a tax resident. Tax residency is generally determined by the country where you spend the majority of your time or where you have significant personal and economic ties.
+Local Tax Regulations: Different countries have different tax regulations and rates for trading income. It’s crucial to be aware of the specific rules in your jurisdiction.
+Do you offer Islamic accounts?
+We regret to inform you that at this time, we do not offer Islamic accounts under IC Markets (EU) Ltd due to regulatory limitations.
+Do you offer bonuses?
+No, IC Markets (EU) Ltd does not offer any bonuses.
+Can I become an affiliate/Partner?
+Kindly be informed that the regulations that IC Markets (EU) Ltd is obliged to follow by CySEC, currently prohibit the use of Introducing Brokers or Affiliates/Partners.
+What is the difference between MT5/4 vs Ctrader?
+They are both established platforms in the industry. Though MT5/4 has been around longer and is still the most popular amongst traders, cTrader is cutting edge technology and has several additional features to the MT5/4. We would recommend you demo both platforms to see which one you prefer and suits your trading style.
+Some of the key differences are the user interface, the advanced take profit and stop loss systems, detachable charts, varying chart time frames, live sentiment and depth of market displayed by default. There is also a vast range of custom indicators and Expert Advisors readily available for MT5/4. Commissions have slight differences, but all other aspects are pretty much the same.
+Can I trade over the weekend?
+Please be informed that only Cryptocurrencies are available over the weekend.
+What are the requirements to become a “pro trader”?
+For your application to be successful and for you to be qualified as a Professional Client, you must satisfy at least two out of the below three criteria:
+Overview of your Significant Sized trades: Was the average number of significant trades you have made per quarter over the last year greater than 10?
+Overview of your Financial Investment Portfolio: Is the current value of your investment portfolio, defined as including cash deposits and financial instruments, greater than or equal to 500,000 EUR?
+Overview of your Professional Financial Experience: Have you worked in the financial sector for at least one year in a professional position that required knowledge of leveraged products?
+What should I consider before applying to become a “pro trader”?
+Investor Compensation Fund (ICF) Exclusion:
+Professional Clients are not eligible for coverage under the Investor Compensation Fund (ICF), which may provide compensation in certain circumstances.
+Leverage Flexibility:
+While retail clients are subject to leverage restrictions of 1:30 and 1:10 on certain products, Professional Clients are exempt from these limitations, allowing for more tailored trading strategies. However, it's crucial to note that higher leverage can magnify risks and losses.
+Assumed Experience Level:
+IC Markets may presume a sufficient level of trading experience when assessing the suitability of products and services for Professional Clients. Consequently, communications may utilize more advanced language compared to interactions with Retail Clients.
+Reduced Risk Warnings:
+Professional Clients are not bound by standard risk warnings and regulations designed to protect Retail Clients, offering greater autonomy but also necessitating a heightened awareness of associated risks.
+Deposit/Withdrawals
+What is the minimum deposit amount at IC Markets (EU) Ltd?
+A: IC Markets (EU) Ltd allows clients to open an account with as little as EUR €200 or currency equivalent.
+Is it possible to sign up without depositing?
+Yes, it is possible to sign up without depositing but you can only use a demo account to perform any trades while not fully approved.
+What currencies can I deposit in?
+You can deposit in EUR, USD and GBP.
+What deposit methods are available on IC Markets (EU) Ltd?
+On IC Markets (EU) Ltd, you can deposit with credit cards, eWallets, and Bank Wire Transfers. More information regarding the deposit methods available on our website: Deposit Methods .
+Is it possible to lose more money than I deposited?
+IC Markets (EU) Ltd offers Negative Balance Protection (NBP) to all retail clients. Considering the abovementioned, it is not possible for retail clients to lose more money than deposited. Please note that NBP is not applicable for Professional clients.
+How do you keep client funds safe?
+The Company holds client funds in segregated trust accounts with top-tier European banks. All client money is managed in accordance with the MiFID Client Money Handling rules and held separately from IC Markets (EU) Ltd company funds.
+How do I deposit funds?
+You are able to deposit solely within the Secure Client Area .
+How long does it take for my funds to be deposited into my account?
+Your funds are expected to be credited into your account the same date of the deposit. Please do keep in mind that certain deposit methods need a little longer to be processed.
+Bank wire transfers may take 2-5 business days.
+SEPA transfers may take 1-2 business days.
+How can I withdraw funds?
+In order to withdraw funds from your account, you are required to submit withdrawal requests from within the Secure Client Area .
+Can I cancel my withdrawals?
+Yes, you can cancel your withdrawal request prior to it being processed. To do that, you must click on the “X” next to the withdrawal request you wish to cancel. This is, of course, done within the Secure Client Area .
+How long does it take for my withdrawal to be processed?
+Withdrawal requests are checked within 24 hours from the time said request is placed. Once the withdrawal request is reviewed, you will be emailed with the withdrawal request’s status.
+All withdrawal requests are processed by our Accounts Department within one (1) working day; however, the time required for the funds to be transferred will depend on the payment method used.
+Bank Transfers are typically processed by us within one (1) working day; however, it takes about three (3) to five (5) working days for the funds to be credited to your account.
+Credit/Debit card withdrawals are also normally processed by us within one (1) working day, but up to ten (10) working days may be required for the funds to be credited to your account.
+All other payment methods are usually processed by us in one (1) working day.
+Can I withdraw while I have open positions?
+Yes, you can withdraw at any time as long as you have sufficient margin in your account to cover the withdrawal amount.
+What are the withdrawal fees at IC Markets (EU) Ltd?
+We do not charge any additional fees for withdrawals. However, you need be aware that you may incur fees on payments to and from some international banking institutions. We do not charge any fees for the process of a withdrawal however the company is not liable for any fees charged from any intermediary bank or the beneficiary 2 bank. We are not liable for any fees charged from the beneficiary bank for a Single Euro Payments Area (SEPA) transfer
+The Skrill/PayPal/Neteller account I used for funding has been cancelled. How can I withdraw my funds?
+You may withdraw your funds to your new replacement Skrill/PayPal/Neteller account or via bank wire transfer. Please send an email to accounts@icmarkets.eu attaching a screenshot of the email received from Skrill/PayPal/Neteller informing you of the account closure, showing your name, the logo, and the account email address.
+The card I used for funding has been cancelled. How can I withdraw my funds?
+You may withdraw your funds to your new replacement card or via bank wire transfer. Please send an email to accounts@icmarkets.eu attaching a bank statement / online bank statement stating your name, the last 4 digits of the old card and showing the latest deposit made with IC Markets (EU) Ltd or a bank letter stating the last 4 digits of the old card showing your name, the bank logo, and the date, stating that this card is no longer active.
+My deposit attempt is showing “Incomplete”.
+We suggest that you clear your cache and cookies, enable the pop-ups on the device you are using, change your browser to (Chrome/Firefox/Edge), try using a different device, and make sure that your OTP authorization is activated.
+The deposit attempts using my card have been declined with the error message: “Exceeds withdrawal limit”.
+This particular error suggests that the card issuing bank has declined the transaction because it exceeds your card's limit. Please contact your bank to find out more information on how to resolve the issue. In the meantime, you may use a different card or a different payment method to fund your trading profile.
+The deposit attempts using my card have been declined with the error message: “Do not honour”.
+This particular error suggests that there may be several restrictions or limitations on your card, therefore the bank is unable to authorize this transaction. Please contact your bank to find out more information on how to resolve the issue. In the meantime, you may use a different card or different payment method to fund your trading profile.
+My card/E-Wallet has been charged but the deposit transaction seems to have been declined.
+Please contact accounts@icmarkets.eu and we will assist you as soon as possible.
+How can I track my bank wire withdrawal?
+Please contact accounts@icmarkets.eu to provide you with the SWIFT confirmation.
+How can I track my card withdrawal?
+Please contact accounts@icmarkets.eu so we can provide you with the ARN code. The Acquirer reference number (ARN) is a unique number that tags a credit card transaction when it goes from the merchant’s bank to the cardholder's bank and can be used by the receiving bank to trace a transaction.
+I have deposited via SkrillRPD/SkrillSFT. How can I withdraw my funds?
+You may withdraw your funds via bank wire transfer. Please provide us with a copy of your bank statement showing the deposit made to us via either SkrillRPD or SkrillSFT deposit method.
+I have deposited via Safecharge/Checkout/EmerchantPay. How can I withdraw my profits?
+You can withdraw your profits via Bank wire transfer or via VisaDirect card withdrawal method.
+Please note credit card withdrawals may not be available for all countries.
+I have deposited via Bank Wire transfer, but I still can’t see my money on my trade account.
+Bank Wire transfers might take between 2-5 business days to reach their destination.
+Please contact accounts@icmarkets.eu and provide your SWIFT confirmation to assist you in locating your funds.
+Trading Platforms (MT4, MT5, CTRADER)
+Are your platforms compatible with Mac?
+Unfortunately, our platforms are not compatible with Mac yet.
+How can one download the trading platforms?
+You can download the latest version of our platform from the following link: Download .
+How do I log in to the trading platform?
+Once you have downloaded the trading platform, you will need to log in to the Secure Client Area and click on the “Accounts” icon. Then you can choose the account specification you wish the new account to have. You will then receive an email with the platform login credentials. Use these credentials on the platform to log in.
+How do I place a new order?
+To place a new order, you have to log in on your chosen platform and follow the steps to place a new order. Should you not know which steps to follow, you can view the Help Centre of each platform once logged in.
+How do I close a position?
+To close a position, you have to log in on your chosen platform and follow the steps to close a position. Should you not know which steps to follow, you can view the Help Centre of each platform once logged in.
+Where can I find my account balance and trade history?
+You can find your account balance and trade history by logging into the Secure Client Area and by clicking on the “Trades” icon.
+How can I change the platform password?
+To change the platform password, please use the following steps:
+Login to the platform
+Click on “Tools”
+Click on “Server”
+Click on “Change”
+Complete the requested fields
+Fees and Charges
+What are the fees associated with your investment services?
+No settlement/safekeeping/transaction fee applies. We do not charge anything on corporate actions. We simply pass the corporate actions to our clients. The only ongoing charge applied is the swaps/holding fee.
+Asset Class Commission
+FX 7 USD
+Metals 7 USD
+Futures 0
+Energies 0
+Cryptos 0
+Equity Indices 0
+US Shares 0.02 USD per volume
+AUS Shares 0.1% of total value
+Further information can be found on our website in the Cost & Charges Policy.
+Are there any hidden charges I should be aware of?
+There are no hidden charges. All company fees/charges are clearly mentioned on our Cost & Charges Policy.
+Inactivity Fees
+When and how much do I get charged?
+If a client's trading account remains inactive for six (6) consecutive months, IC Markets reserves the right to charge a monthly inactivity fee.
+The fee is charged once per calendar month, on the first business day following completion of six (6) consecutive months of inactivity and monthly thereafter until activity resumes or the account is closed.
+The inactivity fee is 10 (in the account currency) per account per month. Fees will not create a negative balance.
+What happens If I do not have sufficient funds in the account?
+Inactivity Fees will be deducted directly from the available balance in the client’s trading account. If the available balance is below 10 (in the account currency), the fee will be deducted up to the remaining balance but will never result in a negative balance.
+Will I be charged once for all my accounts?
+No. The inactivity fee is 10 (in the account currency) per account per month. Fees will not create a negative balance.
+When an account becomes inactive?
+A trading account shall be classified as inactive in the event that no trading activity occurs for a continuous duration of six (6) months.
+For this Policy, trading activity means executing at least one trade (opening or closing a position) in any account of the same client. Deposits/withdrawals and logins alone do not constitute activity and do not reset the inactivity period. Corporate actions (e.g., dividends, stock splits) are not treated as activity from the client's side.
+If I close my trading accounts but leave my profile active will I get charged?
+No, the charges apply only for the live account balances.
+Will I get notified prior to the deduction?
+An email will be sent as a warning on the last day of the 5th inactive month.
+How do I reactivate my account?
+Accounts reactivate upon executing any trade. IC Markets (EU) Ltd reserves the right to request any additional documentation, information, or verification procedures it deems necessary before reactivating an account. Until such requirements are satisfied, the account will remain inactive.
+Trading View
+Which trading accounts can I link to Trading View?
+Please be advised only cTrader trading accounts can be linked.
+How can I connect to Trading View?
+To be able to connect to Trading View you need to first create an account with them. Once done you may follow the below steps:
+Go to the TradingView website.
+From the main menu, click Products → SuperCharts .
+Scroll to the bottom of the chart page and click Trading Panel .
+Select See all Brokers , then find IC Markets EU .
+Click Connect in the pop-up window.
+You will then be redirected to the IC Markets EU Client Area login page.
+Log in using your credentials.
+Once logged in, the system will display your Live and Demo cTrader accounts .
+Click Sync to TradingView to complete the connection.
+Where can I find the Trading View platform?
+You may use our direct links via our client area here https://secure.icmarkets.eu/Downloads
+How to create a Joint account?
+Unfortunately we do not offer Joint account feature anymore.
+Trade with
+a high-performance trading platform
+Open Trading Account
+Try a free demo
+IC Markets mission is to create the best and most transparent trading environment for retail and institutional clients alike, allowing traders to focus more on their trading. Built by traders for traders. IC Markets is dedicated to offering superior spreads, execution and service.
+Forex Trading
+Accounts Overview
+Open an Account
+Launch Web Trader
+Trading Specifications
+Trading Costs
+Range of Products
+Trading Hours
+Funding
+Withdrawal
+About IC Markets?
+FAQs
+Why IC Markets
+Regulation
+Legal Documents
+Contact Us
+IC Markets (EU) Ltd is a limited company registered in Cyprus under company number HE 356877, and is authorized and regulated by the Cyprus Securities and Exchange Commission with License No. 362/18. The head office address is at 86 Franklinou Roosvelt, 4th floor, Office 401, 3011 Omonoia, Limassol, Cyprus.
+IC Markets is a trading name of IC Markets (EU) Ltd.
+Risk Warning: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 73.46% of retail investor accounts lose money when trading CFDs with IC Markets (EU) Ltd . You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. There is a possibility to lose all your initial capital. For further information please consider our Risk Disclosure Notice .
+The information on this site is not intended for residents of Brazil, Belgium, the United Kingdom or the United States or use by any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.
+Legal Documents
+© 2026 IC Markets (EU) Ltd | All rights reserved.
+Open an Account
+7-day Support

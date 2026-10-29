@@ -1,0 +1,70 @@
+How can I apply to become an Introducing Broker (IB)?
+About Axi
+About Axi
+Getting Started
+Trading Accounts
+My Axi Account
+Deposits and Withdrawals: MetaTrader
+Markets
+Trading Platform: MetaTrader 4
+Trading Platform: MetaTrader 5
+Trading Platform: Axi Trading Platform (Mobile App)
+Trading Tools
+Axi Select
+Getting Started
+Trading Accounts
+Payments
+Markets
+Margin and Leverage
+Trading Platform: Axi Trading Platform (Mobile App)
+Trading Tools
+Partnerships
+Educational Videos
+About Axi
+Trading Accounts
+Deposits and Withdrawals: Axi Trading Platform (Mobile App)
+Trading Platform: Axi Trading Platform (Mobile App)
+Educational Videos
+Getting Started
+MT4 Troubleshooting
+Trading Platform: MetaTrader 4
+Margin and Leverage
+My Axi Account
+Markets
+Trading Tools
+Deposits and Withdrawals: MetaTrader
+About Axi
+My Axi Account
+Trading Platform: MetaTrader 4
+Trading Platform Troubleshooting
+Trading Platform: MetaTrader 5
+MCP Management and Claude
+Withdraw via Client Portal
+Partnerships
+MCP Management and Claude
+How can I apply to become an Introducing Broker (IB)?
+Step-by-step guide for new and existing clients to apply to become an Introducing Broker (IB), including eligibility, the MT5 rebate account, and what happens after applying. Updated 14 days ago
+Both new and existing clients can apply to become an Introducing Broker (IB) with Axi.
+For new clients
+Go to the Introducing Broker Program page .
+Click “Sign Up Now”
+You are redirected to the full application. Provide your trading experience, expected clients, your details and your account preferences (such as currency).
+Complete the prompted steps.
+For existing Axi clients
+Log into your Client Portal, navigate to the “Partners” tab, choose your preferred partnership type and complete the prompted steps.
+Eligibility
+You must be 18 or older.
+You must be from a permitted country. Axi is not onboarding new partners from prohibited countries at this time.
+Individual clients can apply. Corporate or joint accounts are not eligible at the moment.
+What happens after I apply
+Rebate account: your rebate account is created on MT5. IB Portal access can take up to 24 hours; you will receive an email with your credentials.
+Client Portal: you access it using your Auth0 login (email and password, Google, Apple).
+Verification: complete the required identity verification before you can withdraw rebates.
+Trading account: you can also request a trading account directly in the Client Portal.
+Was this article helpful?
+Not helpful
+Yes, thanks!
+Powered by
+Powered by
+Ask questions or search articles
+Ctrl + K

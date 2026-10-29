@@ -1,0 +1,258 @@
+Acuerdo de Cliente | WELTRADE
+Soporte
+Iniciar Sesión
+Registrarse
+English
+South Africa
+Español
+ภาษาไทย
+Français
+Bahasa Melayu
+Bahasa Indonesia
+Português
+Казахский
+O‘zbek
+ភាសាខ្មែរ
+ພາສາລາວ
+Tiếng Việt
+Philippines
+العربية
+اردو
+বাংলা
+Language
+English
+South Africa
+Español
+ภาษาไทย
+Français
+Bahasa Melayu
+Bahasa Indonesia
+Português
+Казахский
+O‘zbek
+ភាសាខ្មែរ
+ພາສາລາວ
+Tiếng Việt
+Philippines
+العربية
+اردو
+বাংলা
+Trading
+Plataformas
+MetaTrader 5
+MetaTrader 4
+Aplicación móvil
+Instrumentos
+Índices sintéticos
+new
+Copy Trading
+Instrumentos de trading
+TradingView
+Trading de forex
+Trading de CFD
+Cuentas y fondos
+Tipos de cuenta
+Depósito sin comisión
+Depósito y retiro
+Herramientas
+Analíticas
+Gráficos de TradingView
+Calendario económico
+Centro de calculadoras
+Automatización
+Robots e indicadores
+Señales MQL5
+Programa de socios
+Programa de socios
+Programa de socios
+Promociones
+Lealtad
+W-Club
+Bonos
+First Deposit Bonus
+new
+Astrocards
+Spinner
+Educación
+Aprender
+Guía de MetaTrader
+Practicar
+Cuenta demo
+Empresa
+Organización
+Sobre nosotros
+¿Por qué Weltrade?
+Blog
+Soporte
+Centro de ayuda
+Contáctanos
+Legal
+Información legal
+Iniciar Sesión
+Registrarse
+Trading
+Cuentas y fondos
+Tipos de cuenta
+Depósito sin comisión
+Depósito y retiro
+Instrumentos
+Índices sintéticos
+new
+Copy Trading
+Instrumentos de trading
+TradingView
+Trading de forex
+Trading de CFD
+Plataformas
+MetaTrader 5
+MetaTrader 4
+Aplicación móvil
+Herramientas
+Analíticas
+Gráficos de TradingView
+Calendario económico
+Centro de calculadoras
+Automatización
+Robots e indicadores
+Señales MQL5
+Programa de socios
+Programa de socios
+Programa de socios
+Promociones
+Lealtad
+W-Club
+Bonos
+First Deposit Bonus
+new
+Astrocards
+Spinner
+Educación
+Aprender
+Guía de MetaTrader
+Practicar
+Cuenta demo
+Empresa
+Organización
+Sobre nosotros
+¿Por qué Weltrade?
+Blog
+Soporte
+Centro de ayuda
+Contáctanos
+Legal
+Información legal
+English
+South Africa
+Español
+ภาษาไทย
+Français
+Bahasa Melayu
+Bahasa Indonesia
+Português
+Казахский
+O‘zbek
+ភាសាខ្មែរ
+ພາສາລາວ
+Tiếng Việt
+Philippines
+العربية
+اردو
+বাংলা
+Language
+English
+South Africa
+Español
+ภาษาไทย
+Français
+Bahasa Melayu
+Bahasa Indonesia
+Português
+Казахский
+O‘zbek
+ភាសាខ្មែរ
+ພາສາລາວ
+Tiếng Việt
+Philippines
+العربية
+اردو
+বাংলা
+¿Salir del sitio de Sudáfrica?
+Actualmente estás en nuestro sitio web de Sudáfrica, operado por Weltrade SA (Pty) Ltd y regulado por la FSCA. Cambiar a otra jurisdicción implica una entidad y una licencia diferentes, con protecciones regulatorias reducidas o nulas. Para continuar, deberás aceptar el acuerdo con el cliente y las políticas del nuevo sitio.
+Cambiar de sitio
+Permanecer
+¿Cambiar al sitio de Sudáfrica?
+Estás a punto de cambiar a nuestro sitio web de Sudáfrica, operado por Weltrade SA (Pty) Ltd y regulado por la FSCA. Para continuar, deberás aceptar su acuerdo con el cliente y sus políticas.
+Cambiar de sitio
+Permanecer
+Información jurídica
+{{section.sectionTitle}}
+0">
+{{item.title}}
+{{section.sectionTitle}}
+1" ng-repeat="item in section.content">
+{{item.title}}
+Trading
+Plataformas
+MetaTrader 5
+MetaTrader 4
+Aplicación móvil
+Instrumentos
+Índices sintéticos
+Copy Trading
+Instrumentos de trading
+TradingView
+Trading de forex
+Trading de CFD
+Cuentas y fondos
+Tipos de cuenta
+Depósito sin comisión
+Depósito y retiro
+Herramientas
+Analíticas
+Gráficos de TradingView
+Calendario económico
+Centro de calculadoras
+Automatización
+Robots e indicadores
+Señales MQL5
+Programa de socios
+Programa de socios
+Programa de socios
+Promociones
+Lealtad
+W-Club
+Bonos
+First Deposit Bonus
+Astrocards
+Spinner
+Educación
+Aprender
+Guía de MetaTrader
+Practicar
+Cuenta demo
+Empresa
+Organización
+Sobre nosotros
+¿Por qué Weltrade?
+Blog
+Soporte
+Centro de ayuda
+Contáctanos
+Legal
+Información legal
+Información Corporativa
+Weltrade Ltd., una Sociedad Comercial Internacional constituida en Santa Lucía (N.º de Registro 2023-00055). Dirección registrada: Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Santa Lucía. Dirección de correspondencia: Suite No. 2, Place Creole Building, Gros-Islet, Rodney Bay, Santa Lucía.
+Algunos de los métodos de pago disponibles en este sitio web son gestionados por Danoa Enterprises Ltd, una sociedad constituida y vigente con arreglo a la legislación de Chipre (n.º de registro HE489250). Domicilio social: Vasili Michailidi, 9, 3026 Limasol, Chipre.
+Jurisdicciones Restringidas
+Nuestros servicios no están disponibles para residentes de Estados Unidos, Canadá, Reino Unido, Estados miembros de la Unión Europea, Federación Rusa, Bielorrusia, India, Irán, Corea del Norte, ni para personas sujetas a sanciones internacionales (ONU/EE. UU./UE/Reino Unido) o restricciones del GAFI, ni en ningún territorio donde dichos servicios estén prohibidos por la legislación local aplicable.
+Advertencia de Riesgo
+Los CFDs son instrumentos complejos y conllevan un alto riesgo de perder dinero rápidamente debido al apalancamiento. La gran mayoría de los operadores minoristas pierde dinero al operar con CFDs. Debe considerar si comprende el funcionamiento de los CFDs y si puede asumir el alto riesgo de perder su dinero.
+Divulgaciones Importantes
+La negociación de CFDs es altamente especulativa y conlleva un riesgo significativo de pérdida. El apalancamiento puede amplificar tanto ganancias como pérdidas, y puede perder la totalidad de su capital invertido. Los precios de mercado pueden moverse de manera rápida e impredecible, especialmente durante eventos de noticias o en períodos de baja liquidez, lo que puede resultar en pérdidas sustanciales. La negociación de CFDs puede no ser adecuada para todos los inversores. Antes de operar, evalúe cuidadosamente su experiencia, tolerancia al riesgo y capacidad financiera. Los resultados pasados no garantizan resultados futuros. Solo debe operar con fondos cuya pérdida pueda asumir sin afectar su nivel de vida. Si tiene dudas sobre los riesgos, le recomendamos consultar con un asesor financiero independiente.
+[email protected]
+© 2006-2026 Weltrade Ltd. Todos los derechos reservados.
+Términos del servicio
+Política de privacidad
+Declaración de divulgación de riesgos
+Utilizamos «cookies» para optimizar la funcionalidad del sitio web y para mejorar su experiencia de usuario. Al utilizar el sitio web, acepta nuestra Política de privacidad y da su consentimiento para el uso de «cookies».
+Arriba

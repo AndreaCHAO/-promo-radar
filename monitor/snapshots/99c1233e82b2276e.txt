@@ -1,0 +1,993 @@
+Legal Document + Terms and Conditions | Aron Groups
+Trade
+MetaTrader 5 Trading Accounts Deposit Withdrawal Leverage Calculators Social Trading
+Partnership
+Academy
+Blog Starting Guide Calendar Analysis Holidays schedule Trading Glossary Crypto Glossary
+Promotion
+Bonuses Loyalty club
+About Us
+Legal Document FAQ About Aron Media Contact Us
+Trade
+MetaTrader 5 Trading Accounts Deposit Withdrawal Leverage Calculators Social Trading
+Partnership
+Academy
+Blog Starting Guide Calendar Analysis Holidays schedule Trading Glossary Crypto Glossary
+Promotion
+Bonuses Loyalty club
+About Us
+Legal Document FAQ About Aron Media Contact Us
+Login
+Webtrader
+FA EN AR
+Home
+Accounts
+Quick start
+Symbols
+Legal Document
+Terms and Conditions
+The following documents contain important information Aron Markets clients are advised to read the
+Terms and Conditions documents
+Download
+AML & KYC (Anti-Money Laundering and Combating the Financing of Terrorism)
+Introduction :“Money laundering” is used to describe the process of concealing the origins of an illegally obtained money, such as from smuggling drugs, weapons and commodities or humans, bribery, blackmailing, fraud and etc. In this process the illegal money is passed through a set of financial activities to show off as legal money.Money laundering affects the society and economy in a bad way. In today’s world many countries enact laws to confront this phenomenon.Aron Groups is obliged to follow certain requirements as set out by the local regulator for preventing and suppressing money laundering activities, which obliges Aron Groups Broker to follow strict Anti-Money Laundering (AML) and Counter Terrorism Financing procedures while also requires Aron Groups to obtain certain verification information as well as documentation.Aron Groups determines the identity of the beneficial ownership of all its clients’ accounts and does not open or maintain such accounts, unless it is satisfied of this requirement, as stipulated in the AMLCode and the legislative requirements. It has established procedures to obtain appropriate evidence of client identity, and maintains adequate records of client identity and transactions involved in such a manner as to assist, if necessary, in the investigation of criminal offences.Aron Groups has in place policies and procedures to identify and avoid money laundering transactions and to ensure compliance with the requirements of any relevant legislation issued by its regulator.Aron Groups is vigilant in ensuring the prevention of its involvement or misuse in money laundering activities, and is not knowingly accepting assets or enter into business relationships where there is reasonable cause to believe that such assets may have been acquired illegally or that they represent the proceeds of criminal activity.
+Aron Groups shall promptly report suspicious transactions relating to any account to the Supervisory Authority
+Where there is suspicion that the source of funds may be criminal or that a client may be involved in criminal activity, Aron Groups shall follow established procedures for assessing the evidence and determining what course of action should be pursued.
+Aron Groups shall keep records of reports made by their staff and of reports made to the Supervisory Authority
+In accordance with the AML Code, Aron Groups establishes the identity and verify the identity of any Client of Aron Groups by requiring the customer to produce an identification record or such other reliable, independent source document.
+Aron Groups shall:
+a) When establishing a business relationship, obtain information on the purpose and nature of the business relationship;
+b) if the transaction is conducted by a natural person, adequately identify and verify his identity including information relating to:
+the person’s name and address;
+the national identity card, social security document, passport or other applicable official identifying document.
+c) if the transaction is conducted by a legal entity, adequately identify the beneficial owner of such entity and take reasonable measures to identify and verify its ownership and control structure, including information relating to:
+the customer’s name, legal form, head office address and identities of directors; • the principal owners and beneficiaries and control structure;
+provisions regulating the power to bind the entity and to verify that any person purporting to act on behalf of the customer is so authorized, and identify those persons;
+d) have appropriate risk management systems to determine if a customer or beneficial owner is a politically exposed person, and if so, shall:
+adequately identify and verify his identity as set out in this section;
+obtain the approval of senior management before establishing a business relationship with the politically exposed person;
+take reasonable measures to establish the source of funds and source of property; and
+conduct regular enhanced monitoring of the business relationship.
+Should you require any further information and/or have any questions about this document please direct your request and/or questions to https://arongroups.co/contact-us
+Download
+Client Agreement
+Agreement
+1.1 This agreement is concluded with all the terms and conditions between the client and Aron Groups broker and includes all the trades that the client does through the trading platform server of Aron Groups broker or any downloadable trading software.
+1.2 Aron Groups broker cooperation with the client is based on the following terms:
+Mentioned terms and conditions
+Risk declaration
+Registration request form completed by the customer
+Trading rules of Aron Groups broker
+Any relevant software licenses
+All the additional terms and conditions set by Aron Groups broker, including the rules related to trading accounts or other ones and conditions that will be set in relation to trades and about these terms and conditions, here and after all, are called “Agreement.”
+1.3 Clients should be aware that the trading account and symbols details contain essential information regarding the trading assets, and more information is included in Clause 11.
+1.4 By agreeing to this agreement, the client allows Aron Groups broker to communicate with him at any time through email or any other means and discuss any aspect of the customer’s trading account of Aron Groups broker or any related part of the company’s activities.
+1.5 Based on this agreement, the client accepts all the offered prices by the Aron Groups broker are acceptable to him in all markets, symbols, and charts.
+1.6 The client’s orders are sent to the Liquidity provider (LP); Therefore, the execution price of traders’ orders is determined by the broker’s LPs. Liquidity in all Aron Groups broker trading symbols is created by LP, which all of them are contracting parties of the broker; Therefore, it is not a criterion to compare prices in other financial companies with different liquidity providers than Aron Group’s broker.
+1.7 The client acknowledges and agrees every time that makes a trade that all declarations related to personal guarantees are repeated as follows:
+All the information that the client provides us via the registration request form is accurate and can be verified.
+The client agrees to follow this agreement in all respects.
+The client has carefully read and fully understood this agreement and the account specifications, trading symbols, and risk declaration. The subject of this agreement is obvious to them.
+If you are a natural person, your age must be over 18.
+The client manages all the trades on his behalf and not as a third-party representative.
+1.8 If Aron Groups broker suffers from the obligations contained in this agreement due to mistakes and errors or any justified objections of the client, the customer is personally responsible for the total amount of the loss and must take action to compensate for the loss.
+1.9 Authentication with third-party documents is considered a violation. If it is determined that the user has received services from Aron Group Broker by using multiple trading accounts, the company has the right to exempt them from continuing to cooperate and receive services based on the policies.
+1.10 If a third party manages the customer’s account, the company has the right to refuse to provide any service to the client.
+1.11 If the company notices any fraudulent activity and suffers losses, in that case, Aron Groups Broker has the right to block all client’s trading accounts without any warning or explanation and refuse to provide services to them.
+1.12 If the user is informed about a bug in prices, the service performance of the broker (transactions, exchange, etc.), or the implementation of trades and incentive schemes must immediately raise these issues with the broker’s support department. Using the mentioned issues is against the law, and the user will be condemned for abuse. All the trades and activities done using the bug will be canceled, and the broker has the right to deal with the user.
+1.13 All the activities using the bug have been declared invalid, and the broker reserved the right to deal with it. The broker will be obliged to fix the bugs as soon as possible. All the activities done during the bug’s occurrence must be removed, which will also be the broker’s responsibility. Delays, price differences of trading symbols, software problems, etc., are some of the bugs that are expected to occur; the broker service functions are not an exception. Broker’s service function includes exchange, incentive schemes, trade, etc.
+1.14 The client agrees to have the specified minimum deposit amount in his trading account to open the trading account. If the balance is less than this amount, the trades will be in Close Only mode, in which case the trader will only be able to close “open trades” if the trader can reach the set amount balance by transferring money or managing “open trades”, the trading account will be taken out of Close Only mode.
+1.15 If the company detects misuse of offers or deposit/withdrawal methods, it reserves the right to suspend the client’s account and recover its losses from the client’s accounts.
+General terms and conditions
+2.1 All actions taken by Aron Groups broker in good faith are binding on the client, and these actions do not put any liability on Aron Groups broker shoulder.
+2.2 The customer agrees to protect Aron Broker Company against all liabilities, obligations, damages, actions, judgments, legal or criminal claims, and costs of any kind that Aron Group Broker may incur as a result of actions taken on the client’s advice and keep the company safe from harm by paying fine.
+2.3 Clients are obligated to report any disruptions in the broker’s services, including deposits, withdrawals, exchanges, or other offers and services, to the support team immediately. Exploiting bugs is considered a violation and will be dealt with accordingly.
+2.4 Aron Broker has no commercial partners. Electronic service providers and exchanges are introduced only as deposit solutions. Clients must verify the security, authenticity, and performance of the payment platform before making a deposit. Platforms include exchanges, cryptocurrencies, and payment gateways.
+2.5. Aron Markets Limited does not provide services to residents of Saint Vincent and the Grenadines, Turkey, the United States of America, Canada, the United Kingdom, Cyprus, Japan, China, Hong Kong, the United Arab Emirates, North Korea, Mauritius, Russia, and Myanmar.
+Trading account
+3.1 Before making any trades, the customer must first open an account with the broker; Therefore, he must send the form related to the registration request and authentication procedures to the broker on Aron Groups’ website. All the required fields in the registration form must be completed, and all the information provided must be as accurate and correct as possible. Any incorrect or unclear information will either lead to the immediate rejection of the customer’s request or at least cause a delay in opening an account.
+3.2 Aron Groups broker may periodically check the client’s information to verify that the provided information has stayed the same. However, if there is any significant change in the customer’s financial conditions or the information provided in the application form, including the address, contact information, and email, the customer will be required to inform Aron Group Broker in writing.
+3.3 Aron Groups Broker is not required to create an account for any client and may reject any request without being required to explain the reason to the client for such a decision.
+3.4 Aron Groups Broker has the right to block or suspend the client’s account at any time. In this case, all the trading positions will be closed immediately at the current quotation price of the broker and no new trades will be accepted. Any unquoted opened trading positions that client has in the market will be closed on the next business day at the first acceptable existing price for the broker, or these positions will be closed in case of market suspension for any reason based on the terms and conditions contained in this agreement.
+3.5 Aron Groups broker has the right to provide information related to the clients or the trading accounts to all the authorities responsible for supervising the business activities of Aron Groups broker without any reference and prior notice of the customer.
+3.6 Every client is obliged to read all the rules and follows them. In case of any rule violation, the broker has no responsibility to support the client. These rules include the top opened trading position, the maximum trades value, etc., and any consequences arising from non-compliance with the rules will be the client’s responsibility.
+4.Services
+4.1 Aron Groups broker cooperation with clients is limited to trading and related business fields.
+4.2 Aron Groups broker does not provide any consultation regarding benefits, conducting this agreement, any trading based on this agreement, and investment to the clients. When the client wants to decide for any trade based on this agreement, he should only rely on the information and proper understanding of the market.
+4.3 Aron Groups broker provides all the details about trading symbols, trading accounts, all the offered services, and descriptions of various matters related to this agreement online through the website. Before taking action, clients must read the terms carefully and thoroughly. If there is anything vague regarding the details, the clients should contact the support.
+4.4 Every trade via the Aron Groups broker platform must be made according to the allowed volume, and trades can be handled during the time of the price announcement of the broker for the related market. The details related to this section are described in full in the trading symbols specification section. The minimum and maximum limits are determined by the Aron Group broker and, according to the market size and which all the trading prices are available, and provided price information. Aron Groups broker offers the minimum and maximum limits according to the client’s request, and these limits are described in full in the trading symbols specification section. Aron Groups broker has the right to change the minimum and maximum limits, and awareness of these limits before making any trade is the client’s responsibility. Also, the broker has the right to waive the limits of the trades even without informing the client.
+4.5 Aron Groups cooperation based on this agreement with the client includes margin trading. Margin trading is described in full in clause 9.
+4.6 Despite the other provisions of this agreement regarding the providing services, the Aron Groups broker has the right to take any action necessary to ensure the customers’ compliance with the relevant laws. The client agrees to follow all the rules and if the broker concludes that the client has not followed the rules, the broker has the right to terminate the agreement.
+4.7 Aron Groups broker has no responsibility regarding any losses caused by power outages or any related issue that prevents pricing provision in one or more specific markets.
+5.Cashback Rules (If Offers Are Available)
+5.1 Cashback (deposit bonus) can only be used for trading purposes. Any other usage is considered a violation, and the company reserves the right to withhold cashback from suspicious accounts.
+5.2 In cases of cashback misuse, the company will deduct damages and may suspend the client’s account temporarily or permanently.
+6.Transaction Rules and Policies
+6.1 Deposit Rules
+6.1.1 All deposits and withdrawals must be made from the client’s own account. In case of violation, the company may suspend the client’s account.
+6.1.2 Deposits from third-party accounts are not accepted. If possible, the amount will be returned to the originating account after deducting applicable fees.
+6.1.3 Clients must ensure the accuracy and validity of the deposit address or account before transferring funds. Deposits to outdated or incorrect addresses may result in the loss of funds or additional fees, for which the company is not responsible.
+6.2 Withdrawal Rules
+6.2.1 A minimum withdrawal amount is set for each method. Withdrawals below this amount will not be processed.
+6.2.2 Clients can only request one withdrawal per day.
+6.2.3 The finance department processes requests during designated working hours. Requests submitted outside these hours will be processed on the next business day.
+6.3 Daily Withdrawal Limits
+A daily withdrawal limit is set for each platform, method, or currency.
+6.4 Gift and Bonus Withdrawals
+Gift and bonus withdrawals are exempt from fees, except for standard platform charges.
+6.5 Withdrawal Cancellation Rules
+6.5.1 If a user’s withdrawal request has been approved, it is not possible to submit a cancellation request.
+6.5.2 In accordance with financial regulations, if a withdrawal request is submitted, any bonus in the account will be automatically removed. If the withdrawal is subsequently cancelled, the same bonus cannot be re-added to the trading account.
+6.6 Internal Transfer Rules
+6.6.1 Fund transfers between accounts belonging to the same client are free of charge.
+6.6.2 Fund transfers between accounts of different clients are subject to a fee, and a minimum transfer amount has been set.
+6.6.3 Fund transfers from one client’s account to another client’s account are only possible upon identity verification.
+Trading
+7.1 Trading in the Aron Groups platform is only available via MetaTrader5, which the broker provides. This software is updated regularly, and we strongly suggest downloading the updated version to use the software effectively. Trades can be made in two ways, and the trader can choose one according to his needs:
+Netting: The trader will have an «open trade» on one trading symbol, and averaging will be done if trading volume increases. If the trader takes a trading position against the trend of trades, the client’s volume of «open trade» will be reduced.
+Hedge: A new invoice is created for each buy and sell, and the trader can have multi buy and sell «open trade» on one trading symbol.
+7.2 Aron Groups broker, according to supply and demand quotes a two-way quote in acceptable volumes, which includes the spread between buy and sale price. The client can buy the asset at a higher price or sell it at a lower price.
+7.3 Username and password of the client are extremely sensitive information. Making every trade via the client’s trading account and his details will be considered valid. The client must not provide his username or password to anyone, and all responsibilities arising from disclosing this information are the customer’s responsibility. If someone else has access to the client’s trading account or someone other than the owner makes trades by using their trading account, they should immediately inform the support department of Aron Groups broker; all the responsibility resulting from that is the client’s responsibility.
+7.4 Aron Groups broker will only accept traders such as opening and closing trading positions via Metatrader 5. Aron Groups broker is under no circumstances obliged to accept trading requests or exchanges via email or instructions given during a personal conversation.
+7.5 A trade request can only be about a valid, current quote. A price may change at any time after the order is submitted till it is executed.
+7.6 In the case of submitting a request for trade via the trading platform server, you can only request exchanges with prices that are announced at the moment of the trading on the platform server. Due to the nature of Internet trading systems and the potential unreliability of market price news, Aron Groups broker, at its sole discretion, can eliminate every related trade that is made through the trading platform’s server and does not reflect the actual market prices at the time. Aron Groups broker will not bear any responsibility for such losses.
+Orders
+8.1 Generally there are two types of order:
+Pending order
+Stop loss and take profit.
+8.2 Pending orders are orders that are not related to the current open position. All the orders that the Aron Groups broker accepts will be considered “Good-Til-Cancelled.”
+8.3 The term “Good-Til-Cancelled” means that the order will remain valid until canceled by the client.
+8.4 Any trading orders executed for an opened trading position by a client to stop loss and take profit or until the position is closed are considered “Good-Til-Cancelled.”
+8.5 It is the client’s responsibility to cancel any trading order that is no longer necessary.
+8.6 An order will be executed when the quote reaches the specified price in the client’s order or the trades made through the set price.
+8.7 There is no obligation for the Aron Groups broker to inform the client of the execution or non-execution of an order. The client’s responsibility is to know all timeframes related to whether an order has been executed or still is active. In case of any doubts about making a trade, the client must contact the support department and obtain the necessary explanations regarding the validity of the trade.
+Call Margin Level
+9.1 Aron Groups broker trading platform has an automatic stop loss feature called call margin level and auction level. If the margin call level and auction level are reached, they will be calculated as follows:
+When the margin level (the ratio of the current balance to the margin *100) reaches below 100%, the client cannot open any new trading position. If the amount of loss reaches the auction level, according to the number of opened trading positions he has, the system starts to close them. It starts from the one with more losses; by taking this action, the margin call level will return to the top of the auction level. If the margin level is still under the auction level, every time that trading positions get closed, this process will be repeated. If the back trend and margin level reach the margin call level, the client can submit the new orders according to the margin he has. Kindly note that all these steps are instantaneous and are done in a fraction of a second. These numbers can be changed according to market conditions and fluctuations.
+9.2 Aron Groups broker may change the call margin level and auction level for any market from time to time without prior notice, in situations like during unstable market conditions or the low level of liquidity of the market. This new call margin level and auction level will include all the current trading positions and new trades of the client. The trading symbols and trading account sector mention the minimum margin level requirements, which are valid at the time of these papers. The broker’s website will announce those margin level requirements that are not mentioned or changed. The customer should ensure that they are using the latest margin level requirements.
+9.3 Monitoring opened trading positions, and other related factors for calculating margin level is the client’s responsibility. Aron Groups broker is not obligated to ask the client to increase the margin at any time.
+9.4 Aron Groups broker may take the delay in payment related to margin level as the client’s risk and change the margin call level and auction level or close the trading account at its sole discretion.
+9.5 If the client’s trading account is closed by the broker, they are no longer allowed to make any trade.
+9.6 The client should rely on something other than the broker’s right about requesting to increase the margin level to monitor the trading positions because it is the client’s responsibility. In addition, Aron Groups take no responsibility in this case and is not obligated to issue a request for increasing the margin level. Every request or announcement given in one particular case by the Aron Groups broker should not be considered as an obligation to give such a request in other cases.
+Commission
+10.1 When you act to buy or sell, the commission is instantly deducted from the balance according to the trade volume.
+10.2 By “close by” order, you can simultaneously close a buy or sell position about a trading symbol. It should be noted that the commission is not deducted when using this order for closing trading positions.
+Trading account and trading symbols details
+11.1Details of trading accounts and symbols represent essential information regarding each of the markets offered by Aron Groups broker. Therefore, we strongly suggest that all the clients read them carefully. The provided information includes:
+Spread, commission, and swap for each trading symbol
+Minimum margin requirements (margin call level and stop-out) and leverage for each instrument.
+Beginning and end of each trade
+Details related to the trading volume
+Other related topics to the market
+Minimum Deposit Amounts
+11.2 Aron Groups broker tries its best to guarantee that all the provided details about trading accounts and trading symbols are accurate and correct and reserves the right to modify any part of these details at any time.
+11.3 Spreads or commissions related to trading symbols will be disclosed to the client upon request. Aron Groups broker reserves the right to change swaps, spreads, commissions, or trading volume without prior notice, especially when the market is highly volatile or lacks liquidity.
+11.4 If any trader’s trading accounts are inactive for 90 days due to this inactivity, a $4 monthly fee will be charged.
+Deducting fee at first applied after passing 90 days; after that, it changes to 30 days.
+The deducted fee is $4 or its equivalent, which is deducted until the user’s account has sufficient balance in the mentioned periods. The process continues until the account is automatically archived.
+If the account balance is less than $4, the total account balance will be deducted, and the account will be archived.
+If the account balance is zero, the account will be archived automatically.
+Traders who do not intend to make any trade suggest transferring the balance of their account to one of the wallets and archiving their account so they are not charged this fee.
+11.5 A minimum deposit amount is specified for each platform and method. Deposits below the minimum amount may be deducted entirely or credited to the client’s account after deducting associated fees.
+Trading bot
+12.1 Using a trading bot is possible only according to the rules of the broker, and in some trading accounts, the trader does not have the right to use a trading bot (for more information visit the official website of the Aron Groups broker the trading accounts section); Therefore, in case of any suspicious activity or violating rules the company has the right to block all client’s accounts and refuse to provide services to them without any warning or explanation.
+12.2 Trading bots, scripts, or other related tools must not be malicious, like arbitrage, misuse of supply and demand delays, sudden price changes, etc. If such cases are observed, the Aron Groups broker has the right to investigate and make decisions based on the laws.
+12.3 Experts and related assets must be used within the framework of the broker’s trading platform, not in an unspecified manner. Therefore, the broker has the right to block all the client’s accounts without any warning and take appropriate measures, including considering monetary and non-monetary fines, in case of any suspicious activity, such as using bots/experts and related assets Intentionally or unintentionally and refrain from providing services to them.
+Swap
+13.1 There is a possibility for instant trading of currency pairs, precious metals, global indices, energies, stocks, etc. each market has its special condition, spread, and swap, which may change at the discretion of Aron Groups broker. Such trades are automatically renewed and carried over to the next trading session. Every day a credit/debit adjustment related to the swap is made in the client’s account. Details about the swap are listed on the website of Aron Groups broker in the trading assets section.
+13.2 Trading positions will remain open until the client has sufficient funds to provide the required margin level for each market. If applying a swap causes the financial resources in the client’s account to submit a negative record (the debtor), in this case, the Aron Groups broker reserves the right to close all open positions at its sole discretion. If, due to the applying swap and margin requirement limitations, the trader cannot provide the needed fund for assets like currency pairs, precious metals, global indices, energies, stocks, etc. Aron Groups broker reserves the right to close the whole trade or part of it to put the client in a positive financial record of available funds. In this case, the company will decide close which position and keep which one open. The broker is not responsible for the following market trend related to closed or opened positions.
+13.3 All the trading positions that remain open before 23:59 (according to server time) are included swap. The client should refer to the trading symbol section in MetaTrader for the swap details.
+Fair Trade and Anti-Money Laundering Rules
+14.1.1 Aron Broker is committed to enhancing and supporting our clients’ trading experience by offering additional capital, promotional products, and special trading conditions through our bonus schemes and special promotions. These offers are intended to provide added value to clients and encourage active, fair trading within the bounds of our terms and conditions.
+14.1.2. Nevertheless, any abuse or misuse of these promotions and trading conditions shall not be tolerated. Such abuse or misuse includes, but is not limited to, trading behavior deemed suspicious, manipulative, or contrary to the principles of transparent and fair trading, including persistent hedging, profit manipulation, or any other conduct intended to obtain an undue advantage from promotional offers.
+Hedging positions or engaging in any other trading activity with the intention of exploiting the Broker’s trading conditions, offers, or protection schemes, including Negative Balance Protection, or circumventing established trading restrictions, shall constitute a violation of this Agreement. Where such a violation is established, the Broker reserves the right to void the relevant trades, decline to cover any negative balance arising from such violation, and take any other measures provided for under this Agreement.
+14.2 We reserve the right, at our sole discretion, to review and investigate any trading activity that appears to be abusing or attempting to abuse our bonus offerings, promotions, or trading conditions. If we identify any such activity, we may take corrective actions, including, but not limited to:
+Voiding or canceling bonuses, promotions, and any related positions.
+Withholding or reversing any profits generated from such activities.
+Restricting or terminating access to our services.
+Taking legal action where necessary.
+14.3 Aron Broker disclaims any liability for losses, damages, or claims arising from corrective actions taken in response to such abuse or misuse. We encourage all clients to trade in good faith and in compliance with our terms and conditions to maintain a fair and balanced trading environment for everyone.
+14.4 Clients can only withdraw funds after a specific period from the deposit date.
+14.5 Clients must use a portion of their deposited funds for trading; otherwise, withdrawals will incur additional fees.
+Termination of the agreement
+15.1 The client can terminate this agreement immediately upon written or oral notice to the Aron Groups broker.
+15.2 The client can contact the broker’s support department via email at any time and request to close their account. Aron Groups broker closes the client’s account only if the client has no open trading position or any debt to the broker, including all material and moral losses and potential losses of the client to Aron Broker.
+15.3 The client unconditionally agrees that the Aron Groups broker has the right to immediately close or suspend their account in case of the following terms:
+In case of violation of terms and conditions.
+In case of submitting incorrect information during the registration.
+In case of rudeness or insultingly behavior with the company workers.
+If The company decides to terminate the client’s account for any other reason.
+15.4 If any parties of this agreement terminate it, all the open positions will be closed immediately based on the current quote announced by the Aron Groups broker or the best current market depth price. If a market is closed for any reason, all open positions will be closed based on the next available quote, which will be announced as soon as the market reopens, or the best current price of the market depth, and no new trades will be accepted.
+15.5 None of the parties will be subject to a fine due to terminating the agreement, and the termination of this agreement will not affect the rights. As soon as each party terminates the agreement, the Aron Groups broker can merge all or any of the accounts, transfer any credit related to the client’s account to them, and deduct all amounts owed by the customer to the broker.
+15.6 The broker has the right to close all positions at any time after the termination of the agreement without prior notification to the client.
+Force majeure
+16.1 Force majeure includes exceptional market conditions that may not be allowed the company to fulfill obligations. These exceptional conditions include:
+According to the broker’s analysis, markets are in an emergency or exceptional situation.
+Suspending or closing any market for which we quote or imposing unique or unusual restrictions or conditions on trading in such markets.
+The occurrence of any changes in the venture capital that, based on our analysis would distort the price level in any of the markets for which we have quoted.
+Any unusual decreasing level of liquidity in any of the quoted markets or the reasonable anticipation of such a decrease or extreme volatility in the analysis of the Aron Groups broker in any market for which the company typically quotes or the company’s prediction for such happening.
+Any other events like power outages prevent the company from providing its services.
+16.2 If the company concludes that there is a force majeure event coming up, then we can, at our sole discretion:
+Suspend the trade or modify the quotation hours for all or any of the markets;
+Increasing the deposit requirements or margin levels.
+Closing one or all the open trading positions (emergency expiration).
+Stop accepting new trades, even if these trades are for closing trading positions.
+Reducing the maximum allowed trading volume.
+Changing all announced spreads.
+Taking all the action to protect the clients and the company.
+16.3 Aron Groups broker is not responsible for any losses the client may incur due to taking action of this clause.
+Confirmations and questions related to the trades report.
+17.1 As soon as making a trade or executing an order, editing the order, or canceling the order regarding a trade the details will be displayed on the trading platform.
+17.2 The client must be fully aware of all trades and trading positions.
+17.3 The client’s account report details will always be available unless the Aron Groups broker has suspended their account or the server is unavailable.
+17.4 The client must immediately inform Aron Groups support department if he receives a report about a trade or order not made by him or on his behalf. If the client still needs to receive the report related to the trades that have been made, he should immediately inform the support unit.
+17.5 If you think that any report contains errors or mistakes in any part, you must immediately notify the support department.
+17.6 Any questions or disagreements about any trade, along with the details in terms of the time and date of the trade, should be reported to Aron Groups support department as soon as the client is informed about it.
+Negative balance protection
+CFD contracts and currency symbols (Forex) are leveraged products, and trading with leverage can increase profits and losses. If the loss exceeds the initial capital, Aron Broker will support its customers so that they can continue to trade without worries.
+The negative balance protection plan aims to prevent customers from losing more than their initial capital. The protection is done based on each trading account.
+18.1. This protection program is implemented to protect customers, and customers are committed to continuously monitoring their open and active positions and managing them. Also, the customer agrees not to abuse the negative balance protection plan and acknowledges that the company has this right to refrain from offering this plan in case of abuse, and it has the right to immediately cut off the customer’s access to trades at his discretion.
+18.2. The broker may consider the following (intentional or unintentional) as attempts to abuse the rules:
+Withdrawal from the trading account if it reduces the customer’s margin level.
+Conducting hedge trades using multiple trading accounts, either in the client’s name or other clients’ accounts.
+The use of arbitrage to take advantage of price gaps and delays in the data feed leads to costs for the broker.
+By not taking reasonable and responsible action to manage open positions to reduce the risk of loss.
+18.3. If the customer has several trading accounts, the negative balance will be covered first by using the balance of other accounts.
+18.4. The broker reserves the right not to cover the negative balance resulting from the broker’s fees and expenses.
+18.5. If the broker notices fraudulent activity in several business accounts, the broker reserves the right to deduct the customer’s negative balance from other people related to him.
+18.6. If the account becomes negative, the customer must refrain from depositing until the account is checked and cleared. If the money is deposited before the account becomes clear, the broker reserves the right to refuse to return the amount.
+18.7 If a person has losable credit with a negative balance and positive equity, such that he has enough margin to carry out his trades, his account will not have negative balance, and in case of depositing, the broker cannot be held responsible for compensation.
+18.8 Aron Group has the right to deal with the violator by the rules if they observe any violation or abuse of the broker’s rules. These principles include blocking the account balance, determining and receiving fines or damages, exclusion from broker services, and reckoning.
+According to the above rules, if no violation is observed, Aron Broker will cover the cost of a negative customer balance caused by stop-out or extreme market fluctuations six times a day. He will make the customer’s account clear.
+Changing terms and conditions
+These terms and conditions may change at any time after prior notice to the clients. Any changes will be effective immediately upon announcement, and it will include all open positions and unexecuted orders on and during the applying changes and after the date.
+Download
+Business Account Terms
+1. Introduction
+1.1. This condition controls the trade of all actions related to clients’ orders and requests.
+1.2. Trade conditions consist of the following:
+Open rules/closing deals & record / modify/delete orders execution under the conditions of the normal market and abnormal market conditions
+Company actions related to client’s open positions in a condition that trading account margin level isn’t enough for supporting of open positions
+Procedures related to solving debates and contact methods between clients and the company
+1.3. In this contract, trade conditions and client agreement control all client’s transactions, and clients must study them carefully.
+1.4. If the trade condition has a different definition, it will be shown by capital initial letters and must be synonym with similar conditions in the client’s contract, also, definitions that have been described in item 10 (condition interpretation) must be executed.
+2. General Condition
+Executing client’s requests and orders
+2.1. Mechanisms related to the quote (that is used for doing the deal) have been specified in the section of contract specifications.
+2.2. The procedure for handling to client’s requests and orders offered at the client’s terminal is as follows:
+The client provides an order or request and the client’s terminal inspects its credit.
+The client’s terminal sends the order or request to the server.
+If the connection between the client’s terminal and the server hasn’t been disturbed, the server receives the order or request and starts the confirmation process.
+The client’s valid order or request is placed in queue and is organized based on the time (exit in the order of entry) and in the client’s terminal order window ” the order accepted” appears. Also, in the market’s abnormal conditions, the company has no responsibility for any delay in the execution of orders.
+When the mediator or dealer has sufficient preparation to handle a request or a new order, take the first request or order from the queue and process it and the condition of “the order is processing” appears at the order window of the client’s terminal.
+The server receives the results of the client’s order or request execution process from the dealer.
+The server sends the results of the client’s order or request execution process to the client’s terminal.
+If the connection between the server and the client’s terminal hasn’t been disturbed, the results of the client’s order or request execution process are received by the client’s client.
+2.3. The client has the right to cancel an order or request only if the request or order has the “order is accepted” condition. To cancel it, the client must press the cancel order button.
+2.4. If an order or a request is being processed by a dealer and its condition is in the “order in process” mode, the client has no right to cancel it.
+2.5. In tools with quotes, the quotes that the client receives in the mood of request execution through its terminal only have the index role. In response to the request, the trader can recommend a price that is different from these Index quotes.
+2.6. The company with its exclusive authority can determine the current market price.
+2.7. The amount of time that a dealer needs to execute a request or an order depends on the connection quality between the client’s terminal and server and also on the normal market conditions.
+The standby time for each order or request that is in queue, at the time of publishing of these trade conditions, has a three minutes limitation to execute.
+If in this period, the request or order hasn’t been received by the dealer, the order or request will be known as unrelated and will be deleted automatically.
+In abnormal market conditions, the company has this right for itself, based on its exclusive authority, to reject any order for execution.
+2.8. Under the following conditions, the company may not accept an order or a request ( in this case the message “quotes canceled” will appear on the client’s terminal):
+If the order or request is ahead of the initial quote in the trading platform when the market opens.
+If the current condition is different from the normal market conditions.
+If the client compared to his/her transportation amount, has placed an unreasonable number of requests.
+If the client’s free margin is lower than the initial margin.
+Any other logical item that belongs to the company’s exclusive authority.
+If exceeds the related limit to the client’s total position volumes and/or number of orders in these accounts
+Deals
+2.9. From the buy price (the maximum suggested buy price) is used for doing the “buy” transaction.
+The buying price is used for making buy open deals and from the sell word is used for making sell open deals.
+From the sell word is used for a buy position (meaning sell). From the buy word is used for closing a sell position (meaning buy).
+Open deals commission
+2.10. All the positions that remain open till the server time 01:59:59 are subject to swap. The client must refer to the symbol’s characteristics at the MetaTrader to be aware of the swap value.
+Modifications before market closing
+2.11. Please remember that on holidays and in volatile market conditions, if any position closes or is modified in the micro account one hour before trades end, the company based on its exclusive options may change the leverage for all the symbols. However, before the start of the next trading period, leverage adjusts again based on the volume of all the account’s open positions.
+2.12. The company based on an exclusive option, may with previous notification to the client, extend these modifications till any time after market opening that recognizes it is essential.
+Spreads
+2.13. The company with its option can provide quotes with a fixed or variable spread for all or part of its tools.
+Synchronization of quotes reference
+2.14. In the conditions of hardware or software failure, an unpredictable stop in the quotes circulation occurs, and the company has this right to synchronize the quotes reference on the live server from other reputable resources.
+When any difference related to the quoted circulation occurs, all the decisions are made in compliance with the synchronized quotes reference.
+Leverage
+2.15. The amount of leverage when the client opens an account must be fixed in the value adjusted by the client and/or at the modified value by the client based on the company’s policies.
+The company has the right to change the trading account leverage instantly and without any previous notification.
+The leverage may change in the following conditions:
+In the abnormal market conditions
+In the emergency conditions
+In the happening of the unexpected events
+2.16. The company has this right to apply a new essential margin that has been modified based on the above-mentioned 2.15. clause to new positions and the positions that are open beforehand.
+2.17. The company for any loss or warnings related to the margin call (capital deficit) that the client may experience, doesn’t owe and doesn’t have any responsibility, and doesn’t accept any responsibility. Items such as loss due to auction level ( stop out level ), in the result of any changes in floating leverage based on a stock
+3. Opening a Deal
+3.1. For issuing a command to open a position, the client must specify the following items.
+Tool
+Transaction amount
+Tools with the quote in the mood of instant execution
+3.2. To open a position through the client’s terminal without using an automated trading robot, the client must press the sell/buy button when he/she sees the offered quotes satisfiable.
+3.3. To open a position through the client’s terminal by using an automated trading robot, the close position command must be made at the current quotes.
+3.4. To open a position through the client’s terminal without using an automated trading robot, the client must send a request, the client may press the buy/sell button to open a position at the offered quotes.
+If the client doesn’t send the command within three seconds after receiving the quote or if market moves make the quote unrelated, the company has the right to cancel the quote.
+3.5. As soon as the server receives the client’s order for making a position, the server automatically inspects that the free margin is sufficient for opening this position.
+The free margin is calculated as the following.
+Free margin = financial balance – new margin + floating profit – floating loss
+All floating loss /profits calculated for all open deals and the new deal is calculated at the current quotes.
+If the above-mentioned calculations have been done for the new position and:
+○ If the free margin is higher or equal to zero, the position opens. Making the positioning process accompanied by placing related records at the server event file and the opened position due to this order will have the same conditional order ticket.
+○ If the free margin is lower than zero, then the company has the right not to accept the command for making position and delete the condition order and the “No Money” message will be recorded in the server event file.
+3.6. If the current quote changes when the mediator is processing the client’s order or request, the company has the right to quote again.
+If in the order window the option “maximum difference from the announced quote” has been ticked and the value of the “maximum difference” field equals zero, the requote window will become active again.
+If the client doesn’t press the “ok” button within three seconds, the quote becomes invalid and it will be realized that the client has refused to open the position.
+3.7. When the related records appear in the server event file, it must be considered that a command for opening a position has been executed and the position has been opened.
+3.8. In the trading platform, each opened position has a ticket.
+3.9. If, when the market opens, one opening position command sooner than the first quotes refers to the trading platform, this command will not be accepted by the company. In this case, an ff-quotes message will appear on the client’s terminal window.
+4. Closing a Deal
+4.1. For issuing a command to close a position, the client must specify the following items:
+Deal operating number ( Ticker )
+Transaction amount
+Tools with quotes in the condition of instant transactions
+4.2. To close a position through the client’s terminal without using an automated trading robot, the client must press the close button when he/she sees the offered quotes satisfiable.
+4.3. To close a position through the client’s terminal by using an automated trading robot, the close position command must be made at the current quotes.
+Tools with the quote in the mood of request execution
+4.4. To close a position through the client’s terminal without using an automated trading robot, the client must press the request button when he/she receives the quote and is satisfied, the client must press the close button within three seconds till the time the quote is still valid.
+If the client doesn’t command in this period or if market moves make the quote unrelated, the company has the right to cancel the quote.
+Orders process and execution for closing a position
+4.5. If the current quote changes when the mediator is processing the client’s order or request, the company has the right to quote again.
+If in the order window the option “maximum difference from the announced quote” has been ticked and the value of the “maximum difference” field equals zero, the requote window will become active again.
+If the client doesn’t press the “ok” button within three seconds, the quote becomes invalid and it will be realized that the client has refused to close the position.
+4.6. If among clients’ open positions, there is a position that the client wants to close to by open position, the client can do this by using the option “close by” from the type drop-down menu.
+According to the deal’s protection amount, with compliance/closing the client’s optional position, the client must have a zero or net sell / buy position.
+The client must be aware that to the general net position a new ticket devotes.
+By using the option “close by”, the client closes the positions locked in the same volume and partially closes two locked positions in different volumes.
+In the bigger position, the equal or smaller position is closed and a new open position is made that is in the trajectory of the bigger position, and a new ticket is devoted to it.
+4.7. When the related records appear in the server event file, it must be considered that a command for closing a position has been executed and the position has been closed.
+4.8. If, when the market opens, one closing position command sooner than the first quote refers to the trading platform, this command will not be accepted by the company. In this case, an ff-quotes message will appear on the client’s terminal window.
+4.9. If the command of the closing position occurs at a time when the take profit or stop loss for this position is in the queue for execution, the order of closing will not be accepted by the company. In this case, an off-quotes message will appear on the client’s terminal window.
+5. Ordering
+Different types of orders on the trading platform
+5.1. For opening a position, it may be to use conditional orders
+Up limit buy; an order for making a buy position in a price upper than placing an order price
+Down limit sell; an order for making a sell position at a price lower than placing the order price
+Down limit buy; an order for making a buy position at a price lower than placing an order price
+Up limit sell; an order for making a sell position in a price upper than placing an order price
+5.2. To close a position, it may be to use the following orders:
+Stop loss; an order to close a previously open position at a price with lower profit ( for the client ) compared to placing an order price
+take profit; an order to close a previously open position at a price with higher profit ( for the client ) compared to placing an order price
+Two-Steps orders; stop loss or take profit that becomes active immediately after executions of the initial conditional orders related to them
+When and at which time orders can be placed?
+5.3. The client may place/modify / or remove the orders in the trading hours for the related tool.
+5.4. Expiration condition for conditional orders has been specified on the tools at contract specifications
+5.5. Stop loss and take profit has the GTC “active till cancellation time” condition for all the tools
+The procedure of placing an order
+5.6. To submit a command for placing a conditional order, the client must determine the following mandatory parameters.
+Tool
+Transaction amount
+Type of order ( Buy Stop, Buy Limit, Sell Stop, or Sell Limit )
+Order level
+Also, the client may determine the optional following parameters.
+Stop loss level. “0.0000” means the stop loss has not been placed. ( or if placed previously, now has been deleted )
+take profit level. “0.0000” means the profit has not been placed. ( or if placed previously, now has been deleted )
+Date and time of the conditional orders
+The command will be canceled under the following conditions.
+If any of the mandatory parameters haven’t been determined or are not correct.
+If any of the optional parameters are not correct.
+In this condition, the error message ” Invalid S/L or T/P” will appear. Of course, if the order has been placed from the client terminal without using an automated trade robot.
+5.7. If a client wants to submit an order for placing take profit or stop loss, the following information must be determined.
+Open position ticket
+Stop loss level. “0.0000” means the stop loss has not been placed. ( or if placed previously now has been deleted )
+take profit level. “0.0000” means the profit has not been placed. ( or if placed previously, now has been deleted )
+If any of this information isn’t correct and orders have been placed by the client’s terminal without using an automated trading robot, the command will not be accepted and the modify button will remain inactive.
+5.8. If the client wants to put a command at two-step orders (If-Done) on a conditional order, the following items must be determined.
+Ticker (operating number) for the condition that the client wants to place an order on it.
+Stop loss level. “0.0000” means the stop loss has not been placed. ( or if placed previously, now has been deleted )
+take profit level. “0.0000” means the take profit has not been placed. ( or if placed previously, now has been deleted )
+If any of this information isn’t correct and orders have been placed by the client’s terminal without using an automated trading robot, the command will not be accepted and the modify button will remain inactive.
+5.9. When placing the order, the difference between stop loss or conditional order and the current price of the market must not be lower than the number of points that have been determined for each tool and the following condition must be fulfilled.
+About stop loss on sell position, the current market price will be buy word and the order must not be lower than buy word plus these points when being placed.
+About taking profit on a short position, the current market price will be buy word and the order must not be lower than buy word minus these points when being placed.
+Regarding stop loss on buy position, the current market price will be the selling word and the order must not be placed higher than the selling word minus these points.
+taking the take profit on the buy position, the current market price sell word and the order must not be placed lower than the selling word plus these points.
+About the buy limit, the current market price will be buy word and the order must not be placed higher than buy word minus these points.
+About buy stop, the current market price will be buying word and the order must not be placed lower than buy word plus these points.
+About the sell limit, the current market price will be the selling word and the order must not be placed lower than the selling word plus these points.
+About the sell stop, the current market price will be the selling word and the order must not be placed higher than the selling word minus these points.
+5.10. When placing an order, the difference between the two-step order level and conditional order must not be closer than the number of points that have been determined for each tool in the contract specifications and the following conditions must be fulfilled.
+Stop loss on Buy Limit or Buy Stop must not be more than conditional order level minus these number of points.
+Stop loss on Sell Limit or Sell Stop must not be lower than conditional order level plus these number of points.
+Loss profit on Buy Limit or Buy Stop must not be lower than conditional order level plus these number of points.
+Loss profit on Sell Limit or Sell Stop must not be more than conditional order level minus these number of points.
+5.11. When the related records appear in the server event file, it should be considered that the command has been executed and the order is placed.
+5.12. Any conditional order has a ticket.
+5.13. If, when opening the market, the placing command of an order refers sooner than the first quote, this order will not be accepted by the company. In this case, an off-quote message appears on the client’s terminal window.
+5.14. If, when processing an order by a mediator, the current quotes achieves a level that violates 5.9. and 5.10. clauses, the company has the right not to accept the order.
+Modifying / Deleting an order procedure
+5.15. If a client wants to submit an order for modifying conditional order parameters. (Conditional order levels/two-step orders), the following information must be determined.
+Ticket
+Conditional Order Ticket
+Stop loss level. “0.0000” means the stop loss has not been placed. ( or if placed previously, now has been deleted )
+take profit level. “0.0000” means the take profit has not been placed. ( or if placed previously, now has been deleted )
+If any of this information isn’t correct and orders have been placed/modified/deleted by the client’s terminal without using an automated trading robot, the command will not be accepted and the modify button will remain inactive.
+5.16. If a client wants to submit an order for modifying take profit or stop loss, the following information must be determined.
+Ticket
+Stop loss level. “0.0000” means the stop loss has not been placed. ( or if placed previously, now has been deleted )
+take profit level. “0.0000” means the take profit has not been placed. ( or if placed previously, now has been deleted )
+If any of this information isn’t correct and orders have been placed/modified/deleted by the client’s terminal without using an automated trading robot, the command will not be accepted and the modify button will remain inactive.
+5.17. When a client issues a command for deleting a conditional order, he/she must specify the ticket.
+5.18. When the related records appear in the server event file, it should be considered that the command has been executed and an order has been modified or deleted.
+5.19. If, when opening the market, the modifying or deleting command of order refers sooner than the first quote, this order will not be accepted by the company. In this case, an off-quote message appears on the client’s terminal window.
+5.20. If while the process of command for modifying or deleting an order is done, the order is placed in the execution queue, based on the 5.22 clause of this document, the company has this right to not accept the modifying or deleting command.
+5.21. When a client issues a command for modifying or deleting an order level, if the process of that order ends at the time that the order is placed in the execution queue based on the 5.22 clause, the company has the right to reject the modifying order level or order deletion.
+Command execution procedure
+5.22. Under the following conditions, the order places in queue for execution:
+If the selling word is in quotes circulation becomes equal to or higher than the order level. take profit on the buy position placed in queue for execution.
+If the selling word is in quotes circulation becomes equal to or lower than the order level. Stop loss on the buy position placed in queue for execution.
+If the buy word is in quotes circulation becomes equal or lower than the order level. take profit on the sell position placed in queue for execution.
+If the buy word is in quotes circulation becomes equal to or higher than the order level. Stop loss on the sell position placed in queue for execution.
+If the buy word is in quotes circulation becomes equal or lower than the order level. Buy Limit is placed in queue for execution.
+If the selling word is in quotes circulation becomes equal to or higher than the order level. The sell Limit is placed in queue for execution.
+If the selling word is in quotes circulation becomes equal to or higher than the order level. Buy Stop is placed in queue for execution.
+If the selling word is in quotes circulation becomes equal to or lower than the order level. The sell Stop is placed in queue for execution.
+If any of the commands including Buy Limit, Sell Limit, Buy Stop, or Sell Stop consists of a profit/stop loss, also at the time when buying word or sell word in quotes circulation exceeds the take profit or stop loss there is a gap price, based on the condition, the order must be opened and closed with a price near to the new quotes.
+5.23. As soon as the conditional order is placed in the execution queue, the server automatically inspects that the free margin is sufficient for making this position.
+Accumulated client’s positions and new margin for matched positions calculated based on the essential margin amounts for hedged margins.
+For other positions, this factor depends on the initial margin that calculates a weighted average (by volume) of all positions except matched positions.
+If the level of conditional order is at the price gap, floating loss/profits for all open positions and new positions by current words are calculated at the time of order placement in the execution queue.
+The free margin is calculated as the following.
+Free margin = financial balance – new margin + floating profit – floating loss
+If the above-mentioned calculations have been done for the new position and:
+○ If the free margin is higher or equal to zero, the position opens. Making the positioning process accompanied by placing related records at the server event file and the opened position due to this order will have the same conditional order ticket.
+○ If the free margin is lower than zero, then the company has the right to not accept the command for making position and delete the condition order and the “No Money” message will be recorded in the server event file.
+5.24. When the related records appear in the server event file, it should be considered that the other has been executed.
+5.25. At the time of conditional order execution, making the positioning process is accompanied by placing records in the server event file. And the open position due to this order will have the same ticket as the conditional order.
+5.26. At the order level adjusted by the hedging expenses, if there isn’t enough liquidity for hedging trade with market builders, the company executes orders including Stop Loss, Buy Stop, and Sell Stop at the order level.
+5.27. At the order level adjusted by the hedging expenses, if there isn’t enough liquidity for hedging trade with market builders, the company executes orders including Stop Loss, Buy Stop, and Sell Stop at a price that the company has covered the trade.
+The company has the right to adjust this price to reflect the risk coverage expense (hedging expense).
+The client acknowledges that the execution expenses may differ from the order level.
+5.28. At the order level, if there isn’t enough liquidity for hedging the trade with market builders (LPs), the conditional order can be executed fractional.
+In the condition of lack of liquidity by the market builder, for executing the full order, the other must be executed fractional and the unfilled values of the new conditional order must be issued by the previously determined parameters.
+Under the abnormal market condition, there is this right for the company to reject any of the conditional orders.
+5.29. If there is more than one mediator, depending on the time the mediator needs to process a request or a command, there is this probability that at the server event file, the execution time of the first recorded request or command in queue will be after the execution time of the next request or command.
+5.30. Please pay attention that the orders Sell Stop, Buy Stop, Sell Limit, Buy Limit, Take Profit, and Stop Loss are market orders, so the execution is based on the market condition and the result executes at the current market price.
+6. Auction
+6.1. If the client’s net balance is lower than the auction level, on the company’s website the trading conditions have been specified, the company has this right to close the client’s open positions without the client’s permission or any previous notification.
+Auction levels have been specified on the company website and in the ” trading account comparison” section.
+6.2. Margin level is monitored by the server and based on the 6.1. clause, the server makes an auction order to close a position without previous notification.
+The auction executes in quotes according to the queue priority. The client agrees that the price at which the order is being executed may differ from the quotes that the auction has executed.
+As soon as the position closes, the related record will be shown by the “stop out” auction sign in the server event file (server history).
+6.3. If a client has multiple open positions, the first position that must be in queue to close is the position that has the highest floating loss.
+6.4. When the last open position closes based on the 6.1. clause and there will be no price gap or price gap in the market opening, the company guarantees that the auction execution for the last position will not result in negative stock net value in the client’s trading account according to the 6.2. and 6.3. clauses.
+6.5. If caution execution is made to negative balance creation in the client’s trading account, the client is responsible for this loss and must pay the full amount immediately.
+The company has this right to compensate the loss from the client’s capital in other accounts owned by the client.
+6.6. About CFDs on future trading contracts that are approaching the basic asset expiration date, transactions are done by the “close only” method.
+The company uses the notification email inside the trading platform or shows the information on the company website to the client just notifying them about the date of starting the “close only” mood.
+The company forcefully close these open positions on the future contracts expiration date as for the last quotes from the last trading period for this contract that difference is made:
+Buy positions with sell word
+Sell positions with buy word
+6.7. The company has this right to close all client’s open positions without warning if this matter should be a dispute process.
+7. Company Actions Related to The CFDs on balances / Indexes
+7.1. When trading CFDs on liquid indexes or stocks, consider that the company may apply logical actions in basic assets to reflect company activities. Items such as stock analysis / reverse stock analysis, stock dividend payment, advance right stock, merge, or ownership.
+7.2. Also consider that this is the unique responsibility of the client to be aware of the imminent company event that may influence basic securities.
+The company may take all its expenses related to the basic company actions without any notification depending on the client’s position ( buy/sell). Of course, when this is applied to us directly by the liquidity provider of the company.
+8. Communications
+8.1. For contacting the client, the company may use the following.
+Trading platform internal post
+Electronic post
+Phone
+Company website
+The company uses the contact methods that are offered by the client when opening a trading account or the information that is being updated in compliance with 8.4 clauses to contact the client and in this way, the client announces his/her agreement for acceptance of any message or notification at any time by the company.
+8.2. All correspondents sent to the client (documents, notifications, confirmations, status updates, and so on) are considered received.
+If received by electronic mail, in a time frame of one hour after sending
+If received by the trading platform internal post, immediately after sending
+If received by phone, at the end of the phone conversation
+If placed on the website’s company news, in a time frame of one hour after placing
+8.3. For items using clause 8. “Business time” means between morning 9 till 5 of the afternoons, the local time of the company.
+8.4. The client must immediately make the company aware of any changes in his / her contact methods.
+8.5. Transactions by electronic mail must be confirmed on the next business day. If a client has a reason that confirmations are incompatible or the client doesn’t receive any confirmation (while transactions are done), the client must contact client support according to the 8 clauses.
+8.6. All phone contacts between the client and the company may be recorded. All the orders and requests that have been received by phone are mandatory as if they are received written. All the recorded data are in the company’s exclusive ownership and will remain in this way and the client must accept it as conclusive evidence of orders, requests, or recorded conversations.
+The client accepts that the company may send copies of transcripts of these recorded records to any court, government officials, or regulatory authorities.
+9. Freezing or Account Blocking
+9.1. If a company considers receiving documents insufficient and the client can’t provide the essential documents before the determined time recommended by the company, the company may use its option of blocking the client’s account or accounts. In this case, till the time a client provides missing documents for the company, all the client’s accounts are eligible for payment of a handling fee of $5 per month or the account balance, whichever is lower.
+9.2. If Aron Markets realizes malicious activities, client violence, or abuse from the conditions, the company has the right to block all client’s accounts without any warning or definition and avoid offering services to the client.
+10. Expressions Interpretation
+10.1. In this document, trade conditions:
+“Abnormal market” will mean the condition that is opposite of the normal market conditions. For example, when there is low liquidity in the market, there are fast price movements in the market, or there are price gaps.
+“Bar/candle” are elements of a graph that show the opening, ending, maximum, and minimum prices for a specific period ( For example, one minute, five minutes, one day, one week ).
+Stop out: auction
+Freezing of account: account blocking
+Margin level: shows the level of margin
+quotes mechanisms: quotes
+The client terminal: shows the client’s or client’s terminal
+Standby time: shows the succession time
+Free margin: the free margins free
+Initial margin: shows the primary or beginning margin
+Pending orders: conditional orders
+Buy Stop: This is an order for making a buy position at a price that is upper that n placing an order price
+Sell Stop: This is an order for making a sell position at a price that is lower than the placing order price
+Buy Limit: This is an order for making a buy position at a price that is lower than placing the order price
+Sell Limit: This is an order for making a sell position that is upper than the placing order price
+Stop Loss: An order for a closing previous open position in a price with lower profit for the client compared to the price while placing an order
+Take Profit: An order for a closing previous open position in a price with more profit for the client compared to the price while placing an order
+Download
+Complaint Policy
+1. GENERAL
+Aron Markets maintains effective and transparent procedures for the reasonable and prompt handling of complaints/grievances received from Clients and keeps records of each complaint/grievance as well as the actions taken to remedy the situation.
+2. DEFINITION
+A complaint/grievance, is an expression of dissatisfaction regarding the investment and/or ancillary services provided to the Clients by the Company.
+The complaints/grievances must be directed by the Client to the Company’s Compliance Department by filling out the relevant forms (Form in Appendix 1 for Trading Operations complaints/ grievances, and Form in Appendix 2 for Non- Trading Operations complaints/grievances) and submit to the Company by email: aronsupport@arongroups.co
+In case the Company receives a notice through the line of communication established by the Company to receive complaints, but which does not fall within the definition of ‘complaint’ above and can be characterized as an enquiry; this shall be categorized as an enquiry rather than a complaint and will be forwarded to the relevant department to be handled accordingly. The complainant maintains the right to request for the re-classification of his enquiry as a complaint.
+3. PROCEDURE
+The support Department shall efficiently handle any complaint/ grievance received by the Clients. In case that the complaint/ grievance involves the Compliance Department, the complaint/grievance shall be handled by a member of the Senior Management.
+Further to the above, the Compliance Department shall follow the procedure depicted below when handling Client complaints/ grievances:
+a) Once the Client files a complaint, an electronic acknowledgement of receipt will be sent to the email address of the Client to ensure that the Company has received the complaint and is currently working on a resolution. The Company should also provide to the Client via this email a reference number of the complaint for future reference.
+b) The Company upon examining the complaint/grievance and upon reaching a decision in this respect, shall reply to the Client with the remedial actions to be taken or provide further clarifications, and the reasoning behind the Company’s decision, as applicable.
+c) The Company shall reply to the said complaint/grievance (depicting also the remedial measures or clarifications furnished to the complainant)
+d) The Company shall document and keep in its records the following information:
+the identity of the Client who filed the complaint/ grievance;3
+the name of the employee who undertook to provide the service to the Client;
+III. the date of receipt of complaint/enquiry/grievance;
+the subject and full description of the complaint/enquiry/grievance;
+the remedial action taken and/or further clarifications provided to the Client.
+The Support Department shall make every effort to resolve the complaint/grievance as soon as possible. When deemed necessary, the Support
+Department shall submit to the Senior Management the aforementioned details, for further investigation. In this case, the Company might take additional time to finalize the reply and therefore it shall duly notify the complainant about the causes of the delay and indicate when the Company’s investigation is likely to be completed.
+The Senior Management shall investigate further and coordinate with relevant heads of departments to attend to the subject of the complaint/grievance. A final response or a holding response will be sent to the complainant explaining the findings of the investigation. Where a holding response is warranted, the Company shall state the reasons why it has not been able to resolve the complaint/grievance and provide an indication of the time needed to resolve the issue.
+4. REPORTING AND RECORD KEEPING
+All decisions related to Clients’ complaints/grievances shall be communicated to Clients in writing and copies shall be retained by the Compliance Department.
+Download
+Non-Trading Operations T&Cs
+GENERAL PROVISIONS
+1.1. These Regulations on Non-Trading Operations (the “Regulations”) have been developed within a framework of international cooperative measures aimed at combating financial misconduct, exposing and preventing violations of the law, and establishing the procedure for performing non-trading operations on a Client Account. (hereinafter referred to as the “Company” or “Aron Markets”).
+1.2. “Non-trading operation” shall mean any operation performed by the Client that involves the depositing of funds to their Client Account, the withdrawal of funds ‘from their Client Account, or the internal transfer of funds between Client Accounts. The terms and definitions applicable to these Regulations are specified in Clause 1 of the Client Agreement, which can be found in the “Account Opening Agreements” subsection, located in the “Policies and Regulation” section on the Company Website. In cases where certain provisions of these Regulations concerning non-trading operations contradict those in the Client Agreement or the Terms of Business, the provisions of these Regulations shall prevail. This provision does not render other terms of the aforementioned documents invalid.
+1.3. Requests for non-trading operations can only be sent by the Client to the Company. All other means of communication specified in Clause 3 of these Regulations are intended for further supporting correspondence between the Company and the Client and notifications to the Client by the Company.
+1.4. When registering on the Company Website, the Client undertakes to provide accurate and authentic information to identify themselves in accordance with the requirements of the Client Registration Form on the Company Website and these Regulations. The Client shall inform the Company of any changes to their identification data in a timely manner.
+1.5. The Company reserves the right to request the following documents at any time in order to verify the Client’s identity as an individual person:
+Proof of legal existence issued by the local government. A high-resolution scanned copy or photo of the Client’s passport pages or any other national ID that clearly indicates the Client’s full name, date and place of birth, passport number, dates of issue and expiry, issuing country, and the Client’s signature;
+Proof of address. A high-resolution copy or photo of a: utility bill (water, electricity, phone bill) issued within the last 6 months; bank statement (for a current account, deposit account or credit card account); bank reference letter confirming the Client’s address.
+1.8. The Company shall have the right to amend at its sole discretion the terms of these Regulations at any time giving the Client 3 (three) business days’ prior notification in one or several of the ways described in Clause 3.1 of these Regulations. Such amendments will come into effect on the date specified in the notification.
+1.7. These Regulations are transparent and are an integral part of the Agreement concluded between the Company and the Client.
+1.8. The Client guarantees the legitimate origin, lawful possession and right to use the funds transferred by the Client to the Client Accounts and such representation is deemed made each time such a transfer is being made.
+1.9. The content of these Regulations shall be disclosed without limitation upon the request of any interested party.
+SUSPICIOUS NON-TRADING OPERATIONS
+2.1. The Company may declare a non-trading operation suspicious in cases including, but not limited to:
+exposure of abuse of funds transfers without using the Company’s services (without completing trading operations on the trading account);
+revelation of the unusual nature of operations that do not have obvious economic substance or obvious legal purpose;
+revelation of circumstances providing grounds to believe that the operations are being performed for the purpose of money laundering or financing terrorism;
+failure of the Client to provide proof of identity or other documents for verification, as well as the submission of inaccurate information by the Client;
+inability to contact the Client using their registered email address and telephone number;
+failure of the Client to provide proof of the identity of a beneficiary, i.e. a person for the benefit of whom the Client acts (in particular, on the basis of an agent contract, commission, and trust management contracts, while carrying out non-trading operations);
+submission of counterfeit or invalid documents.
+2.2. The Company can declare a non-trading operation suspicious on the basis of analysis of the nature of a non-trading operation, its components, attending circumstances, and interaction with the Client or the Client’s representative.
+2.3. The Company reserves the right to investigate the nature of any suspicious non-trading operations listed in Clause 2.1 of these Regulations, whereupon such operations will be suspended until the reasons for their occurrence are ascertained and the investigation is complete.
+2.4. During the course of an investigation, in accordance with Clause 2.3 of these Regulations, the Company shall have the right to request that the Client provide proof of their identity, proof-of-payment documents, and other documents confirming the lawful possession and legitimate origin of the funds transferred to the Client’s Account.
+2.5. If suspicious non-trading operations should be exposed, the Company shall have the right to:
+refuse to perform these operations by rejecting the respective request;
+limit funds deposits and/or funds withdrawals to/from the Client’s Account, in any way, at the Company’s discretion;
+return funds previously deposited to the Client’s Account to the source from which the deposit was made;
+write off any compensated commissions or bonuses credited to the Client for operations performed by the Client; e. terminate relations with the Client.
+2.6. In the case of refusal to perform suspicious non-trading operations or the termination of relations with the Client as a result of suspicious non-trading operations performed by the Client, the Company shall not be held liable for any breach of contract with the Client.
+COMMUNICATIONS
+3.1. In order to communicate with the Client, the Company may use: a. the MetaTrader trading platform internal mail;
+email;
+telephone;
+post;
+news in the “Company News” subsection, located in the “About Us” section on the Company’s website;
+notifications
+3.2. Should the need arise for the Company to contact the Client promptly regarding non-trading operations, the Company will use the contact details specified by the Client during registration or updated by the Client in accordance with Clause 3.4 of these Regulations. The Client agrees to accept notifications from the Company at any time.
+3.3. Any correspondence sent to the Client (documents, notifications, confirmations, news, statements, etc.) is considered to have been received:
+if sent by email, within 1 (one) hour after emailing it;
+if sent by trading platform internal mail, immediately after sending it;
+if sent by telephone, once the telephone conversation has ended;
+if sent by post, 7 (seven) calendar days after posting it;
+if posted on the “Company News” subsection, located in the “About Us” section on the Company’s website, immediately after the news is published;
+if in AronPanel, immediately after the notification is published.
+3.4. The Client shall notify the Company in a timely manner of any change in his contact details either by updating the information in AronPanel or by any other method offered by the Company.
+3.5. The Client understands and accepts that the Company reserves the right to unilaterally terminate relations with the Client should the Client behave inappropriately when communicating with a Company employee.
+3.6. Every non-trading operation by a Client shall be confirmed by a log in the “Transfer History” of AronPanel. If the Client has reason to believe that the log is inconsistent, the Client shall have the right to lodge a complaint in accordance with Chapter 7 of these Regulations.
+3.7. If the Client has reason to believe that there has been a mistake in their own favour in the log, the Client is obliged to inform the Company about the mistake as soon as possible using the contact information provided on the “Contact us” subsection, located in the “About Us” section of the Company’s website.
+PAYMENTS POLICY
+4.1. Funds deposits to a Client Account and funds withdrawals from a Client Account may only be performed via the deposit and withdrawal methods available in AronPanel. Commission fees as well as other charges for each deposit and withdrawal option are published in AronPanel and on the Company Website and may periodically be changed by the Company.
+4.2. The Client understands and accepts that any commissions or other charges incurred by the transfer of funds shall be at the Client’s expense. The Company shall not charge any additional commission for funds transfers, except for the commissions and other expenses specified in these Regulations.
+4.3. The deposit of funds to a Client Account shall be carried out on the basis of a funds deposit request. The withdrawal of funds from a Client Account shall be carried out on the basis of a funds withdrawal request. The transfer of funds from one of a Client Account to another shall be carried out on the basis of an internal funds transfer request.
+These requests shall be processed by the Company within 1 (one) business day, but not later than at the end of the business day following the day on which the request was received (or, in the case of deposits, following the day on which the funds were credited to the Company Account) whereby no additional information or document is needed.
+4.4. Requests for non-trading operations such as deposit requests, withdrawal requests, and internal funds transfer requests shall be submitted by the Client in AronPanel and shall be considered as accepted by the Company if they are displayed in the “Transfer History” of AronPanel and in the Company records of Client requests.
+4.5. The Company shall credit the sum received on the Company Account to the Client’s Account.
+4.6. If Funds deposit / withdrawal is different from the Client Account currency, the transfer amount shall be converted into the transfer currency at the exchange rate as published in AronPanel.
+4.7. Exchange rates are published in AronPanel and are periodically updated by the Company.
+4.8. Currencies accepted by the Company for crediting Client Accounts, as well as currencies available for transfer to the Client’s External Account, depending on the funds transfer method, are shown in AronPanel.
+4.9. The Company shall have the right to set restrictions on the minimum and maximum transfer amounts, which may vary depending on the direction, method, and currency of transfer.
+4.10. The Company shall have the right to set restrictions on the maximum number of withdrawal requests and internal funds transfer requests that can be submitted in one Client’s AronPanel every 24 hours. These restrictions are published in AronPanel and may be changed by the Company from time to time.
+4.11. In the event that funds are returned to the Company Account after being transferred to the Client on the basis of their withdrawal request, the funds shall be credited to the Client’s Account in the same amount credited to the Company Account, while any commissions or other charges incurred by the returning of funds shall be at the Client’s expense and shall be paid by deducting them from the amount re-credited to Client’s Account.
+4.12. If funds are transferred as a deposit to a Client Account via Exchange, the Company shall not have any responsibility for responding to the customer until the deposited amount is added. Also, the Company has no obligation about the Exchange.
+4.13. the Company has no obligation about an Electronic Payment System If funds transferred as a deposit to a Client Account through an Electronic Payment System, Due to the fact that the Company does not have any business partners so the introduced Electronic Payment Systems are only to provide a payment solution, make sure that the desired service works correctly.
+4.14. If funds transferred to the Client’s External Account through an Electronic Payment System or through a bank card transfer are not credited to the Client within 3 (three) business days of the withdrawal request acquiring “Processed” status, the Client shall have the right to request that the Company makes an inquiry into the transfer. The Company may provide the Client with a screenshot or an assigned reference number of the bank card transaction, confirming the transfer of funds to the Client’s External Account.
+4.15. The Client understands and accepts that the inquiry and request for documents, may involve paying commission, which shall be at the Client’s expense. The payment method for such expenses shall be determined on an individual basis and may be carried out by transferring the necessary amount to the Company Account or by deducting the amount from the Client’s Account.
+4.16. In the event that a Company employee makes a mistake when carrying out a transfer, which results in funds not being credited to the Client’s External Account, any expenses incurred in resolving the situation shall be at the Company’s expense.
+4.17. In the event that the Client makes a mistake when filling out the withdrawal request form which results in funds not being credited to the Client’s External Account, any expenses incurred in resolving the issue shall be at the Client’s expense.
+4.18. The Client agrees that the Company has the right to unilaterally collect arrears on a Client Account from funds held on any of the Client’s other Accounts in AronPanel, or from another AronPanel account if the Company believes that there is a connection between this AronPanel account and the Client.
+4.19. The transfer of funds to the Company Account and funds withdrawals from Client Accounts shall meet the requirements and take into account the restrictions established by these Regulations, by current legislation, and other legal acts of countries within the jurisdiction of which the funds transfer takes place.
+4.20. The Company has the right to restrict the Client’s ability to conduct non- trading operations (as well as to suspend the execution of requests submitted by the Client) until the situation has been resolved, in the following cases:
+in the event that the Client breaches Clause 18.1 of the Client Agreement;
+in order to rectify the consequences of a non-market quote;
+in the event of a technical failure occurring at the Company or at an authorized Company Agent.
+4.21. In the event that a Client Account falls into arrears, the Company retains the right to suspend any of the Client’s withdrawal and internal account-to-account transfer requests including requests that were already made before the Client Account fell into arrears – until the Client has paid off the arrears in full.
+FUNDS TRANSFER OPTIONS
+5.1. Electronic payment system
+5.1.1. The Client may make transfers via an Electronic Payment System (hereinafter, “EPS”) to deposit funds to a Client Account and withdraw funds from a Client Account at any time, provided that this payment method is supported by the Company at the moment the transfer is executed.
+5.1.2. The Client may only perform an EPS transfer through the Client’s personal account registered with the EPS.
+5.1.3. The Client shall be obliged to check the details of the Company Account in AronPanel before carrying out an EPS transfer in cases where the transfer is not executed automatically from AronPanel.
+5.1.4. The Company shall transfer funds to the Client’s EPS account in accordance with the details provided in the withdrawal request.
+5.1.5. The Client agrees that the Company is not responsible for the fund transfer time, the service policy and the technical problems (such as service interruption) in the relevant EPS.
+5.1.7. The Client understands and accepts that the Company shall not be held responsible for the time required to execute the transfer, for the EPS’s terms of service, or for circumstances resulting in technical failure during the execution of transfers when the fault lies not with the Company, but with the EPS.
+5.2. Internal funds transfer
+5.2.1. The Client may submit an internal funds transfer request at any time provided that this method is supported by the Company at the moment the transfer is executed.
+5.2.2. The Client may submit an internal funds transfer request to another Client Account in AronPanel. Internal funds transfer requests to the accounts of third parties shall not be accepted by the Company.
+5.2.3. Upon performing an internal funds transfer from a Client’s account to which a deposit has previously been made via bank card or EPS, withdrawal restrictions shall be placed on the Client Account to which the funds are being transferred.
+5.2.4. In the event that a Company employee makes a mistake when carrying out an internal transfer that results in funds being credited to the wrong account, the sum indicated in the request shall be returned to the Client at the Company’s expense.
+5.2.5. In the event that the Client makes a mistake when filling out the internal funds transfer request that results in funds being credited to the wrong account, the sum indicated in the request shall not be returned to the Client.
+5.3.bank transfer
+5.3.3. Before carrying out a bank transfer to deposit funds, the Client shall download Bank Details. The Company bank details, purpose of payment, and the due date should be observed carefully by the Client. In the event that the Client cannot make a transfer with the specified purpose of payment in the Bank Details, the Client must contact the support Department to address this issue on an individual basis.
+5.3.4. The Company shall have the right to reject the deposit of funds transferred by bank transfer to the Company Account in cases where the specified purpose of payment has been changed or in cases where funds have been transferred by a third party on the Client’s behalf. In such cases, the Company shall return the funds to the bank account from which they were transferred. All costs incurred by returning such transfers shall be at the Client’s expense
+5.3.5. The Client may submit a withdrawal request via bank transfer only to bank accounts registered in the Client’s name.
+5.3.6. The Company shall transfer money to the bank account of the Client in accordance with the details provided in the withdrawal request.
+5.3.7. The Client understands and accepts that the Company shall not be held liable for the time required to execute transfers, the terms of execution by the card’s issuing bank, or for circumstances resulting in a technical failure during the transfer’s execution when the fault lies not with the Company.
+AronPanel
+6.1. The Client accepts the provisions of these Regulations concerning the use of AronPanel and consents to being subject to the obligations contained herein.
+6.2. AronPanel is password-protected and the Client confirms and accepts that AronPanel is accessible only by using a password.
+6.3. The Client accepts full responsibility for the security of their password and its protection from unauthorised access by third parties including Company employees. If ever Client gives access of their password to a third party, the latter should change the password with immediate effect.
+6.4. All instructions completed through AronPanel after entering the password are considered to be executed by the Client.
+6.5. Any party who has gained access to AronPanel by entering the password shall be considered to be the Client.
+6.6. The Company shall not be responsible for any losses incurred as a result of theft, loss or disclosure of the password to third parties.
+6.7. The Client shall have the right to change their AronPanel password independently or by following the password recovery procedure.
+6.8. The Client can see the following deposit request statuses in the “Transfer History” section of AronPanel:
+the “Processing” status means that the funds are waiting to be transferred to the Client’s Account;
+the “Successful” status means that the funds have been deposited to the Client’s Account.
+The “Denied” status means that the request has been denied. The reason for the request being denied is shown in the details of the transfer.
+6.9. The Client can see the following withdrawal request and internal funds transfer request statuses in the “Transfer History” section of AronPanel:
+the “Processing” status means that the request has been received by the Company;
+the “Successful” status means that the funds have been transferred to the Client’s External Account that was specified in the request or that the funds have been deposited to another of the Client’s accounts in the case of an internal funds transfer;
+the “Denied” status means that the request has been denied. The reason for the request being denied is shown in the details of the transfer.
+6.10. Deposit requests, withdrawal requests, and internal funds transfer requests may be cancelled by the Client before they are executed.
+6.11. Deposit request, withdrawal request, or internal funds transfer request may be rejected by the Company provided the Company specifies a reason for the rejection.
+COMPLAINTS HANDLING AND PROCESSING/ENQUIRY
+7.1. Complaints Handling and Processing
+7.1.1. In the event that a dispute arises from a Client’s non-trading operations, the Client shall have the right to lodge a complaint with the Company or send a request for an inquiry. Such complaints and requests should be received by the Company within 7 (seven) business days of the situation occurring. Please refer to the Complaint Handling Policy for explicit understanding.
+7.1.2. When lodging a complaint, the time at which the dispute arose shall be considered as the moment when the log appeared in the “Transfer History” section of AronPanel. Please refer to the Complaint Handling Policy.
+7.2. Enquiry
+When sending an enquiry into the transfer, the time at which the dispute arose shall be considered the moment as described in Clauses 4.15 and 4.16.
+7.2.1. To file a request for an enquiry into a funds transfer, the Client shall:
+complete the standard form. All requests filed through any other method (forum, email, telephone, etc.) shall not be taken into consideration; and
+attach the following documents:
+for an enquiry into a bank transfer: attach a SWIFT copy confirming the bank transfer’s execution;
+for an enquiry into an EPS transfer; attach a screenshot of the transfer or payment notification in the payment system, confirming that the transfer has been made to the Company Account;
+for an enquiry into a bank card transfer; attach a proof-of-identity document and a copy of the bank card.
+7.2.2. To file an enquiry regarding non-trading operations, the Client should complete the standard form in AronPanel. All enquiries filed through any other method (forum, email, telephone, etc.) will not be taken into consideration.
+7.3. Any enquiry or request filed in accordance with Clauses 8.2.1 and 8.2.2 is automatically assigned a unique number (TID). The Client shall be sent an email from the relevant Company department address.
+7.4. The enquiry must not include:
+an emotional assessment of the situation;
+offensive language;
+obscenities or expletives;
+threats.
+7.5. The Company shall have the right to request that the Client provide additional documents to hold an enquiry.
+7.6. The Company shall have the right to refuse a Client’s enquiry regarding non- trading operations in the following cases:
+where the enquiry was not made in accordance with Clauses 7.2.1 and 7.2.2 of these Regulations;
+where the Client initiates a non-trading operation by way of internal account-to-account transfer to another account in the Client’s AronPanel using funds that were credited to the Client’s Account by way of a non- trading operation currently under dispute, or where the Client initiates a trading operation using funds that were credited to the Client’s Account by way of a non-trading operation currently under dispute;
+in other cases, set out in these Regulations, the Client Agreement, or any of the other Regulatory Documents that can be found in the “Policies and Regulation” section of the Company Website.
+Download
+Privacy Policy
+Privacy policy
+Aron Markets (hereinafter, “the Company”) takes the security of clients’ personal data and the storage of confidential information very seriously.
+To prevent any loss, misuse, changes, or unauthorized access of information by third parties, the Company fulfills all relevant requirements (both administrative and technical), i.e. regularly performs investigations, tests, and other essential reviews.
+Meanwhile clients are recommended to keep their username and password safely, and prevent others to gain any information in this regard otherwise in case of any potential abuse, the client is solely responsible.
+The Company respects your right to privacy. This Privacy Policy (hereinafter, “Policy”) applies to personal information that is collected from the Company website as well as any other affiliated websites and applications. This Policy does not apply to websites operated by other organizations and other third parties. This Policy also applies to personal information that is collected when using the Company’s products and services as well as during any correspondence held by telephone, email, or otherwise. This Policy aims to inform you about the type of information gathered by the Company, what it’s used for, how it’s kept secure, and what your data privacy rights are.
+The personal information that may be collected by the Company falls into the following categories:
+Information that clients provide voluntarily
+clients can provide the Company with their personal details, contact information, financial information and etc. by providing them over the telephone, via user panel, email or any other available method specified by the company. This includes the personal information, which you provide when:
+applying for the Company’s products or services;
+creating user account on the Company website;
+taking part in a contest, advertisement, or survey;
+giving feedback
+In addition to the above, certain parts of the Company website may ask clients to provide personal information voluntarily. The personal information that you are asked to provide, along with the reasons for which you are asked to provide it, will be made clear to you at the time you are asked to provide such information.
+Information that the Company collects automatically
+When visiting the Company website, certain information (such as your IP address, device type, browser type etc.) is sent from your device automatically. In some jurisdictions, including European Union member states, this information may be classified as personal information under standard regulations for data protection.
+The Company also receives information about how your device has interacted with the website, including the pages accessed and links followed.
+Collecting this information enables the Company to conduct analyses of user and client requests for the purposes of improving the quality of available products and services.
+Some of this information may be collected using cookies. More detailed information regarding cookies used by the Company can be found in the company’s Cookie policy.
+Disclosure of personal information
+The Company may disclose your personal information to the following categories of recipients:
+Group companies, third-party service providers, and partners who provide the Company with data processing services (for example, to support the delivery of, provide functionality for, or help to enhance the security of the Company website) or who otherwise processes personal information for the purposes described in this Policy.
+Any competent law enforcement body, regulatory or government agency, court, or other third party as permitted by law.
+Any other person with your consent to the disclosure of such information.
+The Company uses your personal data for the following purposes:
+1. Serving you as a client
+Type of data: identity (name, country of residence, address, and other similar information); contact details (email address, telephone number, webpage, etc.), copies of national identity documents (passport, identity card, residency permit, US residency information, and similar), financial (bank account details, bank card numbers and holder name, documents confirming origin of capital, and other similar), political exposure.
+Purpose: registering you as a new client, providing the opportunity to open a trading account, providing the opportunity to use the Company’s products and services, facilitating non-trading operations in accordance with the Regulations for Non-trading Operations, and collecting information regarding the possibility that funds are owed to the Company.
+Legal basis: compliance with the Client Agreement, compliance with legal requirements.
+2. risk management, money laundering prevention, and responding to regulatory requirements and legal claims
+Type of data: transactional, financial, identity
+Purpose : compliance with applicable laws; money laundering detection, investigation, and reporting; responding to complaints; submission of information to applicable governmental bodies in cases where it is required by
+law; the collection of information where there is a legal obligation to do so for compliance and AML purposes, such as ‘know your client’ information; information relevant to international sanctions and restrictive measures; and information about illegal or political activities of a potential client, which may impact the Company’s decision to conclude an agreement with the Client.
+Legal basis : compliance with legal requirements.
+3. Marketing
+Type of data: contact information, consent, and correspondence.
+Purpose : marketing activities and the provision of information concerning the Company’s products and services.
+Legal basis: compliance with the Client’s Agreement.
+Clients have the following rights:
+To send a request for the correction of any inaccurate information and/or the completion of any incomplete personal information. The Company will subsequently process the request and notify any third parties to whom such personal information may have been transmitted in accordance with the terms set out in this Policy
+To opt out of receiving any marketing materials sent by the Company to clients.
+To request the Company to stop processing your personal information. Withdrawing consent for personal information processing may prevent you from being able to access certain products and services for which the processing these information is necessary.
+Re-consenting the processing of personal information may be withdrawn at any time. This will not affect the legality of such process which was consented to earlier. Withdrawing consent may affect access to certain features of the Company’s service for which the processing of personal information is necessary.
+The client could avoid giving out any personal information required by the Company. However this could prevent the Company to provide certain services, such as creating an account to the client.
+Company’s security measures
+The Company applies all appropriate technical and administrative measures necessary to protect the personal information that it collects and processes. The measures used are designed to provide a level of security appropriate to the risk of processing personal information. In particular, the Company:
+Stores personal data on secure servers.
+Uses encrypted transmission links in cases where it is both possible and necessary.
+Uses other safeguards: firewalls, authentication systems (e.g. passwords), and access control mechanisms to prevent unauthorized access to systems and data.
+Regularly reviews information collection, storage and processing information, including physical security measures, to guard against unauthorized access to systems.
+Restricts the access of employees, contractors, and agents who need to know such information in order to process it, and who are subject to strict contractual confidentiality obligations.
+The company reserves the right to make changes to its current privacy policy.
+Modification process
+In case of any modification, accession or induction, the clients shall be informed, which is done by sending an email to the client or publishing announcements in the website.
+Sending website related announcements or sending messages through internal post is considered as a suitable policy regarding the privacy of the client, which he/she has full authority to read or ignore.
+If a new rule is introduced which needs to be added to the privacy policy, it shall be immediately added after the legal date, whether the issued modification has been announced or not, also if any privacy policy is in contradiction with the issued modification, it will be eliminated after the execution of the modification.
+International data transfers
+Subject to certain conditions, the Company reserves the right to transfer your personal information to third parties in other countries for further processing in accordance with the purposes set out in this Policy. In certain cases, this may include transferring data to countries which do not offer the same level of protection as the laws of your country of residence. In such cases, the Company will, as required by applicable law, ensure that your privacy rights are adequately protected by appropriate technical, administrative, contractual, or other lawful means. These include putting data transfer agreements in place for the transmission of personal information within the group of companies to which the Company is party, which require all partners to protect the personal information they process in accordance with applicable data protection laws.
+Data retention
+Your personal information is only retained for as long as it is necessary to carry out the purposes set out in this Policy (unless further retention is required by law).
+Automated decision making
+In some instances, the Company’s use of your personal information may result in automated decisions being taken (including profiling) that legally affect you.
+Automated decisions mean that a decision concerning you is made automatically on the basis of a computer determination (using software algorithms), without human oversight.
+When an automated decision is made about you, you have the right to contest the decision, and demand an employee of the Company to review the decision.
+Download
+Copy Trading
+Terms and Conditions for Aron Groups Broker Copy Trading Account
+This agreement outlines the rules and requirements governing the use of the copy trading service provided by Aron Groups Broker. By using this service, users agree to fully comply with the provisions of this agreement in addition to the general terms and conditions of the broker. In the event of any inconsistency between this document and the general terms of the broker, the provisions of this document shall take precedence.
+Service Definition
+Copy Trading is a service that enables users (Copy Traders) to automatically replicate the trades of selected traders (Lead Strategies) in their own trading accounts. This service becomes active once it is enabled.
+How the Copy Trading Service Works
+Using this service constitutes full acceptance of its terms and conditions.
+Users may select their preferred Lead Strategies and copy their trades via the platform.
+Upon user confirmation, the broker is authorized to activate this feature on the account without requiring further consent.
+Trades may be opened or closed automatically, and certain limitations may be applied under specific conditions
+Rights and Authorities of the Copy Trader
+The Copy Trader is entitled to:
+Follow multiple Lead Strategies simultaneously.
+Manually close copied trades.
+Cancel the subscription to any Lead Strategy after closing all associated trades.
+Adjust the amount and volume of copied trades.
+Deposit additional funds to their account during high market volatility to protect their capital.
+Manage and personalize the default copy trading settings.
+Continue receiving automatic trades even when logged out, provided the system is active.
+Maintain full control over their account balance.
+Accept the commission fee determined by the Lead Strategy.
+Broker’s Rights and Authorities
+Aron Groups Broker is authorized to:
+Restrict Lead Strategy accounts without prior notice.
+Cancel Lead Strategy subscriptions at its sole discretion.
+Impose limits or make changes to the specified commissions.
+Modify the terms of this agreement without prior notice and publish the updated version on the website.
+Monitor the performance of Lead Strategies and, in cases of misconduct or statistical manipulation, filter or remove the relevant accounts.
+Remove false information such as fake names or profile pictures of Lead Strategies.
+Refrain from providing any financial, investment, or tax advice—any available information is purely educational and informational.
+Suspend or terminate the copy trading functionality for Lead Strategies.
+Rights and Responsibilities of the Lead Strategy
+The Lead Strategy is entitled to:
+Set a commission rate ranging from 10% to 40% of the Copy Trader’s profit.
+Simultaneously act as an Introducing Broker (IB) and receive both types of commissions.
+Choose between weekly or monthly commission settlements.
+Manage and control the volume of open trades.
+Remain responsible for the security of their account and confidential information, including passwords, and must not share them with others.
+Trading Conditions
+Copy Trader orders are executed in line with the Lead Strategy’s trades, but based on real-time market prices.
+Price discrepancies may occur between the Lead Strategy’s and the Copy Trader’s orders.
+The minimum trade volume for copied positions is 0.01 lots, and the maximum is 100 lots.
+Changes in the Lead Strategy’s account balance or leverage do not affect the volume of copied trades.
+Copy trading account conditions may differ and are subject to additional fees.
+Risk Warning
+Using the Copy Trading service may result in losses exceeding the invested amount.
+All trades are executed automatically without direct user intervention.
+Manually modifying copied trades may lead to different results than those of the Lead Strategy.
+Ongoing trades are copied at real-time market prices, not the initial prices of the Lead Strategy.
+Following inexperienced Lead Strategies may result in financial losses.
+There is no guarantee of profit or replication of past performance, even if a Lead Strategy has a successful track record.
+The broker is not liable for software errors, connectivity issues, or viruses.
+Download
+IB Agreements
+Introducing Broker (IB) Cooperation Rules
+General Rules:
+This Introducing Broker Agreement (“Agreement”) defines the relationship between the Introducing Broker (“IB”) and the Company (collectively, the “Parties” and individually, a “Party”). All interactions, relationships, and collaborations between the IB and the Company are exclusively governed by this Agreement.
+By being accepted by the broker, the IB acknowledges and agrees to the rules set out in this Agreement.
+In the event of any situation not covered by this Agreement, the Company will resolve the matter in good faith and fairness, and, if necessary, take actions consistent with industry standards. The IB agrees to accept the Company’s final decision.
+This Agreement does not constitute employment, and the IB shall not be considered a representative of the Company. The Company assumes no responsibility for the IB’s actions or omissions.
+If a client introduced by the IB requests to be removed from the IB’s network, the Company reserves the right to stop paying commissions for that client from the date of the request, and the IB will have no further rights regarding that client.
+If a client does not register using the IB’s referral link or fails to send an email requesting to be linked to the IB within 10 days, the Company reserves the right not to recognize that client as part of the IB’s network.
+A client may request to change their IB to another. Approval or rejection of such requests is at the broker’s discretion.
+IB levels apply to specific IB categories and determine the commission rate.
+IB Level Table and Commission Rules:
+The Company pays the IB commissions based on the trading activity of clients acquired by the IB.
+IB commissions are paid within 30 minutes after a trade is closed.
+Valid trades are those lasting 100 seconds or more.
+The IB’s commission is determined by the IB’s level and the type of trading account used by the client for the corresponding volume.
+IB commissions are paid in USD to the IB’s wallet, regardless of the currency of the client’s trading accounts. If clients trade in accounts with fixed commission rates, the commission will be paid according to the applicable fixed rate.
+The IB level is automatically calculated and updated by the system every 24 hours.
+The IB agrees to accept changes to their IB status during the commission payment process.
+The IB agrees to accept changes to their IB level during the commission payment process and waives any claims for potential lost profits.
+Level
+Nano – Islamic
+Standard – VIP – Copy Trade
+% of Spread
+% of Commission
+USD / LOT
+Requirements per Level
+XAU/USD
+Sapphire
+30%
+Active Clients > 10
+Emerald
+50%
+Active Clients > 30
+Ruby
+70%
+Active Clients > 100
+Tanzanite
+80%
+Active Clients > 1000
+Alexandrite
+90%
+Active Clients > 5000
+Special IB Services and Support Program
+To support the performance and growth of IBs, Aron Broker has introduced a comprehensive plan of services and benefits. Under this plan, IBs who meet the specified requirements may access higher service levels and enjoy exclusive privileges.
+Levels and Benefit
+Sapphire Level
+Access to a dedicated account manager
+Special discounts and execution conditions for direct clients
+Emerald Level
+Design of a dedicated landing page under the IB’s brand
+Creation of a professional digital card for online introduction
+Free subscription to the TradingView platform
+Ruby Level
+Production of exclusive content (text and visual) under the IB’s brand
+Delivery of advertising packages with the IB’s trademark
+Production of a professional greeting video with the company logo and a personal message
+Invitation to special online meetings with the broker’s senior management
+Tanzanite Level
+Official invitations to industry-specific seminars or exhibitions
+Participation in client-focused tours with VIP and loyal clients
+Development of a custom application under the IB’s name and brand
+Invitation to an exclusive year-end celebration with luxury gifts
+Under specific circumstances and at management’s discretion, the broker may negotiate and agree with the IB on a fixed monthly salary.
+Alexandrite Level
+Design and launch of a full website under the IB’s brand
+Allocation of a budget for network expansion or targeted advertising
+Opportunity to explore partnership in establishing a broker or exchange
+Under special conditions and based on the IB’s average performance over the past three months, the broker may provide a loan to the IB.
+Obligations :
+An IB may:
+Promote the company, its website, special offers, and other related information.
+View the profiles of their sub-affiliates.
+Receive commissions from the trades of their sub-affiliates.
+Provide their sub-affiliates with general company information, published news, updates, or other information available to all traders.
+Engage in recruitment activities in compliance with national and international laws.
+Notify the company in case of any conflict in activities.
+Use their best efforts to attract clients.
+Keep any confidential company information obtained directly or indirectly secure.
+Report any events or conditions that may pose potential risks to the company.
+Inform clients of potential risks in financial markets before recruitment.
+Inform clients, prior to recruitment, about the benefits provided by the broker to the IB.
+Notify the company promptly in case of any change in contact information.
+Company Rights:
+Provide necessary assistance to fulfill the IB’s obligations under the agreement.
+Pay IB commissions according to the agreement’s terms.
+Provide full company services to the IB for client acquisition in accordance with the agreement.
+Execute IB clients’ requests and calculate their commissions; the company will never disclose detailed trade data of clients to the IB.
+Monitor the IB’s activities under the terms of the agreement.
+Request a full report from the IB on the execution of the agreement’s provisions.
+Terminate the IB agreement if:
+The IB fails to attract at least 10 active clients within 60 days who have collectively traded a minimum of 10 standard lots.
+Removal of Inactive Clients from the IB List:
+The company may update its rules at any time without prior notice, and the IB hereby agrees to this. By publishing the latest version of the agreement on its website, the company assumes the IB is aware of the updates.
+If the IB uses unauthorized methods to attract clients, the company may cancel the IB’s commission (in part or full) and transfer all IB clients directly to the company.
+If one client’s commission exceeds 20% of the IB’s total client commissions, the company may cancel the IB’s commission.
+If the revenue from IB clients’ trades is less than or equal to the commission paid to the IB, the company may reduce the IB’s commission or remove the client(s) from the IB’s list.
+IB Restrictions:
+The IB is prohibited from:
+Using misleading or deceptive advertising to promote the company’s services.
+Registering or using any legal entity containing the company’s name, trademark, or other intellectual property.
+Presenting themselves as a representative of the company.
+Using the company’s direct URL or IB link in PPC systems (Live, Yahoo!, Google, etc.) or similar, or redirecting/forcing clients to the company’s website using fraudulent methods.
+Assuming responsibility or making commitments on behalf of the company.
+Opening real or demo accounts for clients, or storing or disclosing any client-related data. The company accepts no liability for consequences arising from IB advice influencing clients’ trading decisions.
+Publishing or contributing to publications in mass media, newsletters, or any other content in newspapers, magazines, or similar that may explicitly damage the company’s reputation.
+Undertaking commitments or obligations on behalf of the company.
+Offering guarantees, commitments, or statements regarding any payments or agreements determined by the company.
+In case of any breach leading to legal action against the company, the IB will be liable for all damages, including actual losses, lost profits, or harm to the company’s property or interests, without the right to dispute the deducted amount.
+If the IB violates this agreement (in whole or in part), the company reserves the right to freeze IB trading accounts or wallets and remove clients from the IB’s list until damages are compensated. The company may also deduct potential losses directly from the IB’s account.
+The IB may not register relatives as sub-affiliates. If any sub-affiliate data (passport, address, date of birth, phone, email, IP address, etc.) matches the IB’s, the client will be removed from the IB’s list and no commission will be paid. Clients with the same IP may be considered active, but if their IP matches the IB’s, they may be deemed relatives and excluded from commission payments. Such activities will be considered automatic referrals or bulk registrations.
+If a client files a complaint against the IB’s activities, the IB must independently handle all complaints and indemnify the company against any claims, damages, losses, or legal fees.
+IB Group Change Rules
+The client may change their IB only once every 6 months. Any request to change the IB will be rejected if less than 6 months have passed since the client ‘s last IB change.
+If a client wishes to remove the IB, commission payments to the IB will stop from the stated date, and the IB will have no right to dispute this.
+The company may refuse to recognize a client introduced by an IB if:
+The client did not register via the IB’s link and did not send an email linking their account within 10 days of registration.
+The client registered more than 10 days before the IB’s introduction and already held a trading account with the company or an affiliate.
+The company may reject any client who does not meet the company’s compliance procedures. All new client requests must be approved in writing before trading begins, and the IB agrees to this condition.
+Force Majeure
+If the company determines a force majeure event has occurred, it will take reasonable measures to inform the IB in due course. Force majeure events include, without limitation: market disruptions, governmental actions or restrictions, war, abandoned war weapons, nuclear, radioactive, biological, chemical, biochemical, or electromagnetic weapons or contamination, revolution, strikes, lockouts, other industrial actions, fire, flood, natural disasters, explosions, unavoidable accidents, terrorism, utility or transport failures, trade suspensions or restrictions by any execution venue, or any malfunction in telecommunications, settlement, or other systems. If deemed reasonable by the company, it may take or refrain from taking any necessary action without prior written notice.
+Amendment and Termination:
+The IB acknowledges the company’s right to amend this agreement, appendices, or attachments at any time, with written notice within 7 business days. Changes take effect from the announced date.
+The IB may terminate the agreement at any time with written notice. The company may also terminate with at least 30 days’ written notice, subject to possible changes in special circumstances.
+The company may terminate immediately by written notice if:
+The IB or its management, staff, or employees commit and are convicted of a serious breach of explicitly stated laws.
+The company determines that the IB has engaged in activities inconsistent with (1) the company’s terms and conditions, (2) the material provisions of this agreement, or (3) principles of fair and equitable business.
+The IB fails to comply, in whole or in part, with the company’s agreement and policies.
+Definitions and Interpretation:
+1.1. Client: A natural or legal person registered on the Aron Groups LLC website (“the Company”).
+1.2. Introducing Broker (IB): A client whose IB status request, submitted through the company’s website, has been approved by the company.
+1.3. Referral Link: A unique link to the company’s website containing the IB’s unique identifier. This is the primary tool for attracting and tracking clients.
+1.4. IB ID: The IB’s unique identification number.
+1.5. IB Commission or Rebate: The amount paid by the company to the IB for clients’ trading activities.
+1.6. IB Wallet: A special account dedicated to transactions and settlements where the IB’s commissions are credited.
+1.7. Active Client: A client who has traded at least 0.1 standard lots in total within the last 30 days in their trading accounts.
+1.8. Inactive Client: A client who has traded less than 0.1 standard lots in the last 30 days.
+IB Rule :
+Symbols
+Formula
+Coefficient
+Forex
+(|Swap Long| + |Swap Short|) * X
+Index
+(|Swap Long| + |Swap Short|) * X
+Metal
+(|Swap Long| + |Swap Short|) * X
+Commodities
+(|Swap Long| + |Swap Short|) * X
+Cryptocurrencies
+|Swap Long| / 360 * Bid Price / 100 * 10^Digits * X
+X = Coefficient
+Under this plan, if the distance between a trader’s entry and exit points (in points) is equal to or greater than the value specified in the above table, the commission or rebate will be paid to the group leader. Example :
+A trader opens a buy position on the gold ounce symbol at a price of 1930 and then closes the trade at 1931.5. Based on the above explanation, the calculation is as follows:
+Swap Long = -25.030
+Swap Short = 4.0800
+Change to Point:
+C = |Open Price – Close Price|* 10^Digits
+C = |1930.00 – 1931.50|* 10^2
+C = 150 Points
+E = (|-25.030| +|4.0800|) * 0.6
+E = 17.466 Points
+If C>= E then Commission Paid
+150 >= 17.466 = Commission Paid
+According to the above calculation, the distance between the trader’s entry and exit points exceeds the specified threshold, and the rebate will be paid to the group leader.
+Trade
+MetaTrader 5
+Trading Accounts Deposit Withdrawal Leverage
+Partnership
+About Us
+Legal Document
+FAQ
+About Aron Media Contact Us
+Academy
+Blog Starting
+Guide Analysis
+Calendar
+Holidays schedule
+Trading Glossary
+Crypto Glossary
+Promotion
+Bonuses
+Risk Disclosure:
+Trading CFDs and other derivatives involves significant risk due to leverage, making them complex financial
+instruments unsuitable for all investors. Over 67% of retail investors lose money trading CFDs, and you may
+lose more than your initial investment. You do not own or have any rights to the underlying assets.
+Before engaging in trading, ensure you fully understand how CFDs work and assess whether you can afford the risk of significant losses. Past performance does not guarantee future results, and tax laws may change, impacting your financial outcomes.
+Risk Disclosure:
+Trading CFDs and other derivatives involves significant risk due to leverage, making them complex financial
+instruments unsuitable for all investors. Over 67% of retail investors lose money trading CFDs, and you may
+lose more than your initial investment. You do not own or have any rights to the underlying assets.
+Before engaging in trading, ensure you fully understand how CFDs work and assess whether you can afford the
+risk of significant losses. Past performance does not guarantee future results, and tax laws may change,
+impacting your financial outcomes.
+Regional Restrictions
+Aron Markets LTD, does not provide services to residents of the Saint Vincent and the Grenadines, Turkey, United States of America, Canada, United Kingdom, Cyprus, Japan, China, Hong Kong, United Arab Emirates, North Korea, Mauritius, Russia and Myanmar.
+Legal Information
+Aron Markets LTD, operates under the laws of the Marshall Islands with registered number 118046 and registered address of Trust Company Complex, Ajeltake Road, Ajeltake Island, Majuro, Republic of the Marshall Islands, MH 96960.
+Aron Markets Ltd © 2026

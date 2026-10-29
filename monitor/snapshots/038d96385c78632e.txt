@@ -1,0 +1,459 @@
+User Agreement — MondFx — MondFx
+HALLOWEEN 2026 · MONDFX This Halloween, the choice is yours MondShield $200 | Up to 90% loss coverage PRO ECN $200 | 40% bonus Copy Trading 60% deposit bonus Deposit Bonus Up to 40% more capital Explore offers ↗ This Halloween, the choice is yours Explore offers ↗ Accounts Trading Grow Academy Tools Company
+Login Open Account
+Open Account
+LIVE
+Legal · Agreement
+User Agreement. Read before you trade.
+These are the entire terms and conditions that apply to the access and use of MondFx's online trading facility. You must read, agree with, and accept these terms before becoming a MondFx client.
+Mond Trades Ltd.
+User Agreement
+Mond Trades Ltd.
+These are the entire terms and conditions that apply to the access and/or use of our online trading facility. Please do read this user agreement completely and carefully before accessing and/or using our online trading facility. You must read, agree with, and accept all of the terms and conditions contained here in this user agreement without modifications, before you may become a MondFx client.
+IF YOU DO NOT AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT, DO NOT USE OR ACCESS OUR SERVICE AND INFORM US IN WRITING IMMEDIATELY.
+TABLE OF CONTENTS:
+INTERPRETATION OF TERMS
+INTRODUCTION
+COMMENCEMENT
+ACCOUNT ACTIVATION
+SERVICES
+CONFLICTS OF INTEREST AND MATERIAL INTERESTS
+COMMISSIONS, CHARGES AND OTHER COSTS
+CURRENCY AND PAYMENTS
+LIMITATIONS OF LIABILITY AND INDEMNITY
+COMMUNICATIONS
+WRITTEN NOTICE
+AMENDMENT AND TERMINATION
+PERSONAL DATA AND RECORDING OF TELEPHONE CALLS
+CONSENT TO DIRECT CONTACT
+CONFIDENTIALITY AND WAIVER
+TIME OF ESSENCE
+DEFAULT
+REPRESENTATIONS AND WARRANTIES
+FORCE MAJEURE
+MISCELLANEOUS
+GOVERNING LAW AND JURISDICTION
+USE OF THE TRADING PLATFORM AND SAFETY
+THE PROCEDURE FOR DISPUTE RESOLUTION
+REFUSAL OF COMPLAINT
+RISK ACKNOWLEDGEMENT AND DISCLOSURE
+TRADING BENEFITS
+1. INTERPRETATION OF TERMS
+1.1 In this Agreement, the words shall have the following meaning:
+“Abnormal Market Conditions” shall mean conditions contrary to Normal Markets Conditions, e.g., when there is low liquidity in the market, or rapid price movements in the market, or Price Gaps.
+“Access Data” shall mean the Client’s access codes, any login code, password(s), his/her Trading Account number and any information required to make Orders with the Company.
+“Affiliate” shall mean in relation to the Company, any entity controlled directly or indirectly by the Company, any entity that controls directly or indirectly the Company, or any entity directly or indirectly under common control with the Company. For this purpose, “control” means ownership of a majority of the voting power of the Company or entity.
+“Agreed Process” means any process agreed between the parties in respect of a Dispute other than the Procedure for Dispute Resolution, as may be amended between the parties.
+“Ask” shall mean the higher price in the Quote being the price at which the Client may buy.
+“Balance” shall mean the total financial result of all Completed Transactions and depositing/withdrawal operations on the Trading Account.
+“Base Currency” shall mean the first currency in the Currency Pair against which the Client buys or sells the Quote Currency.
+“Bid” shall mean the lower price in the Quote being the price at which the Client may sell.
+“Business Day” shall mean any day between Monday and Friday, inclusive, other than the 25th of December, or the 1st of January or any other holiday to be announced by the Company on its Website.
+“Business Hours” shall mean 8:00 a.m. to 5:00 p.m. (GMT+2) on a Business Day (Monday to Friday).
+“Client Terminal” shall mean the MetaTrader program version 4 and/or 5, which is used by the Client in order to obtain information of financial markets (which content is defined by the Company) in real-time, to make technical analysis of the markets, make Transactions, place/modify/delete Orders, as well as to receive notices from the Company. The program can be downloaded on the Website free of charge.
+“Company” shall mean Mond Trades Ltd., licensed by the Sain Lucia International Business Companies Authority, under License number 2024-00109. The Company registration address is located at: Ground floor, The Sotheby Building, Rodney Bay, Saint Lucia.
+“Completed Transaction” shall mean two counter deals of the same size in different directions (opening a position and closing the position): buying and then selling or selling and then buying.
+“Contract Specifications” shall mean principal trading terms (Spread, Lot Size, Initial Margin, Hedged Margin etc.) for each Instrument, displayed on the Company’s Website www.mondfx.com.
+“Currency of the Trading Account” shall mean the currency that the Client chooses when opening the Trading Account.
+“Currency Pair” shall mean the object of a Transaction based on the change in the value of one currency against the other.
+“Client” shall mean any individual or legal entity (except for stateless persons; individuals under 18 years old; citizens or legal entities of the countries where MondFx service is not offered) who has submitted the Client Registration Form.
+“Client Information” shall mean any information or documentation that the Company receives from the Client or otherwise obtains which relates to him/her, his/her Account or the provision or the use of the Services.
+“Client Registration Form” shall mean a form on the Website that a Client shall fill in to create his/her MondFx account.
+“Data Delivery Date” means each date agreed as such between the parties.
+“Dispute” shall mean either:
+the conflict situation when the Client reasonably believes that the Company as a result of any action or failure to act breaches one or more terms of the Operative Agreements; or
+the conflict situation when the Company reasonably believes that the Client as a result of any action or failure to act breaches one or more terms of the Operative Agreements; or
+the conflict situation when the Client makes a deal at an Error Quote (Spike), or before the first Quote comes to the Trading Platform on the Market Opening, or at the Quote received by the Client because a Dealer made a Manifest Error or because of a software failure of the Trading Platform.
+any dispute between the parties (i) which, in the sole opinion of the party delivering the relevant Dispute Notice, is required to be subject to the Dispute Resolution Procedure (or other Agreed Process); and (ii) in respect of which a Dispute Notice has been effectively delivered.
+“Dispute Date” means, with respect to a Dispute, the date on which a Dispute Notice is effectively delivered by one party to the other party save that if, with respect to a Dispute, both parties deliver a Dispute Notice, the date on which the first in time of such notices is effectively delivered will be the Dispute Date. Each Dispute Notice will be effectively delivered if delivered in the manner agreed between the parties for the giving of notices in respect of this Agreement.
+“Dormant and/or Inactive Account” shall mean any Company Client trading account where the Client/account holder/owner of that trading account has not initiated any trading activity and/or inactivity for a period of three (3) consecutive months and/or where the Company has not carried out any transactions in relation to the trading account by and/or on the instructions of the Client/account holder/owner and/or his/her authorized representative for a period of three (3) consecutive months.
+“Dormant and/or Inactive Account Fee” shall mean a handling fee of 10 USD or the equivalent to USD per account per month that the Company may charge at its sole discretion and/or paid by a Client for his/her dormant account(s) held by the Company, as this may be amended from time to time by the Company.
+“Equity” shall mean: Balance + Floating Profit – Floating Loss.
+“Error Quotes” are rates received which are transmitted to the Client’s Terminal due to a system technical error.
+“Error Quote (Spike)” shall mean an Error Quote with the following characteristics:
+a significant Price Gap; and
+in a short period of time the price rebounds with a Price Gap; and
+before it appears, there have been no rapid price movements; and
+before and immediately after it appears that no important macroeconomic indicators and/or corporate reports are released; and
+a significant variance from the market pricing.
+The Company has the right to delete Error Quotes (Spikes) from the Server’s Quotes Base.
+“Event of Default” shall have the meaning given in Clause 17 herein.
+“Floating Profit/Loss” shall mean current profit/loss on Open Positions calculated at the current Quotes.
+“Force Majeure Event” shall have the meaning as set out in Clause 19 herein.
+“Free Margin” shall mean funds on the Trading Account, which may be used to open a position. It is calculated as Equity Less Necessary Margin.
+“Hedged Margin” shall mean the margin required by the Company sufficient to open and maintain Matched Positions. The details for each Instrument are in the Contract Specifications.
+“Indicative Quote” shall mean a Quote at which the Company has the right not to accept any Instructions or execute any Orders.
+“Initial Margin” shall mean the margin required by the Company to open a position. The details for each Instrument are in the Contract Specifications.
+“Instruction” shall mean an instruction from the Client to the Company to open/close a position or to place/modify/delete an Order.
+“Instrument” shall mean any currency pair, spot metal, contract for difference and other financial instruments offered by the Company.
+“Illicit Profit” shall mean profit which has been generated as a result of an Event of Default, Error Quote or breach of any of the terms of the Operative Agreements.
+“Leverage” shall mean 1:25, 1:50, 1:100, 1:200, 1:500, 1:1000 ratio, (other ratios may also be available on the Website) in respect of Transaction Size and Initial Margin. 1:100 ratio means that in order to open a position, the Initial Margin is one hundred times less than Transaction Size.
+“Liquidity Provider” shall mean a bank or an ECN which is streaming tradable prices to the Company and may be used by the Company to hedge the Client’s trades.
+“Long Position” shall mean a buy position that appreciates in value if market prices increase. In respect of Currency Pairs: buying the Base Currency against the Quote Currency.
+“Lot” shall mean a unit of Securities Base Currency or troy oz. of Precious Metal in the Trading Platform.
+“Lot Size” shall mean the number of shares, underlying assets or units of Base Currency, or troy oz. of Precious Metal in one Lot defined in the Contract Specifications.
+“Margin” shall mean the necessary guarantee funds to maintain Open Positions, as determined in the Contract Specifications for each Instrument.
+“Margin Level” shall mean the percentage Equity to Necessary Margin ratio. It is calculated as (Equity / Necessary Margin) * 100%.
+“Margin Trading” shall mean Leverage trading when the Client may make Transactions having far less funds on the Trading Account in comparison with the Transaction Size.
+“Matched Positions” shall mean Long and Short Positions of the same Transaction Size opened on the Trading Account for the same Instrument.
+“MondFx account” shall mean the Client’s official private and personal space and gateway to all the services offered by the Company including but not limited to any trading and/or non-trading activity.
+“Necessary Margin” shall mean the margin required by the Company to maintain Open Positions. The details for each Instrument are specified in the Contract Specifications.
+“Normal Market Conditions” shall mean the market where there are no:
+considerable breaks in the Quotes Flow in the Trading Platform; and
+fast price movements; and
+large Price Gap.
+“Open Position” shall mean a Long Position or a Short Position which is not a Completed Transaction.
+“Operative Agreements” or “Regulating documents” shall mean this Client Agreement together with and all account Client Agreements, Policies and Terms of Business, as these may be found in the Regulatory documents and agreements of the Legal section of the Website and in www.mondfx.com.
+The Client acknowledges that the Operative Agreements may be amended by the Company from time to time and the last version shall be available by accessing the Website.
+“Order” shall mean an instruction from the Client to the Company to open or close a position when the price reaches the Order Level.
+“Order Level” shall mean the price indicated in the Order.
+“Precious Metal” shall mean spot gold or spot silver.
+“Price Gap” shall mean the following:
+the current Quote Bid is higher than the Ask of the previous Quote; or
+the current Quote Ask is lower than the Bid of the previous Quote.
+“Quote” shall mean the information of the current price for a specific Instrument, in the form of the Bid and Ask prices.
+“Quote Currency” shall mean the second currency in the Currency Pair which can be bought or sold by the Client for the Base Currency.
+“Quotes Base” shall mean Quotes Flow information stored on the Server.
+“Quotes Flow” shall mean the stream of Quotes in the Trading Platform for each Instrument.
+“Rate” shall mean the following:
+for the Currency Pair: the value of the Base Currency in the terms of the Quote Currency; or
+for the Precious Metal: the price of one troy oz. worth of the Precious Metal against the US dollar or any other currency specified in the Contract Specifications for this instrument.
+“Relevant Amount(s)” shall mean any free Equity in the Client’s Trading Account not used for margin purposes.
+“Request” shall mean a request from the Client to the Company given to obtain a Quote. Such a Request shall not constitute an obligation to make a Transaction.
+“Server” shall mean the MetaTrader Server program, version 5. The program is used to execute the Client’s Instructions or Requests, to provide trading information in real-time mode (the content is defined by the Company), in consideration of the mutual liabilities between the Client and the Company, subject to the Terms of the Operative Agreements.
+“Services” shall mean the services provided by the Company to the Client as set out in Clause 5 herein.
+“Short Position” shall mean a sell position that appreciates in value if market prices fall. In respect of Currency Pairs: selling the Base Currency against the Quote Currency.
+“Spread” shall mean the difference between Ask and Bid.
+“Third party service provider” refers to an entity that the parties agree will perform all or part of the actions under the relevant provision for both parties.
+“Trading Account” shall mean the unique personified registration system of all Completed Transactions, Open Positions, Orders and deposit/withdrawal transactions in the Trading Platform.
+“Trading Account History” shall mean any of and/or all Client’s trading and/or non-trading activity including but not limited to deposits, withdrawals, credits and/or any other services offered by the Company within a Client’s account(s) with the Company, whether these derive from and/or on MetaTrader 5 Platform and as these may from time to time in part of or all be transferred, and/or further archived, and/or shrunk, and/or compressed, accessible at any time by the Client upon submitting a request to the Company.
+“Trading Benefits Scheme” shall have the meaning given in Clause 26.1 herein.
+“Trading Platform” shall mean all programs and technical facilities which provide real-time Quotes and allow Transactions to be made, Orders to be placed/modified/deleted/executed and calculate all mutual obligations between the Client and the Company. The trading platform consists of the Server and the Client Terminal including, but not limited to MetaTrader 5 Platform(s).
+“Transaction” shall mean any contract entered into or executed by the Client or on behalf of the Client arising under this Agreement and the Terms of Business.
+“Transaction Size” shall mean Lot Size multiplied by number of Lots.
+“Website” shall mean the Company’s website at www.mondfx.com or such other website as the Company may maintain from time to time for access by Clients.
+“Written Notice” shall have the meaning set out in Clause 11 herein.
+1.2 All references to a statutory provision include references to:
+any statutory modification, consolidation or reenactment of it, whether before or after the date of these Operative Agreements, for the time being in force;
+all statutory instruments or orders made pursuant to it; and
+any statutory provision of which that statutory provision is a re-enactment or modification.
+1.3 Words denoting the singular include the plural and vice versa; words denoting any gender include all genders; and words denoting persons include corporations, partnerships, other unincorporated bodies and all other legal entities and vice versa.
+1.4 Unless otherwise stated, a reference to a clause, party or a schedule is a reference to a clause in or a party or schedule to this Agreement respectively.
+1.5 The clause headings are inserted for ease of reference only and do not affect the construction of the terms of this Agreement.
+1.6 Any words whose meaning is not defined in this Client Agreement shall have the meaning provided in the Terms of Business.
+2. INTRODUCTION
+2.1 This Client Agreement (“Agreement”) is entered by and between the Company and the Client.
+2.2 This Client Agreement, together with the Terms of Business, the Risk Disclosure, the Regulations for Non-Trading Operations, the Rules of the Cashback Program, the Rules of the Forum, the Phone Etiquette, as well as any other document located in the “Legal” section of the Website as these may be amended or supplemented from time to time, constitute the entire agreement between the Company and the Client. The Operative Agreements, as amended from time to time, set out the terms upon which the Company shall deal with the Client in respect of Instruments.
+2.3 The Operative Agreements shall govern all trading activity and non-trading operations of the Client with the Company and shall be read carefully by the Client. Amongst other things, they set out those matters which the Company is required to disclose to the Client under the applicable regulations.
+2.4 The defined terms used in this Agreement are set out in Clause 1.1 (“Interpretation of Terms”).
+In relation to any Client transaction, the Company acts on a principal-to-principal basis and not as the agent on the Client’s behalf. This means that unless otherwise agreed, the Company shall treat the Client as a client for all purposes and the Client shall be directly and fully responsible for performing the obligations under each transaction made by the Client. If the Client acts in relation to or on behalf of another person, whether or not the Client makes the identity of that person known to the Company, the Company shall not accept that person as an indirect client and shall accept no obligation to that person, unless otherwise specifically agreed.
+3. COMMENCEMENT
+3.1 The terms of the Operative Agreements shall be considered accepted unconditionally by the Client on the date on which the Client receives notice from the Company in accordance with Clause 4.1 and shall continue unless or until terminated by either party.
+3.2 This Agreement is an initial service agreement which relates to a series of successive or separate operations including, without limitation, Transactions in Instruments.
+3.3 The Client has no right to cancel the Agreement on the basis that it is a distance contract.
+4. ACCOUNT ACTIVATION
+4.1 The Client’s MondFx account shall be activated by the Company giving notice to the Client as soon as the Company receives the Client Registration Form submitted by the Client and:
+relevant identity checks have been completed to the Company satisfaction;
+the Company approved Client’s deposit and/or withdrawal methods; and
+the Operative Agreements have been accepted by the Client.
+4.2 The Company reserves the right at its absolute discretion to accept or reject the Client subject to all documentation requested that has been received by the Company, properly and fully completed by the Client.
+4.3 The Company has the right to request a minimum initial deposit to allow the Client to start using his Trading Account.
+4.4 Following the account activation, the Client shall be able to view the amount due to him/her as account balance in MondFx account at all times and shall have the right to withdraw the same, on demand.
+5. SERVICES
+5.1 Subject to the Client’s obligations under the Operative Agreements being fulfilled and any other rights of the Company herein in the Operative Agreements, the Company shall offer the following Services to the Client:
+Receive and transmit orders or execute (on an own account basis) orders for the Client in financial instruments.
+Provide Foreign Currency Services provided they are associated with the provision of the Investment Service of Clause 5.1a) herein.
+Provide safekeeping and administration of financial instruments for the account of Client (as and if applicable), including custodianship and related services such as cash/collateral management, as described in Clause 7 herein.
+Provide the Clients access to Investment Research data which may be relevant for Clients’ consideration.
+5.2 Subject to the Client’s obligations under the Operative Agreements being fulfilled, the Company may enter into Transactions with the Client in Instruments specified on the Company Website. For specific categories of Instruments, the Client shall agree to any additional agreement posted on the Website or share any additional information requested by the Company. The Company may share this information with its authorized agent or third party.
+5.3 The Company shall carry out all Transactions with the Client on an execution-only basis. The Company is entitled to execute Transactions notwithstanding that a Transaction may be not suitable for the Client.
+5.4 The Company is under no obligation, unless otherwise agreed in the Operative Agreements, to monitor or advise the Client on the status of any Transaction; to make margin calls; or to close out any Client’s Open Positions.
+5.5 The Client shall not be entitled to ask the Company to provide investment advice or to make any statements of opinion to encourage the Client to make any particular Transaction.
+5.6 The Company shall not provide physical delivery of the underlying asset of an Instrument in relation to any Transaction. Profit or loss in the Currency of the Trading Account is deposited in/withdrawn from the Trading Account once the Transaction is closed.
+5.7 The Company shall not provide personal recommendations or advice on the merits of any specific Transactions.
+5.8 The Company may from time to time and at its discretion provide information and recommendations in newsletters which it may post on its website or provide to subscribers via its website or otherwise. Where it does so:
+this information is provided solely to enable the Client to make his/her own investment decisions and does not amount to investment advice;
+if the document contains a restriction on the person or category of persons for whom that document is intended or to whom it is distributed, the Client agrees that he shall not pass it on to any such person or category of persons;
+the Company gives no representation, warranty or guarantee as to the accuracy of completeness of such information or as to the tax consequences of any Transaction;
+The Company does not make representations as to the time of receipt by the Client and cannot guarantee that he shall receive such information at the same time as other Clients. Any published research reports or recommendations may appear in one or more screen information service.
+It is provided solely to assist the Client to make the Client’s own investment decisions and does not amount to investment advice or unsolicited financial promotions to the Client.
+It does not necessarily take into consideration the relevant legislative or regulatory framework of the country where the Client is resident, and it is the Client’s responsibility to ensure compliance therewith.
+5.9 The Company shall have the right to request, and the Client shall be obliged to provide information about the Client’s knowledge and experience in the investment field so that it can assess whether the service or product envisaged is appropriate for the Client. If the Client elects not to provide such information to the Company or if the Client provides insufficient information, the Company shall not be able to determine whether the service or product envisaged is appropriate for the Client. The Company shall assume that information about his/her knowledge and experience provided from the Client to the Company is accurate and the Company shall have no responsibility to the Client if such information is incomplete or misleading or changes or becomes inaccurate unless the Client has informed the Company of such changes.
+5.10 The Company reserves the right, at its discretion, at any time to refuse to provide the Services to the Client and the Client agrees that the Company shall have no obligation to inform the Client of the reasons. The Company further reserves the right to suspend, delay and/or amend the provision of any Services in the event of Abnormal Market Conditions.
+5.11 All trade Requests are subject to size considerations. If the requested trade size is larger than the Company is able to fill at any particular moment due to market conditions, then the Order may be executed partially or the entire trade or Order may be rejected at the Company’s sole discretion.
+5.12 Market commentary, news, or other information are subject to change and may be withdrawn at any time without notice.
+5.13 The Client understands, confirms and accepts herein that any and/or all of his/her trading history in MetaTrader 5 Platform may at any time and without prior written consent and/or notice to the Client, further be archived by the Company to a single summarized line in the respective MetaTrader 5 trading account, where such trading history records exceed a timeframe of one (1) month.
+5.14 The Client further understands, confirms and accepts herein that such archived trading and non-trading history shall be accessible to the Client upon submitting a request to the Company.
+5.15 The Company hereby confirms that the Client’s archived original trading history records from MetaTrader 5 Platform shall be available to the Client at any time upon submitting a request to the Company.
+5.16 The Company hereby confirms that all Client records and/or trading and non-trading activity, current and/or past and/or archived shall be maintained for at least five (5) years after the termination of the business relationship with the Client and as per applicable legislative requirements.
+5.17 The Company reserves the right to suspend, close, or unwind any Transaction which has resulted from any misconfiguration, technical error, or if the Company suspects any fraud, manipulation, arbitrage, or other forms of deceitful or fraudulent activity on the Client’s account or multiple accounts with the Company or otherwise related or connected to any and/or all Transactions. Under such circumstances, the Company shall be entitled to withdraw any profits and charge any costs which it deems, in its sole discretion, to have been inappropriately gained and shall not be liable for the cancelation of any Transaction or profits or in the event of any damages or losses which may result from the suspension, closure or unwinding.
+5.18 In accordance with common reporting standards, the Client agrees to submit to the Company all the necessary information about the Client (name, address, jurisdiction of residence, date and place of the birth, account number of the Client, and any necessary additional documents and information at the request of the Company). The Client agrees to transfer his/her personal data to the Company, which is registered as a data controller according to the law, for identification, administrative, and business purposes necessary for the Company to fulfil its legal and contractual obligations under this and other agreements between the parties, with rights to transfer such personal data to auditors, lawyers, financial consultants, and other service providers and counteragents contracted by the Company.
+5.19 Energy Instruments Weekly Contract Trading Agreement
+This Agreement outlines the terms and conditions governing trading in Energy Instruments offered on a weekly contract basis.
+Nature of the Contracts — All energy instruments provided on the platform are offered as weekly contracts. These contracts remain valid only within the respective trading week and are subject to mandatory settlement at the end of that trading week.
+Weekly Settlement — At the close of each trading week, all open positions in energy instruments will be automatically settled based on the prevailing market price at the time of settlement. Any resulting profit or loss will be realized and reflected in the client’s account balance accordingly.
+Position Management Responsibility — Clients are solely responsible for managing their open positions prior to the weekly settlement time. Traders are strongly advised to review and manage their positions before the end of the trading week to ensure alignment with their trading strategy and risk management practices.
+Non-Continuation of Positions — Positions displayed after the start of a new trading week do not represent a continuation of the previous week’s contract and shall have no contractual validity with respect to the prior week’s settlement. Any trading activity in the new week constitutes a new and independent contract.
+Client Acknowledgment — By trading energy instruments on the platform, the client acknowledges and agrees that: All energy contracts are weekly in nature.
+Automatic settlement occurs at the end of each trading week.
+Open positions from the previous week cannot be carried forward as valid contracts into the following week.
+The client bears full responsibility for monitoring and managing open trades prior to settlement.
+Risk Disclosure — Trading in leveraged financial instruments, including energy derivatives, involves a high level of risk and may not be suitable for all investors. Clients should ensure they fully understand the risks involved and seek independent advice if necessary.
+Amendments — The Company reserves the right to amend or update these terms at its discretion. Any such amendments will become effective upon publication on the Company’s official communication channels or trading platform.
+By continuing to trade energy instruments on the platform, the client confirms acceptance of the above terms and conditions.
+6. CONFLICTS OF INTEREST AND MATERIAL INTERESTS
+6.1 When the Company deals with or on behalf of the Client, the Company, an associate, or some other person connected or affiliated with the Company, may have an interest, relationship, or arrangement that is material in relation to the transaction concerned or that conflicts with the Client’s interest. By way of example only, when the Company deals with a transaction for or on behalf of the Client the Company may be:
+dealing in the respective Instrument as principal for the Company’s own account by selling to or buying the Instrument from the Client; and/or
+matching the Client’s transaction with that or another client by acting on such other client’s behalf as well as on the Client’s behalf; and/or
+dealing in the Instrument which the Company offers to the Client (including holding a long or short position); and/or
+advising and providing other services to associates or other clients of the Company who may have interests in investments or underlying assets which conflict with the Client’s interests.
+6.2 The Client consents to and authorizes the Company to deal with or on behalf of the Client in any manner which the Company considers appropriate, notwithstanding any conflict of interest or the existence of any material interest in a transaction, without prior notice to the Client. The Company’s employees are required to comply with a policy of independence and to disregard any such material interest or conflict of interest when advising the Client.
+7. COMMISSIONS, CHARGES AND OTHER COSTS
+7.1 The Client shall be obliged to pay the Company the commissions, charges and other costs set out on the website or MondFx account. The Company shall display all current commissions, charges and other costs on its Website or MondFx account.
+7.2 The Company may vary commissions, charges and other costs from time to time without prior Written Notice to the Client. All changes in commissions, charges and other costs are displayed on the Company’s website or MondFx account and posting on the Website or MondFx account shall be considered due notice.
+7.3 The Company may from time to time deal on the Client’s behalf with persons with whom the Company has a soft commission agreement which permits the Company (or another member of the Company group) to receive goods or services in return for transacting investment business with such persons or others. It is the policy of the Company in relation to such agreements to ensure that such arrangements operate in the best interest of the Client as far as practicable, for example, because the arrangements allow access to information or other benefits which would not otherwise be available.
+7.4 The Client accepts to be notified if the Company pays commissions/fees to any third party who introduced him or who acts on the Client’s behalf.
+7.5 The Client agrees in the event that his/her remaining Trading Account Balance is up to 2 EUR/USD or the equivalent to EUR/USD per account and his/her Trading Account is closed or inactive for more than 90 calendar days, then the Company shall have the right to deduct this remaining Trading Account Balance and use it for charity purposes at its absolute discretion.
+7.6 The Client undertakes to pay all stamp expenses relating to this Agreement and any documentation which may be required for the carrying out of the Transactions.
+7.7 The Client shall be solely responsible for all filings, tax returns and reports on any Transactions which should be made to any relevant authority, whether governmental or otherwise, and for payment of all taxes (including but not limited to any transfer or value added taxes), arising out of or in connection with any Transaction.
+7.8 In case the Client performs a withdrawal request without any trading activity from the last deposit made or if any other form of abuse is found the Company reserves the right to:
+charge the Client the equivalent amount of any deposit fees incurred, or
+up to 7% of the total withdrawal amount.
+The Client shall be notified via email about processed withdrawal request and applied charges.
+7.9 Client’s funds are held on the Company’s accounts including segregated accounts opened in the Company’s name for holding Client funds separate from the Company’s funds.
+7.10 The Client acknowledges and agrees that the Company will not pay interest to the Client on funds located in Client accounts.
+7.11 The Company shall be entitled, at its sole discretion, to refuse to provide the Subscription for a particular Trading Account or all of the Client’s Trading Accounts, as well as cancel a previously provided Subscription without prior notice or explanation of reasons.
+7.12 The Company shall under no circumstances be held liable for not canceling the Subscription due to the Client’s inability to access the Trading Account.
+7.13 The Client acknowledges and agrees that, in the case of Islamic Accounts, trading and holding a position open shall be swap-free for up to five (5) calendar days. In the event that a position remains open beyond this period, starting from the sixth (6th) night, the Company shall apply a fixed charge per lot. This charge shall amount to 98 USD per lot for each instrument.
+7.14 The Client acknowledges and agrees that, if no trading activity, deposit, withdrawal, or internal transfer is recorded on the Client’s account for a continuous period of three (3) calendar months, the account shall be deemed inactive. Starting from the end of the third (3rd) month, a maintenance fee of 3 USD per month shall be deducted from the account balance for each subsequent month of inactivity. To avoid this charge, the Client may initiate any of the mentioned activities before the end of the third month.
+8. CURRENCY AND PAYMENTS
+8.1 The Company is entitled, without prior notice to the Client, to make any currency conversions which the Company considers necessary or desirable for the purposes of complying with its obligations or exercising its rights under the Operative Agreements or any Transaction. Any such conversion shall be affected by the Company in such manner and at such rates as the Company may in its discretion determine, having regard to the prevailing rates for freely convertible currencies.
+8.2 All foreign currency exchange risk arising from any Transaction or from the compliance by the Company with its obligations or the exercise by it of its rights under the Operative Agreements will be borne by the Client.
+8.3 The Client may deposit funds to his/her Trading Account at any time.
+8.4 Funds deposits and withdrawals to/from the Trading Account shall be governed by the Regulations for Non-Trading Operations.
+8.5 If the Client has an obligation to pay any amount to the Company which exceeds the Equity on his/her Trading Account, the Client shall pay the amount representing the excess within 2 working days of the obligation arising.
+8.6 The Client acknowledges and agrees (without prejudice to any of the Company’s other rights under the Agreement to close out the Client’s Open Positions and exercise other default remedies against the Client) that where a sum is due and payable to the Company in accordance with the Agreement and sufficient cleared funds have not yet been credited to the Client’s Trading Account, the Company shall be entitled to treat the Customer as having failed to make a payment to the Company and to exercise its rights under the Agreement.
+8.7 The Company shall update on a regular basis the available payment system on the deposit & withdrawal section. The availability of each payment system may differ depending on country of residence therefore the payment systems available shall be located in the Client’s MondFx account.
+9. LIMITATIONS OF LIABILITY AND INDEMNITY
+9.1 In the event the Company provides advice, information or recommendations to the Client, the Company shall not be responsible for the profitability of such advice, information or recommendations. The Client acknowledges that the Company shall not, in the absence of its fraud, willful default or gross negligence, be liable for any losses, costs, expenses or damages suffered by the Client arising from any inaccuracy or mistake in any information given to the Client including, without limitation, information relating to any Transactions. Subject to the right of the Company to void or close any Transaction in the specific circumstances set out the Operative Agreements, any Transaction following such inaccuracy or mistake shall nonetheless remain valid and binding in all respects on both the Company and the Client.
+9.2 The Company shall not be liable for any loss or expense incurred by the Client in connection with, or directly or indirectly arising from:
+any error or failure in the operation of the Trading Platform or any delay caused by the Client Terminal;
+Transactions made via the Client Terminal;
+any failure by the Company to perform any of its obligations under the Operative Agreements as a result of a cause beyond its control; or
+acts, omissions or negligence of any third party.
+9.3 The Client shall indemnify the Company and keep the Company indemnified on demand in respect of all liabilities, costs, claims, demands and expenses of any nature whatsoever which the Company suffers or incurs as a direct or indirect result of any failure by the Client to perform any of the Client’s obligations under the Operative Agreements.
+9.4 The Company shall in no circumstances be liable to the Client for any consequential special or indirect losses, loss of profits, loss of opportunity (including in relation to subsequent market movements), costs, expenses or damages the Client may suffer in relation to the Operative Agreements, unless otherwise agreed in the Terms of Business.
+10. COMMUNICATIONS
+10.1 The rules of communication between the Client and the Company are set out in the Terms of Business.
+10.2 The Client shall give Instructions and Requests only via the Client Terminal, in accordance with the Terms of Business.
+11. WRITTEN NOTICE
+11.1 Any Written Notice given under this Agreement may be made as follows:
+Trading Platform internal mail;
+email;
+post; or
+information published in the Company news section on the Website.
+11.2 All contact details provided by the Client, e.g., address or email address as last notified shall be used as applicable. The Client agrees to accept any notices or messages from the Company at any time.
+11.3 Any such Written Notice shall be deemed to have been served:
+if sent by email, within one hour after emailing it;
+if sent by Trading Platform internal mail, immediately after sending it;
+if sent by post, seven calendar days after posting it;
+if posted on the Company news section on the Website, within one hour after it has been posted.
+12. AMENDMENT AND TERMINATION
+Amendments to the Agreement. Mond Trades Ltd. reserves the right to modify, update, or amend the terms and conditions of this Agreement at any time without prior individual notice. Any such changes shall become effective immediately upon publication on the Company’s official website. It is the Client’s sole responsibility to review the Agreement regularly (at least once every 30 days) to stay informed of the latest modifications. Continued use of the Company’s services after such changes constitutes the Client’s acceptance of the amended terms.
+12.1 The Client acknowledges that the Company has the right to unilaterally modify the terms and conditions of the Operative Agreements at any time and at its sole discretion, giving to the Client Written Notice by email and/or by posting the modification on the Company Website.
+12.2 Both parties to the Agreement can terminate this Agreement by giving such notice in Writing to the other Party.
+12.3 Upon termination of this Agreement, the Company shall be entitled without prior notice to the Client to cease to grant the Client access to the Trading Platform.
+12.4 Upon termination of this Agreement, all amounts payable by the Client to the Company shall become immediately due and payable including (but without limitation):
+all outstanding fees, charges and commissions;
+any dealing expenses incurred by terminating this Agreement and charges incurred for transferring the Client’s investments to another investment firm; and
+any losses and expenses realized in closing out any Transactions or settling or concluding outstanding obligations incurred by the Company on the Client’s behalf.
+12.5 The Company, under the terms and conditions of Operative Agreements, reserves the right at its absolute discretion, to disable the Client’s account without prior notice in case it places abnormal number of erroneous requests which creates an extra-load to the Company’s servers and can cause negative trading experience to the other clients of the respective servers. Erroneous requests may include but not limited to invalid stops or modifications, wrong TP or SL, over limit volume or number of orders, requests with not enough account funds and others.
+13. PERSONAL DATA AND RECORDING OF TELEPHONE CALLS
+13.1 The Company may use, store or otherwise process personal information provided by the Client in connection with the provision of the Services.
+13.2 If the Client is an individual, the Company is obliged to supply the Client, on request, with a copy of the personal data which it holds about the Client (if any), provided that the Client pays a fee.
+13.3 By entering into this Agreement, the Client expressly consents to the Company transmitting the Client’s Information to any third parties which may require same in order to effectively implement the Services or effectively executing any operational function performed to the Company to Client (e.g., refunding the Client his money).
+13.4 Telephone conversations between the Client and the Company may be recorded. Any recordings shall be and remain the sole property of the Company and will be accepted by the Client as conclusive evidence of the Instructions/Requests or conversations so recorded. The Client agrees that the Company may deliver copies of transcripts of such recordings to any court, regulatory or government authority.
+14. CONSENT TO DIRECT CONTACT
+14.1 The Client accepts that the Company, for the purpose of marketing financial services and products, may, from time to time, make direct contact with the Client by telephone or otherwise.
+15. CONFIDENTIALITY AND WAIVER
+15.1 The information which the Company holds about the Client is confidential and shall not be used for any purpose other than in connection with the provision of the Services. Information of a confidential nature shall be treated as such provided that such information is not already in the public domain or in the legal possession of the Company and was not subject to an obligation of confidence or non-disclosure at the moment of its receipt by the Company. Information of a confidential nature shall only be disclosed to any person, in the following circumstances:
+where required by law or as requested by regulatory and enforcement authorities, courts and similar bodies which have jurisdiction over the Company;
+to investigate or prevent fraud or other illegal activity;
+to those members of the Company personnel who require information thereof for the performance of their duties under the Operative Agreements or to any third party in connection with the provision of Services to the Client by the Company;
+for purposes ancillary to the provision of the Services or the administration of the Client’s Trading Account, including, without limitation, for the purposes of credit or identification enquiries or assessments;
+at the Client’s request or with the Client’s consent;
+to the Company’s consultants, lawyers, auditors, provided that in each case the relevant professional shall be informed about the confidential nature of such information and commit to the confidentiality herein obligations as well;
+in judicial proceeding between the Company and the Client;
+in any public dispute between the Company and the Client.
+16. TIME OF ESSENCE
+16.1 The time periods of fulfillment by the Client and the Company of their obligations shall be an essential condition of all Operative Agreements Time.
+17. DEFAULT
+17.1 Each of the following constitutes an “Event of Default”:
+the failure of the Client to provide any Initial Margin and/or Hedged Margin, or other amount due under the Operative Agreements;
+the failure of the Client to perform any obligation due to the Company;
+the initiation by a third party of proceedings for the Client’s bankruptcy (if the Client is an individual) or for the Client’s winding-up or for the appointment of an administrator or receiver in respect of the Client or any of the Client’s assets (if the Client is a company) or (in both cases) if the Client makes an arrangement or composition with the Client’s creditors or any procedure which is similar or analogous to any of the above is commenced in respect of the Client;
+where any representation or warranty made by the Client in Clause 18 herein is or becomes untrue;
+the Client is unable to pay the Client’s debts when they fall due;
+the Client (if the Client is an individual) dies or becomes of unsound mind; or
+any other circumstance where the Company reasonably believes that it is necessary or desirable to take any action set out in Clause 17.2 herein.
+the Client attempts and/or performs any of the actions which shall be determined by the Company as fraud, manipulation, swap-arbitrage or other forms of deceitful or fraudulent activity in the Client’s account or accounts with the Company;
+The Client has carried out trading: which can be characterized as excessive without a legitimate intent, to profit from market movements;
+while relying on price latency or arbitrage opportunities;
+which can be considered as market abuse;
+17.2 If an Event of Default occurs the Company may, at its absolute discretion, at any time and without prior Written Notice, take one or more of the following steps:
+close out all or any of the Client’s Open Positions at current Quotes;
+debit the Client’s Trading Account(s) for the amounts which are due to the Company;
+close any or all of the Client’s Trading Accounts held with the Company;
+refuse to open new Trading Accounts for the Client;
+adjust the Client’s trading account balance to remove illicit profit.
+17.3 In case of an Event of Default described in Clause 17.1 (f), the remaining Balance will be sent to the next of kin or other qualifying person as provided in the applicable laws after the Company receives the necessary evidence showcasing the right to claim the Balance.
+18. REPRESENTATIONS AND WARRANTIES
+18.1 The Client represents and warrants to the Company, and agrees that each such representation and warranty is deemed repeated each time the Client gives an Instruction or Request by reference to the circumstances prevailing at such time, that:
+the information provided by the Client to the Company in the Client Registration Form and the Operative Agreements and at any time thereafter is true, accurate and complete in all material respects;
+the Client has read and fully understood the terms of the Operative Agreements including the Risk Acknowledgement and Disclosure;
+the Client is duly authorized to enter into the Operative Agreements, to give Instructions and requests and to perform its obligations thereunder;
+the Client acts as principal;
+the Client is an individual who has completed a Client Registration Form or, if the Client is a company, the person who has completed a Client Registration Form on the Client’s behalf is duly authorized to do so;
+all actions performed under the Operative Agreements shall not violate the applicable regulations or any law, ordinance, charter, by-law or rule applicable to the Client or to the jurisdiction in which the Client is resident, or any agreement by which the Client is bound or by which any of the Client’s assets are affected;
+the Client consents to the provision of the information of the Operative Agreements by means of the Website and/or any other means which the Company chooses at its sole discretion;
+the Client confirms that he/she has regular access to the internet and consents the Company provides him with information, including, without limitation, information about amendments to the terms and conditions, costs, fees, the Operative Agreements, Policies and information about the nature and risks of investments by posting such information on the Company’s Website;
+The Client hereby represents that the purpose of his/her transaction with the Company is one or more of the following: Speculative;
+Hedging;
+Investments;
+Intraday Trading;
+Manage Risk.
+In the event where the purpose is other than the above, or at any stage during the course of this Agreement the purpose changes, the Client undertakes the strict obligation to notify the Company.
+18.2 In addition to all other rights and remedies available to it, the Company has the right to render any position voidable or to close out any or all positions at the current Quotes at any time, at its absolute discretion, if the Client breaches Clause 18.1 herein.
+19. FORCE MAJEURE
+19.1 The Company may, in its reasonable opinion, determine that a Force Majeure Event exists, in which case the Company will, in due course, take reasonable steps to inform the Client. A Force Majeure Event includes without limitation:
+any act, event or occurrence (including, without limitation, any strike, riot or civil commotion, terrorism, war, act of God, accident, fire, flood, storm, interruption of power supply, electronic, communication equipment or supplier failure, civil unrest, statutory provisions, lockouts) which, in the Company’s reasonable opinion, prevents the Company from maintaining an orderly market in one or more of the Instruments;
+the suspension, liquidation or closure of any market or the abandonment or failure of any event to which the Company relates its Quotes, or the imposition of limits or special or unusual terms on the trading in any such market or on any such event.
+19.2 If the Company determines in its reasonable opinion that a Force Majeure Event exists (without prejudice to any other rights under the Operative Agreements) the Company may without prior Written Notice and at any time take any of the following steps:
+increase margin requirements; or
+close out any or all Open Positions at such prices as the Company considers in good faith to be appropriate; or
+suspend or freeze or modify the application of any or all terms of the Operative Agreements to the extent that the Force Majeure Event makes it impossible or impractical for the Company to comply with them; or
+take or omit to take all such other actions as the Company deems to be reasonably appropriate in the circumstances with regard to the position of the Company, the Client and other clients.
+20. MISCELLANEOUS
+20.1 The Company has the right to suspend the Client’s Trading Account at any time for any good reason (including Abnormal Market Conditions) with or without Written Notice to the Client.
+20.2 The Company reserves the right to suspend, close or unwind any Transaction which has resulted from any miss-configuration, technical error or if the Company suspects any fraud, manipulation, arbitrage or other forms of deceitful or fraudulent activity in a Client’s account or multiple accounts with the Company or otherwise related or connected to any and/or all Transactions.
+Under such circumstances the Company shall be entitled to withdraw any profits and charge any costs which it deems, in its sole discretion, to have been inappropriately gained and shall not be liable for the cancellation of any Transaction or profits or in the event of any damages or losses which may result from the suspension, closure or unwinding.
+20.3 In the event that a situation arises that is not covered under the Operative Agreements, the Company will resolve the matter on the basis of good faith and fairness and, where appropriate, by taking such action as is consistent with market practice.
+20.4 No single or partial exercise of, or failure or delay in exercising any right, power or remedy (under these terms or at law) by the Company shall constitute a waiver by the Company of or impair or preclude any exercise or further exercise of, that or any other right, power or remedy arising under the Operative Agreements or at law.
+20.5 Any liability of the Client to the Company under the Operative Agreements may in whole or in part be released, compounded, compromised or postponed by the Company in its absolute discretion without affecting any rights in respect of that or any liability not so waived, released, compounded, compromised or postponed. A waiver by the Company of a breach of any of the terms of the Operative Agreements or of a default under these terms does not constitute a waiver of any other breach or default and shall not affect the other terms. A waiver by the Company of a breach of any of the terms of the Operative Agreements or a default under these terms will not prevent the Company from subsequently requiring compliance with the waived obligation.
+20.6 The rights and remedies provided to the Company under the Operative Agreements are cumulative and are not exclusive of any rights or remedies provided by law.
+20.7 The Company may assign the benefit and burden of the Operative Agreements to a third party in whole or in part, provided that such assignee agrees to abide by the terms of the Operative Agreements. Such assignment shall come into effect ten Business Days following the day the Client is deemed to have received notice of the assignment in accordance with the Terms of Business.
+20.8 If any term of the Operative Agreements (or any part of any term) shall be held by a court of competent jurisdiction to be unenforceable for any reason then such term shall, to that extent, be deemed severable and not form part of this Agreement or the Terms of Business, but the enforceability of the remainder of Operative Agreements shall not be affected.
+20.9 The Client may not assign, charge or otherwise transfer or purport to assign, charge or otherwise transfer the Client’s rights or obligations under the Operative Agreements without prior written consent of the Company and any purported assignment, charge or transfer in violation of this term shall be void.
+20.10 The Client does not have the right to give third parties access passwords to the trading platform or MondFx account and agrees to keep them secure and confidential.
+20.11 All actions related to the fulfillment of the Regulations and/or the usage of logins and passwords are considered executed by the Client. The Company does not bear responsibility for the unauthorized use of registration data by third parties.
+20.12 The Client accepts and understands that the Company’s official language is the English language, and the Client should always read and refer to the main Website for all information and disclosures about the Company and its activities. Translation or information provided in languages other than English in the Company’s local websites is for informational purposes only and do not bind the Company or have any legal effect whatsoever, the Company having no responsibility or liability regarding the correctness of the information therein.
+20.13 The Company, under the terms and conditions of this Agreement and in accordance with its internal policies and procedures, reserves the right in its absolute discretion, to create a dormant accounts policy and/or to impose on any dormant and/or inactive account fee of 10 USD or the equivalent to USD per account per month and/or close the trading account after the period of three (3) consecutive months of inactivity in the following cases:
+Where a Client has not transacted with the Company for a period of three (3) consecutive months and the Company may deem the trading account to be dormant and/or inactivate;
+Where a Client’s dormant and/or inactivate account(s) has a positive cash balance, the Company reserves the right at its absolute discretion to apply and/or impose an inactive account fee of 10 USD or the equivalent to USD per account per month and as this may be amended from time to time by the Company;
+Where a Client makes a genuine attempt to resolve their account balances, the Company reserves the right to waive any and/or all payments and/or fees at its own and absolute discretion;
+Where a Client’s dormant account and/or inactivate account(s) has a zero cash balance, the handling fee of 10 USD or equivalent to USD per account per month shall not be imposed the Company, however, the Company will reserve the right to close the account(s) upon and/or terminate this Agreement without any Written Notice after the period of three (3) consecutive months of inactivity.
+20.14 In the case where the Client opens a swap-free Trading Account or Accounts, the Client acknowledges and agrees to the following:
+If the Company suspects any fraud, manipulation, swap-arbitrage or other forms of deceitful or fraudulent activity in a Client’s account(s) or otherwise related or connected to any and/or all Transactions, then the Company reserves the right, at its sole discretion, to close all open positions in the Client’s Trading Account and deduct or add a penalty (equivalent to the swap and/or any profit amount) for all Transactions made in the account and decline from accepting any further requests from the Client to be exempted from any swaps;
+The Client acknowledges and agrees to: (i) trade only with the instruments shown on the Website; and (ii) the swap free charge for all positions open as these may be defined and/or issued by the Company from time to time (inclusive of the day of the position is opened and/or closed) and as such charges and duration is on request;
+The Client acknowledges and accepts herein that, the Company reserves the right upon its sole discretion, from time to time, and/or at any time to: (i) amend the swap free charge; and/or (ii) amend the list of provided Instruments; and/or (iii) discontinue the swap free Trading Account without issuing further warning to the Client; (iv) request any additional documents from the Client that the Company deems necessary for the swap-free accounts provision.
+20.15 The Company reserves the right to disable any account of the Client to Close Only Mode without prior notification.
+If the Company disables the Client’s account to Close Only Mode, it means that the Client shall not be permitted to open any new Transactions or increase exposure under existing Transactions, but the Client shall be permitted to close, part close or reduce exposure under the existing Transactions.
+Any dispute arising in this regard shall be resolved by the Company in its sole and absolute discretion.
+20.16 All copyrights, trademarks, trade secrets, and other intellectual property rights and proprietary rights to the Website in its totality, its contents, and any related materials (“Company’s IP”) shall remain at all times the sole and exclusive property of the Company and the Client shall have no right or interest in the Company’s IP except for the right to access and use the Company’s IP as specified in the Agreement. The Client acknowledges that the Company’s IP is confidential and has been developed by means of substantial investments of skill, time, effort, and money. The Client shall protect the confidentiality of the Company’s IP and not allow website access to any third party. The Client shall not publish, distribute, or otherwise make the Company liable to third parties, any information derived from or relating to the Company IP. The Client shall not copy, modify, decompile, reverse engineer, or make derivative works of the Company’s IP.
+20.17 The Client shall hold full responsibility for the accuracy of payments executed. If the Company bank details change, the Client shall bear full responsibility for any payments carried out to the outdated bank details from the moment the new details are published in MondFx account.
+21. GOVERNING LAW AND JURISDICTION
+21.1 In the event of a dispute arising out of or relating to the Agreement, the Client irrevocably agrees that these parties to the Agreement shall first seek settlement of that dispute with the Company under the dispute resolution mechanism set out in a Clause 23.
+21.2 The Client irrevocably waives to the fullest extent permitted by law, with respect to the Client and the Client’s revenues and assets (irrespective of their use or intended use), all immunity (including but not limited to grounds for diplomatic immunity or other similar grounds) from (a) suit or arbitral proceedings, (b) the jurisdiction of any courts, (c) relief by way of injunction, order for specific performance, or for recovery of property, (d) attachment of their assets (whether obtained before or after judgment) and (e) the execution or enforcement of any judgment to which the Client or the Client’s revenues or assets might otherwise be the subject matter in any proceedings in the courts of any jurisdiction and irrevocably agrees to the extent permitted by any applicable law that the Client will not claim any such immunity in any proceedings. The Client consents generally in respect of any proceedings to the provision of any relief or the initiation of any process in connection with such proceedings, including, without limitation, the making, enforcement, or execution against any property whatsoever of any order or judgment which may be made or given in such proceedings.
+22. USE OF THE TRADING PLATFORM AND SAFETY
+22.1 The Client shall not proceed in any action that could probably allow the irregular or unauthorized access or use of the Trading Platform. The Client accepts and understands the Company reserves the right, at its discretion, to terminate or limit his access to the Trading Platform if it suspects that he/she allowed such use.
+22.2 When using the Trading Platform, the Client shall not, whether by act or omission, do anything that shall or may violate the integrity of the Platform or cause it to malfunction.
+22.3 The Client is permitted to store, display, analyze, modify, reformat and print the information made available through the Trading Platform. The Client is not permitted to publish, transmit, or otherwise reproduce that information, in whole or in part, in any format to any third party without the Company’s consent. The Client may not alter, obscure or remove any copyright, trademark or any other notices that are provided on the Trading Platform.
+22.4 The Client agrees to keep it secret and not to disclose any Access Data to any person.
+22.5 The Client agrees to notify the Company immediately if he knows or suspects that his Access Data has or may have been disclosed to any unauthorized person.
+22.6 The Client agrees to co-operate with any investigation the Company may conduct into any misuse or suspected misuse of his Access Data.
+22.7 The Client accepts that they shall be liable for all instructions and orders given through and under his/her Access Data and any such instructions or orders received by us shall be considered as received from him/her.
+22.8 The Client acknowledges that the Company bears no responsibility if unauthorized third persons access to information have, including electronic addresses, electronic communication and personal data, when the above are transmitted, using the internet or other network communication facilities, post, telephone, or any other electronic means.
+22.9 In the event where the Company suspects any fraud, manipulation, swap-arbitrage or other forms of deceitful or fraudulent activity in a Client’s account or accounts with the Company or otherwise related or connected to the any and/or all Transactions, then the Company reserves the right to decide, at its sole discretion, to close all open positions in the Client’s Trading Account and deduct or add a penalty (equivalent to the swap and/or any profit amount) for all transactions currently and/or previously made in the account and/or annul all profits made as a result and decline from accepting any further requests from the Client to be exempted from any swaps and/or terminate all agreements with the Client.
+23. THE PROCEDURE FOR DISPUTE RESOLUTION
+23.1 If any conflict situation arises when the Client reasonably believes that the Company as a result of any action or failure to act has breached one or more of the terms of the Operative Agreements, the Client has the right to lodge a complaint with the Company within 5 (Five) working days after the occurrence of the event.
+23.1.1 To file any complaint, the Client shall fill in the Complaint form in their MondFx account. The complaint shall include:
+name and surname of the Client (or company name if the Client is a legal entity);
+Client’s login in the trading platform;
+details of when the conflict first arose (date and time in the trading platform time zone);
+ticket of the position and/or Pending Order;
+description of the disputed situation with references to the appropriate clause(s) of these Terms of Business which the Client believes to have been breached.
+23.1.2 The complaint must not include:
+emotional description/assessment of the conflict situation;
+offensive language;
+obscenities;
+threats.
+23.2 The Company has the right to dismiss a complaint in the event it does not comply with the requirements set out above.
+23.3 Disputes not mentioned in the Operative Agreements are resolved in accordance with the common market practice and at the sole discretion of the Company.
+23.4 If the Quotes Flow has been interrupted due to a software and/or hardware failure, all decisions in regard to the Dispute shall be made on a basis of the live Server’s Quotes Base synchronized in accordance with the Terms of Business.
+23.5 The Company shall not be liable to the Client if for any reason the Client has received less profit than the Client had hoped for or has incurred a loss as a result of an uncomplete action which the Client had intended to complete.
+23.6 The Company shall not be liable to the Client in regard to any indirect, consequential or non-financial damage (emotional distress, etc.).
+23.7 The Company reserves the right to independently launch an inquiry or to resolve a dispute in accordance with these Terms of Business. In such cases, the maximum time period for considering a dispute and taking steps towards its resolution is 5 days. However, in some cases, this period may be extended.
+23.8 In the case of irregular quotes from liquidity providers, the Company reserves the right to limit trading to Close Only mode (only the closing of positions is available) on the respective instruments without prior warning.
+23.9 The Company reserves the right, at its sole discretion, and without prior warning, to block the Orders to a trading account sent by an Expert Advisor.
+23.10 The Server Log-File is the most reliable source of information in case of any Dispute. The Server Log-File has absolute priority over other arguments including the Client Terminal Log-File as the Client Terminal Log-File does not register every stage of the execution of the Client’s Instructions and Requests.
+23.11 If the Server Log-File has not recorded the relevant information to which the Client refers, the argument based on this reference may not be considered.
+23.12 The Company may indemnify the Client by:
+crediting/debiting the Client’s Trading Account: this correcting entry will have an explanatory narrative; and/or
+reopening erroneously closed positions; and/or
+deleting erroneously opened positions or placed Orders.
+23.13 The Company has the right to choose the method of Dispute resolution at its sole discretion.
+23.14 The Compliance Department shall consider any Client’s complaint or Dispute and endeavor to investigate any Dispute or complaint as soon as reasonably practicable. All complaints will be considered within 5 (five) Business Days from the day the complaint is received. In certain situations, this deadline may be extended.
+24. REFUSAL OF COMPLAINT
+24.1 The Company shall have the absolute right to refuse a complaint lodged by a Client.
+24.2 If the Client has been notified in advance by Trading Platform internal mail or some other way of routine construction on the Server, complaints made in regard to any unexecuted Instructions which are given during such a construction period, are not accepted. The fact that the Client has not received a notice shall not constitute a reason to lodge a complaint.
+24.3 Complaints in regard to a Transaction or Order execution based on the difference in the prices for the Contract for Difference in the Trading Platform and for the underlying asset of the Contract for Difference are not accepted.
+24.4 Complaints in regard to time of Order execution notwithstanding the amount of time a Dealer needed to execute the Order as well as the time when the Server Log-File Recorded Order execution, are not accepted unless the Order placed in the queue has not been executed as the Terms of Business provide.
+24.5 No Client complaints shall be accepted in regard to the financial results of the deals made using temporary excess Free Margin on the Trading Account gained as a result of a profitable position (cancelled by the Company afterwards) opened at an Error Quote (Spike) or at a Quote received as a result of a Manifest Error.
+24.6 In regard to all Disputes any references by the Client to the Quotes of other companies or information systems shall not be considered.
+24.7 The Client acknowledges that he/she shall not be able to manage the position or other open positions or give Instructions to open new positions while the Dispute in regard to the disputed position is being considered and no complaints in regard to that matter are accepted.
+24.8 The Client acknowledges that the Company shall not notify him/her that the Dispute has been resolved and the position has been reopened and the Client shall be responsible for all the risks in this respect.
+24.9 Once the Dispute has been resolved the Company has the right to trigger the Stop Loss or Take Profit in the chronological order in which they would have been triggered if the position had stayed open.
+24.10 The Company has the right to void any Transaction if the corresponding hedge trade has been cancelled by a Liquidity Provider.
+25. RISK ACKNOWLEDGEMENT AND DISCLOSURE
+25.1 The Company discloses and the Client acknowledges that he/she runs a great risk of incurring losses and damages as a result of the purchase and/or sale of any financial instrument and accepts that he/she is willing to take this risk.
+26. TRADING BENEFITS
+26.1 In the event where the Client agrees to participate in a bonus scheme, and/or other promotion, and/or contest which offers a trading benefit (hereinafter the “Trading Benefits Scheme”), the following terms and conditions shall apply:
+The Client shall not be entitled to participate in more than one Trading Benefit Scheme at the same time, unless otherwise explicitly provided in the applicable terms and conditions of the Trading Benefit Scheme.
+The Company shall not be liable for any margin call or losses that the Client may suffer, including but not limited to losses due to stop-out level, if the trading benefit is withdrawn for any reason pursuant to the applicable terms and conditions of the Trading Benefit Scheme.
+The Company reserves the right, as it in its sole discretion deems fit, to alter, amend, suspend, cancel or terminate the Trading Benefit Scheme, or any aspect of it, at any time and without any prior notice. Under no circumstances shall the Company be liable for any consequences of any alteration, amendment, suspension, cancelation or termination of the Trading Benefit Scheme.
+Any indication or suspicion of fraud, manipulation, cash-back or bonus or swap arbitrage, or other forms of deceitful or fraudulent activity in the Client’s account or multiple accounts with the Company or otherwise related or connected to the Trading Benefit Scheme shall nullify any and all transactions executed and/or profits or losses garnered therein.
+The Company reserves the right, at its sole discretion, to disqualify any individual from any Trading Benefit Scheme if the Company suspects a misuse or attempt to misuse a Trading Benefit Scheme or breaches the present Agreement and/or any of the Company’s Business Terms and/or the terms and conditions of the Trading Benefit Scheme and to nullify any and all transactions carried and cancel all orders and annul and/or withdraw all profits of such Client. In these circumstances, the Company shall not be liable for any consequences of the trading benefit cancelation.
+In the event of dispute, this shall be resolved in accordance to the Dispute Resolution procedure set out herein.
+Notwithstanding the translated language of the terms and conditions of a Trading Benefit Scheme, the English wording shall be the prevailing version in the event of any discrepancy between the two languages.
+More than a broker. Built for serious traders. Global markets, fast execution, built-in protection.
+Phone : +90 212 916 3535
+Email : [email protected]
+T X In Yt
+Trade
+MetaTrader 5
+cTrader
+WebTrade
+Markets
+Spreads
+Grow
+MondShield
+MondBank
+FeneFx
+Copy Trade
+Learn
+Academy
+MondTimes
+Analysis
+Calculators
+Calendar
+Company
+About
+Awards
+Regulation
+Careers
+Contact
+© 2026 MondFx. All rights reserved.
+Privacy Terms Risk Disclosure Cookies Privacy Policy User Agreement
+Restricted regions: Mond Trades Ltd services are not provided to citizens/residents of the United States, Cuba, Myanmar, North Korea, Turkey, the United Arab Emirates, and Sudan. Mond Trades Ltd services are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local laws or regulations. The information on this site is not directed at residents of any country or jurisdiction where such distribution or use would be contrary to local laws or regulations.
+Disclaimer: Risk Warning: Investing in derivatives may result in a loss greater than your initial capital. Anyone wishing to invest in any of the products mentioned on mondfx.com should seek their own financial or professional advice. Trading securities, forex, stock indices, commodities, options and futures may not be suitable for everyone and can involve the risk of losing part or all of your capital. Financial markets offer significant reward potential but also substantial risk. You should be aware of the risks and willing to accept them before investing. Do not invest or trade with money you cannot afford to lose. Forex trading is not permitted in some countries; check whether your country allows it before investing. It is strongly recommended to obtain independent financial, legal, and tax advice before any currency or metal transactions. Nothing on this site should be read or construed as advice by Mond Trades Ltd or any of its affiliates, directors, officers, or employees.
+Read more Mond Trades Ltd

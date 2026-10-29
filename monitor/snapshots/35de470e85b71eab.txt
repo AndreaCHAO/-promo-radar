@@ -1,0 +1,308 @@
+Bonus $150 Promotion | Headway
+Trade
+Analytics
+Learn
+Promo
+Partnership
+About us
+Log in Sign up
+العربية
+English
+Français
+Bahasa Indonesia
+日本語
+Bahasa Melayu
+Português
+Español
+ภาษาไทย
+Tiếng Việt
+O'zbek
+Kiswahili
+Back
+Documents
+/ Bonus $150 Promotion
+Bonus $150 Promotion
+Terms and Conditions
+These Terms and Conditions govern participation in the "Bonus $150" promotion (the "Promotion") offered by the "Headway" company (the "Company"). By participating in the Promotion, the Client confirms that they have read, understood, and accepted these Terms and Conditions.
+Key Terms Summary
+This summary is provided for convenience only. The full Terms and Conditions below apply in all cases. If there is any inconsistency between this summary and the full Terms and Conditions, the full Terms and Conditions shall prevail.
+The promotional trading account remains active for seven (7) calendar days.
+The Client must be verified and eligible under these Terms and Conditions.
+The Client starts with a 15 USD promotional balance and may receive additional promotional credits daily during the seven (7) day promotional period by meeting the daily trading activity requirements.
+Trading access on the promotional account may be limited by day to specific instrument groups. Instruments outside the applicable daily group may be unavailable for opening new trades.
+Unused promotional balance from previous promotional days may remain available on the promotional account during the active promotional period.
+If the Client does not meet the daily trading activity requirements on a specific day, the next daily promotional credit may be withheld. However, the Client may continue participating and may qualify for future daily promotional credits during the remaining promotional period.
+The Client may also receive cumulative one-time booster credits based on real account trading activity during the active promotional period: 15 USD for the first 0.5 lots and 30 USD for the next 0.5 lots, up to 45 USD in total booster credits.
+After the promotional account closes, all promotional credit is removed.
+Only profit generated on the promotional account may become eligible for transfer or withdrawal, up to 100 USD.
+After the promotional account closes, the Client may choose one of two available transfer methods:
+Instant Partial Transfer. The Client may receive part of the eligible promotional profit without additional real account trading. The amount is calculated using the Client's qualifying promotional account trading volume and a transfer coefficient determined through the Company's promotional selection mechanism (the reel). The formula is:
+Bonus Lots * Coefficient from Reel = Instant Profit Transfer.
+Full Promotional Profit Transfer. The Client may receive an eligible promotional profit up to the maximum promotional limit after completing additional trading volume on a real account. Required lots are calculated as follows:
+(Full Profit / 3) - Bonus Lots (not more than half of the total Required Real Lots) = Required Real Lots
+The Client must remain verified and eligible throughout the Promotion and until all transfer or withdrawal conditions are completed.
+1. General Provisions
+1.1. The Promotion is a limited-time no-deposit promotional campaign intended to allow eligible Clients to access and use a dedicated promotional trading environment under the conditions described in these Terms.
+1.2. Participation in the Promotion is available only to Clients who:
+are at least eighteen (18) years old or the minimum legal age in their jurisdiction, whichever is higher;
+have successfully completed registration and all required verification procedures;
+maintain a valid and approved verification status during participation in the Promotion;
+are not restricted from participating under applicable laws, regulations, sanctions rules, or internal Company policies.
+1.3. The Client is solely responsible for ensuring that participation in the Promotion is lawful in their country of residence and in any other applicable jurisdiction. The Promotion is available only where such promotions may be lawfully offered and used.
+1.4. The Promotion is provided at the Company's discretion. The Company may refuse, suspend, restrict, pause, or terminate participation for any Client at any time where the Company reasonably believes that:
+the Promotion is being abused;
+fraudulent, manipulative, artificial, or unfair practices are involved;
+multiple accounts or coordinated activity are used;
+the Client no longer satisfies verification, compliance, or eligibility requirements;
+participation creates legal, compliance, operational, technical, security, or reputational risks.
+1.5. Participation in the Promotion does not guarantee any payment, transfer, withdrawal, conversion, or future eligibility for any additional offers, promotions, or services.
+1.6. The Company reserves the right to amend, suspend, replace, pause access to, restrict registrations for, or terminate the Promotion and/or these Terms and Conditions at any time without prior notice.
+1.7. The Company may temporarily suspend or limit new registrations, activations, access, or any promotional functionality in cases of high system load, technical maintenance, security concerns, risk management measures, force majeure events, or where the Company reasonably believes that continued operation of the Promotion may negatively affect platform stability, integrity, performance, or security.
+1.8. Any suspension, restriction, limitation, pause, or termination of the Promotion shall not create any liability, compensation obligation, or payment obligation on the part of the Company.
+2. Verification Requirements
+2.1. A Client cannot activate or open a promotional account unless their profile is fully verified in accordance with the Company's verification requirements.
+2.2. The Client must maintain a valid and approved verification status throughout the promotional period and until all promotional conditions, transfer requirements, and withdrawal requirements have been completed.
+2.3. If the Client's verification status expires, becomes invalid, is rejected, is suspended, or otherwise ceases to satisfy the Company's verification requirements during the promotional period or before completion of all promotional conditions, the Company may temporarily pause, suspend, restrict, or block access to the Promotion and any related promotional functionality.
+2.4. During such period, promotional calculations, access to promotional interfaces, transfer eligibility, withdrawal eligibility, and other promotional actions may be suspended until verification is successfully restored.
+2.5. Restoration of verification status does not automatically guarantee restoration of promotional eligibility. The Company reserves the right to conduct additional compliance, fraud, and risk reviews before reactivating promotional access.
+2.6. Following successful re-verification, the Company may, at its reasonable discretion and based on internal risk, compliance, anti-fraud, and eligibility criteria, restore, continue, restrict, or permanently terminate the Client's participation in the Promotion.
+3. Promotional Account Structure
+3.1. Upon activation of the Promotion, the Client may receive access to a dedicated promotional account with an initial promotional balance of fifteen United States dollars (15 USD).
+3.2. The promotional account is temporary and remains active for seven (7) calendar days from activation unless terminated earlier in accordance with these Terms.
+3.3. The Stop Out level for the promotional account is established at 20%; however, the Company reserves the right to adjust this threshold at its sole discretion.
+3.4. Maximum leverage and applicable trading conditions are determined by the Company and vary based on the specific financial instrument being traded.
+3.5. Subject to compliance with these Terms, the Client may receive additional promotional credits of 15 USD per day during the seven (7) day promotional period.
+3.6. To become eligible for the next daily promotional credit, the Client must satisfy the minimum trading activity requirements described in Section 4 during the previous promotional day.
+3.7. Each promotional day ends at 00:00 MetaTrader 5 server time (EET), unless otherwise specified by the Company.
+3.8. If the Client does not satisfy the applicable requirements on a specific promotional day, the next daily promotional credit may be withheld. However, failure to satisfy the requirements on one promotional day does not terminate the promotional account and does not prevent the Client from qualifying for future daily promotional credits during the remaining promotional period.
+3.9. If the Client satisfies the applicable requirements on a later promotional day, the next daily promotional credit may be credited on the following promotional day, provided that the promotional account remains active and the Client remains eligible under these Terms.
+3.10. Unused promotional balance from previous promotional days may remain available on the promotional account during the active promotional period, unless removed, adjusted, or cancelled under these Terms.
+Example for illustration only: If the Client receives 15 USD on Day 1 but does not satisfy the minimum trading activity requirements on Day 1, the Client will not receive the next 15 USD daily promotional credit on Day 2. The Client may continue using the available promotional funds from Day 1. If the Client satisfies the requirements on Day 2, the next 15 USD daily promotional credit may be credited on Day 3, provided that the promotional account remains active and the Client remains eligible.
+3.11. The maximum total promotional balance available through daily promotional credits under the Promotion is 105 USD.
+3.12. In addition to the standard daily promotional credits, the Client may become eligible for one-time promotional booster credits based on qualifying trading activity completed on a real account during the active seven (7) day promotional period.
+3.13. Booster credits are cumulative and may be granted as follows:
+15 USD booster credit upon completion of the first 0.5 lots traded on a real account;
+30 USD booster credit upon completion of the next 0.5 lots traded on a real account.
+3.14. Accordingly, if the Client completes a total of 1.0 qualifying lot on a real account during the active promotional period, the Client may receive total booster credits of up to 45 USD to the Bonus $150 promo account.
+3.15. Booster credits:
+must be manually claimed by the Client during the active seven (7) day promotional period, unless otherwise specified by the Company;
+may only be claimed once per Client for each applicable booster threshold.
+3.14. The maximum total promotional balance available under the Promotion, including daily promotional credits and booster credits, is 150 USD.
+3.15. Promotional funds, including daily promotional credits and booster credits:
+are virtual and promotional in nature;
+are not Client deposits;
+are non-transferable;
+cannot be withdrawn;
+have no cash value;
+may only be used within the promotional environment defined by the Company;
+may be removed, adjusted, or cancelled in accordance with these Terms.
+3.16. At the end of the seven (7) day promotional period, all promotional credit balances, including any daily credits and booster credits, shall be removed from the promotional account.
+4. Trading Activity Requirements
+4.1. To remain eligible for additional daily promotional credits and other promotional benefits, the Client must satisfy the following minimum trading activity requirements unless otherwise specified by the Company:
+minimum number of closed trades: one (1);
+minimum trade volume: 0.0001 lot;
+minimum price movement between the opening and closing price: three (3) points, as calculated in MetaTrader 5 according to the relevant instrument specifications.
+4.2. Trading access on the promotional account is limited to the specific instrument group assigned to each promotional day. The Client may open new trades only in instruments that belong to the instrument group available for that promotional day.
+4.3. If the cost of 1 lot on Stocks, Crypto, Indexes, Energies, and Index instruments is equal to less than $100,000, the lot calculation is as follows: 1 lot * Contract size * Price in USD / 100,000. When closing positions using 'Close by', the trading volume for such transactions is calculated as half of the volume of each position.
+4.4. The applicable instrument schedule is displayed in the Client's Personal Area, trading platform, promotional interface, or another Company-approved communication channel. The Client is responsible for checking the applicable instrument group for each promotional day before trading.
+4.5. Instruments that are not included in the applicable daily instrument group are disabled for opening new trades on the promotional account. If the Client attempts to open a new trade in an unavailable instrument, the order will be rejected by the trading platform and/or an error message will be displayed.
+4.6. If the Client has open positions in instruments that were available on a previous promotional day but are not available on the current promotional day, such positions remain available for closing only. The Client cannot increase, reopen, or open new positions in such instruments while they are unavailable under the applicable daily instrument schedule.
+4.7. To become eligible for the next daily promotional credit, the Client must satisfy the applicable daily trading activity requirements using instruments available under the daily instrument schedule. If the Client does not satisfy these requirements during a promotional day, the next daily promotional credit will not be credited. The Client may continue participating and may qualify for future daily promotional credits during the remaining promotional period.
+4.8. The Company reserves the right to determine whether any trading activity qualifies for the purposes of the Promotion.
+4.9. The Company may establish additional activity requirements, limitations, or qualification criteria based on factors including, but not limited to:
+trade duration;
+market conditions;
+account behavior;
+trading patterns;
+instrument type;
+trading frequency;
+risk exposure;
+or other internally determined criteria.
+4.10. Trades that the Company considers abusive, manipulative, non-genuine, risk-free, coordinated, automated for exploitation purposes, or otherwise inconsistent with the educational purpose and fair use of the Promotion may be excluded from any calculations.
+4.11. The Company reserves the right to disregard, reverse, adjust, or cancel any activity that, in its reasonable opinion, does not represent legitimate market participation.
+5. Promotional Profit and Eligibility
+5.1. Subject to compliance with these Terms, a Client may become eligible for a limited promotional profit amount determined by the Company.
+5.2. The maximum eligible promotional profit under this Promotion shall not exceed one hundred United States dollars (100 USD), unless otherwise determined by the Company.
+5.3. Any promotional profit exceeding the applicable promotional limit may be reduced, adjusted, or cancelled by the Company.
+5.4. The minimum promotional profit amount eligible for withdrawal or transfer is 0.01 USD, unless otherwise specified by the Company.
+5.5. Promotional results remain provisional until reviewed, approved, and credited by the Company to a real account, wallet, or other Company-approved environment.
+5.6. The Company reserves the right to request additional verification, source-of-funds information, identity confirmation, or any other documentation before approving any transfer, conversion, or withdrawal request.
+6. Nature of Promotional Funds and Promotional Results
+6.1. Promotional funds, including daily credits and booster credits, are virtual, conditional, and promotional in nature. They are not Client deposits, do not have cash value, and cannot be withdrawn.
+6.2. Participation in the Promotion does not create any ownership right, vested right, guaranteed entitlement, debt obligation, or automatic claim by the Client to any promotional amount, trading result, calculated profit, or promotional benefit.
+6.3. Any trading results generated using promotional funds shall be considered provisional and subject to the Client's full compliance with:
+these Terms and Conditions;
+the Client Agreement;
+applicable verification procedures;
+compliance reviews;
+risk and fraud checks;
+and any additional eligibility criteria established by the Company.
+6.4. Until promotional profit is finally approved and credited by the Company to a real account, wallet, or other Company-approved environment, such amounts:
+shall not be considered the Client's property;
+shall not constitute real funds or deposits;
+shall not be considered realized profit;
+shall not create any payment obligation for the Company;
+may be adjusted, withheld, cancelled, or declared void by the Company in accordance with these Terms.
+6.5. If the Client Agreement, account access, verification status, or participation in the Promotion is suspended, restricted, blocked, or terminated before final approval and crediting of promotional profit, the Client acknowledges and agrees that any uncredited promotional results may be cancelled without compensation.
+6.6. The Company reserves the right to determine, at its reasonable discretion and based on its records, systems, risk-control criteria, compliance checks, and these Terms, whether promotional conditions have been properly fulfilled and whether any promotional amount becomes eligible for transfer, conversion, or withdrawal.
+7. Bonus Profit Transfer and Withdrawal Conditions
+7.1. After the promotional account closes, all promotional credit is removed from the promotional account. Only profit generated from trading on the promotional account may remain eligible for review, transfer, or withdrawal, subject to these Terms.
+7.2. The maximum promotional profit that may become eligible for transfer or withdrawal under this Promotion is 100 USD. Any profit above this limit may be cancelled, reduced, or adjusted by the Company.
+7.3. Any remaining promotional profit is provisional and may become eligible for transfer only after the Client selects an available transfer method and satisfies the applicable conditions.
+7.4. Following the closure of the promotional account, the Client may be offered a period of seven (7) calendar days to choose one of the available promotional profit transfer methods:
+Instant Partial Transfer, where the Client may receive part of the eligible promotional profit without completing additional real account trading requirements;
+Full Promotional Profit Transfer, where the Client may receive eligible promotional profit up to the maximum promotional limit after completing additional qualifying trading volume on a real account.
+7.5. If the Client does not choose a transfer method within the applicable selection period, the Company may apply the default transfer method determined by the Company.
+7.6. The Company reserves the right to apply a commission, fee, conversion charge, processing charge, payment system charge, or other applicable charge to any transfer of approved promotional profit to a real account, wallet, payment system, or other Company-approved environment. Such charge may be deducted from the transfer amount before crediting or payment, unless otherwise specified by the Company.
+7A. Instant Partial Transfer
+7A.1. Under the Instant Partial Transfer option, the Client may receive part of the eligible promotional profit without completing additional real account trading requirements after the promotional account closes.
+7A.2. To determine the Instant Partial Transfer amount, the Client may be required to use a promotional selection mechanism, such as a wheel interface or other functionality provided by the Company.
+7A.3. The promotional selection mechanism determines or reveals a transfer coefficient used for calculating the provisional Instant Partial Transfer amount.
+7A.4. The Instant Partial Transfer amount is generally calculated by applying the transfer coefficient to the Client's qualifying promotional account trading volume, subject to applicable limits, internal checks, and Company approval.
+7A.5. The Instant Partial Transfer amount may be lower than the total promotional profit and may be subject to a maximum percentage, maximum amount, minimum amount, or other limit established by the Company.
+7A.6. The Promotion, including any promotional selection mechanism, interface, coefficient, calculation, or similar feature, is not a lottery, gambling product, betting activity, prize draw, or game of chance. It is a promotional calculation mechanism used by the Company to determine provisional transfer eligibility or transfer amounts under these Terms.
+7A.7. Once the Client selects the Instant Partial Transfer option and the amount is approved and credited, the Client will lose the right to receive the remaining promotional profit under the Full Promotional Profit Transfer option.
+7A.8. Any amount displayed to the Client before final approval and crediting remains provisional and may be adjusted, withheld, cancelled, or declined in accordance with these Terms.
+7B. Option 2: Full Promotional Profit Transfer
+7B.1. Under the Full Promotional Profit Transfer option, the Client may become eligible to receive promotional profit up to the maximum promotional limit after completing additional qualifying trading volume on a real account.
+7B.2. The required real account trading volume is calculated by the Company based on the Client's eligible promotional profit, promotional account trading volume, the transfer coefficient revealed through the promotional selection mechanism, and any other applicable internal criteria.
+7B.3. Before selecting the Full Promotional Profit Transfer option, the Client may be shown the required real account trading volume needed to complete the transfer. The Client should review this requirement before confirming the option.
+7B.4. The Company may reduce the required real account trading volume by taking into account part of the Client's qualifying promotional account trading volume, subject to internal limits and methodology determined by the Company.
+7B.5. Only qualifying real lots determined by the Company shall be counted toward the applicable requirement. The Company may determine when such lots begin to count, which accounts or instruments are eligible, and whether specific trades qualify.
+7B.6. Qualifying lots are calculated as follows:
+1 lot on a Cent account = 0.01 lot on a Standard and Pro account;
+If the cost of 1 lot on Stocks, Crypto, Indexes, Energies, and Index instruments is less than $100,000, the lot calculation is as follows: 1 lot * Contract size * Price in USD / 100,000;
+When closing positions using 'Close by', the trading volume for such transactions is calculated as half of the volume of each position.
+7B.7. The Client may be shown counters, remaining lot calculations, or progress indicators for informational purposes. Such information may be updated, adjusted, corrected, suspended, or recalculated by the Company if required.
+7B.8. If the Client chooses the Full Promotional Profit Transfer option, the Client may need to complete trading activity on a real account. Real account trading involves risk of loss. The Client remains solely responsible for any losses, costs, spreads, commissions, swaps, conversion charges, or other charges incurred while trading on a real account, including trading activity performed for the purpose of satisfying promotional conditions.
+7B.9. Unless otherwise specified by the Company, partial transfers or withdrawals of promotional profit under the Full Promotional Profit Transfer option are not available. The promotional profit may become eligible for transfer only after the Client fully satisfies the applicable real account trading volume requirement.
+7B.10. Completion of the displayed trading volume requirement does not automatically create an unconditional payment obligation. Any transfer remains subject to final verification, compliance checks, fraud checks, and Company approval.
+7C. Internal Calculations and Promotional Mechanics
+7C.1. The Company may apply internal conversion formulas, coefficients, eligibility ratios, activity metrics, limitations, scoring systems, promotional selection mechanisms, or other calculation methodologies when determining any amount available for transfer, conversion, or withdrawal.
+7C.2. Certain internal calculation methodologies, anti-abuse mechanisms, scoring logic, thresholds, and risk-control parameters used within the Promotion are proprietary, confidential, and may not be disclosed.
+7C.3. Any examples, illustrations, estimates, counters, progress indicators, displayed requirements, reel results, promotional selection results, transfer coefficients, or explanatory materials provided in connection with the Promotion are for informational purposes only and do not guarantee specific results, eligibility, transfer amounts, withdrawal outcomes, or final approval.
+7C.4. The Company reserves the right to modify, replace, recalibrate, suspend, or discontinue any internal calculation logic, coefficient, threshold, ratio, requirement, scoring logic, eligibility rule, internal parameter, promotional selection mechanism, or promotional mechanic at any time without prior notice.
+8. Interaction with Other Promotions
+8.1. Where multiple promotions involve trading-volume requirements, the Company may determine the order in which qualifying trading volume is applied.
+8.2. If the Client selects the Full Promotional Profit Transfer option while having an active "Bonus 111", qualifying real account lots will first be applied to "Bonus 111". Lots will begin to count toward this Promotion only after "Bonus 111" is completed, cancelled, forfeited, or otherwise discontinued.
+8.3. The Company may allow the Client to forfeit, close, or discontinue participation in another promotion in order to prioritize this Promotion. In such cases, any unreleased, unapproved, or uncredited promotional results from the other promotion may be cancelled in accordance with the applicable terms.
+9. Disqualification and Prohibited Conduct
+9.1. The following activities are strictly prohibited and may lead to a ban or disqualification of the Client:
+abuse of promotional mechanics;
+arbitrage strategies intended to exploit the Promotion;
+hedging between accounts;
+use of multiple accounts by the same individual or by a coordinated group;
+identity falsification;
+use of stolen, synthetic, inaccurate, or misleading information;
+latency exploitation;
+market manipulation;
+coordinated trading;
+excessive or artificial lot generation;
+use of the Promotion in bad faith;
+any activity aimed at obtaining an unfair advantage;
+use of bots, scripts, automated trading systems, or other technical tools primarily intended to exploit promotional mechanics rather than conduct genuine trading activity;
+opening, closing, or structuring trades primarily to generate artificial qualifying volume;
+coordinated activity between related Clients, devices, accounts, IP addresses, or other linked identifiers;
+attempts to bypass verification, eligibility, technical, geographic, or promotional restrictions.
+9.2. The Promotion is intended for educational and promotional purposes and is not intended for high-frequency, artificial, abusive, or manipulative lot generation.
+9.3. The Company may apply internal anti-fraud limits, volume thresholds, risk scoring, and other monitoring mechanisms to detect and prevent abuse. Such thresholds and mechanisms are proprietary and may not be disclosed to Clients.
+9.4. The Company may investigate any activity it reasonably considers suspicious.
+9.5. If prohibited activity is identified or reasonably suspected, the Company may, without limitation:
+disqualify the Client;
+cancel promotional funds or promotional profits;
+revoke promotional access;
+void, exclude, or adjust transactions or trading activity for promotional purposes;
+restrict accounts;
+suspend services;
+deny future participation in promotions;
+or take any other action permitted under the Company's general agreements and policies.
+9.6. Automatic disqualification or restriction may be manually reviewed, upheld, reversed, or modified by the Company at its reasonable discretion.
+10. Risk Disclosure
+10.1. Trading activities involve risk.
+10.2. Participation in the Promotion does not guarantee any financial outcome, profit, transfer, conversion, withdrawal, or future eligibility for any Company product, service, or promotion.
+10.3. Past performance, promotional results, trading activity, examples, estimates, or interface displays do not guarantee future results.
+10.4. The Client acknowledges that market conditions may change rapidly and that losses may occur.
+10.5. Nothing in the Promotion, promotional interface, marketing materials, trading conditions, examples, calculations, or Company communications constitutes investment advice, trading advice, financial advice, a recommendation, or a guarantee of trading results.
+11. Limitation of Liability
+11.1. The Promotion is provided on an "as available" basis.
+11.2. The Company strives to provide stable access and service, but to the maximum extent permitted by law, the Company shall not be liable for:
+technical interruptions;
+platform downtime;
+pricing errors;
+execution delays;
+connectivity issues;
+system failures;
+high load or degraded performance;
+market disruptions;
+suspended or restricted access to the Promotion;
+or any indirect, incidental, special, consequential, or punitive losses related to participation in the Promotion.
+12. Final Provisions
+12.1. In the event of any inconsistency between these Terms and any marketing materials, promotional descriptions, banners, interface text, FAQs, or other explanatory materials, these Terms shall prevail.
+12.2. Any approved promotional profit credited to a real account, wallet, or other Company-approved environment shall be subject to the Company's standard withdrawal rules, payment method availability, fees, minimum and maximum withdrawal amounts, AML/KYC checks, account status requirements, payment provider restrictions, and applicable laws and regulations.
+12.3. The Company's records, systems, calculations, logs, reports, and internal determinations shall serve as the primary basis for resolving any disputes related to the Promotion.
+12.4. Any decision made by the Company regarding eligibility, calculations, trading qualification, participation, transfer, withdrawal, restriction, or disqualification under the Promotion shall be made based on the Company's records, systems, internal risk-control criteria, compliance checks, and these Terms, and shall be final to the extent permitted by applicable law.
+12.5. If any provision of these Terms is found invalid, unlawful, or unenforceable, the remaining provisions shall remain in full force and effect.
+12.6. These Terms shall be interpreted together with the Company's Client Agreement, Privacy Policy, AML/KYC Policy, Risk Disclosure, and any other applicable legal documents.
+12.7. In case of conflict between these Terms and the Client Agreement regarding trading, account access, verification, withdrawals, compliance matters, or risk-control measures, the Client Agreement shall prevail unless these Terms expressly provide otherwise for the Promotion.
+12.8. The Company reserves all rights not expressly granted to the Client under these Terms.
+12.9. Any claims or disputes arising from participation in the Promotion should be sent to care@hw.site.
+12.10. The Company will settle any disputes based on the final interpretation of these Terms and Conditions. All decisions are final and not subject to appeal.
+Contact us
+Headway cares about your happiness.
+Contact us anytime at care@hw.site
+Follow us on social media
+Install app
+Trade
+Platforms
+MT5
+MT4
+Platform comparison
+Trading app
+Markets
+Popular
+Forex
+Synthetics
+Crypto
+Metals
+Energies
+Stocks
+Indexes
+Tools
+Calculator
+Currency converter
+Accounts
+Cent
+Standard
+Pro
+Account comparison
+Learn
+How to start trading
+Courses
+Webinars
+Events
+Glossary
+Theory
+About Copytrade
+About us
+About Headway
+Help center
+Legal documents
+Awards
+Success stories
+Our news
+Analytics
+Economic calendar
+Market pulse
+Market insights
+Blog
+Trading strategies
+Copytrade
+Partnership
+Promo
+Regulation
+This website is operated by JAROCEL PTY LTD (registration number 2021/883863/07); address: 3 Flamingo Crescent, Beacon Bay, East London, 5241, South Africa, +27 10 140 0603. JAROCEL PTY LTD is authorized and regulated by FSCA (Financial Sector Conduct Authority), license number 52108.
+Risk warning
+Trading leveraged financial products involves a high level of risk and may not be suitable for all investors. Leveraged trading can magnify both gains and losses. Before trading, please consider your investment objectives, experience, and risk tolerance, and only trade with funds you can afford to risk.
+Headway does not offer its services to residents of countries that were, are, or will be blacklisted by the FATF. This website is not directed to the residents of countries where such financial services may violate the laws or regulations of the land. The information on this website is not aimed at solicitation or invitation. Anyone who accesses this website must therefore follow the laws and regulations applicable in their country of residence.
+The information on this website may only be copied with the express written permission of JAROCEL PTY LTD.
+2026 All rights reserved

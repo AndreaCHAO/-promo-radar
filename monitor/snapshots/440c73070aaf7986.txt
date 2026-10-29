@@ -1,0 +1,72 @@
+TNFX FAQ — Licence, Accounts, Leverage, Withdrawals
+EN English العربية
+Log in Log in
+Open free account Open account
+Gold 4,152.24 ▲ +0.24% EUR/USD 1.12432 ▲ +0.21% LIVE TNFX live feed · updates every 10 s
+Markets
+Home All instruments Currency pairs Shares Crypto Gold price
+Events & analysis
+Forecasts US jobs report (NFP) Fed decision Central banks & interest rates Daily analysis News
+Tools & learning
+Trading calculators Webinars
+Account
+Open free account Log in Demo account
+Company
+About TNFX
+Language
+English العربية
+Popular
+EUR/USD Gold price Bitcoin NFP Apple Fed
+TNFX › Frequently asked questions
+Frequently asked questions
+Answers taken from the signed Terms & Conditions and our published facts — not from what the review directories say.
+Is TNFX regulated, and what is the licence number?
+Yes. TNFX Ltd holds a Securities Dealer licence from the Financial Services Authority of Seychelles, number SD133 , registered at CT House, Office 9A, Providence, Mahé, Seychelles, and has traded since 2019. This is the only financial licence TNFX holds. The company is also registered in St Vincent and the Grenadines (#27346), but that is a company registration, not a financial licence — the SVG FSA states publicly that it does not license or regulate forex. A Dubai trade registration listed on some review sites is likewise a commercial registration, not regulatory oversight.
+What account types does TNFX offer?
+Five, all client-visible: Standard , Cent , Turbo , Zero and VIP . Turbo is the newest, opened for maximum leverage with STP execution. There is no Pro account and no Raw account — several directories list them and they do not exist. “ECN” is not a product either; it is a legacy MT5 group name for what is now the Zero account.
+What is the minimum deposit?
+$100 for a first deposit on Standard, Cent or Turbo. A Zero account activates at $500 in total deposits. VIP starts at $100,000 . Deposits after the first have a $10 minimum. Several listings state $300, and some state $1,000 for Zero — both figures are wrong.
+What is the maximum leverage?
+1:3000 on the Turbo account, on forex — and it is the top of a sliding scale, not a flat cap. Leverage is derived from account equity and steps down as equity grows: 1:3000 under $1,000, then 1:2000, 1:1000, 1:500, 1:300, and 1:100 above $100,000. Gold never exceeds 1:1000. Other account types are fixed: 1:500 on Standard, Cent and Zero, and 1:100 on VIP. Indices and energy are capped at 1:100 on every account type. Around the market open and close, and for 15 minutes either side of major scheduled news, every account moves to the 1:500 forex / 1:300 gold step. Any source quoting a flat 1:3000 without the scale is quoting the headline, not the policy.
+Does TNFX offer a swap-free (Islamic) account?
+Yes, and it is available on request on every account type — Standard, Cent, Turbo, Zero and VIP. But it is a designation applied to an individual account , which is placed in a swap-free group; it is not an automatic property of the account type . An account that has not been placed in a swap-free group accrues overnight financing normally. Sources stating that swap-free applies automatically to every account are wrong — including earlier versions of this website.
+Which trading platforms are available?
+MetaTrader 4 and MetaTrader 5 , both full versions, on desktop, mobile and web. There is no proprietary platform.
+How many instruments can I trade?
+Over 1,000 tradable instruments across MetaTrader 4 and MetaTrader 5 — forex, metals, indices, energy, cryptocurrencies and share CFDs.
+Is scalping allowed?
+Yes. No minimum holding time is imposed. Some review sites state otherwise.
+Is hedging allowed?
+Yes, as ordinary risk management. Clause 35.1(a) of the Terms prohibits only offsetting positions taken principally to obtain a bonus, obtain margin cover, or neutralise risk while extracting a benefit — not hedging itself.
+Can I use Expert Advisors and automated trading?
+Yes, on all accounts. Clause 33.1 of the Terms states: “You may use an expert advisor or other automated trading software at your own risk.” Several review sites claim TNFX prohibits EAs. That is incorrect.
+Is there a deposit bonus?
+50% on the first $1,000 deposited and 20% above that, capped at $10,000 over the life of the account. It applies to the Standard account. There is no welcome bonus and no no-deposit bonus.
+How do withdrawals work?
+Funds are returned by the method used to deposit . Where that is not possible, they are released only to an account proven to belong to the client. The destination of funds must match their origin , or be an account demonstrated to be the client's own — a withdrawal cannot be used to move value to a third party. This is clauses 5 and 6 of the Terms.
+What happens if my account balance goes negative?
+Under clause 26.1 of the Terms, the client is liable for any negative or debit balance on the account. Clause 26.2 allows TNFX, at its absolute discretion, to reduce or extinguish a negative balance — but any such cover is a concession granted case by case, not a standing guarantee . Descriptions of TNFX offering blanket “negative balance protection” do not reflect the signed agreement.
+How do I make a complaint?
+Complaints and objections go to the TNFX Support Department at [email protected] , under clause 15 of the Terms. Any decision to restrict an account is appealable under the same clause.
+Which countries does TNFX serve?
+Iraq (including the Kurdistan Region), Syria, Jordan, Egypt, Palestine, Saudi Arabia and the UAE. Residents of the United States and Canada are not accepted.
+Can my account be restricted automatically?
+No. Detection systems here cannot freeze an account . They open a case for a person to review, and only a person can restrict an account after reviewing the evidence. Every such decision is appealable under clause 15.
+What are the support hours, and how do I reach support?
+Support is staffed 24 hours a day, six days a week ; Saturday is the company’s day off. You can write at any time on WhatsApp, email, Facebook, Instagram or the website live chat — in Arabic, English and Kurdish — and a first reply usually comes within seconds. Messages sent on Saturday are answered when support returns.
+What does a demo account come with, and does it expire?
+A demo opens on the same MetaTrader 4 or MetaTrader 5 servers as live accounts, with live prices and a virtual balance you choose when you open it — from $100 upwards (the website’s demo form offers presets from $1,000 to $1,000,000). Demo accounts are never archived , so it stays open for as long as you want to practise. It is opened from the website without a full sign-up and never touches real money.
+Where are the trading servers located?
+TNFX’s MetaTrader 4 and MetaTrader 5 servers are hosted at Equinix LD4 in London, United Kingdom — the data-centre campus most liquidity providers and banks connect through — so execution latency to the pricing venues is minimal. Clients in Iraq and the Gulf connect over the internet; a VPS in the same region is available for anyone running Expert Advisors.
+What happens to an inactive account? Is there a dormancy fee?
+There is no dormancy or inactivity fee . An account that holds no balance and has had no activity for three months is archived; an account with funds in it is not. This is the period and fee that clause 34 of the Terms refers to. If you want to trade again after an account was archived, contact support.
+Do you have offices in Iraq where I can meet someone in person?
+No. TNFX has no offices or walk-in branches in Iraq ; the company is registered in Seychelles and serves its clients online. Opening an account, verification, deposits, withdrawals and support are all done through the website, the client portal and WhatsApp, in Arabic. Nobody in an Iraqi city is a TNFX office or representative — check with support before handing anyone money on TNFX’s behalf.
+How long do withdrawals take?
+It depends on the method. USDT withdrawals are usually processed within a few minutes; Qi Card within 10–15 minutes (available to clients who deposited by Qi Card). Zain Cash is deposit-only : money that came in by Zain Cash goes out through a two-way method such as Ovadot, USDT or local bank transfer. Withdrawals are paid to a method in your own name, and the desk processes them around the clock on working days.
+This page is built from the signed Terms & Conditions and TNFX’s published facts. Where this page and the Terms & Conditions differ, the signed document governs.
+Updated 2026-09-05
+© 2026 TNFX Ltd · FSA-licensed broker · Licence SD133
+All pages
+English · العربية · کوردی · Türkçe · فارسی · Español
+Risk warning: trading leveraged products such as forex and CFDs carries a high degree of risk to your capital and may not be suitable for everyone. Only trade with money you can afford to lose. Spreads and execution figures are typical values and can widen in fast markets.

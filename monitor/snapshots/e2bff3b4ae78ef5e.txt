@@ -1,0 +1,315 @@
+Terms and Conditions LotBack - Policy IUX
+Skip to content
+CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 76% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+Trade
+Markets
+Currency CFDs
+Commodity CFDs
+Stock CFDs
+Index CFDs
+Crypto CFDs
+Thematic Index CFDs
+Live Quotes
+Trading Conditions
+Client Security
+Payment Options
+Trading Fees
+Benefits
+LotBack Program
+Platforms
+Trading Platforms
+IUX Trade App
+IUX WebTerminal
+MetaTrader 5
+Education
+Learning Center
+Overview
+Articles
+Academy
+Stay Informed
+Podcast
+Tools & Analysis
+Economic Calendar
+Trading Calculators
+Technical Analysis
+Company
+About IUX
+About
+IUX Reviews
+Blog
+Partner
+Contact
+Legal & Support
+Regulation
+Terms and Policies
+Help Center
+Accounts
+Comparison
+EN English
+Español
+Bahasa Indonesia
+Português
+Tiếng Việt
+简体中文
+EN English
+Español
+Bahasa Indonesia
+Português
+Tiếng Việt
+简体中文
+Login
+Open Account
+Home >
+Terms and Policies >
+Terms and Conditions LotBack
+Terms and Conditions LotBack
+Terms and Conditions LotBack
+Terms and Conditions
+What is the “LotBack” program status?
+How is the LotBack value calculated?
+How do I get the LotBack program status?
+How many levels of the LotBack program are there, and how are they different?
+How can I level up my LotBack program status?
+Can the LotBack Program Status Be Downgraded?
+Risk warning
+Terms and Conditions LotBack
+Terms and Conditions
+Conditions of using the LotBack program It is an agreement between IUX, hereinafter referred to as the “Company,” and the Client who has registered for membership with the Company. Hereinafter referred to as the “customer,” Royal Plus’s terms of benefits may affect the customer’s rights. Which customers should read and understand carefully If you have any questions about the company’s services, customers can contact the company directly. Details of terms and conditions are as follows.
+What is the “LotBack” program status?
+The LotBack Program status shall be granted to clients utilizing the services of IUX. Clients shall earn LotBack Points from their trading activity, which may be redeemed for cash across all account types. The level of LotBack status may be subject to upward or downward adjustment in accordance with the conditions specified in this document.
+How is the LotBack value calculated?
+LotBack Points Can be redeemed for balance with the details as follows: 1 Point = $0.5 Balance.
+For example, if you have 100 points, you can use them to exchange $50 for real money.
+How do I get the LotBack program status?
+The Royal Plus status shall be granted to all clients upon their first deposit with IUX. The client’s Royal Plus Program shall be activated, and the client shall be assigned the status of Rising Star. Clients may commence accumulating trading days immediately. Each trade must be held for a minimum of five (5) minutes in order to be eligible for point accrual. For each standard lot traded, points shall be awarded based on the client’s current status and are applicable to all account types (Standard, Pro, and Raw), as outlined below:
+Rising Star: 0.5 point per standard lot
+Champion: 0.8 point per standard lot
+Elite: 1.0 point per standard lot
+Master: 1.2 points per standard lot
+Legend: 1.5 points per standard lot
+The higher the client’s LotBack status, the greater the number of LotBack Points that can be accumulated, resulting in increased benefits.
+How many levels of the LotBack program are there, and how are they different?
+The LotBack Program consists of five (5) status tiers, each of which provides different point rates per standard lot traded. Details are as follows:
+Rising Star: 0.5 point per standard lot (for all accounts)
+Champion: 0.8 point per standard lot (for all accounts)
+Elite: 1.0 point per standard lot (for all accounts)
+Master: 1.2 points per standard lot (for all accounts)
+Legend: 1.5 points per standard lot (for all accounts)
+How can I level up my LotBack program status?
+LotBack status upgrades are achieved through accumulated trading activity. Upon a client’s first deposit and trade execution, the Rising Star status shall be granted. Status upgrades shall proceed as follows, based on the number of cumulative trading days:
+Rising Star → Champion: after ten (10) cumulative trading days
+Champion → Elite: after thirty (30) cumulative trading days
+Elite → Master: after ninety (90) cumulative trading days
+Master → Legend: after one hundred eighty (180) cumulative trading days
+Rank Conditions LotBack (IRP/LOT)
+Rising Star Making first deposit (success) 0.5
+Champion 10 days of accumulated transaction 0.8
+Elite 30 days of accumulated transaction 1.0
+Master 90 days of accumulated transaction 1.2
+Legend 180 days of accumulated transaction 1.5
+Can the LotBack Program Status Be Downgraded?
+Yes. If your account becomes inactive, your Royal Plus status will expire and be downgraded according to the following details:
+Legend status will be downgraded to Master after 30 days of inactivity
+Master status will be downgraded to Elite after 30 days of inactivity
+Elite status will be downgraded to Champion after 30 days of inactivity
+Champion status will be downgraded to Rising Star after 30 days of inactivity
+Risk warning
+Users are advised to trade carefully.
+Users are well aware of the risks involved in trading in the Contract for Differences (CFDs) market and should trade with caution. The company is not responsible for any imprudence of users.
+You will get LotBack only when trading using the balance part, e.g., balance $100 at leverage 1:1000. With this condition, when opening an order for 2 lots, you will get LotBack for only 1 lot because a balance of $100 can open orders for only 1 lot. In addition, you have to hold orders for more than 5 minutes. XRPUSD (CFD) is a product that does not participate in the LotBack promotion.
+Assets that do not participate in the LotBack program
+Crypto (CFD) Index (CFD) Thematic Index (CFD) Stock (CFD)
+ADAUSD (CFD)
+ATMUSD (CFD)
+AVAUSD (CFD)
+BATUSD (CFD)
+BCHUSD (CFD)
+BNBUSD (CFD)
+BTCJPY (CFD)
+DOTUSD (CFD)
+DSHUSD (CFD)
+EOSUSD (CFD)
+ETHUSD (CFD)
+LTCUSD (CFD)
+NEOUSD (CFD)
+OMGUSD (CFD)
+SOLUSD (CFD)
+TRXUSD (CFD)
+UNIUSD (CFD)
+XLMUSD (CFD)
+XMRUSD (CFD)
+XRPUSD (CFD)
+XTZUSD (CFD) AUS200 (CFD)
+DE30 (CFD)
+DXY (CFD)
+FR40 (CFD)
+HK50 (CFD)
+JP2250 (CFD)
+S&P500 (CFD)
+STOXX50 (CFD)
+UK100 (CFD)
+US30 (CFD)
+USTEC (CFD) AIGUI (CFD)
+CRYPTO10 (CFD)
+MAGSI (CFD)
+US30_TOPSTOCKS (CFD)
+US_ENERGY_ETF (CFD) AAPL (CFD)
+ABBV (CFD)
+ABT (CFD)
+ADBE (CFD)
+AMD (CFD)
+AMZN (CFD)
+BA (CFD)
+BABA (CFD)
+BAC (CFD)
+CHTR (CFD)
+C (CFD)
+CMCSA (CFD)
+CME (CFD)
+COST (CFD)
+CSCO (CFD)
+CSX (CFD)
+CVS (CFD)
+EA (CFD)
+EBAY (CFD)
+EQIX (CFD)
+FB (CFD)
+GILD (CFD)
+GOOGL (CFD)
+HD (CFD)
+IBM (CFD)
+INTC (CFD)
+INTU (CFD)
+ISRG (CFD)
+JNJ (CFD)
+JPM (CFD)
+KO (CFD)
+LIN (CFD)
+LLY (CFD)
+LMT (CFD)
+MA (CFD)
+MCD (CFD)
+MDLZ (CFD)
+MMM (CFD)
+MO (CFD)
+MRK (CFD)
+MS (CFD)
+MSFT (CFD)
+NFLX (CFD)
+NKE (CFD)
+NVDA (CFD)
+ORCL (CFD)
+PEP (CFD)
+PFE (CFD)
+PG (CFD)
+PM (CFD)
+PYPL (CFD)
+REGN (CFD)
+SBUX (CFD)
+T (CFD)
+TMO (CFD)
+TMUS (CFD)
+TSLA (CFD)
+UNH (CFD)
+V (CFD)
+VRTX (CFD)
+VZ (CFD)
+WMT (CFD)
+XOM (CFD)
+Markets
+Currency CFDs
+Commodity CFDs
+Stock CFDs
+Index CFDs
+Crypto CFDs
+Thematic Index CFDs
+Live Quotes
+Trading Conditions
+Accounts
+Client Security
+Payment Options
+Trading Fees
+Comparison
+Platforms
+IUX Trade App
+IUX WebTerminal
+MetaTrader 5
+Company
+About
+IUX Reviews
+Blog
+Partner
+Contact
+IUX Markets (MU) Ltd. is authorized by the Financial Services Commission (FSC) in Mauritius under Investment Dealer license No. GB22200605. The company operates under iux.com and is registered at 18 Bank Street, Ground Floor, Silver Bank Tower, Cybercity, Ebene 72201, Mauritius, with its physical office located at Silver Bank Tower, Ground Floor, 18 Bank Street, Cybercity, Ebene 72201
+IUX Markets Limited is incorporated with the Financial Services Authority in Saint Vincent and the Grenadines under registered number 26183 BC 2021. The company operates under www.iux.com and is registered at Euro House, Richmond Hill Road, Kingstown, VC0100, Saint Vincent & the Grenadines.
+Risk Warning: CFDs trading and other credit products carry high risks and are not suitable for all investors. Trading financial instruments may lead to losses, and these losses can exceed the initial investment. You should not spend more than you can afford to lose and should ensure that you fully understand the risks involved. The products offered may not be suitable for everyone. Before you use these products, please take into consideration your level of experience, financial objectives, and seek independent advice if necessary. It is your responsibility to ensure you are permitted to use IUX services based on your country’s legal requirements. IUX assumes no liability for any loss or damage resulting from any investment activity. This information is not intended for residents of countries or jurisdictions under significant sanctions, including but not limited to Afghanistan, Barbados, Belarus, Burkina Faso, Cameroon, Central African Republic, Cuba, Democratic Republic of Congo, Haiti, Iran, Libya, Mali, Mozambique, Myanmar, Nicaragua, North Korea, Russia, Senegal, Sudan, Syria, Tanzania, Venezuela, Yemen, and Zimbabwe.
+All trading-related information, products, and services offered on the IUX and its subsidiaries’ websites are not intended to solicit residents of Australia, the European Union and the European Economic Area, Japan, Malaysia, Ukraine, the United Kingdom, or the United States. The information on this website does not constitute investment advice or a recommendation or a solicitation to engage in any investment activity. The information on this website may only be copied with the express written permission of IUX.
+IUX ensures the security and privacy of its customers by complying with PCI DSS standards. Through partnerships with card processors audited under PCI DSS requirements, we prioritize the safety of customer funds and data.
+© 2026 IUX Markets Limited
+Trade
+Platforms
+Education
+Company
+Accounts
+Comparison
+Language
+English
+Login
+Open Account
+Important Information
+Access to this website is restricted. IUX does not solicit, market, or provide services to persons located in, resident in, or citizens of Australia, Canada, the United Kingdom, the United States of America, or Malaysia.
+By selecting “I Confirm” below, you expressly represent and warrant that you are not a citizen or resident of, and are not accessing this website from, any of the jurisdictions listed above. If you do not meet this requirement, you must refrain from accessing the website.
+I Confirm
+Before you continue
+IUX is not registered or licensed by the Japan Financial Services Agency (JFSA). The products and services offered on this website are not intended for residents of Japan and are not subject to Japanese financial regulations.
+If you do not meet this requirement, please refrain from accessing this Website.
+I Confirm
+Markets
+Currency CFDs
+Commodity CFDs
+Stock CFDs
+Index CFDs
+Crypto CFDs
+Thematic Index CFDs
+Live Quotes
+Trading Conditions
+Client Security
+Payment Options
+Trading Fees
+Benefits
+LotBack Program
+Trading Platforms
+IUX Trade App
+IUX WebTerminal
+MetaTrader 5
+Learning Center
+Overview
+Articles
+Academy
+Tools & Analysis
+Economic Calendar
+Trading Calculators
+Technical Analysis
+About IUX
+About
+IUX Reviews
+Blog
+Partner
+Contact
+Legal & Support
+Regulation
+Terms and Policies
+Help Center
+Select Language
+English
+Español
+Bahasa Indonesia
+Português
+Tiếng Việt
+简体中文
+English
+Español
+Bahasa Indonesia
+Português
+Tiếng Việt
+简体中文

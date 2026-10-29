@@ -1,0 +1,267 @@
+Bonus Terms and Conditions - Online broker AMarkets
+AMarkets App
+The best trading app
+Download
+Bonus Terms and Conditions
+Home About AMarkets Documents Bonus Terms and Conditions
+Deposit Funds
+Contact us
+WebTrader WebTrader MT5 Real
+WebTrader MT5 Demo
+WebTrader MT4
+Login
+English Español
+Português
+Türkçe
+Bahasa Indonesia
+Bahasa Melayu
+Français
+Українська
+العربية‎
+हिन्दी
+अंग्रेज़ी
+ไทย
+中文 (中国)
+한국어
+Tiếng Việt
+Nigeria
+Oʻzbek
+Кыргызча
+Azərbaycan
+Қазақ
+years
+of trust
+TRADING Trading Accounts Open account
+Accounts Overview
+Standard
+ECN
+Zero
+Islamic accounts
+Trading Instruments Trending
+Forex
+Metals
+Cryptocurrencies
+Commodities
+Indices
+Stocks
+Financials Deposit & Withdrawal
+Trading Platforms MetaTrader 4
+MetaTrader 5
+AMarkets App
+AMarkets App (APK)
+Copy Trading Open an Account
+For Investors
+For Traders
+Copy Trading Rating
+FAQ
+PROMOTIONS Bonuses Invite a Friend
+Cashback from AMarkets
+Switch your broker bonus
+Double Your Starting Capital
+GOLD status
+Promotions Celebrate AMarkets’ Birthday
+0% commission
+Trade on Demo, Earn Real Cash
+Account transfer to AMarkets
+FOR CLIENTS Analytics Main trade ideas
+Quarterly analytical reviews
+Trades of the week
+Trading ideas in Telegram
+Forex news
+Trading Tools Expert Advisors
+VPS hosting
+AutoChartist
+Economic calendar
+Trader’s calculator
+Sentiment Indicator
+Trade analyzer
+Information Trading hours
+Leverage
+AMarkets’ metrics
+Knowledge base FAQ
+Blog
+Educational Videos
+For Partners General Info Partnership Programs
+Partner promotions
+ABOUT Information About us
+Regulation
+News
+Documents
+Contacts
+Demo
+Open Account
+1. General Provisions
+1.1 These Bonus Terms and Conditions (hereinafter referred to as the “Terms” or “Bonus Terms and Conditions”) establish the rules and procedures governing AMarkets LLC’s (hereinafter referred to as the “Company”) Bonus Program. These provisions cover the calculation, accrual, cancellation, and deduction of Bonus funds, including transactions related to the Cashback loyalty program.
+These Terms form an integral part of the public offer published on the Company’s official website ( amarkets.com ). The offer constitutes an invitation to enter into a Customer Agreement under the terms outlined in the agreement and its annexes.
+1.3 By accepting this offer, any legally competent individual acknowledges and unconditionally accepts these Bonus Terms and Conditions. Furthermore, by accepting the offer, the individual confirms that they are not a citizen or resident of any country where the Company’s services are unavailable. A complete list of restricted countries is published on the Company’s website.
+1.4 The Company undertakes to calculate, accrue, and deduct Bonus funds obtained by the client through Company promotions, marketing activities, or any other means.
+1.5 The Company reserves the right to amend or modify these Bonus Terms and Conditions at any time without prior notice to participants.
+1.6 The Company reserves the right to exclude any client from participation in the Bonus Program or terminate their eligibility for a Bonus Offer without the obligation to provide a reason.
+1.7 The Company retains the right to withdraw its Bonus Offer at any time without explanation.
+1.8 If the Company fully or partially deducts the Bonus from the client’s account(s), the client waives any right to pursue legal action against the Company. In the event of a dispute, both parties (the Promoter and the Promotion Participant) shall first attempt to resolve the issue through good-faith negotiations. If an agreement cannot be reached, the complaint shall be handled in accordance with the applicable laws of the country in which the Company is incorporated.
+1.9 The Company reserves the right to deny Bonus funds or privileges if the client’s account is managed by a third party.
+1.10 AMarkets does not provide Bonuses to citizens or residents of the following countries: Afghanistan, Vietnam, Hong Kong, Egypt, Israel, Pakistan, Philippines.
+1.11 The Bonus Offer becomes available only after the client successfully completes the general verification process.
+2. Terms and Definitions
+2.1 Bonus funds (or Bonus) refer to a conditional amount, expressed in the base currency of the client’s account, credited to the “Credit” field of the trading platform as part of promotions, marketing campaigns, or other interactions with the Company.
+2.2 Bonus funds can only be used for independent trading on Standard accounts in the MetaTrader 4 and MetaTrader 5 platforms.
+3. Bonus Funds Usage and Conditions
+3.1 The specific terms and conditions for receiving Bonus funds are outlined separately for each Bonus Offer and published on the Company’s website.
+3.1.1 The Bonus is credited within 7 (seven) days after the client funds their trading account.
+3.1.2 The Bonus is calculated based on the client’s actual account balance and cannot exceed the deposit amount in percentage terms.
+3.1.3 Bonus funds credited to the trading account participating in the Bonus Offer and cannot be transferred to another account.
+3.1.4 The maximum trading Bonus accrued on a deposit per client is $5,000 USD (depending on the account currency). When combined with cashback from the loyalty program, the total maximum bonus amount per account can reach $7,500 USD.
+3.1.5 The maximum credit Bonus available to any one client is $10,000 USD.
+3.2 Bonus funds cannot be withdrawn and may only be used for trading.
+3.3 When Bonus funds are present in a trading account, the client’s total funds are categorized as:
+Client’s own funds: The client’s deposits (excluding Bonus funds), withdrawals, and trading profits.
+Bonus funds: The total amount of active Bonuses displayed in the “Credit” field in MetaTrader 4 and MetaTrader 5.
+Equity: The sum of the client’s own funds and Bonus funds.
+3.4 The trading Bonus can be used during a drawdown. However, if there are no open positions and the account’s Equity falls below the Credit level, the Bonus will be deducted.
+Example:
+A client deposits $1,000 and receives a $150 Bonus (credited in the “Credit” field). If, after closing the last trade, the client’s Equity drops below $150, the Bonus is fully deducted.
+3.5 The credit Bonus, including those awarded under the “Trade on Demo, Earn Real Cash” and “Double Your Starting Capital” promotions, does not participate in drawdown and is available exclusively on USD-denominated accounts opened on the MetaTrader 4 platform. This Bonus cannot be combined with any other promotional offers provided by the Company. Bonus funds become eligible for withdrawal only upon fulfillment of the required trading turnover, calculated as follows:
+Required lots to withdraw Bonus = Bonus amount / $3
+Only closed currency pair trades are counted, and trades must have a minimum 3-pip difference between opening and closing prices.
+Example:
+A client deposits $100 and receives a $100 Bonus. To withdraw the credit Bonus, they must generate a turnover of 100 / 3 = 33.3 lots in currency pairs.
+3.6 The Company reserves the right to block the client’s account(s), except where otherwise required by the relevant authority.
+Furthermore, the Company may take measures to transfer any unused balance amount, excluding the bonus amount, to the client.
+3.7 The Bonus is canceled in the event of a Stop Out, which occurs when open positions are forcibly closed due to the trading account reaching a specified margin level. Considering that on the MetaTrader 5 platform, when the Stop Out level is exceeded on Standard accounts, the least profitable positions are closed one by one at market price until the account balance exceeds the established Stop Out level, the Bonus is cancelled only after all Stop Out transactions have been fully executed.
+3.8 The Bonus will be canceled if the client’s account remains inactive for 30 (thirty) calendar days.
+3.9 If the Company suspects fraudulent activity, abuse of the Bonus Offer or any other company promotions, or actions taken in bad faith, it reserves the right to refuse, withhold, or deduct the Bonus funds and, if necessary, terminate the Customer Agreement.
+4. Withdrawals from an Account with Bonus Funds
+4.1 Withdrawals from a trading account that contains a trading Bonus shall be processed as follows:
+4.1.1 The withdrawal of profits earned from trading is permitted without the deduction of Bonuses, provided that, after the withdrawal, the ratio of Bonuses to own funds does not exceed 20%.
+4.1.2 The withdrawal of the Client’s own funds may result in a partial or full deduction of Bonus funds, in accordance with the following rules:
+If, after the withdrawal, the share of Bonus funds in relation to own funds remains 20% or less, no Bonus deduction will occur.
+If, after the withdrawal, the share of Bonus funds exceeds 20% of own funds, a partial deduction of the Bonus will be applied. The amount to be deducted shall be calculated using the following formula: (Bonus funds/Equity after withdrawal*100 – 20%) / 100 * Equity after withdrawal.
+If, after the withdrawal, the share of Bonus funds exceeds 90% of the client’s own funds, the Bonus shall be fully deducted from the account.
+Calculation examples:
+Example 1
+The Client has $1,000 of their own funds (Balance) and $200 in Bonus funds in their trading account, making the Equity $1,200. The Client withdraws $100, resulting in a Balance of $900, Bonus funds remaining at $200, and Equity after withdrawal of $1,100. The share of the Bonus funds (Bonus funds to Equity ratio) after the withdrawal is calculated as: (200 / 1100) * 100 = 18.18% Since 18.18% is less than 20%, the Bonus will not be deducted.
+Balance = $1,000
+Bonus = $200
+Equity = $1,200
+Withdrawal = $100
+Balance = $900
+Bonus = $200
+Equity = $1,100
+Bonus funds to Equity ratio:
+$200 / $1,100 * 100 = 18.18%, which is less than 20%.
+The bonus will not be deducted.
+Example 2
+A Client has $5,000 of their own funds (Balance), $1,000 in Bonus funds (displayed in the “Credit” field), and an open position with a floating loss of $-300 in their trading account. The account Equity is $5,700. The Client withdraws $1,500, resulting in the following updates: The new Balance is $3,500, Bonus funds remain at $1,000, and Equity is reduced to $4,200. The share of Bonus funds after the withdrawal is calculated as: (1,000 / 4,200) * 100 = 23.81%.
+Since 23.81% exceeds the 20% threshold, a partial deduction of the Bonus is applied. The deduction amount is calculated as: (23.81% – 20%) / 100 * 4,200 = 3.81% / 100 * 4,200 = $160.02 Thus, $160.02 will be deducted from the Bonus.
+Balance = $5,000
+Bonus = $1,000
+Floating loss in an open transaction = $-300
+Equity = $5,700
+Withdrawal = $1,500
+Balance = $3,500
+Bonus = $1,000
+Floating loss in an open transaction = $-300
+Equity = $4,200
+Bonus funds to Equity ratio:
+$1000 / $4,200 * 100 = 23,81%, which is more than 20%.
+Deduction amount:
+(23,81% – 20%) / 100 * $4,200 = $160.02
+Example 3
+A Client has $3,000 of their own funds (Balance) and $600 in Bonus funds (displayed in the “Credit” field) in their trading account. The account Equity is $3,600. The Client withdraws their total available funds of $3,000. Since the withdrawal leaves only the Bonus funds in the account, and the share of Bonuses after withdrawal would exceed 90% of the Equity, the Bonus will be fully deducted.
+Balance = $3,000
+Bonus = $600
+Equity = $3,600
+Withdrawal = $3,000
+Balance = $0
+Bonus = $600
+Equity = $600
+Bonus funds to Equity ratio:
+$600 / $600 * 100 = 100%, which is more than 90%
+Bonus will be written off in full
+4.2 The credit Bonus is fully canceled under the following conditions:
+Full or partial withdrawal of funds from the account.
+No trading activity for 30 calendar days.
+A Stop Out occurs.
+To receive a bonus from AMarkets, please contact our customer support.
+5. Replenishment of Accounts Holding Bonus Funds
+1. If the account’s Equity level is lower than the Credit amount at the time of deposit, the credited funds will first be used to restore the credit level and cover any existing drawdown that was previously sustained using bonus funds. In such cases, the deposited real funds will be allocated to the bonus layer and will not be available for withdrawal.
+Calculation examples
+Example 1: Deposit During a Bonus Drawdown
+The Client has $200 of own funds (Balance), $1,000 in bonuses (in the “Credit” line) on the trading account, and an open position with a floating financial result of -$400. The Equity amount is $800. The Client makes a deposit of $500, of which $200 will be allocated to the bonus layer to cover the drawdown on bonus funds.
+Balance: $200
+Bonus: $1,000
+Equity: $800
+Floating P/L: -$400
+$500 Deposit
+Balance: $700
+Bonus: $1,000
+Equity: $1,300
+Floating P/L: -$400
+Real Client Funds = $1,300 – $1,000 = $300
+Conclusion: Although the Client deposited $500, only $300 is available as real funds because $200 was allocated to cover the drawdown on the bonus layer.
+Example 2: Deposit Without a Bonus Drawdown
+The Client has $200 of own funds (Balance), $1,000 in bonuses (in the “Credit” line) on the trading account, and an open position with a floating financial result of -$100. The Equity amount is $1,100. The Client makes a deposit of $500, which will not be allocated to the bonus layer, as there is no drawdown on the account (Equity > Credit) related to bonus funds.
+Balance: $200
+Bonus: $1,000
+Equity: $1100
+Floating P/L: -$100
+$500 Deposit
+Balance: $700
+Bonus: $1,000
+Equity: $1,600
+Floating P/L: -$100
+Real Client Funds = $1,600 – $1,000 = $600
+Conclusion: Since there was no drawdown on bonus funds at the time of deposit, the full $500 deposit is available as real funds and does not go to the bonus layer.
+info@amarkets.com
+Date of Last Revision 02/10/2026
+AMarkets LLC registered in the Cook Islands with registration number LLC14486/2023
+Trading
+Open a Standard account
+Accounts Overview
+Trading Instruments
+Deposit & Withdrawal
+MetaTrader 4
+MetaTrader 5
+Copy trading service for investors
+Copy trading service for traders
+Promotions
+Cashback from AMarkets
+0% commission
+Switch your broker bonus
+Double Your Starting Capital
+Trade demo, earn real cash!
+Transfer your account to AMarkets
+Invite a friend
+GOLD Status
+For Clients
+Analytics
+Forex news
+Expert Advisors
+VPS hosting
+AutoChartist
+Economic calendar
+Trader’s calculator
+Sentiment Indicator
+Trading hours
+FAQ
+Blog
+For Partners
+Partnership Programs
+Partner promotions
+ABOUT
+About us
+News
+Regulation
+Documents
+Contacts
+Download APK
+Privacy Policy | AML Policy | Processing of personal data
+AMarkets LTD is registered and licensed as an international brokerage and clearing company in the Island of Mwali (Comoros) with license number T2023284 and supervised by the Mwali International Services Authority (MlSA).
+AMarkets LLC is registered in the Cook Islands with registration number LLC14486/2023 and a relevant registry operated by the Financial Supervisory Commission (FSC).
+AMarkets LTD is registered in Saint Vincent and the Grenadines with registration number 22567 BC 2015 and the relevant registry operated by the Financial Services Authority (FSA).
+The Financial Commission
+AMarkets is a member of The Financial Commission, an independent external dispute resolution (EDR) organization. The interests of AMarkets' clients are protected by the Financial Commission's Compensation Fund for up to €20,000 per claim.
+© 2007—2026 AMarkets
+Risk Warning : Trading CFD on foreign exchange on margin carries a high level of risk and may not be suitable for all investors. There is a possibility that you may sustain a loss of some or all of your investment. Before deciding to trade, you should carefully consider your investment objectives, level of experience and risk appetite. Please note that AMarkets does not provide services to citizens and residents in the following countries . AMarkets LLC and its affiliates do not target EU/EEA/UK/US clients.
+By continuing to browse this website, you agree to our Cookie policy .
+Allow

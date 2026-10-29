@@ -1,0 +1,354 @@
+Copy Trading Incentive Programme | EBC Financial Group
+ภาษาไทย
+Español
+Português
+한국어
+简体中文
+繁體中文
+日本語
+Tiếng Việt
+Bahasa Indonesia
+Монгол
+ئۇيغۇر تىلى
+العربية
+Русский
+हिन्दी
+O‘zbekcha
+Қазақша
+简体中文
+Trading
+Trading
+Trading Products
+Commodities
+Forex
+Indices
+Stocks
+ETFs
+Accounts & Conditions
+Trading Accounts
+Leverage & Margin
+Deposits & Withdrawals
+Dividends
+Institutional Services
+Financial Technology
+Trading Tools
+EBC App
+MT4 Download
+MT5 Download
+PAMM
+Analytical Tools & Indicators
+Order Flow Tools
+Market Analysis
+Academy
+About EBC
+About EBC
+About EBC
+WHY EBC
+Awards and Honours
+Sustainability & Impact
+EBC News
+Announcements
+Partners
+FC Barcelona
+University of Oxford
+Partner Programme
+Customer Service
+Official Channel Verification
+Activities
+Copy Trading
+Official Channel Verification
+FCA Intro
+Register
+Login
+简体中文
+ภาษาไทย
+Español
+Português
+한국어
+简体中文
+繁體中文
+日本語
+Tiếng Việt
+Bahasa Indonesia
+Монгол
+ئۇيغۇر تىلى
+العربية
+Русский
+हिन्दी
+O‘zbekcha
+Қазақша
+Grow Your Followers and Gain Up to 18 % p.a.
+Send trading signals publicly
+Grow followers who copy your trade
+Get paid monthly
+Enjoy 10 exclusive privileges
+Join Now
+Trader Reward Levels
+EBC offers five reward tiers based on the number of followers and total AUM.
+Legend
+Annual Rewards
+>$1,000,000
+AUM
+>200
+Followers
+All Star
+Annual Rewards
+>$500,000
+AUM
+>100
+Followers
+Champion
+Annual Rewards
+>$100,000
+AUM
+>50
+Followers
+Master
+Annual Rewards
+>$50,000
+AUM
+>30
+Followers
+Elite
+Annual Rewards
+>$20,000
+AUM
+≥10
+Followers
+Legend
+Annual Rewards
+>$1,000,000
+AUM
+>200
+Followers
+All Star
+Annual Rewards
+>$500,000
+AUM
+>100
+Followers
+Champion
+Annual Rewards
+>$100,000
+AUM
+>50
+Followers
+Master
+Annual Rewards
+>$50,000
+AUM
+>30
+Followers
+Elite
+Annual Rewards
+>$20,000
+AUM
+≥10
+Followers
+Rewards will be granted upon meeting the effective trading volume threshold. Please refer to the programme guidelines for details.
+Multi-Tiered Value-Added Services
+We offer up to 10 value-added services, integrating traffic and media resources to comprehensively enhance the trader's signal influence.
+Elite/Master
+24/7 Customer Service
+Free Investment Book Collection
+Champion
+24/7 Customer Service
+Free Investment Book Collection
+Exclusive VPS Sponsorship
+1-Year Access to Order Flow Software
+EBC Premium Gift Set
+All Star
+24/7 Customer Service
+Free Investment Book Collection
+Exclusive VPS Sponsorship
+1-Year Access to Order Flow Software
+EBC Premium Gift Set
+Invitation to Visit International Offices
+FC Barcelona Star Player Gift Collection
+Legendary Barcelona Stadium Experience
+Legend
+24/7 Customer Service
+Free Investment Book Collection
+Exclusive VPS Sponsorship
+1-Year Access to Order Flow Software
+EBC Premium Gift Set
+Invitation to Visit International Offices
+FC Barcelona Star Player Gift Collection
+Legendary Barcelona Stadium Experience
+Strategic Brand Partnership
+Global Financial Resource Management Services
+Legend
+24/7 Customer Service
+Free Investment Book Collection
+Exclusive VPS Sponsorship
+1-Year Access to Order Flow Software
+EBC Premium Gift Set
+Invitation to Visit International Offices
+FC Barcelona Star Player Gift Collection
+Legendary Barcelona Stadium Experience
+Strategic Brand Partnership
+Global Financial Resource Management Services
+All Star
+24/7 Customer Service
+Free Investment Book Collection
+Exclusive VPS Sponsorship
+1-Year Access to Order Flow Software
+EBC Premium Gift Set
+Invitation to Visit International Offices
+FC Barcelona Star Player Gift Collection
+Legendary Barcelona Stadium Experience
+Champion
+24/7 Customer Service
+Free Investment Book Collection
+Exclusive VPS Sponsorship
+1-Year Access to Order Flow Software
+EBC Premium Gift Set
+Elite/Master
+24/7 Customer Service
+Free Investment Book Collection
+Six-Dimension Performance Evaluation System
+Provides an open and transparent evaluation of copy trading signal providers’ performance, showcasing trading style, increasing visibility, and attracting more followers.
+Rate of Return
+Historical return rate; the higher, the better.
+Profit Factor
+Higher values indicate stronger profitability.
+Sharpe Ratio
+Higher values indicate better risk-adjusted returns for the same level of risk.
+Standard Deviation
+Lower values indicate lower volatility and more stable returns.
+Maximum Profit Drawdown
+Lower values indicate better control of profit retracement and risk management.
+Max Equity Drawdown
+Lower values indicate smaller equity fluctuations and stronger risk control.
+Rate of Return
+Profit Factor
+Sharpe Ratio
+Standard Deviation
+Maximum Profit Drawdown
+Max Equity Drawdown
+Rate of Return
+Historical return rate; the higher, the better.
+Profit Factor
+Higher values indicate stronger profitability.
+Sharpe Ratio
+Higher values indicate better risk-adjusted returns for the same level of risk.
+Standard Deviation
+Lower values indicate lower volatility and more stable returns.
+Max Equity Drawdown
+Lower values indicate smaller equity fluctuations and stronger risk control.
+Maximum Profit Drawdown
+Lower values indicate better control of profit retracement and risk management.
+*The above data is for reference only.
+Programme Guidelines
+1. Follower Definitions
+Follower Capital = Account Balance ÷ Number of followed Provider
+Follower Limit: Each account can follow up to 10 providers simultaneously.
+Valid Follower Account: An account is considered valid if its follower capital is at least $500. Accounts with less than $500 will not be counted as valid follower accounts and will not be included in the total follower capital.
+Valid Follower User: If multiple valid accounts under the same EBC user follow the same trader (provider), they are counted as one valid follower user.
+AUM(Assets Under Management):Total Follower Capital + Trader’s (Provider Account) Balance
+2. Level Activation & Reward Criteria
+Level Activation:
+The system evaluates every hour. If both AUM and Valid Follower User Count meet the requirements of a particular level, that level is considered activated.
+Reward Criteria (all conditions must be met):
+The trader must maintain the required level on every calendar day of the month.
+Effective Trading Volume (lot)≥ Trader’s (Provider Account) Daily Average Balance × 0.2%:
+Effective Trading Volume = Total Closed Volume for the Month + Net Open Positions (Net Open Positions = Total Open Volume − Hedging Positions in the Same Symbol)
+Daily Average Balance = Sum of Trader’s Daily Balances ÷ Number of Calendar Days in the Month
+US stocks and ETFs are excluded from the effective trading volume calculation.
+Bonus Calculation & Distribution
+Daily Average AUM = Sum of Daily AUM ÷ Number of Calendar Days in the Month
+Monthly Bonus = (Daily Average AUM × Management Fee Rate) ÷ 12
+All rewards are credited to the trading account and can be withdrawn freely.
+Participants whose identity information or trading activities are identified by the system or through manual verification as abnormal will have their eligibility and rewards cancelled.
+This event is open only to valid clients. EBC reserves the right of final interpretation of the event rules and the right to amend the terms without prior notice.
+3. How to Participate
+Email [email protected] or contact official customer service to join.
+Start Your Journey Immediately
+Mrs
+Contact Us
+Trading Products
+Commodities
+Forex
+Indices
+Stocks
+ETFs
+Trading Tools
+EBC App
+MT4 Download
+MT5 Download
+PAMM
+Analytical Tools & Indicators
+Order Flow Tools
+Market Analysis
+Accounts & Conditions
+Trading Accounts
+Leverage & Margin
+Deposits & Withdrawals
+Dividends
+Institutional Services
+Financial Technology
+EBC Institute
+Trading Dictionary
+Learning Centre
+Market Legends
+Market Research
+Global Focus
+Research Report
+Market Journal
+About EBC
+WHY EBC
+Awards and Honours
+Legal Documents
+Sustainability & Impact
+EBC News
+Announcements
+Official Channel Verification
+Partners
+FC Barcelona
+University of Oxford
+Partner Programme
+EBC Activities
+Creator Incentive Programme
+Enjoy Monthly Payouts
+Best Trading
+More Activities
+EBC Financial Group is a co-brand shared by a group of entities
+including:
+EBC Financial Group (SVG) LLC is authorised by the St.Vincent and the
+Grenadines Financial Services Authority(SVGFSA),and the company
+registration number is 353 LLC 2020, with registered address at Euro
+House, Richmond Hill Road, Kingstown, VC0100, St. Vincent and the
+Grenadines.
+Other Relevant Entities
+EBC Financial Group (UK) Limited is authorised and regulated by the Financial Conduct Authority. Reference No.: 927552. Website: www.ebcfin.co.uk
+Business Address:
+The Leadenhall Building, 122 Leadenhall Street, London, United Kingdom, EC3V 4AB. Email Address: [email protected] . Telephone: +44 207 786 3550
+EBC Financial Group (Cayman) Limited is licensed and regulated by the Cayman Islands Monetary Authority (Reference No.: 2038223). Website:
+www.ebcgroup.ky
+EBC Financial Group SA (Pty) Ltd is authorised by the Financial Sector Conduct Authority (FSCA) in South Africa as a Financial Service Provider (FSP) with authorisation number 51541，EBC Financial Group SA (Pty) Ltd Company reg. No. 2020/665886/07 with registered address EBC FINANCIAL GROUP SA Pty LTD 18 CAVENDISH ROAD, CLAREMONT CAPE TOWN Western Cape 7708.
+EBC Financial (MU) Limited is licensed and regulated by the the Financial Services Commission, Mauritius (Reference No.: GB24203273) with registrated address at 3rd Floor, Standard Chartered Tower, Cybercity, Ebene, 72201, Republic of Mauritius. Website for this entity is maintained separately.
+EBC Financial Group (Comoros) Limited is authorised by The Autonomous Island of Anjouan, Union of Comoros Offshore Finance Authority with Reference No. L 15637/EFGC, with registered office address at Hamchako, Mutsamudu, Autonomous Island of Anjouan, Union of Comoros.
+EBC Financial Group (Australia) Pty Ltd (ACN: 619 073 237) is authorised and regulated by the Australian Securities and Investments Commission (Reference No.: 500991). EBC Financial Group (Australia) Pty Ltd is a related entity of EBC Financial Group (SVG) LLC. The two entities are managed separately. The financial products and services offered on this website are NOT provided by the Australian entity and no recourse against the Australian entity is available.
+EBC Group (Cyprus) Ltd, faciliates payment services to the licensed and regulated entities within the EBC Financial Group strucutre, registered under the Companies Law of Republic of Cyprus with number HE 449205, registered office address at 101 Gladstonos, Agathangelou Business Centre, 3032 Limassol, Cyprus.
+Regional Restrictions:
+EBC does not offer any services to citizens and residents of certain jurisdictions including: Afghanistan, Belarus, Burma (Myanmar), Canada, Central African Republic, Congo, Cuba, Democratic Republic of the Congo, Eritrea, Haiti, Iran, Iraq, Lebanon, Libya, Malaysia, Mali, North Korea (Democratic People's Republic of Korea), Russia, Somalia, Sudan, South Sudan, Syria, Ukraine (including Crimea, Donetsk, and Luhansk Regions), the United States, Venezuela, and Yemen.
+Any Spanish or Portuguese content on this website is general information in nature and not directed or intended for distribution to any country where such distribution or use would contravene any local law or regulatory requirement. Please check our FAQs .
+Compliance Disclosure： The
+website can be accessed globally and is not specific to any entity. Your
+actual rights and obligations will be determined based on the entity and
+jurisdiction that you choose to be regulated.There may be local laws and
+regulations which prohibit or limit your rights to access, download,
+distribute, disseminate, share or otherwise use any or all of the
+documents and information published on this website.
+Risk Warning: Trading
+Contracts for Difference (CFDs) are complex financial instruments and
+come with a high risk of losing money rapidly due to leverage. Trade on
+margin carries a high level of risk and may not be suitable for all
+investors. Before deciding to trade Forex and CFDs, you should carefully
+consider your trading objectives, level of experience and risk appetite.
+The possibility exists that you could sustain a loss of some or all of
+your initial trading capital. We recommend that you seek independent
+advice and ensure you fully understand the risks involved before making
+any investment decision. Please read the relevant risk disclosure
+statements carefully before trading.
+© 2026, EBC Financial Group (SVG) LLC. All Rights Reserved.
