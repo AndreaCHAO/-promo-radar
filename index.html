@@ -7458,7 +7458,7 @@ function openResearch() {
   const brands = [...new Set(RECORDS.map(r => r['品牌']))];
   const byRegion = Object.keys(REGIONS).map(k => `<li>${esc(k)}：${RECORDS.filter(r => r.region === k).length} 条 · ${esc([...new Set(RECORDS.filter(r => r.region === k).map(r => r['品牌']))].join('、') || '暂无')}</li>`).join('');
   $('researchTitle').textContent = '资料覆盖与更新方式';
-  $('researchContent').innerHTML = `<h2>资料覆盖与更新方式</h2><p>数据来源：${({ sheet: 'Google 表格（每次打开页面实时读取）', repo: '仓库内备份文件 data/records.csv', embedded: '网页内置备份（随网页一起打包，不会自动更新）' })[META.source] || ''}。读取时间 ${esc(META.loadedAt?.toLocaleString('zh-CN') || '')}；最新一条核查日期 ${esc(META.latestCheck || '未标')}。</p><p>共 ${RECORDS.length} 条 · ${brands.length} 个品牌。${esc(counts)}。</p><h3>自动监测</h3><p>${MON ? `机器人最近一次运行：${esc(MON.generated)}。检查 ${MON.summary?.urls ?? 0} 个来源网址：${MON.summary?.changed ?? 0} 条记录来源有更新，${MON.summary?.ended_hint ?? 0} 条可能已结束，${MON.summary?.unreachable ?? 0} 条来源打不开；累计疑似新活动 ${MON.summary?.discoveries ?? 0} 条。${MON.ai_enabled ? '已启用 AI 自动整理建议。' : '未启用 AI（可选）。'}` : '尚未运行。上线到 GitHub 后每天早上 8:17（吉隆坡时间）自动运行。'}</p><h3>状态怎么算</h3><p>「人工状态」一栏留空时，页面按今天的日期自动判断：截止日已过＝已结束；开始日未到＝尚未开始；${CFG.dueSoonDays} 天内截止＝即将截止；没有截止日＝在列·未标期。填了「待核 / 不适用 / 已结束 / 进行中 / 预告」则以人工为准。</p><h3>各地区覆盖</h3><ul>${byRegion}</ul><h3>已知缺口</h3><ul><li>EC Markets、FxPro、FXCM 暂未检索到公开的面向客户的促销活动；FOREX.com 只有欧洲专业客户返佣。</li><li>华语市场（港澳台、新马）的活动多在社群和 IB 渠道传播，公开页面少，覆盖偏薄，欢迎同事补充。</li><li>184 条记录导入自 2026-10-28 的参考底稿（更新人标为「导入参考底稿」），之后由自动监测持续复查来源页。</li><li>参考底稿以伊朗/伊拉克、中东北非、拉美、东南亚、欧盟为研究范围，未覆盖华语市场。</li></ul><h3>怎么更新</h3><p>在 Google 表格里新增或修改一行，保存后刷新本页即可。可以先把活动页面内容交给任意 AI 整理成一行，再粘贴进表格。详细步骤见 <a href="${esc(CFG.guideUrl)}" target="_blank" rel="noopener">更新指南</a>。</p>${regionResearchHTML()}<h3>研究边界</h3><p>只使用公开资料，不是穷尽名单，不代表某地区所有居民都可参加。CFD 及杠杆交易风险高；赠金、现金与积分性质不同，请勿混同。「可参考点」是机制分析，不是效果或合规结论。</p>`;
+  $('researchContent').innerHTML = `<h2>资料覆盖与更新方式</h2><p>数据来源：${({ sheet: 'Google 表格（每次打开页面实时读取）', repo: '仓库内备份文件 data/records.csv', embedded: '网页内置备份（随网页一起打包，不会自动更新）' })[META.source] || ''}。读取时间 ${esc(META.loadedAt?.toLocaleString('zh-CN') || '')}；最新一条核查日期 ${esc(META.latestCheck || '未标')}。</p><p>共 ${RECORDS.length} 条 · ${brands.length} 个品牌。${esc(counts)}。</p><h3>自动监测</h3><p>${MON ? `机器人最近一次运行：${esc(monTime())}。检查 ${MON.summary?.urls ?? 0} 个来源网址：${MON.summary?.changed ?? 0} 条记录来源有更新，${MON.summary?.ended_hint ?? 0} 条可能已结束，${MON.summary?.unreachable ?? 0} 条来源打不开；累计疑似新活动 ${MON.summary?.discoveries ?? 0} 条。${MON.ai_enabled ? '已启用 AI 自动整理建议。' : '未启用 AI（可选）。'}` : '尚未运行。上线到 GitHub 后每天早上 8:17（吉隆坡时间）自动运行。'}</p><h3>状态怎么算</h3><p>「人工状态」一栏留空时，页面按今天的日期自动判断：截止日已过＝已结束；开始日未到＝尚未开始；${CFG.dueSoonDays} 天内截止＝即将截止；没有截止日＝在列·未标期。填了「待核 / 不适用 / 已结束 / 进行中 / 预告」则以人工为准。</p><h3>各地区覆盖</h3><ul>${byRegion}</ul><h3>已知缺口</h3><ul><li>EC Markets、FxPro、FXCM 暂未检索到公开的面向客户的促销活动；FOREX.com 只有欧洲专业客户返佣。</li><li>华语市场（港澳台、新马）的活动多在社群和 IB 渠道传播，公开页面少，覆盖偏薄，欢迎同事补充。</li><li>184 条记录导入自 2026-10-28 的参考底稿（更新人标为「导入参考底稿」），之后由自动监测持续复查来源页。</li><li>参考底稿以伊朗/伊拉克、中东北非、拉美、东南亚、欧盟为研究范围，未覆盖华语市场。</li></ul><h3>怎么更新</h3><p>在 Google 表格里新增或修改一行，保存后刷新本页即可。可以先把活动页面内容交给任意 AI 整理成一行，再粘贴进表格。详细步骤见 <a href="${esc(CFG.guideUrl)}" target="_blank" rel="noopener">更新指南</a>。</p>${regionResearchHTML()}<h3>研究边界</h3><p>只使用公开资料，不是穷尽名单，不代表某地区所有居民都可参加。CFD 及杠杆交易风险高；赠金、现金与积分性质不同，请勿混同。「可参考点」是机制分析，不是效果或合规结论。</p>`;
   $('researchDialog').showModal();
 }
 function openDiscoveries() {
@@ -7479,11 +7479,18 @@ function regionResearchHTML() {
   }).join('');
 }
 function toast(m) { $('toast').textContent = m; $('toast').classList.add('show'); setTimeout(() => $('toast').classList.remove('show'), 2800); }
+function monTime() {
+  if (!MON) return '';
+  const d = MON.generated_at ? new Date(MON.generated_at) : null;
+  if (!d || isNaN(d)) return MON.generated || '';
+  const kl = new Date(d.getTime() + 8 * 3600e3), p = n => String(n).padStart(2, '0');
+  return kl.getUTCFullYear() + '-' + p(kl.getUTCMonth() + 1) + '-' + p(kl.getUTCDate()) + ' ' + p(kl.getUTCHours()) + ':' + p(kl.getUTCMinutes()) + '（吉隆坡时间）';
+}
 function renderMeta() {
   const t = META.loadedAt ? META.loadedAt.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' }) : '';
   $('todayLabel').textContent = '今日 ' + fmt(today());
-  $('sourceLabel').textContent = ({ sheet: '数据：Google 表格 · 实时读取', repo: '数据：仓库备份 data/records.csv', embedded: '数据：网页内置备份（未连接 Google 表格）' }[META.source] || '数据') + ' · 读取于 ' + t;
-  $('checkLabel').textContent = '最新核查 ' + (META.latestCheck || '未标') + (MON ? ' · 自动监测 ' + MON.generated : ' · 自动监测未运行');
+  $('sourceLabel').textContent = '页面打开于 ' + t + ' · ' + ({ sheet: '数据来自 Google 表格（实时）', repo: '数据来自仓库 data/records.csv', embedded: '数据来自网页内置备份' }[META.source] || '');
+  $('checkLabel').textContent = (MON ? '机器人最近更新 ' + monTime() + '（每天 08:17 自动运行）' : '自动监测尚未运行') + ' · 人工最近核查 ' + (META.latestCheck || '未标');
   const nd = (MON?.discoveries || []).length; $('openDiscoveries').textContent = '疑似新活动' + (nd ? ' ' + nd : '');
 }
 
