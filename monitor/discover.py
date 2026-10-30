@@ -15,7 +15,7 @@
 人工数据（data/records.csv 或 Google 表格）与自动数据（data/auto_records.csv）分开存放；
 同事把某条自动记录确认后复制进人工数据（同一个 ID），网页会以人工版本为准。
 """
-import csv, datetime as dt, email.utils, hashlib, html, io, json, os, re, sys, time, urllib.parse, urllib.request
+import csv, datetime as dt, difflib, email.utils, hashlib, html, io, json, os, re, sys, time, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -120,6 +120,30 @@ def guess(rules, text, default):
 
 def norm_title(t):
     return re.sub(r"[\W_]+", "", (t or "").lower())[:90]
+
+
+# 加密交易所：只收和 CFD / 传统金融（TradFi）相关的活动，币圈专属玩法（空投、理财、永续期权、社区任务）不收
+CRYPTO_BRANDS = {"Bybit"}
+CRYPTO_MAX_PER_DAY = 1
+TRADFI = re.compile(r"tradfi|\bstocks?\b|equit|\bgold\b|forex|\bfx\b|\bcfds?\b|\bmt5\b|metatrader|indices|\bindex\b|"
+                    r"外汇|外匯|黄金|黃金|股票|美股|港股|差价合约|差價合約|指数|指數", re.I)
+_COMMON_CAPS = {"USDT", "USDC", "USD", "RWA", "RWAS", "CFD", "CFDS", "MT5", "MT4", "NFT", "ETF", "KYC", "VIP", "BTC", "ETH",
+                "CEO", "APR", "APY", "IPO", "UAE", "LIVE", "NEW", "THE", "AND", "FOR", "WITH", "TRADFI", "AI", "IB", "FX"}
+
+
+def event_keys(title, brand=""):
+    """同一活动的不同报道（中英文、不同媒体）通常共用活动缩写（如 WSOT）或同一奖金数额，用来合并重复报道。"""
+    t = title or ""
+    own = {w.upper() for n in [brand] + CORE.get(brand, []) for w in re.findall(r"[A-Za-z0-9]+", n)}
+    keys = {w for w in re.findall(r"(?<![A-Za-z0-9])[A-Z][A-Z0-9]{2,}(?![A-Za-z0-9])", t) if w not in _COMMON_CAPS and w not in own}
+    for num, unit in re.findall(r"(\d[\d,\.]*)\s*(million|m\b|万|萬|k\b)?", t, re.I):
+        n = num.replace(",", "").rstrip(".")
+        try: v = float(n)
+        except ValueError: continue
+        u = (unit or "").lower()
+        v *= 1e6 if u in ("million", "m") else 1e4 if u in ("万", "萬") else 1e3 if u == "k" else 1
+        if v >= 1000 and not (1990 <= v <= 2100): keys.add(f"${int(v)}")
+    return keys
 
 
 def slug(s):
@@ -353,6 +377,11 @@ def main():
 
     # 2) 筛选 + 去重
     picked, batch_titles = [], set()
+    brand_events, brand_titles = {}, {}   # 已有记录（人工 + 自动）里每个品牌的活动缩写 / 奖金数额 / 标题，用来合并重复报道
+    for r in list(records) + auto:
+        b = r.get("品牌", "")
+        brand_events.setdefault(b, set()).update(event_keys(r.get("标题", ""), b))
+        brand_titles.setdefault(b, []).append(norm_title(r.get("标题", "")))
     cutoff = TODAY - dt.timedelta(days=LOOKBACK_DAYS)
     for c in cands:
         if not c["title"] or not c["url"]: continue
@@ -365,6 +394,12 @@ def main():
         t = norm_title(c["title"])
         fp = hashlib.sha1((brand + t).encode()).hexdigest()[:12]
         if u in known_urls or t in known_titles or u in seen or fp in seen or t in batch_titles: continue
+        if brand in CRYPTO_BRANDS and not TRADFI.search(text):
+            seen.add(u); seen.add(fp); continue
+        keys = event_keys(c["title"], brand)
+        if keys & brand_events.get(brand, set()) or any(difflib.SequenceMatcher(None, t, x).ratio() > 0.6 for x in brand_titles.get(brand, [])):
+            seen.add(u); seen.add(fp); continue   # 同一活动的另一篇报道
+        brand_events.setdefault(brand, set()).update(keys); brand_titles.setdefault(brand, []).append(t)
         batch_titles.add(t)
         c["brand"], c["fp"], c["u"] = brand, fp, u
         picked.append(c)
@@ -373,7 +408,7 @@ def main():
     per_brand = int(env("DISCOVERY_MAX_PER_BRAND", "3")) if env("DISCOVERY_MAX_PER_BRAND", "3").isdigit() else 3
     counts, capped = {}, []
     for c in picked:  # 每个品牌每天最多新增几条，避免发稿多的品牌刷屏；没轮到的明天再收
-        if counts.get(c["brand"], 0) < per_brand:
+        if counts.get(c["brand"], 0) < (CRYPTO_MAX_PER_DAY if c["brand"] in CRYPTO_BRANDS else per_brand):
             capped.append(c); counts[c["brand"]] = counts.get(c["brand"], 0) + 1
     picked = capped[:max_new]
     log(f"新候选 {len(picked)} 条")
