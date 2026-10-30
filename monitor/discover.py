@@ -28,6 +28,7 @@ SOURCES = os.path.join(ROOT, "data", "discovery_sources.csv")
 KL = dt.timezone(dt.timedelta(hours=8))
 TODAY = dt.datetime.now(KL).date()
 LOOKBACK_DAYS = int(env("DISCOVERY_LOOKBACK_DAYS", "10")) if env("DISCOVERY_LOOKBACK_DAYS", "10").isdigit() else 10
+DUP_WINDOW_DAYS = 30  # 同一品牌 30 天内主题相近的新闻，视为同一活动，只留一条
 STALE_DAYS = 60  # 自动记录超过 60 天且没有截止日期，就不再算“在列”
 
 HEAD = ["ID", "品牌", "对象", "地区", "活动类型", "奖励性质", "标题", "奖励摘要", "给谁", "门槛", "可参考点",
@@ -76,7 +77,7 @@ def find_brand(text, pats):
 
 # ---------- 关键词 ----------
 PROMO = re.compile(r"(trading (competition|contest|cup|challenge|championship|tournament|festival)|demo (competition|contest)|"
-                   r"\bcontest\b|\bcompetition\b|\bpromotion\b|\bpromo\b|deposit bonus|welcome bonus|no[- ]deposit|\bbonus\b|cashback|"
+                   r"\bcontest\b|\bcompetition\b|\btournament\b|\bchampionship\b|\bpromotion\b|\bpromo\b|deposit bonus|welcome bonus|no[- ]deposit|\bbonus\b|cashback|"
                    r"cash back|rebate|giveaway|lucky draw|lucky spin|prize pool|\bprizes?\b|sweepstake|refer[- ]a[- ]friend|"
                    r"loyalty (program|programme)|reward|campaign|challenge|\bcup\b|"
                    r"交易大赛|交易赛|模拟赛|比赛|大赛|活动|优惠|赠金|赠送|返现|返佣|抽奖|奖金|奖池|奖品|奖励|推荐好友|"
@@ -131,11 +132,16 @@ _COMMON_CAPS = {"USDT", "USDC", "USD", "RWA", "RWAS", "CFD", "CFDS", "MT5", "MT4
                 "CEO", "APR", "APY", "IPO", "UAE", "LIVE", "NEW", "THE", "AND", "FOR", "WITH", "TRADFI", "AI", "IB", "FX"}
 
 
+_SYMBOL = re.compile(r"^((XAU|XAG|EUR|USD|GBP|JPY|AUD|NZD|CAD|CHF|BTC|ETH)[A-Z]{3}|US\d{2,3}|NAS\d+|SPX\d*|GER\d+|UK\d+|HK\d+)$")  # 交易品种代码不是活动名
+
+
 def event_keys(title, brand=""):
     """同一活动的不同报道（中英文、不同媒体）通常共用活动缩写（如 WSOT）或同一奖金数额，用来合并重复报道。"""
     t = title or ""
     own = {w.upper() for n in [brand] + CORE.get(brand, []) for w in re.findall(r"[A-Za-z0-9]+", n)}
-    keys = {w for w in re.findall(r"(?<![A-Za-z0-9])[A-Z][A-Z0-9]{2,}(?![A-Za-z0-9])", t) if w not in _COMMON_CAPS and w not in own}
+    keys = {w for w in re.findall(r"(?<![A-Za-z0-9])[A-Z][A-Z0-9]{2,}(?![A-Za-z0-9])", t) if w not in _COMMON_CAPS and w not in own and not _SYMBOL.match(w)}
+    for m in re.findall(r"第\s*([一二三四五六七八九十百\d]+)\s*[届屆期季]|\bseason\s*(\d+)|\bS(\d{1,2})\b", t, re.I):
+        keys.add("#ed" + next(x for x in m if x))   # 第十二届 / Season 18：届次
     for num, unit in re.findall(r"(\d[\d,\.]*)\s*(million|m\b|万|萬|k\b)?", t, re.I):
         n = num.replace(",", "").rstrip(".")
         try: v = float(n)
@@ -144,6 +150,25 @@ def event_keys(title, brand=""):
         v *= 1e6 if u in ("million", "m") else 1e4 if u in ("万", "萬") else 1e3 if u == "k" else 1
         if v >= 1000 and not (1990 <= v <= 2100): keys.add(f"${int(v)}")
     return keys
+
+
+_STOP = set("""a an the and or of for to in on with by at from as is are be its it this that new now first final last
+launch launches launched launching announce announces announced unveil unveils unveiled introduce introduces host hosts hosted
+kick kicks off returns return back coming expands expand enable enables offer offers offering via up more than top best
+trading trade trader traders traders' market markets broker brokers forex cfd cfds clients client users user customers
+global official live days day week weeks month event events assets amount pool direct over requirement 2025 2026 2027""".split())
+_SYN = {"xauusd": "gold", "黄金": "gold", "黃金": "gold", "stocks": "stock", "shares": "stock", "股票": "stock", "美股": "stock",
+        "promotion": "#promo", "promo": "#promo", "campaign": "#promo", "challenge": "#promo", "contest": "#promo",
+        "competition": "#promo", "tournament": "#promo", "championship": "#promo", "cup": "#promo", "bonus": "#promo",
+        "prize": "#promo", "giveaway": "#promo", "rewards": "#promo", "reward": "#promo", "交易大赛": "#promo", "交易大賽": "#promo",
+        "比赛": "#promo", "比賽": "#promo", "活动": "#promo", "活動": "#promo", "赠金": "#promo", "贈金": "#promo"}
+
+
+def topic_tokens(title, brand=""):
+    """标题里的主题词（去掉品牌、套话），同义词归一：用来判断同一品牌近期两条新闻是不是在讲同一个活动。"""
+    own = {w.lower() for n in [brand] + CORE.get(brand, []) for w in re.findall(r"[A-Za-z0-9]+", n)}
+    words = re.findall(r"[A-Za-z][A-Za-z0-9']+|黄金|黃金|股票|美股|交易大赛|交易大賽|比赛|比賽|活动|活動|赠金|贈金", (title or "").lower())
+    return {_SYN.get(w, w) for w in words if w not in _STOP and w not in own and len(w) > 2 or w in _SYN}
 
 
 def slug(s):
@@ -376,12 +401,29 @@ def main():
     log(f"候选 {len(cands)} 条")
 
     # 2) 筛选 + 去重
-    picked, batch_titles = [], set()
-    brand_events, brand_titles = {}, {}   # 已有记录（人工 + 自动）里每个品牌的活动缩写 / 奖金数额 / 标题，用来合并重复报道
+    picked, batch_titles, merged = [], set(), 0
+    # 已有记录（人工 + 自动）的活动“指纹”，用来把同一活动的多篇报道合成一条
+    known_events = []   # (品牌, 活动缩写/奖金数额, 规范化标题, 主题词, 对应的自动记录或 None)
+    recent = TODAY - dt.timedelta(days=DUP_WINDOW_DAYS)
     for r in list(records) + auto:
-        b = r.get("品牌", "")
-        brand_events.setdefault(b, set()).update(event_keys(r.get("标题", ""), b))
-        brand_titles.setdefault(b, []).append(norm_title(r.get("标题", "")))
+        b, title = r.get("品牌", ""), r.get("标题", "")
+        is_auto = r in auto
+        try: fresh = dt.date.fromisoformat((r.get("最后核查") or "")[:10]) >= recent
+        except ValueError: fresh = False
+        known_events.append((b, event_keys(title, b), norm_title(title), topic_tokens(title, b) if is_auto and fresh else set(), r if is_auto else None))
+
+    def same_event(brand, keys, t, toks):
+        for b, k, nt, tk, rec in known_events:
+            if b != brand: continue
+            if (keys & k) or difflib.SequenceMatcher(None, t, nt).ratio() > 0.6:
+                return True, rec
+            acr_a, acr_b = {x for x in keys if not x.startswith("$")}, {x for x in k if not x.startswith("$")}
+            if (acr_a or acr_b) and acr_a != acr_b:
+                continue   # 一边有活动缩写（如 WSOT）而另一边没有 / 不同：是不同活动
+            shared = toks & tk
+            if len(shared - {"#promo"}) >= 2 or (len(shared - {"#promo"}) >= 1 and "#promo" in shared):
+                return True, rec
+        return False, None
     cutoff = TODAY - dt.timedelta(days=LOOKBACK_DAYS)
     for c in cands:
         if not c["title"] or not c["url"]: continue
@@ -396,10 +438,16 @@ def main():
         if u in known_urls or t in known_titles or u in seen or fp in seen or t in batch_titles: continue
         if brand in CRYPTO_BRANDS and not TRADFI.search(text):
             seen.add(u); seen.add(fp); continue
-        keys = event_keys(c["title"], brand)
-        if keys & brand_events.get(brand, set()) or any(difflib.SequenceMatcher(None, t, x).ratio() > 0.6 for x in brand_titles.get(brand, [])):
-            seen.add(u); seen.add(fp); continue   # 同一活动的另一篇报道
-        brand_events.setdefault(brand, set()).update(keys); brand_titles.setdefault(brand, []).append(t)
+        keys, toks = event_keys(c["title"], brand), topic_tokens(c["title"], brand)
+        dup, rec = same_event(brand, keys, t, toks)
+        if dup:   # 同一活动的另一篇报道：不新建，只把链接补进那条自动记录的来源（最多 5 个）
+            seen.add(u); seen.add(fp)
+            if rec is not None:
+                links = [x for x in re.split(r"\s*\|\s*", rec.get("来源链接", "")) if x]
+                if c["url"] not in links and len(links) < 5:
+                    rec["来源链接"] = " | ".join(links + [c["url"]]); merged += 1
+            continue
+        known_events.append((brand, keys, t, toks, None))
         batch_titles.add(t)
         c["brand"], c["fp"], c["u"] = brand, fp, u
         picked.append(c)
@@ -411,7 +459,7 @@ def main():
         if counts.get(c["brand"], 0) < (CRYPTO_MAX_PER_DAY if c["brand"] in CRYPTO_BRANDS else per_brand):
             capped.append(c); counts[c["brand"]] = counts.get(c["brand"], 0) + 1
     picked = capped[:max_new]
-    log(f"新候选 {len(picked)} 条")
+    log(f"新候选 {len(picked)} 条；重复报道已合并到原记录 {merged} 条")
 
     # 3) 自动建档
     added = []
