@@ -323,7 +323,7 @@ Risk Warning: Trading Contracts for Difference (CFDs) involves a high level of r
 Regional Restrictions: This information on this website is not intended for distribution to, or use by, any person or entity who is a citizen or resident of the United States, Canada, Singapore, Australia, Iran, China, the Philippines, North Korea, India, Cuba, Cyprus, American Samoa, Guam, the Northern Mariana Islands, or Puerto Rico. It is also not intended for distribution to, or use by, any person or entity located in jurisdictions listed on the FATF “blacklist” or subject to major global sanctions lists, or in any jurisdiction where such distribution or use would violate local laws or regulations.
 PU Prime is a trading name for multiple entities operating across various jurisdictions. These following entities are authorised to operate under the PU Prime brand and trademarks.
 PU Prime Ltd is an investment dealer authorised and regulated by the Financial Services Commission of Mauritius under License No. GB23202672, with registered address at Suite 201 Level 2, The Catalyst, Cybercity Ebene, Mauritius.
-PU Prime LLC is a company registered and authorised by the St. Vincent and the Grenadines Financial Services Authority, whose registration number is 271 LLC 2020, with registered address at Euro House, Richmond Hill Road, Kingstown, VC0100, St. Vincent and the Grenadines, P.O. Box 2897.
+PU Prime LLC is a company registered in St. Vincent and the Grenadines, whose registration number is 271 LLC 2020, with registered address at Euro House, Richmond Hill Road, Kingstown, VC0100, St. Vincent and the Grenadines, P.O. Box 2897.
 P.U.P Integrated Services Limited, incorporated in the United Kingdom with registration number 17424116. Registered at C/O Greenwoods Legal Services Limited Queens House, 55-56 Lincoln’s Inn Fields, London, United Kingdom, WC2A 3LJ.
 P.U.P Integrated Services Limited, facilitates services on behalf of other licensed entities within the PU Prime Group, including, but not limited to payment services. This entity does not offer regulated financial products or provide trading services.
 PU Prime Ltd, incorporated in the Republic of Seychelles, is a securities dealer authorised and regulated by the Financial Services Authority of Seychelles under License No. SD050, with its registered address at CT House, Office 9A, Providence, Mahe, Seychelles.
@@ -362,3 +362,8 @@ Ten en cuenta que el sitio web está destinado a personas que residen en jurisdi
 Ten en cuenta que PU Prime y sus entidades afiliadas no están establecidas ni operan en tu jurisdicción de origen.
 Al hacer clic en el botón "Aceptar", confirmas que estás ingresando a este sitio web por tu propia iniciativa y no como resultado de ningún esfuerzo de marketing específico. Deseas obtener información de este sitio web que se proporciona mediante solicitud inversa de acuerdo con las leyes de tu jurisdicción de origen.
 Aceptar
+Dear Valued Client,
+PU Prime will be conducting a server upgrade for our MT4/MT5 trading platforms on 1 November 2026 (Sunday) from 09:00 hrs to 14:00 hrs (GMT+3) / 13:00 hrs (GMT+2).
+During this period, access to MT4/MT5 Live and Demo accounts, including through PU Prime Apps and PU Copy Trading, will be temporarily unavailable.
+Please note that no orders will be executed during the upgrade period.
+Click here for more details

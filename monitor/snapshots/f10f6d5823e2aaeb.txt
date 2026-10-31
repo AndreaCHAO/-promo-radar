@@ -168,7 +168,7 @@ To trade:
 10 universal lots or more during the Contest Period on Standard or Pro or Raw Spread account that was registered in the Contest – to participate in the Final Lucky Draw.
 * A universal lot is defined as 100,000 USD in trading volume (opened and closed). Different instruments have different contract sizes and prices, so the volume created by 1 universal lot is not always the same.
 Please note that the value of instruments can vary significantly.
-Please see example: To open and close deals for 1 lot (100 contracts) of XAUUSD, it is approximately 265,000 USD.
+Please see example: To open and close deals for 1 lot (100 contracts) of XAUUSD, it is approximately 392,000 USD.
 2.2. Only one trading account registered by the Client may participate in the Contest. The universal lots traded on several trading accounts isn’t summed up.
 3. Selecting the TOP-15 Winners
 3.1. The winners will be determined based on the total lots earned during the Contest Period. The leaderboard, which will be updated daily on JustMarkets website, will reflect the cumulative Points of each Client reflecting a certain nickname. At the end of the Contest Period, Clients will ranked 1 to 15 (“Top 15”) shall each receive a guaranteed prizes:

@@ -3,7 +3,12 @@ It looks like you are based in the
 Click proceed to be taken to .
 Proceed
 Select Language
-中文繁體
+English
+中文简体
+Русский
+Español
+العربية
+ภาษาไทย
 close
 Tickmill App
 Download
@@ -234,10 +239,3 @@ Copyright © 2015 - 2026
 Terms & Conditions
 Legal Documents
 Contact us
-Cookie Policy:
-The Tickmill website uses cookies. By continuing browsing the page you automatically agree to our use of cookies. For more information on our cookie usage, on how to change cookies and their settings see our Cookies Policy .
-Preferences
-Necessary
-Statistics
-Marketing
-Preferences
