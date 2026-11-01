@@ -126,42 +126,42 @@ Contest days
 ONE CALENDAR MONTH
 Contest status Active
 Start
-0:00, 1 October 2026
+0:00, 1 November 2026
 End
-23:59, 31 October 2026
+23:59, 30 November 2026
 If you are a partner of LiteFinance Global LLC and manage your own business of bringing in new traders, then surely your activities should be properly assessed and awarded. The “LiteFinance’s successful partner” contest is a good chance to demonstrate your skills and gain referrals’ confidence. The partners, who will receive the biggest commission payout during the contest period, will be considered as winners.
 The 30 participants who have achieved the highest results will share the prize fund of $2500. Do you consider yourself a successful partner? Then take part in the monthly contest from LiteFinance: the financial world should know its heroes!
 Registration for the "Successful Partner" contest
 UID, Email, or Phone
 Nickname
-Registration for the contest (from 1 November)
+Registration for the contest (from 1 December)
 Register
 Current rating
 Terms and conditions
 Results of the previous contest
 Registered partners (on next contest)
-Current contest | 0:00, 1 October 2026
+Current contest | 0:00, 1 November 2026
 Ranking Nickname Commission Rate Prize sum
-1 Jadarylo 36274.7 $1000
-2 suardd 36270.15 $500
-3 Phoenixman 36266.07 $250
-4 Hothinh 27216.79 $150
-5 kastto89 18055.72 $100
-6 mqir 15222.81 $50
-7 MR_ONR 12214.34 $50
-8 LocaLservice 8565.97 $50
-9 Azamikia 6867.43 $50
-10 Vanalano 5589.53 $50
-11 PFOREX 5105.43 $20
-12 Aurra 4766.61 $20
-13 ehkam 4724.15 $20
-14 Dung49 3900.16 $20
-15 Fakey 3633.91 $20
-16 10Millions_Dollars 2862.26 $10
-17 HuyenNgo 2806.75 $10
-18 Adunis 2706.28 $10
-19 Aliiiiiii2345 2629.78 $10
-20 BOXTrader 2521.51 $10
+1 UMAMtreder 0 $1000
+2 Lordanskey777 0 $500
+3 Nyle777 0 $250
+4 Azamikia 0 $150
+5 TrendTRaderPH 0 $100
+6 Hami 0 $50
+7 Support_01 0 $50
+8 fito 0 $50
+9 nguyenhan27 0 $50
+10 YMScalperS 0 $50
+11 fabiancaceres 0 $20
+12 Zarrria75 0 $20
+13 Fall113 0 $20
+14 sens3000 0 $20
+15 PFOREX 0 $20
+16 Jadarylo 0 $10
+17 ciber 0 $10
+18 Fayevn 0 $10
+19 Mhdiiiiiii 0 $10
+20 Anggapras 0 $10
 Terms and conditions
 1. Participation terms, contest period
 1.1. The “LiteFinance’s Successful Partner” contest runs from the first day of each month, 00:00:00, until the last day of each month, 23:59:59 (server time specified, indicated in the trading platform).
@@ -187,48 +187,31 @@ Prize amount, $
 2.11. The Organizer and sponsor of this promotion is the group of companies under the LiteFinance brand.
 Results
 Ranking Nickname Commission Rate Prize sum
-1 suardd 29245.42 $1000
-2 Jadarylo 29234.75 $500
-3 Phoenixman 29229.54 $250
-4 kastto89 18158.94 $150
-5 Hothinh 10143.88 $100
-6 Aura 6892.03 $50
-7 NewGold_City 6707.9 $50
-8 Azamikia 6363.95 $50
-9 Vanalano 5455.49 $50
-10 PFOREX 4647.6 $50
-11 Aliiiiiii2345 3158.58 $20
-12 institutional_data 2817.65 $20
-13 Rezaeagle 2816.52 $20
-14 Dung49 2728.39 $20
-15 HoangTrading_com 2032.11 $20
-16 limitless1 1957.62 $10
-17 Support_01 1902.05 $10
-18 Mohammadamin 1596.53 $10
-19 Ajibola01 1587.15 $10
-20 Adunis 1577.7 $10
+1 Jadarylo 36274.7 $1000
+2 suardd 36270.15 $500
+3 Phoenixman 36266.07 $250
+4 Hothinh 27216.79 $150
+5 kastto89 18055.72 $100
+6 mqir 15222.81 $50
+7 MR_ONR 12214.34 $50
+8 LocaLservice 8565.97 $50
+9 Azamikia 6867.43 $50
+10 Vanalano 5589.53 $50
+11 PFOREX 5105.43 $20
+12 Aurra 4766.61 $20
+13 ehkam 4724.15 $20
+14 Dung49 3900.16 $20
+15 Fakey 3633.91 $20
+16 10Millions_Dollars 2862.26 $10
+17 HuyenNgo 2806.75 $10
+18 Adunis 2706.28 $10
+19 Aliiiiiii2345 2629.78 $10
+20 BOXTrader 2521.51 $10
 Results
 Nickname
-UMAMtreder
-Lordanskey777
-Nyle777
-Azamikia
-TrendTRaderPH
-Hami
-Support_01
-fito
-nguyenhan27
-YMScalperS
-fabiancaceres
-Zarrria75
-Fall113
-sens3000
-PFOREX
-Jadarylo
-ciber
-Fayevn
-Mhdiiiiiii
-Anggapras
+Chen
+SeaTraderS
+Behnamiom
 Follow us on social media Facebook
 Instagram
 LinkedIn
