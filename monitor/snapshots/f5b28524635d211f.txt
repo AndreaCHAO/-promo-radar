@@ -142,26 +142,26 @@ Results of the previous contest
 Registered partners (on next contest)
 Current contest | 0:00, 1 November 2026
 Ranking Nickname Commission Rate Prize sum
-1 UMAMtreder 0 $1000
-2 Lordanskey777 0 $500
-3 Nyle777 0 $250
-4 Azamikia 0 $150
-5 TrendTRaderPH 0 $100
-6 Hami 0 $50
-7 Support_01 0 $50
-8 fito 0 $50
-9 nguyenhan27 0 $50
-10 YMScalperS 0 $50
-11 fabiancaceres 0 $20
-12 Zarrria75 0 $20
-13 Fall113 0 $20
-14 sens3000 0 $20
-15 PFOREX 0 $20
-16 Jadarylo 0 $10
-17 ciber 0 $10
-18 Fayevn 0 $10
-19 Mhdiiiiiii 0 $10
-20 Anggapras 0 $10
+1 Hothinh 1525.02 $1000
+2 10Millions_Dollars 143.33 $500
+3 LocaLservice 107.12 $250
+4 Jadarylo 90.41 $150
+5 suardd 80.73 $100
+6 kastto89 65.81 $50
+7 Phoenixman 55.36 $50
+8 institutional_data 30.21 $50
+9 Fakey 22.45 $50
+10 Vanalano 20.44 $50
+11 Dung49 15.5 $20
+12 Mohammadamin 11.96 $20
+13 PipVero 8.21 $20
+14 AYSU68 7.19 $20
+15 Mona_Shiri 5.53 $20
+16 Adunis 3.28 $10
+17 Enja 3.18 $10
+18 Aliiiiiii2345 3.16 $10
+19 ciber 2.97 $10
+20 zzzzzzzzzzzzzzz 2.82 $10
 Terms and conditions
 1. Participation terms, contest period
 1.1. The “LiteFinance’s Successful Partner” contest runs from the first day of each month, 00:00:00, until the last day of each month, 23:59:59 (server time specified, indicated in the trading platform).
@@ -212,6 +212,23 @@ Nickname
 Chen
 SeaTraderS
 Behnamiom
+Dung49
+MuhammadAbdulkarim
+Pourya7N
+Brm222
+Adunis
+Support_01
+Buboy
+Gildod
+AZ25
+babakahne
+Mahdiyar_Khorram
+Ammahan
+Hani
+Rezaeagle
+shavki
+fito
+Leyliii
 Follow us on social media Facebook
 Instagram
 LinkedIn
