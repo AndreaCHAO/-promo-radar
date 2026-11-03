@@ -58,8 +58,7 @@ Promociones Bonos Obtenga un reembolso de AMarkets
 Transfiera su cuenta comercial a AMarkets
 Duplique su depósito bursátil
 GOLD status
-Promociones Celebra el cumpleaños de AMarkets
-Invitar a un amigo
+Promociones Invitar a un amigo
 0% de comisión en los depósitos
 Demostración comercial, gane dinero real
 Transfiere tu cuenta de trading
@@ -90,10 +89,6 @@ Todas
 Promociones de clientes
 Promociones de partner
 Promociones caducadas
-Nuevo
-Celebra el cumpleaños de AMarkets: recibe un 19% de bono en cada depósito
-Este octubre celebramos el 19.º aniversario de AMarkets con un regalo especial para ti: un bono de trading del 19% en cada depósito de $100 o más, más una actualización inmediata al Nivel 3 de Cashback.
-Lee mas
 Invita a un amigo
 ¡Invita a un amigo a AMarkets y consigue 50 dólares!
 Lee mas
@@ -121,6 +116,9 @@ Lee mas
 0% de comisión
 Cubrimos todas las comisiones de depósito, independientemente del método de pago que utilices.
 Lee mas
+Promoción terminada
+Celebra el cumpleaños de AMarkets: recibe un 19% de bono en cada depósito
+Este octubre celebramos el 19.º aniversario de AMarkets con un regalo especial para ti: un bono de trading del 19% en cada depósito de $100 o más, más una actualización inmediata al Nivel 3 de Cashback.
 Comercio
 Abrir una cuenta
 Tipos de Cuentas

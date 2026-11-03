@@ -83,7 +83,7 @@ Trading schedule
 Promociones
 Suscripciones gratuitas a TradingView
 Trader del mes
-Máquina del NFP de Tickmill
+Tickmill NFP predictor
 Trading sin Swap para traders activos
 Asociaciones
 Introductor de Broker
@@ -146,7 +146,7 @@ Trading schedule
 Promociones
 Suscripciones gratuitas a TradingView
 Trader del mes
-Máquina del NFP de Tickmill
+Tickmill NFP predictor
 Trading sin Swap para traders activos
 Asociaciones
 Introductor de Broker
@@ -271,7 +271,7 @@ COPY TRADING
 Trading social de Tickmill
 PROMOCIONES
 Trader del mes
-Máquina NFP
+Tickmill NFP predictor
 SOCIEDAD
 Broker Introductor
 Programa de Bonos para IB

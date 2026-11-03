@@ -3,7 +3,7 @@ It looks like you are based in the
 Click proceed to be taken to .
 Proceed
 Select Language
-Portuguese
+Melayu
 close
 Tickmill App
 Download
@@ -69,7 +69,7 @@ Promotions
 $30 welcome account
 TradingView Free Subscriptions
 Trader of the month
-NFP machine
+Tickmill NFP predictor
 Partnerships
 Introducing Broker
 Affiliate program (CPA)
@@ -132,7 +132,7 @@ Promotions
 $30 welcome account
 TradingView Free Subscriptions
 Trader of the month
-NFP machine
+Tickmill NFP predictor
 Partnerships
 Introducing Broker
 Affiliate program (CPA)
@@ -210,7 +210,7 @@ COPY TRADING
 Tickmill Social Trading
 PROMOTIONS
 Trader of the Month
-Tickmill’s NFP Machine
+Tickmill NFP predictor
 $30 Welcome Account
 PARTNERSHIP
 Introducing Broker
