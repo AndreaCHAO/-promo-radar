@@ -37,6 +37,7 @@ Acuity
 Profit and Loss Calculator
 Trading Calculator
 Market Analysis
+Blog
 Market Holidays
 Market Trading Hours
 Economic Calendar
@@ -181,6 +182,7 @@ Acuity
 Profit and Loss Calculator
 Trading Calculator
 Market Analysis
+Blog
 Market Holidays
 Market Trading Hours
 Economic Calendar

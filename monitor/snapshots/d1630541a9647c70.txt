@@ -146,15 +146,15 @@ Privacy Policy Cookie Policy Vulnerability Policy Terms and Conditions
 Legal: This website is operated by Trading Point of Financial Instruments Limited, registration number HE251334, with registered address at 12 Richard & Verengaria Street, Araouzos Castle Court, 3rd Floor, 3042 Limassol, Cyprus.
 Risk Warning: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 76.15% of retail investor accounts lose money when trading CFDs with this provider . You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. Please consider our Risk Disclosure .
 Trading Point of Financial Instruments Limited provides investment and ancillary services to residents of the European Economic Area (EEA).
-*]:group-[.primary]:hover:!stroke-brand-600" aria-expanded="false" aria-controls="accordion-panel-54"> Benefits
+*]:group-[.primary]:hover:!stroke-brand-600" aria-expanded="false" aria-controls="accordion-panel-60"> Benefits
 Payment Plans
 Rewards
 Advantages
 Partner Types
-*]:group-[.primary]:hover:!stroke-brand-600" aria-expanded="false" aria-controls="accordion-panel-55"> Popular Trading Products
+*]:group-[.primary]:hover:!stroke-brand-600" aria-expanded="false" aria-controls="accordion-panel-61"> Popular Trading Products
 XM Copy Trading
 XM Competitions
-*]:group-[.primary]:hover:!stroke-brand-600" aria-expanded="false" aria-controls="accordion-panel-56"> More
+*]:group-[.primary]:hover:!stroke-brand-600" aria-expanded="false" aria-controls="accordion-panel-62"> More
 Contact Us
 Help Center
 XM Homepage svg]:w-full [&>svg]:h-full" style="width: 20px; height: 20px;" aria-hidden="true">

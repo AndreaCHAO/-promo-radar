@@ -15,7 +15,7 @@ Bahasa Indonesia
 हिन्दी
 O‘zbekcha
 Қазақша
-简体中文
+Español
 Trading
 Trading
 Productos de Trading
@@ -60,7 +60,7 @@ Verificación Oficial
 Cuenta FCA
 Crear Cuenta
 Iniciar Sesión
-简体中文
+Español
 English
 ภาษาไทย
 Português

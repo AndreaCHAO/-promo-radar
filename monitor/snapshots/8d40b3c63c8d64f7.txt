@@ -3,7 +3,12 @@ It looks like you are based in the
 Click proceed to be taken to .
 Proceed
 Select Language
-Melayu
+English
+中文简体
+Русский
+Español
+العربية
+ภาษาไทย
 close
 Tickmill App
 Download
@@ -46,6 +51,7 @@ Help center
 Share your experience
 About us
 Why Tickmill?
+Tickmill Reviews
 Global management
 Licenses and regulations
 Safety of Funds
@@ -109,6 +115,7 @@ Help center
 Share your experience
 About us
 Why Tickmill?
+Tickmill Reviews
 Global management
 Licenses and regulations
 Safety of Funds

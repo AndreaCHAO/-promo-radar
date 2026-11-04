@@ -15,7 +15,7 @@ Bahasa Indonesia
 हिन्दी
 O‘zbekcha
 Қазақша
-简体中文
+English
 Trading
 Trading
 Trading Products
@@ -60,7 +60,7 @@ Official Channel Verification
 FCA Intro
 Register
 Login
-简体中文
+English
 ภาษาไทย
 Español
 Português
