@@ -1,8 +1,24 @@
 CPA affiliate Form | Moneta Markets
 This site uses cookies to provide you with a great user experience. By visiting monetamarkets.com, you accept our cookie policy .
 Allow all
-This website is operated by Moneta Markets Ltd, which is not authorised or regulated by the UK Financial Conduct Authority (FCA) and does not offer or promote services to UK residents. Access to this website is restricted in the UK and the content is not intended for distribution to, or use by, any person located in the UK. If you believe you have reached this website in error, please exit the page now
-Exit Website
+Important Information
+You are accessing the international Moneta Markets website. This is separate from www.monetamarkets.co.uk, which is operated by Moneta Markets Capital Ltd, a firm regulated by the Financial Conduct Authority (“FCA”).
+This website is operated by Moneta Markets’ international entities, which are not regulated by the FCA in the United Kingdom. If you invest through this website, you will therefore not benefit from the protections available under the FCA’s regulatory framework. In particular:
+• Negative Balance Protection will not be guaranteed.
+• The FCA’s leverage restrictions will not apply.
+• You will not have access to the Financial Ombudsman Service (“FOS”) to resolve disputes.
+• You will not be covered by the Financial Services Compensation Scheme (“FSCS”).
+• Funds you deposit will not benefit from the safeguards required under the FCA’s Client Assets Sourcebook. The protection available to your funds will depend on the regulations of the relevant local regulator.
+By choosing to continue to this website, you acknowledge and confirm that:
+1. This website is owned by Moneta Markets’ international entities, rather than FCA-regulated Moneta Markets Capital Ltd.
+2. Neither Moneta Markets Limited nor any other Moneta Markets international entity is based in the United Kingdom or licensed by the FCA.
+3. You are accessing this website entirely on your own initiative, without having been solicited by Moneta Markets in any way.
+4. Investing through this website does not entitle you to the protections available under the FCA’s regulatory framework.
+5. If you invest through this website or with any Moneta Markets international entity, the applicable rules and regulations will be those of the relevant international regulatory authorities, rather than the FCA.
+Moneta Markets confirms that it holds the licences and authorisations required to provide the services and financial derivative products described on this website. Anyone accessing this website and opening a trading account does so voluntarily, on their own initiative and without prior solicitation.
+By confirming that you wish to proceed, you affirm that your decision to access this website was made solely on your own initiative and that no Moneta Markets entity has solicited you.
+I confirm my intention to proceed and enter this website.
+Exit website
 Continue
 Please note that Moneta Markets operates this website and its services are not directed at residents of your jurisdiction.
 The information on this site is not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.
