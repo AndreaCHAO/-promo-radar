@@ -10,7 +10,7 @@ Portal
 $380,000
 比赛倒计时
 报名 2026.11.02 – 2027.01.17 · 比赛 2026.11.02 – 2027.01.31
-已参赛账号: 1152
+已参赛账号: 1362
 this.syncPane(), 200);
 bootstrap.Tab.getOrCreateInstance(trigger).show();
 }" x-init="$watch('tab', () => syncPane())">

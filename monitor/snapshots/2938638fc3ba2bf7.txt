@@ -21,29 +21,14 @@ Trading Tools
 Partnerships
 Educational Videos
 About Axi
-Trading Accounts
-Deposits and Withdrawals: Axi Trading Platform (Mobile App)
-Trading Platform: Axi Trading Platform (Mobile App)
-Educational Videos
-Getting Started
-MT4 Troubleshooting
-Trading Platform: MetaTrader 4
-Margin and Leverage
-My Axi Account
-Markets
-Trading Tools
-Deposits and Withdrawals: MetaTrader
-About Axi
 My Axi Account
 Trading Platform: MetaTrader 4
 Trading Platform Troubleshooting
 Trading Platform: MetaTrader 5
 MCP Management and Claude
-Withdraw via Client Portal
-Partnerships
 MCP Management and Claude
 How can I apply to become an Introducing Broker (IB)?
-Step-by-step guide for new and existing clients to apply to become an Introducing Broker (IB), including eligibility, the MT5 rebate account, and what happens after applying. Updated 14 days ago
+Step-by-step guide for new and existing clients to apply to become an Introducing Broker (IB), including eligibility, the MT5 rebate account, and what happens after applying. Updated 21 days ago
 Both new and existing clients can apply to become an Introducing Broker (IB) with Axi.
 For new clients
 Go to the Introducing Broker Program page .
