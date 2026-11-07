@@ -24,6 +24,8 @@ Forex
 Indices
 Stocks
 ETFs
+NEW
+Trade Anthropic's Pre-IPO Opportunity
 Accounts & Conditions
 Trading Accounts
 Leverage & Margin
@@ -272,6 +274,7 @@ Forex
 Indices
 Stocks
 ETFs
+Pre-IPO CFD
 Trading Tools
 EBC App
 MT4 Download

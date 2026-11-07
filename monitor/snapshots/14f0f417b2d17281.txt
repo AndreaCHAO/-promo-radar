@@ -173,7 +173,7 @@ Last Name
 Please insert your last name.
 Email Address
 Please insert a valid email address.
-Password
+New Trading Account Password
 Select Country
 Please select your country.
 Phone Number

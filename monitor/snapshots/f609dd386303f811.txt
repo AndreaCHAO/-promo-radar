@@ -24,6 +24,8 @@ Forex
 Índices
 Acciones
 ETFs
+NEW
+Opere la oportunidad pre-IPO de Anthropic
 Cuentas y Condiciones
 Cuentas de Trading
 Apalancamiento y Margen
@@ -276,6 +278,7 @@ Forex
 Índices
 Acciones
 ETFs
+Pre-IPO CFD
 Herramientas de Trading
 EBC App
 Descargar MT4
