@@ -19,6 +19,7 @@ Philippines
 العربية
 اردو
 বাংলা
+日本語
 Language
 English
 South Africa
@@ -37,6 +38,7 @@ Philippines
 العربية
 اردو
 বাংলা
+日本語
 Trading
 Plataformas
 MetaTrader 5
@@ -158,6 +160,7 @@ Philippines
 العربية
 اردو
 বাংলা
+日本語
 Language
 English
 South Africa
@@ -176,6 +179,7 @@ Philippines
 العربية
 اردو
 বাংলা
+日本語
 ¿Salir del sitio de Sudáfrica?
 Actualmente estás en nuestro sitio web de Sudáfrica, operado por Weltrade SA (Pty) Ltd y regulado por la FSCA. Cambiar a otra jurisdicción implica una entidad y una licencia diferentes, con protecciones regulatorias reducidas o nulas. Para continuar, deberás aceptar el acuerdo con el cliente y las políticas del nuevo sitio.
 Cambiar de sitio
