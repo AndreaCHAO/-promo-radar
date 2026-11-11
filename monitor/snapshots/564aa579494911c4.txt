@@ -29,6 +29,7 @@ Account types
 M.Pro
 Margin requirements
 Payment Systems
+Swap-free account
 Negative balance protection
 Trading Platforms
 MT4
