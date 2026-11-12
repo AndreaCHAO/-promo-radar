@@ -1,13 +1,9 @@
 {
-"generated": "2026-11-11",
-"generated_at": "2026-11-11T00:40:45+00:00",
+"generated": "2026-11-12",
+"generated_at": "2026-11-12T00:54:21+00:00",
 "ai_enabled": false,
-"candidates": 339,
-"new_today": [
-"auto-startrader-1eb6801e",
-"auto-vt-markets-b24de7c0",
-"auto-vantage-4a983e12"
-],
+"candidates": 341,
+"new_today": [],
 "total_auto": 15,
 "sources": [
 {
@@ -28,7 +24,7 @@
 {
 "source": "Google 新闻：\"IC Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 3
+"items": 1
 },
 {
 "source": "Google 新闻：\"Exness\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -38,7 +34,7 @@
 {
 "source": "Google 新闻：\"Bybit\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 20
+"items": 19
 },
 {
 "source": "Google 新闻：\"XM.com\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -53,7 +49,7 @@
 {
 "source": "Google 新闻：\"FxPro\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 0
+"items": 1
 },
 {
 "source": "Google 新闻：\"AxiTrader\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -78,12 +74,12 @@
 {
 "source": "Google 新闻：\"Tickmill\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 0
+"items": 1
 },
 {
 "source": "Google 新闻：\"AvaTrade\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 2
+"items": 1
 },
 {
 "source": "Google 新闻：\"FXCM\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -98,12 +94,12 @@
 {
 "source": "Google 新闻：\"TMGM\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 9
+"items": 12
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 2
+"items": 3
 },
 {
 "source": "Google 新闻：\"D Prime\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -123,7 +119,7 @@
 {
 "source": "Google 新闻：\"EC Markets\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
 "ok": true,
-"items": 1
+"items": 0
 },
 {
 "source": "Google 新闻：\"EBC Financial\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -263,7 +259,7 @@
 {
 "source": "Google 新闻：\"FOREX.com\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
 "ok": true,
-"items": 7
+"items": 8
 },
 {
 "source": "Google 新闻：\"TMGM\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -273,7 +269,7 @@
 {
 "source": "Google 新闻：\"TMGM\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
 "ok": true,
-"items": 31
+"items": 32
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -338,7 +334,7 @@
 {
 "source": "Google 新闻：\"TMGM\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 8
+"items": 7
 },
 {
 "source": "Google 新闻：\"ATFX\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -373,22 +369,22 @@
 {
 "source": "Google 新闻：forex broker \"trading competition\"",
 "ok": true,
-"items": 12
+"items": 10
 },
 {
 "source": "Google 新闻：CFD broker \"trading contest\" prize",
 "ok": true,
-"items": 1
+"items": 3
 },
 {
 "source": "Google 新闻：forex broker \"deposit bonus\" launch",
 "ok": true,
-"items": 12
+"items": 11
 },
 {
 "source": "Google 新闻：broker \"lucky draw\" trading",
 "ok": true,
-"items": 6
+"items": 10
 },
 {
 "source": "Google 新闻：外汇 交易大赛 奖金",
@@ -398,7 +394,7 @@
 {
 "source": "Google 新闻：外匯 交易大賽 獎金",
 "ok": true,
-"items": 1
+"items": 0
 },
 {
 "source": "Google 新闻：外匯 交易大賽 獎金",
@@ -408,7 +404,7 @@
 {
 "source": "Google 新闻：外汇 模拟交易大赛",
 "ok": true,
-"items": 13
+"items": 12
 },
 {
 "source": "Google 新闻：外匯 券商 贈金 活動",
@@ -438,7 +434,7 @@
 {
 "source": "Google 新闻：forex \"trading competition\" Malaysia OR Thailand OR Indonesia OR Vietnam",
 "ok": true,
-"items": 9
+"items": 8
 },
 {
 "source": "Google 新闻：pertandingan dagangan forex hadiah",
@@ -591,6 +587,7 @@
 "80cad881bc8c",
 "89789e44c7a9",
 "8e5ed4135c9b",
+"968f67562abc",
 "971ac5911c6d",
 "979742e1b063",
 "9cdd7f44f409",
@@ -616,6 +613,7 @@
 "ee629d7ec2d4",
 "ef4b465a17f1",
 "f327242bcbbd",
+"https://financefeeds.com/bybit-adds-more-filters-to-copy-trading-but-more-metrics-do-not-guarantee-better-choices",
 "https://financefeeds.com/startrader-expands-star-copy-with-new-promoter-features-in-2-0-update",
 "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQkRnUXc3emF2bkUtTHItQjVCQ2J6cEZHczZCSndJWWdtRnUyMDM4dVMxZ3RVdGkxMGxrLUVRME1tcUVGamlETTlxX01EMTBCY190eGNTVjRRUUFHVEhZNWJVSVlwYWZYa242d1VFRWFOakQwaFFjU0hpZDM2My0weDNOUUVlT25xd005dUMtTXBHZW1hWnRvZl9mNWpRc3gtZ1l2MklqUjRyd2ltUUtJS3hsTzRvajVLWUhmSlhZVnlKcVgwQzZmRVpyTGM2bVdTdWE3djF0SWk5RU4tU3RiQXlQMFZwX3dOMWwwRkV6TGRXQjZ5ZW5aSTF3",
 "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYnJFd2picjNxRmlLaUl1THgxYkM5T0ZNU2tWbm1sYTdHSmJiMzFkaDNfVHdMZ2ZqTmFNMkFBdzJYMkhDM013RGE3THpwbHBuUHRWNjdrekt5SUx6YVpqdkdSMER3bW9EWVVRbnZzZkZOOEY0bG5lY1k3OGlPU053LXVOZ2c0N0p6eEdRalhYeDJrTHJLYnFUeWo2M0xFWVY4YjNFN2JTbDBzc0JuYkZXU2lwOEVXc1lhb0RkRzVWUVkyaG41S0lyYXEwOXNSWXFZVlI0",

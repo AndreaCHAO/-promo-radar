@@ -1,13 +1,7 @@
 Earn the highest monthly commission and win a prize! | LiteFinance
-Please note:
-Your country is identified as United States
-LiteFinance Global LLC does not provide brokerage services in your country.
-By continuing to use the https://www.litefinance.org website, you confirm that all programs and services are accessible to you for informational purposes only and are not an invitation to sign up.
-Stay on LiteFinance Global LLC site
 Live Chat
 EN Indonesian
 Русский
-فارسی
 မြန်မာ
 Thai
 العربية
@@ -19,7 +13,6 @@ Login
 Registration
 English Indonesian
 Русский
-فارسی
 မြန်မာ
 Thai
 العربية
@@ -141,26 +134,26 @@ Results of the previous contest
 Registered partners (on next contest)
 Current contest | 0:00, 1 November 2026
 Ranking Nickname Commission Rate Prize sum
-1 suardd 19842.66 $1000
-2 Jadarylo 19823 $500
-3 Hothinh 19803.46 $250
-4 Phoenixman 10972.3 $150
-5 kastto89 5833.19 $100
-6 LocaLservice 2937.99 $50
-7 Dung49 2394.1 $50
-8 institutional_data 2196.03 $50
-9 Azamikia 1859.94 $50
-10 Vanalano 1855.22 $50
-11 Auragold 1763.31 $20
-12 ibtruong 1324.27 $20
-13 PFOREX 1263.47 $20
-14 Aliiiiiii2345 1079.3 $20
-15 Mona_Shiri 1059.2 $20
-16 Fakey 849.79 $10
-17 Rezaeagle 818.78 $10
-18 10Millions_Dollars 818.49 $10
-19 Hami 768.48 $10
-20 Adunis 665.04 $10
+1 suardd 20222.52 $1000
+2 Jadarylo 20202.75 $500
+3 Hothinh 20183.72 $250
+4 Phoenixman 12096.78 $150
+5 kastto89 6992.17 $100
+6 LocaLservice 3514.79 $50
+7 Dung49 2420.41 $50
+8 institutional_data 2203.38 $50
+9 Vanalano 2194.11 $50
+10 Auragold 2015.6 $50
+11 Azamikia 1942.83 $20
+12 ibtruong 1602.15 $20
+13 PFOREX 1376.96 $20
+14 Aliiiiiii2345 1376.67 $20
+15 Mona_Shiri 1170.45 $20
+16 10Millions_Dollars 969.82 $10
+17 Rezaeagle 930.52 $10
+18 Hami 861.77 $10
+19 Fakey 849.79 $10
+20 Adunis 767.5 $10
 Terms and conditions
 1. Participation terms, contest period
 1.1. The “LiteFinance’s Successful Partner” contest runs from the first day of each month, 00:00:00, until the last day of each month, 23:59:59 (server time specified, indicated in the trading platform).

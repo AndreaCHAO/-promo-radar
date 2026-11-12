@@ -311,3 +311,9 @@ Ten en cuenta que el sitio web está destinado a personas que residen en jurisdi
 Ten en cuenta que PU Prime y sus entidades afiliadas no están establecidas ni operan en tu jurisdicción de origen.
 Al hacer clic en el botón "Aceptar", confirmas que estás ingresando a este sitio web por tu propia iniciativa y no como resultado de ningún esfuerzo de marketing específico. Deseas obtener información de este sitio web que se proporciona mediante solicitud inversa de acuerdo con las leyes de tu jurisdicción de origen.
 Aceptar
+Important Notice:
+This website is strictly intended for visitors where access to our services complies with applicable local laws and regulations.
+Notice for Singapore Residents:
+PU Prime is neither established in nor operates out of Singapore. PU Prime does not offer, promote, or provide its products or services to Singapore citizens or residents, and applications from individuals in these categories will not be accepted. If you are a citizen or resident of Singapore, you must not apply for an account or attempt to access or utilise any products or services provided by PU Prime.
+By clicking “ Acknowledge and Enter Website ”, you affirm that you are visiting this site entirely on your own initiative, without any prior solicitation, targeted marketing, or promotional outreach from PU Prime. Content on this site does not constitute an offer, invitation, or solicitation to engage in transactions in any jurisdiction where doing so would be unlawful. You remain solely responsible for verifying that your use of this site complies with all local laws governing your jurisdiction.
+Acknowledge and Enter Website
