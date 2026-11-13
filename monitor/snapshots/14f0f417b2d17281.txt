@@ -37,7 +37,6 @@ Stocks
 Cryptocurrencies
 Platforms
 Tickmill App
-Tickmill Trader
 TradingView
 MetaTrader 4
 MetaTrader 5
@@ -101,7 +100,6 @@ Stocks
 Cryptocurrencies
 Platforms
 Tickmill App
-Tickmill Trader
 TradingView
 MetaTrader 4
 MetaTrader 5
@@ -447,7 +445,6 @@ MetaTrader 4
 MetaTrader WebTrader Platform
 MetaTrader for Mac
 Tickmill Mobile App
-Tickmill Trader
 Tickmill VPS
 EDUCATION
 Webinars

@@ -186,9 +186,9 @@ More than a trading account
 TN-Points loyalty
 Earn 3–6 points on every lot you trade and climb from Bronze to Platinum. Convert your points into real trading funds — 1 point = $1.
 Activate it in your Traders Room →
-Copy Trading Coming soon
-Browse real strategy providers — returns, drawdown, win rate — and choose who you'd follow with your own risk limits. Automatic copying switches on shortly.
-Preview the leaderboard →
+Copy Trading
+Browse real strategy providers — returns, drawdown, win rate — and copy their trades automatically in your own account, with your own copy stop.
+See the providers →
 Autochartist
 Professional pattern recognition scanning 1,000+ markets around the clock — free for every TNFX client.
 See today's signals ↓
@@ -231,13 +231,12 @@ Up to $10 per traded lot §
 Weekly cash challenges
 Multi-level sub-IB network
 Become a Partner
-Coming soon
 Copy Trading
-Follow experienced traders and mirror their strategies in your own account — with full control over risk, allocation and stop rules. Launching soon in the TNFX Traders Room.
+Follow experienced traders and copy their trades in your own account — with full control over the amount, the copy stop and when to stop. Available now in the TNFX Traders Room.
 Auto strategy copying
 You keep control
-Soon in Traders Room
-Join the Waitlist
+$100 minimum per copy
+Start copying
 Deposits & withdrawals
 Fund like a local. Move money with confidence.
 Transfer and receive your money safely using trusted international payment systems — plus the local wallets this region actually uses.

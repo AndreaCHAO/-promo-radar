@@ -1,7 +1,13 @@
 Earn the highest monthly commission and win a prize! | LiteFinance
+Please note:
+Your country is identified as United States
+LiteFinance Global LLC does not provide brokerage services in your country.
+By continuing to use the https://www.litefinance.org website, you confirm that all programs and services are accessible to you for informational purposes only and are not an invitation to sign up.
+Stay on LiteFinance Global LLC site
 Live Chat
 EN Indonesian
 Русский
+فارسی
 မြန်မာ
 Thai
 العربية
@@ -13,6 +19,7 @@ Login
 Registration
 English Indonesian
 Русский
+فارسی
 မြန်မာ
 Thai
 العربية
@@ -134,26 +141,26 @@ Results of the previous contest
 Registered partners (on next contest)
 Current contest | 0:00, 1 November 2026
 Ranking Nickname Commission Rate Prize sum
-1 suardd 20222.52 $1000
-2 Jadarylo 20202.75 $500
-3 Hothinh 20183.72 $250
-4 Phoenixman 12096.78 $150
-5 kastto89 6992.17 $100
-6 LocaLservice 3514.79 $50
-7 Dung49 2420.41 $50
-8 institutional_data 2203.38 $50
-9 Vanalano 2194.11 $50
-10 Auragold 2015.6 $50
-11 Azamikia 1942.83 $20
-12 ibtruong 1602.15 $20
-13 PFOREX 1376.96 $20
-14 Aliiiiiii2345 1376.67 $20
-15 Mona_Shiri 1170.45 $20
-16 10Millions_Dollars 969.82 $10
-17 Rezaeagle 930.52 $10
-18 Hami 861.77 $10
-19 Fakey 849.79 $10
-20 Adunis 767.5 $10
+1 Jadarylo 20903.73 $1000
+2 suardd 20885.04 $500
+3 Hothinh 20873.94 $250
+4 Phoenixman 13436.1 $150
+5 kastto89 7866.17 $100
+6 LocaLservice 3779.73 $50
+7 Vanalano 2464.34 $50
+8 Dung49 2456.08 $50
+9 Auragold 2266.85 $50
+10 institutional_data 2223.47 $50
+11 ibtruong 2118.61 $20
+12 Azamikia 2096.9 $20
+13 PFOREX 1624.57 $20
+14 Aliiiiiii2345 1534 $20
+15 Mona_Shiri 1308.21 $20
+16 Rezaeagle 1120.15 $10
+17 10Millions_Dollars 969.82 $10
+18 Hami 933.02 $10
+19 Adunis 931.87 $10
+20 Fakey 866.37 $10
 Terms and conditions
 1. Participation terms, contest period
 1.1. The “LiteFinance’s Successful Partner” contest runs from the first day of each month, 00:00:00, until the last day of each month, 23:59:59 (server time specified, indicated in the trading platform).

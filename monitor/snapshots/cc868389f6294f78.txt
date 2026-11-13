@@ -90,15 +90,15 @@ Next
 Pontos Principais Deste Artigo
 Análises mais recentes do mercado financeiro
 Leia mais
-Ações
-Eleições de meio de mandato: Democratas conquistam o Senado, Nasdaq 100 cai mais, Dow Jones menos
-Nov 06. 2026
-Commodities
-Por que o ouro estagnou com o aumento das apostas em alta de juros do Fed – Análise do XAUUSD
-Nov 06. 2026
 Forex
-Por que o índice do dólar caiu com a divulgação dos resultados das eleições de meio de mandato – Análise do USDX
-Nov 06. 2026
+Libra esterlina pressionada pela inflação elevada nos EUA, que reacende as apostas de alta de juros do Fed – Análise do GBPUSD
+Nov 12. 2026
+Forex
+Por que o dólar canadense caiu com a inflação dos EUA ampliando o diferencial de juros – Análise do USDCAD
+Nov 12. 2026
+Índices
+O S&P 500 se recuperou enquanto o IPC elevado impulsionava as apostas de alta de juros do Fed – Análise do SP500
+Nov 12. 2026
 Tags de Análise de Mercado
 # Notícias do USD
 # Notícias do USDCAD
@@ -111,14 +111,14 @@ Tags de Análise de Mercado
 # Notícias de Trading de Moedas
 # Notícias do AUDUSD
 Artigos relacionados
-Eleições de meio de mandato: Democratas conquistam o Senado, Nasdaq 100 cai mais, Dow Jones menos
-Por que o ouro estagnou com o aumento das apostas em alta de juros do Fed – Análise do XAUUSD
-Por que o índice do dólar caiu com a divulgação dos resultados das eleições de meio de mandato – Análise do USDX
-Decisão do Banco da Inglaterra sobre a Taxa Básica de Juros, 5 de novembro de 2026: O que cada cenário indicaria
-Por que o dólar australiano caiu após o Banco Central da Austrália elevar a taxa de juros para 4,85% – Análise AUDUSD
-Por que o Nasdaq se recuperou com a alta dos futuros dos EUA antes das eleições de meio de mandato – Análise do NAS100
-Por que o USD/JPY permaneceu lateralizado enquanto o Fed e o Banco do Japão precificavam altas de juros semelhantes em dezembro – Análise do USD/JPY
-Por que o petróleo Brent e o WTI caíram com as negociações entre EUA e Irã aliviando os temores sobre a oferta – Análise de UKOUSD e USOUSD
+Libra esterlina pressionada pela inflação elevada nos EUA, que reacende as apostas de alta de juros do Fed – Análise do GBPUSD
+Por que o dólar canadense caiu com a inflação dos EUA ampliando o diferencial de juros – Análise do USDCAD
+O S&P 500 se recuperou enquanto o IPC elevado impulsionava as apostas de alta de juros do Fed – Análise do SP500
+Ouro em uma montanha-russa acompanhando Wall Street antes da divulgação dos dados de emprego – Análise XAUUSD
+Por que as ações da AppLovin subiram 31% após os resultados do terceiro trimestre superarem as próprias projeções – Análise da APP
+Preço do petróleo Brent pressionado devido às eleições de meio de mandato, que impulsionaram as apostas na paz com o Irã – Análise de UKOUSD e USOUSD
+As ações do McDonald's subiram após os resultados do terceiro trimestre superarem as expectativas, compensando a queda nas vendas nos EUA – Análise da MCD
+O ouro subiu enquanto o petróleo caiu devido às esperanças de paz entre EUA e Irã – Análise do XAUUSD
 +1 (345) 7691640
 support@vantagemarkets.com
 Trading
@@ -164,7 +164,6 @@ Terminologia
 Pergunta Rápida
 Análise de Mercado
 Calendário Econômico
-Sinal de Trading
 Sentimento dos Clientes
 Notificações
 Empresa
@@ -196,7 +195,7 @@ operando sob o nome Vantage, é autorizada e regulamentada pela Cayman Islands M
 P.O. Box 2775, 71 Fort Street, 3rd Floor, Grand Cayman KY1-1111.
 support@vantagemarkets.com
 Vantage is a trading name of Vantage Markets (Pty) Ltd , an authorised Financial Service Provider (‘’FSP’’) registered and regulated by the Financial Sector Conduct Authority (‘’FSCA’’) of South Africa under license number 51268.
-Registered address: 18 Cavendish St, Claremont, Cape Town, Western Cape 7708, South Africa.
+Registered address: 9th Floor, Atrium on 5th, Sandhurst, Sandton, 2196, South Africa.
 Vantage International Holding Limited is incorporated in Seychelles, with registration number 171730.
 Registered office: Suite 23, 1st Floor, Eden Plaza, Eden Island, Mahe, Republic of Seychelles.
 Documentos legais
