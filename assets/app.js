@@ -450,7 +450,6 @@ function renderMeta() {
   $('todayLabel').textContent = '今日 ' + fmt(today());
   $('sourceLabel').textContent = '数据载入 ' + t + ' · 来源：' + ({ sheet: 'Google 表格（实时）', repo: '主数据表', embedded: '离线备份' }[META.source] || '');
   $('checkLabel').textContent = (MON ? '系统更新 ' + monTime() + ' · 每日 08:00 自动更新' : '自动监测尚未运行') + ' · 人工核查 ' + (META.latestCheck || '未标');
-  const nd = (MON?.discoveries || []).length; $('openDiscoveries').textContent = '疑似新活动' + (nd ? ' ' + nd : '');
 }
 function rerenderAll() { populateFilters(); renderMeta(); if (VIEW === 'promos') render(); else showView(VIEW, false); }
 
@@ -477,7 +476,6 @@ $('clearCompare').onclick = () => { compareIds = []; render(); };
 $('openComparison').onclick = openComparison;
 $('comparisonContent').addEventListener('click', e => { const b = e.target.closest('[data-compare-open-record]'); if (b) { $('comparisonDialog').close(); openRecord(b.dataset.compareOpenRecord); } });
 for (const id of ['openResearch', 'openResearchBottom']) $(id).onclick = () => { document.querySelectorAll('.more-menu[open]').forEach(m => m.removeAttribute('open')); openResearch(); };
-$('openDiscoveries').onclick = openDiscoveries;
 $('researchContent').addEventListener('click', e => { const a = e.target.closest('[data-research-record]'); if (a) { e.preventDefault(); $('researchDialog').close(); openRecord(a.dataset.researchRecord); } });
 $('drawerContent').addEventListener('click', async e => { const b = e.target.closest('[data-copy-tsv]'); if (!b) return; const r = BY_ID.get(b.dataset.copyTsv); try { await navigator.clipboard.writeText(r.mon.ai.tsv); toast('已复制整行（ID：' + r.id + '）。'); } catch { toast('复制失败，请手动选中复制。'); } });
 $('reloadData').onclick = async () => { document.querySelectorAll('.more-menu[open]').forEach(m => m.removeAttribute('open')); try { await loadData(); LOAD_ERROR = ''; rerenderAll(); toast('已重新读取，共 ' + RECORDS.length + ' 条'); } catch (err) { toast('读取失败：' + err.message); } };
