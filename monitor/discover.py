@@ -82,7 +82,10 @@ PROMO = re.compile(r"(trading (competition|contest|cup|challenge|championship|to
                    r"loyalty (program|programme)|reward|campaign|challenge|\bcup\b|"
                    r"交易大赛|交易赛|模拟赛|比赛|大赛|活动|优惠|赠金|赠送|返现|返佣|抽奖|奖金|奖池|奖品|奖励|推荐好友|"
                    r"交易大賽|比賽|活動|優惠|贈金|返現|抽獎|獎金|獎池|獎勵|"
-                   r"concurso|competencia|promoción|bono|sorteo|premio|kontes|hadiah|bonus deposit|pertandingan)", re.I)
+                   r"concurso|competencia|promoción|bono|sorteo|premio|kontes|hadiah|bonus deposit|pertandingan|"
+                   # 线下活动：展会、赞助、讲座路演、客户 / 球迷活动
+                   r"\bexpo\b|\bsummit\b|\bseminars?\b|roadshow|workshop|sponsor|official (regional |global )?partner|exhibit|booth|"
+                   r"meet-?up|watch party|fan (event|experience)|gala|博览会|博覽會|峰会|峰會|研讨会|研討會|讲座|講座|路演|赞助|贊助|展位|见面会|見面會|观赛|觀賽)", re.I)
 NOT_PROMO = re.compile(r"(appoints|hires|joins as|steps down|fined|penalt|lawsuit|license|licence|quarterly results|"
                        r"trading volume|earnings|revenue|acquires|acquisition|outage|scam warning|clone|"
                        r"referral code|promo code|coupon|invite code|sign[- ]?up bonus code|"  # 第三方推荐码 / 优惠码广告页
@@ -90,6 +93,9 @@ NOT_PROMO = re.compile(r"(appoints|hires|joins as|steps down|fined|penalt|lawsui
                        r"seeks .*partnership|enters? the (us|u\.s\.)|market entry|partnership with)", re.I)
 
 TYPE_RULES = [
+    ("品牌赞助", r"sponsor|official (regional |global )?partner|brand ambassador|赞助|贊助|冠名|品牌大使"),
+    ("线下活动", r"\bexpo\b|\bsummit\b|\bseminars?\b|roadshow|workshop|exhibit|booth|meet-?up|watch party|fan (event|experience)|gala|"
+                 r"博览会|博覽會|峰会|峰會|研讨会|研討會|讲座|講座|路演|展位|见面会|見面會|观赛|觀賽"),
     ("IB 奖励", r"\b(IB|introducing broker|partner|affiliate)s?\b.*(cup|contest|competition|reward|bonus|ladder|prize)|代理|合作伙伴奖励"),
     ("模拟赛", r"demo (trading )?(competition|contest|cup)|模拟赛|模擬賽|virtual (funds|capital)|模拟交易|模擬交易|虚拟资金|虛擬資金"),
     ("交易大赛", r"(trading )?(competition|contest|cup|championship|tournament|challenge|festival)|交易大赛|交易大賽|大赛|比赛|比賽|concurso|kontes"),
@@ -264,6 +270,9 @@ def build_queries():
     for brand, names in CORE.items():
         name = names[0]
         qs.append((f'"{name}" {en_kw}', "en"))
+    off_kw = '(expo OR summit OR seminar OR roadshow OR sponsor OR "official partner" OR "watch party" OR booth)'
+    for brand, names in CORE.items():   # 线下活动：展会、赞助、讲座路演
+        if brand != "Bybit": qs.append((f'"{names[0]}" {off_kw}', "en"))
     # 华语区：所有核心品牌都用繁体（台湾、香港）和简体（新马、海外华人）各搜一次
     for brand, names in CORE.items():
         if brand == "Bybit":
@@ -281,7 +290,9 @@ def build_queries():
                     ('外汇 模拟交易大赛', "zh-CN"), ('外匯 券商 贈金 活動', "zh-TW"), ('差價合約 交易比賽 香港', "zh-HK"),
                     ('外汇 券商 马来西亚 活动 奖金', "zh-CN"), ('外匯 博覽會 台北 OR 香港 券商', "zh-TW"),
                     ('forex broker "trading competition" Malaysia OR Singapore', "en-MY"), ('forex "trading competition" Malaysia OR Thailand OR Indonesia OR Vietnam', "en"),
-                    ('pertandingan dagangan forex hadiah', "ms")]:
+                    ('pertandingan dagangan forex hadiah', "ms"),
+                    ('forex broker sponsor expo 2026 OR 2027', "en"), ('"iFX EXPO" sponsor broker', "en"), ('"Traders Fair" broker sponsor', "en"),
+                    ('"Money Expo" broker sponsor', "en"), ('外汇 券商 赞助 OR 展会 OR 讲座', "zh-CN"), ('外匯 券商 贊助 OR 展會 OR 講座', "zh-TW")]:
         qs.append((q, lang))
     return qs
 

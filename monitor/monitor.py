@@ -303,7 +303,11 @@ def main():
     records = load_records()
     ids = {r.get("ID") for r in records}
     records += [r for r in load_auto() if r.get("ID") not in ids]  # 自动发现的记录也每天复查
-    cols = list(records[0].keys()) if records else []
+    ep = os.path.join(ROOT, "data", "events.csv")   # 行业展会：复查赞助商 / 参展商名单页
+    if os.path.exists(ep):
+        with open(ep, encoding="utf-8-sig") as f:
+            records += [{"ID": e.get("ID", ""), "来源链接": e.get("来源链接", ""), "最后核查": e.get("最后核查", "")} for e in csv.DictReader(f) if e.get("ID")]
+    cols = list(records[0].keys()) if records else []  # 第一条是人工记录，列最全
     prev = {}
     if os.path.exists(OUT):
         try: prev = json.load(open(OUT, encoding="utf-8"))

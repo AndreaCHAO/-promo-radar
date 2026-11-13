@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""把 data/records.csv、data/research.json、data/monitor.json 的最新副本嵌入 index.html，
+"""把 data/ 里的记录、自动记录、展会、玩法案例、研究与监测结果的最新副本嵌入 index.html，
 这样网页即使双击本地打开也能显示。GitHub 上线后网页优先读取在线数据，这一步只影响离线备份。"""
 import json, os, re
 
@@ -21,6 +21,9 @@ rp = os.path.join(ROOT, "data/research.json")
 embed("researchData", "application/json", open(rp, encoding="utf-8").read() if os.path.exists(rp) else "")
 ap = os.path.join(ROOT, "data/auto_records.csv")
 embed("autoData", "text/csv", open(ap, encoding="utf-8-sig").read().strip() if os.path.exists(ap) else "")
+for tag, name in (("eventsData", "data/events.csv"), ("playbookData", "data/playbook.csv")):
+    fp = os.path.join(ROOT, name)
+    embed(tag, "text/csv", open(fp, encoding="utf-8-sig").read().strip() if os.path.exists(fp) else "")
 mp = os.path.join(ROOT, "data/monitor.json")
 embed("monitorData", "application/json", open(mp, encoding="utf-8").read() if os.path.exists(mp) else "")
 open(idx, "w", encoding="utf-8").write(s)
