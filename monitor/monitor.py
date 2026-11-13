@@ -80,6 +80,70 @@ def visible_text(page):
     return "\n".join(lines)
 
 
+# ---------- 判断“真变化”还是噪声 ----------
+BLOCKED = re.compile(r"just a moment|checking your browser|enable javascript and cookies|attention required|verify you are (a )?human|"
+                     r"are you a robot|captcha|access denied|request blocked|pardon our interruption|ddos protection|incapsula|"
+                     r"cf-chl|bot verification|security check|请稍候|安全验证|人机验证", re.I)
+MONEY = re.compile(r"[$€£¥%]|usd|usdt|eur|美元|赠金|贈金|bonus|deposit|入金|cashback|rebate|返佣|返现|prize|奖金|lot|手|cpa", re.I)
+
+
+RELEVANT = re.compile(r"[$€£¥%٪]|\d+\s*(usd|usdt|eur|美元|万)|promo|bonus|bono|bônus|contest|concurso|competi|campaign|campaña|reward|"
+                      r"cashback|rebate|prize|premio|deposit|dep[oó]sito|credit|cr[eé]dito|terms|t&c|eligib|expire|ended|valid|"
+                      r"terminad|finaliz|encerrad|until|deadline|period|tournament|lucky|draw|giveaway|loyalty|cpa|commission|"
+                      r"comisi|rebat|ib\b|partner|socio|活动|活動|赠金|贈金|奖|獎|返现|返佣|入金|截止|结束|結束|条款|條款|大赛|大賽|"
+                      r"promosi|hadiah|kontes|khuyến mãi|thưởng|โบนัส|โปรโมชั่น|مكافأة|بونص|\bعرض\b|مسابقة|جائزة|بونوس|پاداش|مسابقه|جایزه|"
+                      r"کش ?بک|تخفیف|اعتبار", re.I)
+# 第三方新闻 / 媒体页：正文发布后基本不变，变的只是侧栏推荐，所以不提醒内容变化（仍检查“已结束”和能否打开）
+MEDIA = re.compile(r"bernama|businessfocus|prnasia|prnewswire|globenewswire|businesswire|einpresswire|financefeeds|financemagnates|"
+                   r"investinglive|forexlive|invezz|macaubusiness|fastbull|sina\.c|webmobi|leaprate|fxnewsgroup|tradersunion|aap\.com|"
+                   r"theblock|decrypt|mexc\.com/news|yahoo|marketscreener|ffnews|mpost|itiger|forklog|techloy|benzinga|cointelegraph|"
+                   r"tradeinformer|/news/|/article|/releases?/|/press|/blog/|company-news|market-analysis|analize|/insights|webinar", re.I)
+
+
+# 风险提示 / 公司注册信息这类页脚，各语言版本经常改，跟活动无关
+DISCLAIMER = re.compile(r"regulated by|authori[sz]ed|not intended for distribution|complex instruments|risk of losing|lose money|"
+                        r"losing money|verlieren geld|operated by|strictly intended|registration number|registered (office|address)|"
+                        r"skip to content|neither established|all rights reserved|cookie|privacy policy|下载 app|风险提示|風險提示", re.I)
+
+
+def is_blocked(text, prev_len=0):
+    """网站返回的是验证 / 拦截页，而不是真正的活动页。"""
+    t = text or ""
+    if len(t) < 1500 and BLOCKED.search(t): return True
+    return prev_len > 3000 and len(t) < prev_len * 0.15 and len(t) < 600   # 页面突然几乎空白，多半是被拦截
+
+
+def _n(l): return re.sub(r"\s+", "", l or "").lower()
+
+
+def meaningful(added, removed, url=""):
+    """把 diff 里的噪声去掉：媒体页侧栏、换行/空白差异、重复出现的同一句、随机码、与活动无关的句子（导航、帮助中心、推荐文章），
+    以及排行榜和时间这类只有数字在跳的行。"""
+    if url and MEDIA.search(url): return [], []
+    added = [l for l in added if RELEVANT.search(l) and not DISCLAIMER.search(l)]
+    removed = [l for l in removed if RELEVANT.search(l) and not DISCLAIMER.search(l)]
+    na, nr = {_n(l) for l in added}, {_n(l) for l in removed}
+    a = [l for l in added if _n(l) not in nr]
+    r = [l for l in removed if _n(l) not in na]
+    if "".join(map(_n, a)) == "".join(map(_n, r)): return [], []          # 只是换行方式变了
+    token = re.compile(r"[A-Za-z0-9+/=_\-]{28,}")
+    rank = re.compile(r"^\s*(#|no\.?\s*)?\d{1,3}[.)]?\s+\S.{0,70}\d")   # 排行榜的一行：名次 + 昵称 + 数字
+    a = [l for l in a if not token.fullmatch(l.strip()) and not (len(l) < 90 and rank.match(l))]
+    r = [l for l in r if not token.fullmatch(l.strip()) and not (len(l) < 90 and rank.match(l))]
+    dig = lambda l: re.sub(r"\d+([.,]\d+)*", "#", _n(l))
+    da, dr = {dig(l) for l in a}, {dig(l) for l in r}
+    pairs = da & dr
+    board = len(pairs) >= 4   # 很多行只有数字在变：排行榜、计数器
+    a = [l for l in a if dig(l) not in pairs or (not board and MONEY.search(l))]
+    r = [l for l in r if dig(l) not in pairs or (not board and MONEY.search(l))]
+    return a, r
+
+
+def signature(text):
+    """按“去掉空白后的句子集合”算指纹：顺序调换、重复句、换行都不算变化。"""
+    return hashlib.sha1("\n".join(sorted({_n(l) for l in (text or "").splitlines() if _n(l)})).encode("utf-8", "replace")).hexdigest()
+
+
 def links(page, base):
     out = {}
     for href, text in re.findall(r'(?is)<a[^>]+href=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', page):
@@ -95,51 +159,97 @@ def snap_path(url):
 
 
 def check_url(url, prev):
+    prev = prev or {}
     res = {"url": url, "checked": TODAY}
+    keep = lambda: [res.__setitem__(k, prev[k]) for k in ("hash", "sig", "changed", "minor", "last_ok", "added", "removed") if prev.get(k)]
     try:
         status, page, ctype, final = fetch(url)
         res["http"] = status
         if "pdf" in ctype.lower():
-            # PDF：只比较文件大小/哈希，不解析内容
-            text = ""
-            res["kind"] = "pdf"
+            text = ""; res["kind"] = "pdf"   # PDF：只比较哈希，不解析内容
         else:
             text = visible_text(page)
-        h = hashlib.sha1((text or page).encode("utf-8", "replace")).hexdigest()
-        res["hash"] = h
+        sp = snap_path(url)
+        old_text = open(sp, encoding="utf-8").read() if text and os.path.exists(sp) else ""
+        if text and is_blocked(text, len(old_text)):
+            res.update(error="被网站拦截（验证页）"); keep(); res["_text"] = ""; return res
+        res["hash"] = hashlib.sha1((text or page).encode("utf-8", "replace")).hexdigest()
+        res["sig"] = signature(text) if text else res["hash"]
         res["final_url"] = final if final != url else ""
-        old_h = (prev or {}).get("hash")
-        if old_h and old_h != h:
-            res["changed"] = TODAY
-            sp = snap_path(url)
-            if text and os.path.exists(sp):
-                old = open(sp, encoding="utf-8").read().splitlines()
-                added = [l for l in difflib.unified_diff(old, text.splitlines(), lineterm="", n=0) if l.startswith("+") and not l.startswith("+++")]
-                removed = [l for l in difflib.unified_diff(old, text.splitlines(), lineterm="", n=0) if l.startswith("-") and not l.startswith("---")]
-                res["added"] = [l[1:][:200] for l in added[:6]]
-                res["removed"] = [l[1:][:200] for l in removed[:6]]
-        else:
-            res["changed"] = (prev or {}).get("changed", "")
-            for k in ("added", "removed"):
-                if (prev or {}).get(k): res[k] = prev[k]
+        res["changed"], res["minor"] = prev.get("changed", ""), prev.get("minor", "")
+        for k in ("added", "removed"):
+            if prev.get(k): res[k] = prev[k]
+        if not prev.get("sig"):
+            # 第一次用新指纹：只建基线；顺便用新规则重新判断以前标出的变化，噪声就撤掉
+            if res["changed"]:
+                a, r = meaningful(prev.get("added", []), prev.get("removed", []), url)
+                if not a and not r: res["changed"] = ""; res.pop("added", None); res.pop("removed", None)
+        elif prev["sig"] != res["sig"]:
+            if old_text:
+                old = old_text.splitlines(); new = text.splitlines()
+                on, nn = {_n(l) for l in old}, {_n(l) for l in new}
+                a, r = meaningful([l for l in new if _n(l) not in on], [l for l in old if _n(l) not in nn], url)
+            else:
+                a, r = ["（页面内容有变化）"], []
+            if a or r:
+                res["changed"] = TODAY; res["added"] = [l[:200] for l in a[:6]]; res["removed"] = [l[:200] for l in r[:6]]
+            else:
+                res["minor"] = TODAY   # 只有数字 / 排版在变，不提醒
         m = ENDED.search(text or "")
         res["ended_hint"] = m.group(0) if m else ""
         res["error"] = ""
         res["last_ok"] = TODAY
         if text:
             os.makedirs(SNAP_DIR, exist_ok=True)
-            open(snap_path(url), "w", encoding="utf-8").write(text[:200_000])
+            open(sp, "w", encoding="utf-8").write(text[:200_000])
         res["_text"] = text
         res["_page"] = page
     except urllib.error.HTTPError as e:
-        res.update(http=e.code, error=("页面不存在（%s）" % e.code) if e.code in (404, 410) else ("访问被拒绝或出错（%s）" % e.code))
-        for k in ("hash", "changed", "last_ok", "added", "removed"):
-            if (prev or {}).get(k): res[k] = prev[k]
+        res.update(http=e.code, error=("页面不存在（%s）" % e.code) if e.code in (404, 410) else ("访问被拒绝或出错（%s）" % e.code)); keep()
     except Exception as e:
-        res.update(error="无法访问：" + type(e).__name__)
-        for k in ("hash", "changed", "last_ok", "added", "removed"):
-            if (prev or {}).get(k): res[k] = prev[k]
+        res.update(error="无法访问：" + type(e).__name__); keep()
     return res
+
+
+def _domain(u):
+    return re.sub(r"^www\.", "", urllib.parse.urlparse(u).netloc.lower())
+
+
+def domain_lines(texts):
+    from collections import Counter, defaultdict
+    per = defaultdict(Counter)
+    for u, t in texts.items():
+        for l in {_n(x) for x in (t or "").splitlines() if _n(x)}: per[_domain(u)][l] += 1
+    return per
+
+
+def drop_template_changes(url_state, texts, prev_urls, old_texts=None):
+    """同一网站多个页面都出现的句子（页脚免责声明、导航栏）是网站模板，模板改了不算活动变化。"""
+    from collections import Counter, defaultdict
+    per, per_old = domain_lines(texts), domain_lines(old_texts or {})
+    in_diffs = defaultdict(Counter)   # 同一句变化同时出现在同网站 2 个以上页面 → 网站改版（导航 / 页脚），不是某个活动变了
+    for u, st in url_state.items():
+        if st.get("changed"):
+            for l in {_n(x) for x in st.get("added", []) + st.get("removed", [])}: in_diffs[_domain(u)][l] += 1
+    for u, st in url_state.items():
+        if not st.get("changed"): continue
+        tpl = ({l for l, c in per[_domain(u)].items() if c >= 2} | {l for l, c in per_old[_domain(u)].items() if c >= 2}
+               | {l for l, c in in_diffs[_domain(u)].items() if c >= 2})
+        heads = {l[:40] for l in tpl if len(l) >= 40}
+        is_tpl = lambda l: _n(l) in tpl or (len(_n(l)) >= 40 and _n(l)[:40] in heads)
+        a = [l for l in st.get("added", []) if not is_tpl(l)]
+        r = [l for l in st.get("removed", []) if not is_tpl(l)]
+        if a == st.get("added", []) and r == st.get("removed", []): continue
+        if a or r:
+            st["added"], st["removed"] = a, r
+        else:
+            old = (prev_urls.get(u) or {})
+            fresh = st["changed"] == TODAY and old.get("changed", "") != TODAY
+            st["changed"] = old.get("changed", "") if fresh and old.get("sig") else ""
+            st["minor"] = TODAY
+            for k in ("added", "removed"):
+                if old.get(k) and st["changed"]: st[k] = old[k]
+                else: st.pop(k, None)
 
 
 def ai_suggest(record, page_text, cols):
@@ -203,11 +313,13 @@ def main():
     # 1) 来源网址
     urls = sorted({u.strip() for r in records for u in re.split(r"\s*\|\s*|\n", r.get("来源链接", "")) if u.strip().startswith("http")})
     log(f"{len(records)} 条记录，{len(urls)} 个来源网址")
+    old_texts = {u: open(snap_path(u), encoding="utf-8").read() for u in urls if os.path.exists(snap_path(u))}
     with ThreadPoolExecutor(max_workers=8) as ex:
         results = list(ex.map(lambda u: check_url(u, prev_urls.get(u)), urls))
     texts = {r["url"]: r.pop("_text", "") for r in results}
     for r in results: r.pop("_page", None)
     url_state = {r["url"]: r for r in results}
+    drop_template_changes(url_state, texts, prev_urls, old_texts)
 
     # 每条记录汇总：变化日期晚于“最后核查”才算需要处理
     rec_state, ai_budget = {}, int(env("AI_MAX_RECORDS", "15")) if env("AI_MAX_RECORDS", "15").isdigit() else 15
