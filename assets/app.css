@@ -181,6 +181,12 @@ main{max-width:1320px;margin:auto;padding:0 28px 90px}
 .chips span{font-size:11px;background:var(--salt);border-radius:999px;padding:1px 8px;color:var(--text)}
 .chips span.self{background:var(--red);color:var(--white)}
 
+.tl-group h3{font-size:15px;font-weight:800;margin:0 4px 10px}
+.tl-group+.tl-group{margin-top:10px}
+.tl-item.simple{grid-template-columns:150px 1fr auto;color:var(--text);text-decoration:none}
+.tl-item.simple:hover{text-decoration:none}
+.tl-arrow{font-weight:800;color:var(--red);font-size:16px}
+
 /* ---------- 地区策略 ---------- */
 .region-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
 .region-card{background:var(--white);border-radius:22px;box-shadow:var(--shadow);padding:22px 24px;display:flex;flex-direction:column;gap:16px;min-width:0}
@@ -353,7 +359,7 @@ main{padding:0 16px 96px}
 .cards{grid-template-columns:1fr;gap:14px}.record-card h2{min-height:0}.headline-reward{font-size:20px}
 .library-note{display:block}.library-note button{padding:10px 0}
 .tl-month{grid-template-columns:1fr;gap:8px}.tl-label{position:static}
-.tl-item{grid-template-columns:72px 1fr;gap:10px}.tl-kind{grid-column:2;justify-self:start}
+.tl-item,.tl-item.simple{grid-template-columns:96px 1fr auto;gap:10px}.tl-kind{grid-column:2;justify-self:start}
 .metrics{grid-template-columns:repeat(2,minmax(0,1fr))}
 .region-card,.play-card{padding:18px}
 .compare-bar{bottom:10px;padding:10px 12px;gap:7px;flex-wrap:wrap;border-radius:22px}.compare-open{margin-left:auto}

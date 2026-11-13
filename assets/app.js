@@ -1,7 +1,7 @@
 'use strict';
 /* 竞品促销监测 · 页面脚本。数据：data/records.csv（人工）+ data/auto_records.csv（自动发现）+ data/events.csv（行业展会）
    + data/playbook.csv（玩法案例）+ data/monitor.json（每日监测）。本地双击打开时用 index.html 里内嵌的备份。 */
-const CFG = Object.assign({ sheetCsvUrl: '', fallbackCsv: 'data/records.csv', monitorJson: 'data/monitor.json', autoCsv: 'data/auto_records.csv', eventsCsv: 'data/events.csv', playbookCsv: 'data/playbook.csv', discoveryJson: 'data/discovery.json', selfBrand: 'D Prime', dueSoonDays: 7, guideUrl: 'GUIDE.md', repo: 'AndreaCHAO/-promo-radar', branch: 'main' }, window.RADAR_CONFIG || {});
+const CFG = Object.assign({ sheetCsvUrl: '', fallbackCsv: 'data/records.csv', monitorJson: 'data/monitor.json', autoCsv: 'data/auto_records.csv', eventsCsv: 'data/events.csv', playbookCsv: 'data/playbook.csv', discoveryJson: 'data/discovery.json', selfBrand: 'D Prime', dueSoonDays: 7, guideUrl: 'GUIDE.md', coreBrands: ['D Prime', 'EC Markets', 'EBC', 'IC Markets (IC)', 'IC Markets', 'Exness', 'Bybit', 'XM', 'Pepperstone', 'FxPro', 'Axi', 'WeTrade', 'Hantec Markets', 'ATFX', 'Tickmill', 'AvaTrade', 'FXCM', 'FOREX.com', 'TMGM', 'Ultima Markets'], repo: 'AndreaCHAO/-promo-radar', branch: 'main' }, window.RADAR_CONFIG || {});
 const REGIONS = {
   '华语': { en: 'GREATER CHINA / SG·MY', lon: 118, lat: 26 },
   '东南亚': { en: 'SOUTHEAST ASIA', lon: 104, lat: 4 },
@@ -21,7 +21,7 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 let LOAD_ERROR = '', RECORDS = [], BY_ID = new Map(), META = { source: '', loadedAt: null, latestCheck: '' }, MON = null, RESEARCH = null, DISC = null, EVENTS = [], PLAYBOOK = [], RAW = { records: '', auto: '' };
 let VIEW = 'promos', selectedRegion = 'all', audience = 'all', visibleCount = 9, filtered = [], compareIds = [];
-let offlineKind = 'all', playIndustry = 'all';
+let offlineKind = 'expo', playIndustry = 'all';
 
 /* ---------- CSV ---------- */
 function parseCSV(text) {
@@ -96,6 +96,16 @@ function monFlag(r) {
   return '';
 }
 const FLAG = { changed: '来源有更新 · 待核', ended: '可能已结束', down: '来源打不开' };
+/* 只把“重要”的变化算进「需要核对」：核心竞品 + 仍在列 + 变化涉及金额 / 奖励 / 日期 / 结束；其余算小变化，不提醒 */
+const KEY_CHANGE = /[$€£¥%٪]|\d[\d,.]*\s*(usd|usdt|美元|万|lots?|手)|bonus|bono|prize|premio|reward|cashback|rebate|deposit|credit|奖|獎|赠金|贈金|返现|返佣|入金|截止|until|deadline|expire|ended|terminad|finaliz|结束|結束|20\d\d/i;
+function isImportant(r) {
+  if (r.flag !== 'changed' && r.flag !== 'ended') return false;
+  const core = CFG.coreBrands.some(b => b.toLowerCase() === r['品牌'].toLowerCase());
+  if (!core || r.offList || !['active', 'due', 'undated', 'upcoming', 'unclear'].includes(r.status)) return false;
+  if (r.flag === 'ended') return true;
+  const lines = r.sources.flatMap(u => [...(MON?.urls?.[u]?.added || []), ...(MON?.urls?.[u]?.removed || [])]);
+  return lines.some(l => KEY_CHANGE.test(l));
+}
 async function fetchText(url) {
   const res = await fetch(url, { cache: 'no-store' });
   if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -130,7 +140,7 @@ async function loadData() {
   PLAYBOOK = parseCSV(await textOr(CFG.playbookCsv, 'playbookData')).filter(p => p['案例名']);
   DISC = null;
   if (online()) { try { DISC = JSON.parse(await fetchText(CFG.discoveryJson + '?_t=' + Date.now())); } catch { DISC = null; } }
-  RECORDS.forEach(r => { r.mon = MON?.records?.[r.id] || null; r.flag = monFlag(r); r.alert = r.flag === 'changed' || r.flag === 'ended'; });
+  RECORDS.forEach(r => { r.mon = MON?.records?.[r.id] || null; r.flag = monFlag(r); r.alert = isImportant(r); r.minor = (r.flag === 'changed' || r.flag === 'ended') && !r.alert; });
   BY_ID = new Map(RECORDS.map(r => [r.id, r]));
   META = { source, loadedAt: new Date(), latestCheck: RECORDS.map(r => fmt(parseDate(r['最后核查']))).filter(Boolean).sort().pop() || '' };
 }
@@ -226,7 +236,7 @@ function deadlineText(r) {
 function card(r) {
   const picked = compareIds.includes(r.id), hasImg = !!imgSrc(r['截图链接']);
   const tags = [r['活动类型'] && `<span class="tag dark">${esc(r['活动类型'])}</span>`, r['奖励性质'] && `<span class="tag">${esc(r['奖励性质'])}</span>`, `<span class="tag outline">${r.audience === 'ib' ? 'IB / 伙伴' : '直客'}</span>`, hasImg && '<span class="tag outline">有截图</span>'].filter(Boolean).join('');
-  return `<article class="record-card${r.isSelf ? ' self' : ''}" data-record-id="${esc(r.id)}"><button class="card-main" data-open="${esc(r.id)}" aria-label="查看${esc(r['品牌'] + ' ' + r['标题'])}的详情"><div class="card-content"><div class="card-top"><div class="broker-name">${esc(r['品牌'])}${r.isSelf ? '<span class="self-badge">我方</span>' : ''}${r.auto ? `<span class="auto-badge">${r.foundDays <= 7 ? '新 · ' : ''}自动发现 · 未核实</span>` : ''}<span class="region-name">${esc(r.region)}</span></div>${statusBadge(r)}</div><div class="tag-line">${tags}</div>${r.flag ? `<div class="mon-flag ${r.flag}">⚑ ${esc(FLAG[r.flag])}${r.mon?.ai ? ' · 有 AI 建议' : ''}</div>` : ''}<h2>${esc(r['标题'])}</h2><p class="headline-reward">${esc(r['奖励摘要'] || '金额未公开，需确认')}</p><dl class="facts"><div><dt>门槛</dt><dd>${esc(r['门槛'] || '未公开，需确认')}</dd></div><div class="deadline${r.status === 'due' ? ' soon' : ''}"><dt>${r.status === 'upcoming' ? '开始' : '截止'}</dt><dd>${esc(deadlineText(r))}</dd></div></dl>${r['可参考点'] ? `<p class="card-analysis"><b>可参考点</b>${esc(r['可参考点'])}</p>` : ''}</div></button><div class="card-footer"><span>${r.sources.length} 个来源 · ${r.auto ? '发现于' : '核查'} ${esc(fmt(parseDate(r['最后核查'])) || '未标')}</span><button class="compare-pick" data-compare="${esc(r.id)}" aria-pressed="${picked}">${picked ? '已加入比较 ✓' : '＋ 同类比较'}</button></div></article>`;
+  return `<article class="record-card${r.isSelf ? ' self' : ''}" data-record-id="${esc(r.id)}"><button class="card-main" data-open="${esc(r.id)}" aria-label="查看${esc(r['品牌'] + ' ' + r['标题'])}的详情"><div class="card-content"><div class="card-top"><div class="broker-name">${esc(r['品牌'])}${r.isSelf ? '<span class="self-badge">我方</span>' : ''}${r.auto ? `<span class="auto-badge">${r.foundDays <= 7 ? '新 · ' : ''}自动发现 · 未核实</span>` : ''}<span class="region-name">${esc(r.region)}</span></div>${statusBadge(r)}</div><div class="tag-line">${tags}</div>${r.alert || r.flag === 'down' ? `<div class="mon-flag ${r.flag}">⚑ ${esc(FLAG[r.flag])}${r.mon?.ai ? ' · 有 AI 建议' : ''}</div>` : ''}<h2>${esc(r['标题'])}</h2><p class="headline-reward">${esc(r['奖励摘要'] || '金额未公开，需确认')}</p><dl class="facts"><div><dt>门槛</dt><dd>${esc(r['门槛'] || '未公开，需确认')}</dd></div><div class="deadline${r.status === 'due' ? ' soon' : ''}"><dt>${r.status === 'upcoming' ? '开始' : '截止'}</dt><dd>${esc(deadlineText(r))}</dd></div></dl>${r['可参考点'] ? `<p class="card-analysis"><b>可参考点</b>${esc(r['可参考点'])}</p>` : ''}</div></button><div class="card-footer"><span>${r.sources.length} 个来源 · ${r.auto ? '发现于' : '核查'} ${esc(fmt(parseDate(r['最后核查'])) || '未标')}</span><button class="compare-pick" data-compare="${esc(r.id)}" aria-pressed="${picked}">${picked ? '已加入比较 ✓' : '＋ 同类比较'}</button></div></article>`;
 }
 function sortKey(r) { return { due: 0, active: 1, upcoming: 2, undated: 3, unclear: 4, expired: 5, excluded: 6 }[r.status]; }
 function render() {
@@ -272,6 +282,7 @@ function monPanel(r) {
   if (!m) return MON ? '' : '<div class="mon-panel quiet">自动监测尚未运行。</div>';
   const lines = (arr, sign) => (arr || []).map(l => `<li><b>${sign}</b> ${esc(l)}</li>`).join('');
   const ai = m.ai ? `<div class="ai-box"><strong>AI 建议（${esc(m.ai.date)}，请核对后再用）</strong><p>${esc(m.ai.summary || '')}</p>${Object.keys(m.ai.fields || {}).length ? `<p class="ai-fields">${Object.entries(m.ai.fields).map(([k, v]) => `<span>${esc(k)}</span>${esc(v)}`).join('<br>')}</p>` : ''}<button class="copy-tsv" data-copy-tsv="${esc(r.id)}">复制整行</button></div>` : '';
+  if (r.minor) return `<div class="mon-panel quiet"><strong>自动监测 · ${esc(m.checked)}</strong><p>来源页有小变化（${r.flag === 'ended' ? '出现结束字样，但不是核心竞品或已不在列' : '不涉及金额、奖励或日期，或不是核心竞品'}），可以不处理。</p>${(m.added?.length || m.removed?.length) ? `<details><summary>看变化的文字</summary><ul class="diff">${lines(m.added, '+')}${lines(m.removed, '−')}</ul></details>` : ''}</div>`;
   return `<div class="mon-panel ${r.flag || 'ok'}"><strong>自动监测 · ${esc(m.checked)}</strong>${r.flag === 'changed' ? `<p>来源页在 ${esc(m.changed)} 有变化（晚于最后核查 ${esc(r['最后核查'] || '未标')}）。核对后把「最后核查」改成今天，提醒就会消失（见下方「维护这条记录」）。</p>` : ''}${r.flag === 'ended' ? `<p>来源页出现了「${esc(m.ended_hint)}」字样，活动可能已结束。确认后在「人工状态」填 已结束。</p>` : ''}${r.flag === 'down' ? `<p>全部来源都打不开：${esc((m.errors || []).join('；'))}。多半是网站拦截了机器人，请人工打开确认。</p>` : ''}${!r.flag ? `<p>来源页正常（${m.sources_ok}/${m.sources_total} 可访问），自最后核查以来没有检测到实质变化。</p>` : ''}${(m.added?.length || m.removed?.length) && r.flag === 'changed' ? `<details open><summary>看变化的文字</summary><ul class="diff">${lines(m.added, '+')}${lines(m.removed, '−')}</ul></details>` : ''}${ai}</div>`;
 }
 /* 维护入口：定位到 GitHub 上这一行 */
@@ -323,41 +334,28 @@ function openComparison() {
   $('comparisonDialog').showModal();
 }
 
-/* ---------- 线下活动：行业展会 + 竞品线下动作，按月排成时间线 ---------- */
-function eventKind(e) { return /峰会|展/.test(e['类型']) ? 'expo' : 'expo'; }
+/* ---------- 线下活动：两块——行业展会（只看哪里办什么展）/ 竞品赞助 ---------- */
+const isExpoish = r => /展|expo|fair|summit|峰会|festival/i.test(r['标题']);
+function rangeTxt(a, b) {
+  if (!a) return '';
+  if (!b || fmt(a) === fmt(b)) return a.getFullYear() + '年' + md(a);
+  return a.getFullYear() + '年' + (a.getMonth() === b.getMonth() ? (a.getMonth() + 1) + '月' + a.getDate() + '–' + b.getDate() + '日' : md(a) + '–' + md(b));
+}
 function renderOffline() {
-  const region = $('offlineRegion').value || 'all', showPast = $('offlinePast').checked;
-  const t = today(), past90 = new Date(t.getTime() - 120 * 864e5);
-  const items = [];
-  for (const e of EVENTS) {
-    if (region !== 'all' && e['地区'] !== region) continue;
-    if (offlineKind !== 'all' && offlineKind !== 'expo') continue;
-    items.push({ kind: 'event', date: e.start, end: e.end, title: e['名称'], sub: [e['城市'], e['场馆'] !== '—' ? e['场馆'] : '', e['类型']].filter(Boolean).join(' · '), brands: e.brands, region: e['地区'], id: e['ID'], label: '行业展会', cls: 'event', flag: MON?.records?.[e['ID']]?.changed > (e['最后核查'] || '') ? '名单有更新' : '' });
+  const region = $('offlineRegion').value || 'all', t = today();
+  if (offlineKind === 'sponsor') {
+    const list = RECORDS.filter(r => r.offline && r.okind === 'sponsor' && r.audience === 'direct' && !isExpoish(r) && (region === 'all' || r.region === region))
+      .sort((a, b) => (fmt(parseDate(b['开始日期'])) || '0').localeCompare(fmt(parseDate(a['开始日期'])) || '0'));
+    $('timeline').innerHTML = list.length ? `<div class="tl-items">${list.map(r => { const s0 = parseDate(r['开始日期']), e0 = parseDate(r['截止日期']); const when = s0 ? (e0 ? rangeTxt(s0, e0) : s0.getFullYear() + ' 年起') : '时间未公开'; return `<button class="tl-item simple" data-open="${esc(r.id)}"><span class="tl-date">${esc(when)}</span><span class="tl-body"><span class="tl-title">${esc(r['品牌'])}${r.isSelf ? '<span class="self-badge">我方</span>' : ''} · ${esc(r['标题'])}</span><span class="tl-sub">${esc(r.region)} · ${esc(short(r['奖励摘要'] || r['活动说明'], 80))}</span></span><span class="tl-arrow">→</span></button>`; }).join('')}</div>` : '<div class="empty"><strong>这个地区暂无赞助记录</strong></div>';
+    $('offlineSummary').textContent = list.length + ' 个竞品赞助 · 点开看给客户 / 伙伴的权益';
+    return;
   }
-  for (const r of RECORDS.filter(r => r.offline)) {
-    if (region !== 'all' && r.region !== region) continue;
-    if (offlineKind !== 'all' && r.okind !== offlineKind) continue;
-    const st0 = parseDate(r['开始日期']), en0 = parseDate(r['截止日期']);
-    const ongoing = st0 && !en0 && st0 < t && r.status !== 'expired';   // 已开始、没有结束日的赞助等：放进“长期”
-    items.push({ kind: 'record', date: ongoing ? null : st0, end: ongoing ? null : (en0 || st0), since: ongoing ? st0 : null, title: r['标题'], sub: r['品牌'] + ' · ' + r.region + (r['奖励摘要'] && !r['奖励摘要'].includes(r['标题'].slice(0, 12)) ? ' · ' + short(r['奖励摘要'], 60) : ''), brands: [], region: r.region, id: r.id, label: OFFLINE_KINDS[r.okind], cls: r.okind, self: r.isSelf, flag: r.flag ? FLAG[r.flag] : '' });
-  }
-  const dated = items.filter(i => i.date && (showPast || (i.end || i.date) >= past90)).sort((a, b) => b.date - a.date);
-  const undated = items.filter(i => !i.date);
-  const groups = new Map();
-  for (const i of dated) { const k = i.date.getFullYear() + '-' + String(i.date.getMonth() + 1).padStart(2, '0'); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(i); }
-  const nowKey = t.getFullYear() + '-' + String(t.getMonth() + 1).padStart(2, '0');
-  const keys = [...groups.keys()].sort().reverse();
-  const row = i => {
-    const past = (i.end || i.date) && (i.end || i.date) < t;
-    const dateTxt = !i.date ? (i.since ? i.since.getFullYear() + ' 年起' : '长期') : !i.end || fmt(i.end) === fmt(i.date) ? md(i.date) : i.end.getMonth() === i.date.getMonth() ? (i.date.getMonth() + 1) + '月' + i.date.getDate() + '–' + i.end.getDate() + '日' : md(i.date) + '–' + md(i.end);
-    const sinceTxt = i.date ? (past ? '已结束' : (i.date > t ? Math.round((i.date - t) / 864e5) + ' 天后' : '进行中')) : '';
-    return `<button class="tl-item${past ? ' past' : ''}" data-tl="${esc(i.kind)}:${esc(i.id)}"><span class="tl-date">${esc(dateTxt)}<small>${esc(sinceTxt)}</small></span><span class="tl-body"><span class="tl-title">${esc(i.title)}${i.self ? '<span class="self-badge">我方</span>' : ''}</span><span class="tl-sub">${esc(i.sub)}${i.flag ? ' · ⚑ ' + esc(i.flag) : ''}</span>${i.brands.length ? `<span class="chips">${i.brands.map(b => `<span class="${b.toLowerCase().startsWith(CFG.selfBrand.toLowerCase()) ? 'self' : ''}">${esc(b)}</span>`).join('')}</span>` : ''}</span><span class="tl-kind ${esc(i.cls)}">${esc(i.label)}</span></button>`;
-  };
-  let html = keys.map(k => { const [y, m] = k.split('-'); return `<div class="tl-month"><div class="tl-label${k === nowKey ? ' now' : ''}">${+m} 月<small>${y}${k === nowKey ? ' · 本月' : k > nowKey ? ' · 即将到来' : ''}</small></div><div class="tl-items">${groups.get(k).sort((a, b) => a.date - b.date).map(row).join('')}</div></div>`; }).join('');
-  if (undated.length) html += `<div class="tl-month"><div class="tl-label">长期 / 日期未定<small>赞助、常设支持等</small></div><div class="tl-items">${undated.map(row).join('')}</div></div>`;
-  $('timeline').innerHTML = html || '<div class="empty"><strong>没有符合条件的线下活动</strong>换个地区或形式试试。</div>';
-  const nUp = items.filter(i => i.date && i.date >= t).length;
-  $('offlineSummary').textContent = `${items.length} 条 · 即将到来 ${nUp} 条 · 行业展会 ${items.filter(i => i.kind === 'event').length} 场`;
+  const evs = EVENTS.filter(e => region === 'all' || e['地区'] === region);
+  const up = evs.filter(e => (e.end || e.start) >= t).sort((a, b) => a.start - b.start);
+  const past = evs.filter(e => (e.end || e.start) < t).sort((a, b) => b.start - a.start);
+  const row = e => `<a class="tl-item simple${(e.end || e.start) < t ? ' past' : ''}" href="${esc(safeUrl(e.sources[0] || '#'))}" target="_blank" rel="noopener noreferrer"><span class="tl-date">${esc(rangeTxt(e.start, e.end))}${(e.end || e.start) >= t ? `<small>${e.start > t ? Math.round((e.start - t) / 864e5) + ' 天后' : '进行中'}</small>` : ''}</span><span class="tl-body"><span class="tl-title">${esc(e['城市'])} · ${esc(e['名称'])}</span></span><span class="tl-arrow">↗</span></a>`;
+  $('timeline').innerHTML = (up.length ? `<div class="tl-group"><h3>即将举办</h3><div class="tl-items">${up.map(row).join('')}</div></div>` : '') + (past.length ? `<div class="tl-group"><h3>已举办</h3><div class="tl-items">${past.map(row).join('')}</div></div>` : '') || '<div class="empty"><strong>这个地区暂无展会记录</strong></div>';
+  $('offlineSummary').textContent = `${evs.length} 场行业展会 · 即将举办 ${up.length} 场`;
 }
 function openEvent(id) {
   const e = EVENTS.find(x => x['ID'] === id); if (!e) return;
@@ -486,7 +484,7 @@ $('reloadData').onclick = async () => { document.querySelectorAll('.more-menu[op
 document.querySelectorAll('[data-close]').forEach(b => b.onclick = () => $(b.dataset.close).close());
 for (const id of ['recordDrawer', 'comparisonDialog', 'researchDialog']) $(id).addEventListener('click', e => { if (e.target === $(id)) $(id).close(); });
 document.querySelectorAll('[data-okind]').forEach(b => b.addEventListener('click', () => { offlineKind = b.dataset.okind; document.querySelectorAll('[data-okind]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); renderOffline(); }));
-$('offlineRegion').onchange = renderOffline; $('offlinePast').onchange = renderOffline;
+$('offlineRegion').onchange = renderOffline;
 document.querySelectorAll('[data-industry]').forEach(b => b.addEventListener('click', () => { playIndustry = b.dataset.industry; document.querySelectorAll('[data-industry]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); renderPlaybook(); }));
 $('playCategory').onchange = renderPlaybook; $('playRisk').onchange = renderPlaybook;
 window.addEventListener('hashchange', () => showView(location.hash.slice(1), false));
