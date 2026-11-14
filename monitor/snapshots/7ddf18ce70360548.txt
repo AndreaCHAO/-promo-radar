@@ -38,6 +38,8 @@ Glossário de negociação
 Descubra o que tudo isso significa
 Conselheiro Especialista
 Deixe a tecnologia fazer o trabalho pesado
+Calculadoras de Negociação
+Planeje negociações com mais eficácia:
 Promoções
 Visão geral
 Aproveite ao máximo suas negociações
@@ -57,8 +59,6 @@ ClubÉlite
 Recompensas e Privilégios do Programa de Fidelidade
 Gold Cup: Island Finale
 Quatro Traders. Um Campeão de Ouro.
-Proteção contra Perdas de 7 Dias no Copy Trading
-Aproveite 20% de proteção contra perdas de até USD 100* nos primeiros 7 dias
 Crypto Sprint Challenge
 Explore CFDs de Cripto e ganhe recompensas
 Empresa
@@ -68,6 +68,8 @@ Nossos parceiros
 Como trabalhamos juntos
 Nossos prêmios
 Fazemos melhor, sempre
+Nossos Especialistas
+Conheça o nosso especialista
 Notificações de negociação
 Atualizações sobre as condições de negociação
 Centro Jurídico
@@ -144,6 +146,7 @@ Buzz do mercado
 Calendário Econômico
 Glossário de negociação
 Conselheiro Especialista
+Calculadoras de Negociação
 Promoções
 Visão geral
 ClubBleu
@@ -154,13 +157,13 @@ Premier Capital Rewards
 Reembolso VPS
 ClubÉlite
 Gold Cup: Island Finale
-Proteção contra Perdas de 7 Dias no Copy Trading
 Crypto Sprint Challenge
 Empresa
 Por que mercados VT
 Sobre nós
 Nossos parceiros
 Nossos prêmios
+Nossos Especialistas
 Notificações de negociação
 Centro Jurídico
 Central de Ajuda
@@ -286,7 +289,7 @@ O conteúdo deste site é fornecido apenas para fins informativos gerais e não 
 A VT Markets não oferece seus serviços a residentes de certas jurisdições, incluindo, mas não se limitando a, Estados Unidos, Singapura, Índia, Rússia e quaisquer jurisdições listadas pelo Grupo de Ação Financeira Internacional (GAFI) ou sujeitas a sanções internacionais. As informações neste site não se destinam à distribuição ou uso por qualquer pessoa ou entidade em qualquer jurisdição onde tal distribuição ou uso contrarie a lei ou regulamentação local.
 Informação regulamentar
 VT Markets é uma marca global que compreende múltiplas entidades, cada uma autorizada e registrada em várias jurisdições:
-• A VT Markets (Pty) Ltd é um Prestador de Serviços Financeiros autorizado (FSP N.º 50865, N.º de Registo da Empresa 2015/072049/07) ("FSP"), regulado pela Financial Sector Conduct Authority na África do Sul. O FSP não é o criador de mercado nem o emissor do produto, atuando exclusivamente como intermediário, nos termos da Lei FAIS, entre o cliente e a VT Markets Limited (o "Fornecedor do Produto"), prestando apenas serviços de intermediação relativamente aos produtos derivados oferecidos pelo Fornecedor do Produto. Por conseguinte, o FSP não atua como principal ou contraparte em nenhuma das suas transações. Endereço registado: Norwich Place West, 2.º Andar, Cnr 5th and Norwich, Sandown, Sandton, Gauteng, 2031, África do Sul.
+• A VT Markets (Pty) Ltd é um Prestador de Serviços Financeiros autorizado (FSP n.º 50865, N.º de Registo da Empresa 2015/072049/07) ("FSP") regulamentado pela Financial Sector Conduct Authority na África do Sul. O FSP não é o criador de mercado nem o emissor do produto e atua exclusivamente como intermediário, nos termos da Lei FAIS, entre o cliente e a VT Markets Limited (o "Fornecedor do Produto"), prestando apenas serviços de intermediação relativamente aos produtos derivados oferecidos pelo Fornecedor do Produto. Por conseguinte, o FSP não atua como principal nem como contraparte em nenhuma das suas transações. Endereço registado: 9th Floor, Atrium on 5th, Sandhurst, Sandton, 2196, África do Sul.
 • VT Markets (Pty) Ltd – Filial de Dubai é licenciada pela Autoridade de Mercados de Capitais dos EAU (CMA) sob a Licença Nº 20200000299 como um licenciado Categoria 5, autorizado a realizar atividades reguladas de Introdução e Promoção nos EAU. Não está autorizado a fornecer serviços de corretagem ou executar negociações de clientes.
 • VT Markets Limited é um Negociante de Investimentos de Serviço Completo (excluindo Subscrição), autorizado e regulado pela Comissão de Serviços Financeiros (FSC) de Maurício (Licença No. GB23202269). Endereço registrado: 40 Silicon Avenue, The Catalyst, Level 2, Suite 201, Ebene, Maurício.
 • VTMarkets Ltd, incorporada na República de Chipre (Reg. da Empresa No. HE436466), facilita serviços em nome de outras entidades licenciadas dentro do grupo VT Markets, incluindo, mas não se limitando a, serviços de pagamento. Esta entidade não oferece produtos financeiros regulados ou serviços de negociação. Endereço registrado: 160 Archbishop Makarios III Avenue, Piso 1, 3026 Limassol, Chipre.

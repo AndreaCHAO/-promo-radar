@@ -37,6 +37,8 @@ Słownik handlu
 Dowiedz się, co to wszystko oznacza
 Ekspert Doradca
 Pozwól, aby technologia wykonała najcięższe prace
+Kalkulatory Handlowe
+Planuj transakcje bardziej efektywnie:
 Promocje
 Przegląd
 Wykorzystaj w pełni swoje transakcje
@@ -58,8 +60,6 @@ Program Wsparcia IB
 Siedem poziomów luksusu dla Twoich wyników
 Złoty Puchar: Finał na wyspie
 Czterej Traderzy. Jeden Mistrz Złota.
-7-dniowa ochrona przed stratą w Kopiowaniu transakcji
-Skorzystaj z 20% ochrony przed stratą do 100 USD* w pierwszych 7 dniach
 Wyzwanie Crypto Sprint
 Odkryj Crypto CFD i wygrywaj nagrody
 Firma
@@ -69,6 +69,8 @@ Nasi partnerzy
 Jak współpracujemy
 Nasze nagrody
 Za każdym razem radzimy sobie lepiej
+Nasi eksperci
+Poznaj naszego eksperta
 Powiadomienia handlowe
 Aktualizacje warunków handlowych
 Centrum prawne
@@ -145,6 +147,7 @@ Gwar rynkowy
 Kalendarz ekonomiczny
 Słownik handlu
 Ekspert Doradca
+Kalkulatory Handlowe
 Promocje
 Przegląd
 ClubBleu
@@ -156,13 +159,13 @@ Zwrot pieniędzy za VPS'a
 ClubÉlite
 Program Wsparcia IB
 Złoty Puchar: Finał na wyspie
-7-dniowa ochrona przed stratą w Kopiowaniu transakcji
 Wyzwanie Crypto Sprint
 Firma
 Dlaczego VT Markets
 O nas
 Nasi partnerzy
 Nasze nagrody
+Nasi eksperci
 Powiadomienia handlowe
 Centrum prawne
 Centrum pomocy
@@ -218,12 +221,12 @@ Assistant Manager, Global PR & Communications
 brenda.wong@vtmarkets.com
 CZYTAJ WIĘCEJ
 Zobacz więcej
+Nov 2026
+VT Markets Launches High-Stakes Reality Show Gold Cup 2026 Island Finale
+Four global traders compete for USD 100,000 prize in Phuket 10 November 2026, Sydney, Australia — Global multi-asset brokerage VT Markets is officially taking trading entertainment to the next level with its first-ever reality TV series, Gold …
 Oct 2026
 VT Markets Provides Essential Relief to Support Flood-Impacted Communities in Thailand
 16 October 2026, Bangkok, Thailand – In response to recent flooding that have disrupted daily life across Thailand, global multi-asset broker VT Markets has demonstrated its commitment to corporate social responsibility (CSR) by contributing essential relief …
-Oct 2026
-VT Markets Partners with Island Sports Club to Set the Gold Standard in Fitness and Trading
-13 October 2026, Bali, Indonesia — Global multi-asset broker VT Markets has announced a year-long partnership as the Official Partner of Island Sports Club, a premier sports and lifestyle network with locations in Canggu and Uluwatu, …
 Click
 Click
 Rynki
@@ -276,7 +279,7 @@ Zawartość tej strony internetowej jest dostarczana wyłącznie w celach inform
 VT Markets nie udziela żadnych gwarancji co do dokładności, aktualności, kompletności lub trafności jakichkolwiek informacji przedstawionych na stronie i zrzeka się odpowiedzialności za poleganie na tych informacjach. VT Markets nie oferuje swoich usług mieszkańcom niektórych jurysdykcji, w tym między innymi Stanów Zjednoczonych, Singapuru, Indii, Rosji oraz jakichkolwiek jurysdykcji wymienionych przez Financial Action Task Force (FATF) lub objętych sankcjami międzynarodowymi. Informacje na tej stronie nie są przeznaczone do dystrybucji ani użytku przez jakąkolwiek osobę lub podmiot w jakiejkolwiek jurysdykcji, gdzie taka dystrybucja lub użycie byłoby sprzeczne z lokalnym prawem lub przepisami.
 Informacje Regulacyjne
 VT Markets to globalna marka składająca się z wielu podmiotów, z których każdy jest autoryzowany i zarejestrowany w różnych jurysdykcjach:
-• VT Markets (Pty) Ltd jest autoryzowanym Dostawcą Usług Finansowych (FSP No. 50865, Numer rejestracyjny firmy: 2015/072049/07) ("FSP") regulowanym przez Financial Sector Conduct Authority w RPA. FSP nie jest animatorem rynku ani emitentem produktów i działa wyłącznie jako pośrednik w rozumieniu ustawy FAIS między klientem a VT Markets Limited ("Dostawcą Produktów"), świadcząc jedynie usługi pośrednictwa w zakresie produktów derywatywnych oferowanych przez Dostawcę Produktów. W związku z tym FSP nie działa jako strona główna ani kontrahent w żadnej z Twoich transakcji. Adres rejestrowy: Norwich Place West, 2nd Floor, Cnr 5th and Norwich, Sandown, Sandton, Gauteng, 2031, RPA.
+• VT Markets (Pty) Ltd jest autoryzowanym Dostawcą Usług Finansowych (FSP nr 50865, numer rejestracyjny firmy: 2015/072049/07) ("FSP"), regulowanym przez Financial Sector Conduct Authority w RPA. FSP nie jest animatorem rynku ani emitentem produktów i działa wyłącznie jako pośrednik w rozumieniu ustawy FAIS między klientem a VT Markets Limited ("Dostawcą Produktu"), świadcząc jedynie usługi pośrednictwa w zakresie produktów derywatywnych oferowanych przez Dostawcę Produktu. W związku z tym FSP nie działa jako zleceniodawca ani kontrahent w żadnej z Twoich transakcji. Adres rejestrowy: 9th Floor, Atrium on 5th, Sandhurst, Sandton, 2196, RPA.
 • VT Markets (Pty) Ltd – Oddział w Dubaju posiada licencję od Organizacji Rynków Kapitałowych ZEA (CMA) pod numerem licencji 20200000299 jako licencjobiorca Kategorii 5, upoważniony do prowadzenia regulowanej działalności dotyczącej Wprowadzenia i Promocji w ZEA. Nie jest upoważniony do świadczenia usług maklerskich ani wykonywania transakcji na rzecz klientów.
 • VT Markets Limited jest pełnoprawnym dealerem inwestycyjnym (z wyłączeniem poręczeń), autoryzowanym i regulowanym przez Komisję Usług Finansowych (FSC) Mauritiusa (Licencja Nr GB23202269). Zarejestrowany adres: 40 Silicon Avenue, The Catalyst, Poziom 2, Suite 201, Ebene, Mauritius.
 • VTMarkets Ltd, zarejestrowana w Republice Cypryjskiej (Nr Rejestracji Firmy HE436466), świadczy usługi na rzecz innych licencjonowanych podmiotów w grupie VT Markets, w tym, ale nie tylko, usługi płatnicze. Ten podmiot nie oferuje regulowanych produktów finansowych ani nie świadczy usług handlowych. Zarejestrowany adres: 160 Archbishop Makarios III Avenue, Piętro 1, 3026 Limassol, Cypr.
