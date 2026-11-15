@@ -1,0 +1,967 @@
+Weekly Review: eToro Crypto Trades Fall 62%; IG Group Secures Court Approval for Jersey Move
+ADVERTISEMENT
+News
+Retail FX
+Institutional FX
+Fintech
+Payments
+Cryptocurrency
+Executives
+Thought Leadership
+Webinars
+Trending
+Education
+Academy
+Forex Education
+Cryptocurrency Education
+Fintech Education
+Industry Terms
+Directory
+Events
+Intelligence
+Intelligence Portal
+Quarterly Intelligence Reports
+Buy Latest Report
+Custom Reports
+Market
+Live Market Prices
+Economic Calendar
+What are you looking for?
+What are you looking for?
+Subscribe to our News & Services
+All News
+Retail FX
+Institutional FX
+Fintech
+Payments
+Cryptocurrency
+Executives
+Thought Leadership
+Webinars
+Trending
+Education
+Academy
+Forex Education
+Cryptocurrency Education
+Fintech Education
+Industry Terms
+Directory
+Events
+Intelligence
+Intelligence Portal
+Quarterly Intelligence Reports
+Buy Latest Report
+Custom Reports
+About Us
+Contact us
+Terms of Use
+Privacy
+Market
+Live Market Prices
+Economic Calendar
+Market News by
+Subscribe to our News & Services
+FM ALL News
+FM Crypto
+Follow us on Twitter
+Follow us on Linkedin
+FM Home
+Retail FX
+Weekly Review: eToro Crypto Trades Fall 62%; IG Group Secures Court Approval for Jersey Move
+Weekly Review: eToro Crypto Trades Fall 62%; IG Group Secures Court Approval for Jersey Move
+2026-11-14T09:00:00.000+02:00
+S a t u r d a y , 1 4 / 1 1 / 2 0 2 6 | 0 7 : 0 0 G M T by
+Tareq Sikder
+CFI secured preliminary VARA approval for its Dubai crypto brokerage subsidiary, CFIX, pending a full licence.
+Former iS Prime founders launched JT Prime, a new liquidity provider targeting brokers, funds and prop trading firms.
+Retail FX
+retail
+Yoni Assia at the eToro IPO launch event at Nasdaq (Photo: Wikimedia)
+The futures prop trading sector faced renewed
+questions over its business model, with exchange data costs and low-priced
+challenges putting pressure on firms operating without recurring subscriptions.
+Meanwhile, established industry figures returned with new businesses, while
+brokers continued to expand their regulatory and corporate structures.
+London's trading industry is coming home!
+The week also brought developments in brokerage technology,
+corporate governance and retail trading activity. IG Group advanced its planned
+move to Jersey, CFI secured preliminary approval for a crypto brokerage
+operation in Dubai, and eToro reported weaker crypto trading activity despite
+account growth.
+Artificial intelligence, prediction markets and technology
+disruptions also featured among the week’s developments.
+Futures Prop Firms Face Rising CME Data Costs Under
+One-Time Pricing Models
+Manuel Sonnleithner, Co-founder and CEO of TradersYard
+Several futures proprietary
+trading firms have moved away from monthly subscriptions towards one-time
+challenge fees, raising questions about the sustainability of their pricing
+models. Apex, Tradeify, Bulenox and My Funded Futures made the shift in 2026,
+while exchange data costs continue to recur monthly for active users.
+CME’s
+real-time annual licence fee is $29,280 per exchange, although many firms
+access data through platform vendors rather than licensing it directly.
+TradersYard’s co-founder Manuel Sonnleithner said a prop-specific simulation
+licence requires all four exchanges, bringing the base fee to $117,120
+annually, before additional monthly data charges.
+The mismatch between
+recurring operating costs and one-off customer payments remains a central
+challenge.
+Futures Prop Firms See Margins Squeezed by $49 Challenges
+and Rising Costs
+Ruben Abitbol, Founder at RUBIK
+The pressure on futures prop firms extends
+beyond exchange data fees, with lower challenge prices and higher operating
+costs reducing profitability. TradersYard CEO Manuel Sonnleithner, citing
+internal industry data, estimated that net margins have fallen from 25-30% to
+10-15%. Platform expenses, including monthly charges per user, make low-priced
+challenges harder to sustain.
+Ruben Abitbol of RUBIK said futures firms
+generally face higher operating costs than CFD prop firms, partly because of
+platform and market-data expenses. Payout ratios also differ, with futures
+firms typically paying out 70-80% compared with 40-50% for CFD firms, according
+to Abitbol’s broad benchmark.
+Several operators, including FundingTicks, Rev
+One and FundedSeat, closed during 2026, and Alpha closed its Premium Plan.
+Former iS Prime Founders Launch New Liquidity Business
+for Brokers
+Raj Sitlani
+Three
+former iS Prime executives have launched JT Prime , a prime-of-prime
+liquidity provider targeting brokers, funds, family offices and proprietary
+trading firms.
+Raj Sitlani and Jonathan Brewer, who co-founded iS Prime in
+2014, established the business alongside Jeff Wilkins, who previously led iS
+Prime’s risk analytics operation.
+JT Prime will offer aggregated Tier 1 bank
+and non-bank liquidity across foreign exchange, precious metals and index CFDs,
+with FIX API connectivity.
+Jonathan Brewer
+The business operates as the institutional arm of
+retail broker JT Markets. JT Markets currently holds a Seychelles licence,
+while an application in an unnamed Western market remains pending. The founders
+also plan to expand into digital assets.
+CFI Receives Preliminary VARA Approval for Dubai Crypto
+Brokerage
+CFI Financial Group has received in-principle
+approval from Dubai’s Virtual Assets Regulatory Authority , known as VARA,
+for its crypto brokerage subsidiary, CFIX. The approval covers broker-dealer
+services, but the company cannot begin offering virtual asset services until it
+receives a full licence.
+Ziad Melhem, CEO at CFI Financial Group (Source: CFI)
+According to CFI, VARA requires the subsidiary to
+finalise its leadership appointments, operational infrastructure, governance
+arrangements and regulatory controls before granting final authorisation. CFI
+said CFIX would operate as a separate legal entity with its own governance
+structure.
+VCG Markets Secures UAE Category One License for OTC Derivatives and Spot FX Trading
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+The development adds another regulatory step to the group’s
+international expansion. CFI also holds authorisations in several
+jurisdictions, including Brazil, where it received approval for a securities
+brokerage earlier this year.
+IG Group Advances Jersey Redomiciliation Ahead of
+November Listing Switch
+IG Group secured court
+approval for its proposed move from England and Wales to Jersey , bringing
+the restructuring closer to completion. The transition will establish a new
+Jersey-incorporated holding company, Jenkins Topco, which will be renamed IG
+Group Holdings.
+The move is scheduled to take effect on 13 November, subject to
+delivery of the court order to the Registrar of Companies. Existing shares will
+be cancelled, with new shares issued through the Jersey entity.
+The current
+shares are scheduled to be delisted from the London Stock Exchange on 16
+November, when the new shares are expected to begin trading. The group expects
+restructuring costs of £30 million in 2026.
+CFI Chairman Says Independent Board Must Challenge
+Management Decisions
+Hisham Mansour, Co-Founder at CFI Financial Group; Source: CFI
+CFI Financial Group’s independent chairman, Federico Cirulli, outlined
+how the board oversees management as the broker expands its operations and
+regulatory footprint. Cirulli said independent directors should pressure-test
+management proposals rather than routinely block decisions.
+The board sets
+strategic direction, establishes risk appetite and holds executives
+accountable, while Chief Executive Ziad Melhem manages daily operations.
+Cirulli also said founder-led structures are effective in the early stages, but
+that more stakeholders, a more complex offering and heavier regulation can call
+for a different structure.
+CFI reported $3.45 trillion in trading volume during
+the third quarter, up 123% year-on-year, while nine-month volume reached $8.8
+trillion, figures that are company-reported. Cirulli said governance and
+internal controls must keep pace with that expansion.
+eToro Reports 62% Drop in Crypto Trades Despite Funded
+Account Growth
+eToro’s clients placed 2
+million cryptocurrency trades in October , down 62% from a year earlier,
+despite an 18% increase in funded accounts to 4.42 million. The average amount
+invested per crypto trade fell 29% to $228.
+The figures followed a weaker third
+quarter, when net income dropped 74% year-on-year to $15 million and net
+contribution declined 13% to $186 million. Adjusted EBITDA fell 56% to $34.2
+million.
+Net trading income from equities, commodities and currencies increased
+21% to $88.5 million, although it declined from the previous quarter. Chief
+Financial Officer Meron Shani said crypto activity had recovered sequentially
+compared with the second quarter.
+eToro Targets $100 Million Latin American Revenue After
+Argentine Acquisition
+Yoni Assia, the CEO of eToro
+eToro plans to generate $100
+million in Latin American revenue within two to three years , using its
+proposed acquisition of Argentine fintech LB Finanzas as a regional base. The
+company agreed to acquire the investing and payments app for less than $20
+million.
+Chief Executive Yoni Assia gave analysts the target, and the article
+noted that eToro already has a larger online audience in the region than most
+retail brokers, according to FM Intelligence data.
+The acquisition marks the
+company’s fourth deal announced in 2026, following purchases involving Zengo
+and Bit2C and an agreement to acquire US broker TradeZero. Assia said eToro
+would slow its acquisition activity to focus on integrating the businesses.
+AI Trading Agents Create New Monitoring Challenges for
+Forex Brokers
+Artificial intelligence agents are increasingly able to interact
+directly with retail trading accounts , creating new monitoring challenges
+for forex and CFD brokers, according to an op-ed by Marios Kyriakou, Head of FX
+Dealer Academy by Your Bourse.
+Connections through platforms such as MetaTrader
+and cTrader allow AI tools to access trading functions through Model Context
+Protocol, or MCP, servers. These integrations can make it difficult for dealing
+desks to distinguish automated orders from trades placed manually by clients.
+Remote setups may also involve access tokens held by third-party AI tools,
+limiting brokers’ visibility. While some official integrations offer read-only
+access and approval requirements before trades are executed, open-source and
+custom-built alternatives may lack similar safeguards. The development raises
+questions about client profiling, exposure management and operational risk.
+AI Voice Agents Raise Questions About Client Trust in Forex
+Brokerage
+Forex
+brokers are increasingly considering AI voice agents to handle customer
+acquisition and routine communications. The technology can contact prospective
+clients, chase account-opening documents through a secure upload link, follow
+up on incomplete applications and schedule calls with human representatives.
+However,
+its use in client-facing conversations raises concerns about mis-selling and
+the boundaries of automated communication. Anish Lal, Chief Business
+Development Officer at BlackBull Markets, argued that voice agents should
+support administrative tasks rather than provide trading advice or encourage
+additional deposits, and that documents and card details should never be taken
+over the phone.
+He also highlighted the importance of transparency, including
+informing customers when they are speaking to AI. Brokers must balance
+efficiency gains with appropriate controls and maintain human involvement where
+financial decisions and client trust are concerned.
+Prediction Markets Seek Broker Partnerships to Sustain
+Trading Activity
+Prediction market operators are increasingly turning to brokerage
+partnerships and wider product offerings to attract customers beyond major
+sporting and political events, according to a column by Paul Golden. The World
+Cup generated a significant increase in activity, but platforms now face the
+challenge of maintaining user engagement between major events.
+Women are less than 25% of the user base on prediction markets like Kalshi and Polymarket… but are the largest consumers on Instagram and Facebook.
+I think Meta’s prediction market product will actually be a huge hit due to this untapped audience and the social/cultural topics they are interested in.
+Count me in for predicting who gets voted out next on Love Island. 🏝️
+— Brit Morin 🦞 (@brit) July 7, 2026 Kalshi has
+expanded its distribution through partnerships with Alpaca and Public, allowing
+event contracts to reach customers through existing brokerage platforms. It has
+also introduced products beyond conventional event contracts, including a stock
+index perpetual future.
+The expansion brings prediction markets closer to
+traditional financial products. However, regulatory uncertainty, particularly
+around sports-related contracts in the US, remains a challenge for operators
+seeking broader distribution.
+Nvidia Shares Fall More Than 6% Following Jensen Huang’s
+Resignation
+Jensen Huang, Founder and CEO of Nvidia, Source: Wikipedia
+Nvidia shares fell more than 6% in trading after the announcement that co-founder
+Jensen Huang had resigned as president , chief executive and board member
+after 33 years leading the company, although the sell-off had begun before the
+announcement.
+Chief Financial Officer Colette Kress has taken over as interim
+CEO while retaining her CFO responsibilities, and the board is considering
+internal and external candidates for a permanent successor. Former Synopsys
+chief executive Harvey Jones was appointed as Nvidia’s first board chairman.
+The company did not state a reason for the departure, which followed an
+independent investigation announced by the board, which appointed former acting
+US Attorney Joon Kim and law firm Wachtell, Lipton, Rosen & Katz to conduct
+the review. Jones said operations, customer commitments and the product roadmap
+would continue without interruption.
+We're investigating reports of users experiencing issues accessing Exchange Online mailboxes through multiple connection methods in the Americas. More details can be found in the Microsoft 365 admin center under EX1550543.
+— Microsoft 365 Status (@MSFT365Status) November 12, 2026 Microsoft 365 Outage Disrupts Financial Markets and Broker
+Operations
+global Microsoft 365 outage disrupted financial firms across several markets ,
+forcing trading desks and brokerages to rely on manual workarounds. The
+disruption, which had lasted 12 hours at the time of reporting, affected
+Exchange Online, with Downdetector recording more than 130,000 reports in the
+US at its peak.
+Brokerages in Singapore and India reported delays in customer
+support, while CMC Markets in Singapore used phone calls and WhatsApp to bypass
+affected systems. Japanese financial firms also turned to manual processes as
+email authentication failures disrupted trade confirmations and settlements,
+and a Kalshi post joked that Japanese markets had switched to fax machines.
+The
+outage highlighted the industry’s dependence on cloud-based services, with retail
+FX brokers also reporting difficulties involving customer logins and
+operational processes.
+The futures prop trading sector faced renewed
+questions over its business model, with exchange data costs and low-priced
+challenges putting pressure on firms operating without recurring subscriptions.
+Meanwhile, established industry figures returned with new businesses, while
+brokers continued to expand their regulatory and corporate structures.
+London's trading industry is coming home!
+The week also brought developments in brokerage technology,
+corporate governance and retail trading activity. IG Group advanced its planned
+move to Jersey, CFI secured preliminary approval for a crypto brokerage
+operation in Dubai, and eToro reported weaker crypto trading activity despite
+account growth.
+Artificial intelligence, prediction markets and technology
+disruptions also featured among the week’s developments.
+Futures Prop Firms Face Rising CME Data Costs Under
+One-Time Pricing Models
+Manuel Sonnleithner, Co-founder and CEO of TradersYard
+Several futures proprietary
+trading firms have moved away from monthly subscriptions towards one-time
+challenge fees, raising questions about the sustainability of their pricing
+models. Apex, Tradeify, Bulenox and My Funded Futures made the shift in 2026,
+while exchange data costs continue to recur monthly for active users.
+CME’s
+real-time annual licence fee is $29,280 per exchange, although many firms
+access data through platform vendors rather than licensing it directly.
+TradersYard’s co-founder Manuel Sonnleithner said a prop-specific simulation
+licence requires all four exchanges, bringing the base fee to $117,120
+annually, before additional monthly data charges.
+The mismatch between
+recurring operating costs and one-off customer payments remains a central
+challenge.
+Futures Prop Firms See Margins Squeezed by $49 Challenges
+and Rising Costs
+Ruben Abitbol, Founder at RUBIK
+The pressure on futures prop firms extends
+beyond exchange data fees, with lower challenge prices and higher operating
+costs reducing profitability. TradersYard CEO Manuel Sonnleithner, citing
+internal industry data, estimated that net margins have fallen from 25-30% to
+10-15%. Platform expenses, including monthly charges per user, make low-priced
+challenges harder to sustain.
+Ruben Abitbol of RUBIK said futures firms
+generally face higher operating costs than CFD prop firms, partly because of
+platform and market-data expenses. Payout ratios also differ, with futures
+firms typically paying out 70-80% compared with 40-50% for CFD firms, according
+to Abitbol’s broad benchmark.
+Several operators, including FundingTicks, Rev
+One and FundedSeat, closed during 2026, and Alpha closed its Premium Plan.
+Former iS Prime Founders Launch New Liquidity Business
+for Brokers
+Raj Sitlani
+Three
+former iS Prime executives have launched JT Prime , a prime-of-prime
+liquidity provider targeting brokers, funds, family offices and proprietary
+trading firms.
+Raj Sitlani and Jonathan Brewer, who co-founded iS Prime in
+2014, established the business alongside Jeff Wilkins, who previously led iS
+Prime’s risk analytics operation.
+JT Prime will offer aggregated Tier 1 bank
+and non-bank liquidity across foreign exchange, precious metals and index CFDs,
+with FIX API connectivity.
+Jonathan Brewer
+The business operates as the institutional arm of
+retail broker JT Markets. JT Markets currently holds a Seychelles licence,
+while an application in an unnamed Western market remains pending. The founders
+also plan to expand into digital assets.
+CFI Receives Preliminary VARA Approval for Dubai Crypto
+Brokerage
+CFI Financial Group has received in-principle
+approval from Dubai’s Virtual Assets Regulatory Authority , known as VARA,
+for its crypto brokerage subsidiary, CFIX. The approval covers broker-dealer
+services, but the company cannot begin offering virtual asset services until it
+receives a full licence.
+Ziad Melhem, CEO at CFI Financial Group (Source: CFI)
+According to CFI, VARA requires the subsidiary to
+finalise its leadership appointments, operational infrastructure, governance
+arrangements and regulatory controls before granting final authorisation. CFI
+said CFIX would operate as a separate legal entity with its own governance
+structure.
+VCG Markets Secures UAE Category One License for OTC Derivatives and Spot FX Trading
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+The development adds another regulatory step to the group’s
+international expansion. CFI also holds authorisations in several
+jurisdictions, including Brazil, where it received approval for a securities
+brokerage earlier this year.
+IG Group Advances Jersey Redomiciliation Ahead of
+November Listing Switch
+IG Group secured court
+approval for its proposed move from England and Wales to Jersey , bringing
+the restructuring closer to completion. The transition will establish a new
+Jersey-incorporated holding company, Jenkins Topco, which will be renamed IG
+Group Holdings.
+The move is scheduled to take effect on 13 November, subject to
+delivery of the court order to the Registrar of Companies. Existing shares will
+be cancelled, with new shares issued through the Jersey entity.
+The current
+shares are scheduled to be delisted from the London Stock Exchange on 16
+November, when the new shares are expected to begin trading. The group expects
+restructuring costs of £30 million in 2026.
+CFI Chairman Says Independent Board Must Challenge
+Management Decisions
+Hisham Mansour, Co-Founder at CFI Financial Group; Source: CFI
+CFI Financial Group’s independent chairman, Federico Cirulli, outlined
+how the board oversees management as the broker expands its operations and
+regulatory footprint. Cirulli said independent directors should pressure-test
+management proposals rather than routinely block decisions.
+The board sets
+strategic direction, establishes risk appetite and holds executives
+accountable, while Chief Executive Ziad Melhem manages daily operations.
+Cirulli also said founder-led structures are effective in the early stages, but
+that more stakeholders, a more complex offering and heavier regulation can call
+for a different structure.
+CFI reported $3.45 trillion in trading volume during
+the third quarter, up 123% year-on-year, while nine-month volume reached $8.8
+trillion, figures that are company-reported. Cirulli said governance and
+internal controls must keep pace with that expansion.
+eToro Reports 62% Drop in Crypto Trades Despite Funded
+Account Growth
+eToro’s clients placed 2
+million cryptocurrency trades in October , down 62% from a year earlier,
+despite an 18% increase in funded accounts to 4.42 million. The average amount
+invested per crypto trade fell 29% to $228.
+The figures followed a weaker third
+quarter, when net income dropped 74% year-on-year to $15 million and net
+contribution declined 13% to $186 million. Adjusted EBITDA fell 56% to $34.2
+million.
+Net trading income from equities, commodities and currencies increased
+21% to $88.5 million, although it declined from the previous quarter. Chief
+Financial Officer Meron Shani said crypto activity had recovered sequentially
+compared with the second quarter.
+eToro Targets $100 Million Latin American Revenue After
+Argentine Acquisition
+Yoni Assia, the CEO of eToro
+eToro plans to generate $100
+million in Latin American revenue within two to three years , using its
+proposed acquisition of Argentine fintech LB Finanzas as a regional base. The
+company agreed to acquire the investing and payments app for less than $20
+million.
+Chief Executive Yoni Assia gave analysts the target, and the article
+noted that eToro already has a larger online audience in the region than most
+retail brokers, according to FM Intelligence data.
+The acquisition marks the
+company’s fourth deal announced in 2026, following purchases involving Zengo
+and Bit2C and an agreement to acquire US broker TradeZero. Assia said eToro
+would slow its acquisition activity to focus on integrating the businesses.
+AI Trading Agents Create New Monitoring Challenges for
+Forex Brokers
+Artificial intelligence agents are increasingly able to interact
+directly with retail trading accounts , creating new monitoring challenges
+for forex and CFD brokers, according to an op-ed by Marios Kyriakou, Head of FX
+Dealer Academy by Your Bourse.
+Connections through platforms such as MetaTrader
+and cTrader allow AI tools to access trading functions through Model Context
+Protocol, or MCP, servers. These integrations can make it difficult for dealing
+desks to distinguish automated orders from trades placed manually by clients.
+Remote setups may also involve access tokens held by third-party AI tools,
+limiting brokers’ visibility. While some official integrations offer read-only
+access and approval requirements before trades are executed, open-source and
+custom-built alternatives may lack similar safeguards. The development raises
+questions about client profiling, exposure management and operational risk.
+AI Voice Agents Raise Questions About Client Trust in Forex
+Brokerage
+Forex
+brokers are increasingly considering AI voice agents to handle customer
+acquisition and routine communications. The technology can contact prospective
+clients, chase account-opening documents through a secure upload link, follow
+up on incomplete applications and schedule calls with human representatives.
+However,
+its use in client-facing conversations raises concerns about mis-selling and
+the boundaries of automated communication. Anish Lal, Chief Business
+Development Officer at BlackBull Markets, argued that voice agents should
+support administrative tasks rather than provide trading advice or encourage
+additional deposits, and that documents and card details should never be taken
+over the phone.
+He also highlighted the importance of transparency, including
+informing customers when they are speaking to AI. Brokers must balance
+efficiency gains with appropriate controls and maintain human involvement where
+financial decisions and client trust are concerned.
+Prediction Markets Seek Broker Partnerships to Sustain
+Trading Activity
+Prediction market operators are increasingly turning to brokerage
+partnerships and wider product offerings to attract customers beyond major
+sporting and political events, according to a column by Paul Golden. The World
+Cup generated a significant increase in activity, but platforms now face the
+challenge of maintaining user engagement between major events.
+Women are less than 25% of the user base on prediction markets like Kalshi and Polymarket… but are the largest consumers on Instagram and Facebook.
+I think Meta’s prediction market product will actually be a huge hit due to this untapped audience and the social/cultural topics they are interested in.
+Count me in for predicting who gets voted out next on Love Island. 🏝️
+— Brit Morin 🦞 (@brit) July 7, 2026 Kalshi has
+expanded its distribution through partnerships with Alpaca and Public, allowing
+event contracts to reach customers through existing brokerage platforms. It has
+also introduced products beyond conventional event contracts, including a stock
+index perpetual future.
+The expansion brings prediction markets closer to
+traditional financial products. However, regulatory uncertainty, particularly
+around sports-related contracts in the US, remains a challenge for operators
+seeking broader distribution.
+Nvidia Shares Fall More Than 6% Following Jensen Huang’s
+Resignation
+Jensen Huang, Founder and CEO of Nvidia, Source: Wikipedia
+Nvidia shares fell more than 6% in trading after the announcement that co-founder
+Jensen Huang had resigned as president , chief executive and board member
+after 33 years leading the company, although the sell-off had begun before the
+announcement.
+Chief Financial Officer Colette Kress has taken over as interim
+CEO while retaining her CFO responsibilities, and the board is considering
+internal and external candidates for a permanent successor. Former Synopsys
+chief executive Harvey Jones was appointed as Nvidia’s first board chairman.
+The company did not state a reason for the departure, which followed an
+independent investigation announced by the board, which appointed former acting
+US Attorney Joon Kim and law firm Wachtell, Lipton, Rosen & Katz to conduct
+the review. Jones said operations, customer commitments and the product roadmap
+would continue without interruption.
+We're investigating reports of users experiencing issues accessing Exchange Online mailboxes through multiple connection methods in the Americas. More details can be found in the Microsoft 365 admin center under EX1550543.
+— Microsoft 365 Status (@MSFT365Status) November 12, 2026 Microsoft 365 Outage Disrupts Financial Markets and Broker
+Operations
+global Microsoft 365 outage disrupted financial firms across several markets ,
+forcing trading desks and brokerages to rely on manual workarounds. The
+disruption, which had lasted 12 hours at the time of reporting, affected
+Exchange Online, with Downdetector recording more than 130,000 reports in the
+US at its peak.
+Brokerages in Singapore and India reported delays in customer
+support, while CMC Markets in Singapore used phone calls and WhatsApp to bypass
+affected systems. Japanese financial firms also turned to manual processes as
+email authentication failures disrupted trade confirmations and settlements,
+and a Kalshi post joked that Japanese markets had switched to fax machines.
+The
+outage highlighted the industry’s dependence on cloud-based services, with retail
+FX brokers also reporting difficulties involving customer logins and
+operational processes.
+Topics
+retail
+retail brokers
+retail FX
+Weekly Highlights
+Weekly Review
+Share this article
+Add as a preferred source on Google
+About the Author:
+Tareq Sikder
+2566 Articles
+49 Followers
+About the Author:
+Tareq Sikder
+Tareq is a financial writer with 15 years of experience covering global markets. His work spans technical analysis, forex broker reviews, and market sentiment, with a focus on topics relevant to retail traders. He joined Finance Magnates in 2023.
+At Finance Magnates, he serves as News Editor, covering retail forex and CFD brokers, cryptocurrency exchanges, fintech firms, and regulatory developments shaping the trading industry. He holds an Honours degree in Information Technology from Anfell College, London.
+Education:
+Honours degree Information Technology, Anfell College, London
+2566 Articles
+49 Followers
+Follow
+Finance Magnates Daily Update
+Get all the top financial news delivered straight to your inbox. Stay informed, stay ahead.
+Email
+By subscribing, you agree to our Terms of Use and Privacy Policy . You may unsubscribe at any time.
+This site is protected by reCAPTCHA and the Google
+Privacy Policy
+and
+Terms of Service
+apply.
+SIGN UP
+Most Viewed
+CFTC Bars Eight Americans Who Sold Offshore Forex Trading to US Retail Clients
+CFTC Bars Eight Americans Who Sold Offshore Forex Trading to US Retail Clients
+Prop Firm FTMO Plans 300 Hires, Half of Them at Its Broker OANDA
+Prop Firm FTMO Plans 300 Hires, Half of Them at Its Broker OANDA
+Latest News
+CMC Markets Lets UK Clients Buy Options on Anthropic Before It Lists
+Saturday, 14/11/2026 | 18:49 GMT
+Your Broker's Growth is Elsewhere, ahead of 2027
+Saturday, 14/11/2026 | 06:00 GMT
+Inside Prediction Markets: Kalshi Eyes $65B Valuation in the Shadow of State Bans
+Friday, 13/11/2026 | 21:14 GMT
+Education Center
+Europe's Economic Crossroads: Recession Fears and S&P Global's Contrasting Outlook
+Europe's Economic Crossroads: Recession Fears and S&P Global's Contrasting Outlook
+Decarbonization and Climate Realities: Shaping the Future Investment Landscape
+Decarbonization and Climate Realities: Shaping the Future Investment Landscape
+Keep Reading
+VCG Markets Secures UAE Category One License for OTC Derivatives and Spot FX Trading
+7 Things We Wish Someone Had Told Us Before We Started Trading
+Trending
+Microsoft Outage Forces Japanese Markets To Dust Off Fax Machines
+Friday, 13/11/2026 | 08:17 GMT
+Nvidia Shares Plummet as Jensen Huang Resigns After 33 Years at the Helm of the Tech Giant
+Thursday, 12/11/2026 | 15:29 GMT
+Crypto Exchange GOPAX Halts Trading and Standard Withdrawals After Hacking Threat
+Friday, 06/11/2026 | 11:56 GMT
+More from the Author
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+Interactive Brokers Adds Vise Long Short Across Four Leverage Levels
+Thursday, 12/11/2026 | 18:15 GMT
+Prop Firm Tradeify Expands Beyond Futures with Inter Miami CF Deal
+Prop Firm Tradeify Expands Beyond Futures with Inter Miami CF Deal
+Prop Firm Tradeify Expands Beyond Futures with Inter Miami CF Deal
+Prop Firm Tradeify Expands Beyond Futures with Inter Miami CF Deal
+Prop Firm Tradeify Expands Beyond Futures with Inter Miami CF Deal
+Prop Firm Tradeify Expands Beyond Futures with Inter Miami CF Deal
+Prop Firm Tradeify Expands Beyond Futures with Inter Miami CF Deal
+Prop Firm Tradeify Expands Beyond Futures with Inter Miami CF Deal
+Prop Firm Tradeify Expands Beyond Futures with Inter Miami CF Deal
+Prop Firm Tradeify Expands Beyond Futures with Inter Miami CF Deal
+Thursday, 12/11/2026 | 16:03 GMT
+GTC Secures UAE Licence to Broker OTC Derivatives and Currencies
+GTC Secures UAE Licence to Broker OTC Derivatives and Currencies
+GTC Secures UAE Licence to Broker OTC Derivatives and Currencies
+GTC Secures UAE Licence to Broker OTC Derivatives and Currencies
+GTC Secures UAE Licence to Broker OTC Derivatives and Currencies
+GTC Secures UAE Licence to Broker OTC Derivatives and Currencies
+GTC Secures UAE Licence to Broker OTC Derivatives and Currencies
+GTC Secures UAE Licence to Broker OTC Derivatives and Currencies
+GTC Secures UAE Licence to Broker OTC Derivatives and Currencies
+GTC Secures UAE Licence to Broker OTC Derivatives and Currencies
+Thursday, 12/11/2026 | 10:34 GMT
+IG Group Secures Court Approval for Jersey Move; FCA Approves New Listing Prospectus
+IG Group Secures Court Approval for Jersey Move; FCA Approves New Listing Prospectus
+IG Group Secures Court Approval for Jersey Move; FCA Approves New Listing Prospectus
+IG Group Secures Court Approval for Jersey Move; FCA Approves New Listing Prospectus
+IG Group Secures Court Approval for Jersey Move; FCA Approves New Listing Prospectus
+IG Group Secures Court Approval for Jersey Move; FCA Approves New Listing Prospectus
+IG Group Secures Court Approval for Jersey Move; FCA Approves New Listing Prospectus
+IG Group Secures Court Approval for Jersey Move; FCA Approves New Listing Prospectus
+IG Group Secures Court Approval for Jersey Move; FCA Approves New Listing Prospectus
+IG Group Secures Court Approval for Jersey Move; FCA Approves New Listing Prospectus
+Wednesday, 11/11/2026 | 14:11 GMT
+After 900 IT Incidents, BaFin Expands Cybersecurity Oversight, Sets 2030 Encryption Target
+After 900 IT Incidents, BaFin Expands Cybersecurity Oversight, Sets 2030 Encryption Target
+After 900 IT Incidents, BaFin Expands Cybersecurity Oversight, Sets 2030 Encryption Target
+After 900 IT Incidents, BaFin Expands Cybersecurity Oversight, Sets 2030 Encryption Target
+After 900 IT Incidents, BaFin Expands Cybersecurity Oversight, Sets 2030 Encryption Target
+After 900 IT Incidents, BaFin Expands Cybersecurity Oversight, Sets 2030 Encryption Target
+After 900 IT Incidents, BaFin Expands Cybersecurity Oversight, Sets 2030 Encryption Target
+After 900 IT Incidents, BaFin Expands Cybersecurity Oversight, Sets 2030 Encryption Target
+After 900 IT Incidents, BaFin Expands Cybersecurity Oversight, Sets 2030 Encryption Target
+After 900 IT Incidents, BaFin Expands Cybersecurity Oversight, Sets 2030 Encryption Target
+Tuesday, 10/11/2026 | 18:34 GMT
+Wise Puts US Broker-Dealer Licence to Work with Interest and Stocks Launch
+Wise Puts US Broker-Dealer Licence to Work with Interest and Stocks Launch
+Wise Puts US Broker-Dealer Licence to Work with Interest and Stocks Launch
+Wise Puts US Broker-Dealer Licence to Work with Interest and Stocks Launch
+Wise Puts US Broker-Dealer Licence to Work with Interest and Stocks Launch
+Wise Puts US Broker-Dealer Licence to Work with Interest and Stocks Launch
+Wise Puts US Broker-Dealer Licence to Work with Interest and Stocks Launch
+Wise Puts US Broker-Dealer Licence to Work with Interest and Stocks Launch
+Wise Puts US Broker-Dealer Licence to Work with Interest and Stocks Launch
+Wise Puts US Broker-Dealer Licence to Work with Interest and Stocks Launch
+Tuesday, 10/11/2026 | 17:24 GMT
+Retail FX
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+Friday, 13/11/2026 | 07:00 GMT
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+Friday, 13/11/2026 | 05:18 GMT
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Thursday, 12/11/2026 | 11:00 GMT
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Thursday, 12/11/2026 | 10:49 GMT
+eToro Adds 65 Exchange-Traded Futures in Australia, Where It Holds 45% of CFD Traders
+eToro Adds 65 Exchange-Traded Futures in Australia, Where It Holds 45% of CFD Traders
+eToro Adds 65 Exchange-Traded Futures in Australia, Where It Holds 45% of CFD Traders
+eToro Adds 65 Exchange-Traded Futures in Australia, Where It Holds 45% of CFD Traders
+eToro Adds 65 Exchange-Traded Futures in Australia, Where It Holds 45% of CFD Traders
+eToro Adds 65 Exchange-Traded Futures in Australia, Where It Holds 45% of CFD Traders
+eToro Adds 65 Exchange-Traded Futures in Australia, Where It Holds 45% of CFD Traders
+eToro Adds 65 Exchange-Traded Futures in Australia, Where It Holds 45% of CFD Traders
+eToro Adds 65 Exchange-Traded Futures in Australia, Where It Holds 45% of CFD Traders
+eToro Adds 65 Exchange-Traded Futures in Australia, Where It Holds 45% of CFD Traders
+Thursday, 12/11/2026 | 08:53 GMT
+Equiti Clients Can Now Trade Directly From TradingView Charts
+Equiti Clients Can Now Trade Directly From TradingView Charts
+Equiti Clients Can Now Trade Directly From TradingView Charts
+Equiti Clients Can Now Trade Directly From TradingView Charts
+Equiti Clients Can Now Trade Directly From TradingView Charts
+Equiti Clients Can Now Trade Directly From TradingView Charts
+Equiti Clients Can Now Trade Directly From TradingView Charts
+Equiti Clients Can Now Trade Directly From TradingView Charts
+Equiti Clients Can Now Trade Directly From TradingView Charts
+Equiti Clients Can Now Trade Directly From TradingView Charts
+Thursday, 12/11/2026 | 08:49 GMT
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+The $49 Challenge Problem: Are Futures Prop Margins Meeting the Exit Door?
+Friday, 13/11/2026 | 07:00 GMT
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+CFD Broker Affiliate Got Paid. Now Who Takes the Regulatory Heat?
+Friday, 13/11/2026 | 05:18 GMT
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Pay Once, Get Billed Monthly: Can Futures Props Survive the CME Data Meter without Subscriptions?
+Thursday, 12/11/2026 | 11:00 GMT
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Financial Commission Third-Quarter Awards Reach $113K After Later Rulings
+Thursday, 12/11/2026 | 10:49 GMT
+Featured Videos
+FTMO Plans 300 Hires; Tradeify Partners with Inter Miami
+FTMO Plans 300 Hires; Tradeify Partners with Inter Miami
+FTMO Plans 300 Hires; Tradeify Partners with Inter Miami
+FTMO Plans 300 Hires; Tradeify Partners with Inter Miami
+Today’s financial news recap covers FTMO plans 300 hires, its founders discuss futures and a possible listing, Tradeify partners with Inter Miami, and futures prop margins come under pressure.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers FTMO plans 300 hires, its founders discuss futures and a possible listing, Tradeify partners with Inter Miami, and futures prop margins come under pressure.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers FTMO plans 300 hires, its founders discuss futures and a possible listing, Tradeify partners with Inter Miami, and futures prop margins come under pressure.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers FTMO plans 300 hires, its founders discuss futures and a possible listing, Tradeify partners with Inter Miami, and futures prop margins come under pressure.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+More Videos
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Former iS Prime Founders Launch JT Prime; CFI Chairman Explains Governance Approach
+Former iS Prime Founders Launch JT Prime; CFI Chairman Explains Governance Approach
+Former iS Prime Founders Launch JT Prime; CFI Chairman Explains Governance Approach
+Former iS Prime Founders Launch JT Prime; CFI Chairman Explains Governance Approach
+Former iS Prime Founders Launch JT Prime; CFI Chairman Explains Governance Approach
+Former iS Prime Founders Launch JT Prime; CFI Chairman Explains Governance Approach
+Today’s financial news recap covers former iS Prime founders launch a new liquidity business, CFI outlines its independent governance model, the CFTC bars eight Americans over offshore forex sales, and Spotware brings AI assistants into broker operations.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers former iS Prime founders launch a new liquidity business, CFI outlines its independent governance model, the CFTC bars eight Americans over offshore forex sales, and Spotware brings AI assistants into broker operations.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers former iS Prime founders launch a new liquidity business, CFI outlines its independent governance model, the CFTC bars eight Americans over offshore forex sales, and Spotware brings AI assistants into broker operations.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers former iS Prime founders launch a new liquidity business, CFI outlines its independent governance model, the CFTC bars eight Americans over offshore forex sales, and Spotware brings AI assistants into broker operations.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers former iS Prime founders launch a new liquidity business, CFI outlines its independent governance model, the CFTC bars eight Americans over offshore forex sales, and Spotware brings AI assistants into broker operations.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers former iS Prime founders launch a new liquidity business, CFI outlines its independent governance model, the CFTC bars eight Americans over offshore forex sales, and Spotware brings AI assistants into broker operations.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Safeheron: Institutional Crypto Custody and the Future of Stablecoin Payments | Adam Dai
+Safeheron: Institutional Crypto Custody and the Future of Stablecoin Payments | Adam Dai
+Safeheron: Institutional Crypto Custody and the Future of Stablecoin Payments | Adam Dai
+Safeheron: Institutional Crypto Custody and the Future of Stablecoin Payments | Adam Dai
+Safeheron: Institutional Crypto Custody and the Future of Stablecoin Payments | Adam Dai
+Safeheron: Institutional Crypto Custody and the Future of Stablecoin Payments | Adam Dai
+How are institutions approaching crypto custody and stablecoin payments?
+In this interview from Hong Kong, Nick Assimenos of Finance Magnates speaks with Adam Dai, General Manager of East Asia at Safeheron, about institutional digital asset custody, MPC wallet security and the growing adoption of stablecoins.
+The conversation explores Safeheron's self-custody approach, the role of open-source security technology, and the regulatory and compliance challenges facing digital asset businesses.
+In this interview:
+✅ How MPC wallets give institutions control over their digital assets
+✅ Why stablecoins are gaining traction in cross-border payments
+✅ The challenges of banking access and regulatory compliance in Hong Kong
+✅ What could accelerate institutional stablecoin adoption
+#Safeheron #AdamDai #CryptoCustody #Stablecoins #DigitalAssets #FinTech #FinanceMagnates
+How are institutions approaching crypto custody and stablecoin payments?
+In this interview from Hong Kong, Nick Assimenos of Finance Magnates speaks with Adam Dai, General Manager of East Asia at Safeheron, about institutional digital asset custody, MPC wallet security and the growing adoption of stablecoins.
+The conversation explores Safeheron's self-custody approach, the role of open-source security technology, and the regulatory and compliance challenges facing digital asset businesses.
+In this interview:
+✅ How MPC wallets give institutions control over their digital assets
+✅ Why stablecoins are gaining traction in cross-border payments
+✅ The challenges of banking access and regulatory compliance in Hong Kong
+✅ What could accelerate institutional stablecoin adoption
+#Safeheron #AdamDai #CryptoCustody #Stablecoins #DigitalAssets #FinTech #FinanceMagnates
+How are institutions approaching crypto custody and stablecoin payments?
+In this interview from Hong Kong, Nick Assimenos of Finance Magnates speaks with Adam Dai, General Manager of East Asia at Safeheron, about institutional digital asset custody, MPC wallet security and the growing adoption of stablecoins.
+The conversation explores Safeheron's self-custody approach, the role of open-source security technology, and the regulatory and compliance challenges facing digital asset businesses.
+In this interview:
+✅ How MPC wallets give institutions control over their digital assets
+✅ Why stablecoins are gaining traction in cross-border payments
+✅ The challenges of banking access and regulatory compliance in Hong Kong
+✅ What could accelerate institutional stablecoin adoption
+#Safeheron #AdamDai #CryptoCustody #Stablecoins #DigitalAssets #FinTech #FinanceMagnates
+How are institutions approaching crypto custody and stablecoin payments?
+In this interview from Hong Kong, Nick Assimenos of Finance Magnates speaks with Adam Dai, General Manager of East Asia at Safeheron, about institutional digital asset custody, MPC wallet security and the growing adoption of stablecoins.
+The conversation explores Safeheron's self-custody approach, the role of open-source security technology, and the regulatory and compliance challenges facing digital asset businesses.
+In this interview:
+✅ How MPC wallets give institutions control over their digital assets
+✅ Why stablecoins are gaining traction in cross-border payments
+✅ The challenges of banking access and regulatory compliance in Hong Kong
+✅ What could accelerate institutional stablecoin adoption
+#Safeheron #AdamDai #CryptoCustody #Stablecoins #DigitalAssets #FinTech #FinanceMagnates
+How are institutions approaching crypto custody and stablecoin payments?
+In this interview from Hong Kong, Nick Assimenos of Finance Magnates speaks with Adam Dai, General Manager of East Asia at Safeheron, about institutional digital asset custody, MPC wallet security and the growing adoption of stablecoins.
+The conversation explores Safeheron's self-custody approach, the role of open-source security technology, and the regulatory and compliance challenges facing digital asset businesses.
+In this interview:
+✅ How MPC wallets give institutions control over their digital assets
+✅ Why stablecoins are gaining traction in cross-border payments
+✅ The challenges of banking access and regulatory compliance in Hong Kong
+✅ What could accelerate institutional stablecoin adoption
+#Safeheron #AdamDai #CryptoCustody #Stablecoins #DigitalAssets #FinTech #FinanceMagnates
+How are institutions approaching crypto custody and stablecoin payments?
+In this interview from Hong Kong, Nick Assimenos of Finance Magnates speaks with Adam Dai, General Manager of East Asia at Safeheron, about institutional digital asset custody, MPC wallet security and the growing adoption of stablecoins.
+The conversation explores Safeheron's self-custody approach, the role of open-source security technology, and the regulatory and compliance challenges facing digital asset businesses.
+In this interview:
+✅ How MPC wallets give institutions control over their digital assets
+✅ Why stablecoins are gaining traction in cross-border payments
+✅ The challenges of banking access and regulatory compliance in Hong Kong
+✅ What could accelerate institutional stablecoin adoption
+#Safeheron #AdamDai #CryptoCustody #Stablecoins #DigitalAssets #FinTech #FinanceMagnates
+See all videos
+ADVERTISEMENT
+About Us
+Advertise with Us
+Write for Us
+Daily Brief on Spotify
+RSS
+Contact Us
+Latest News
+Directory
+Academy
+Events
+Free Fintech Webinars
+Market News by investingLive.com
+Follow Us
+Looking for a Service?
+We can help
+Get our newsletter
+Looking for a Service?
+We can help
+Finance Magnates is a global B2B provider of multi-asset trading news,
+research and events with special focus on electronic trading, banking, and
+investing. Copyright © 2026 FINANCE MAGNATES CY LIMITED,
+registration number HE 433362, Apostolou Andrea 11, Hyper Tower, 3rd
+Floor, 4007 Mesa Geitonia, Limassol, Cyprus. All rights
+reserved.
+For more information, read our
+Terms, Cookies
+and
+Privacy Notice
+Manage Cookies
+! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | }
