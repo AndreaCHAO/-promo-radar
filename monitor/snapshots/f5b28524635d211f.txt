@@ -143,23 +143,23 @@ Current contest | 0:00, 1 November 2026
 Ranking Nickname Commission Rate Prize sum
 1 Jadarylo 21552.39 $1000
 2 suardd 21535.26 $500
-3 Hothinh 21516.57 $250
-4 Phoenixman 14410.75 $150
-5 kastto89 7973.83 $100
-6 LocaLservice 4271.07 $50
+3 Hothinh 21517.68 $250
+4 Phoenixman 14588.09 $150
+5 kastto89 8126.9 $100
+6 LocaLservice 4473.08 $50
 7 Vanalano 2681.11 $50
-8 Dung49 2586.89 $50
-9 Auragold 2391.72 $50
-10 institutional_data 2354.45 $50
-11 Azamikia 2292.61 $20
+8 Dung49 2647.34 $50
+9 institutional_data 2435.76 $50
+10 Auragold 2391.72 $50
+11 Azamikia 2307.47 $20
 12 ibtruong 2119.61 $20
-13 PFOREX 1899.25 $20
-14 Aliiiiiii2345 1708.32 $20
-15 Mona_Shiri 1398.69 $20
-16 Rezaeagle 1202.89 $10
-17 Adunis 1156.08 $10
-18 NewGold_City 1075.48 $10
-19 HuyenNgo 975.25 $10
+13 PFOREX 1990.34 $20
+14 Aliiiiiii2345 1745.5 $20
+15 Mona_Shiri 1416.4 $20
+16 Rezaeagle 1206.9 $10
+17 Adunis 1159.49 $10
+18 NewGold_City 1078.47 $10
+19 HuyenNgo 975.82 $10
 20 10Millions_Dollars 970.72 $10
 Terms and conditions
 1. Participation terms, contest period
