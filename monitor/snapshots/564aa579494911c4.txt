@@ -99,7 +99,7 @@ The Welcome bonus is a balance bonus in the amount 30 USD.
 Max profit available for withdrawal is 200 USD.
 Profit will be unblocked for withdrawal once min required terms are met.
 Once the first attempt for profit withdrawal is confirmed by the Client, The Welcome bonus will be removed from the Client’s account.
-Bonus duration is 40 calendar days.
+Bonus duration is 5 calendar days.
 Bonus is applicable to MT4 M.Premium account only.
 More details are below.
 General terms
@@ -118,15 +118,14 @@ Participants
 2.7. The Welcome Bonus can be used for trading only. Withdrawals and internal transfers of the Welcome Bonus to other accounts of the Client are not allowed.
 2.8. Clients agree that information provided during the registration process may be used by MTrading both within the context of the Welcome Bonus promotion and for any other marketing purposes.
 How to receive the bonus
-3.1. The Client receives a trading account number automatically after having registered successfully.
-3.2. The Welcome Bonus is granted automatically, provided all the required conditions are met.
-3.3. MTrading reserves the right to reject a bonus request or block the account with the Welcome Bonus, if there is a partial or complete match of IP address or other signs of another Welcome Bonus belonging to the same person.
-3.4. The Welcome Bonus can be used for the period of 40 calendar days from the day of depositing it to the Client's Account. After the 40-days period is over, the Welcome Bonus gets deducted from the account, as well as unclaimed profits gained with the aid of this bonus.
+3.1. The Client receives a trading account number after having registered successfully.
+3.2. MTrading reserves the right to reject a bonus request or block the account with the Welcome Bonus, if there is a partial or complete match of IP address or other signs of another Welcome Bonus belonging to the same person.
+3.3. The Welcome Bonus can be used for the period of 5 calendar days from the day of depositing it to the Client's Account. After the 5-days period is over, the Welcome Bonus gets deducted from the account, as well as unclaimed profits gained with the aid of this bonus.
 3.5. The Client can withdraw profits gained with the aid of the Welcome Bonus. A minimum deposit is required to unlock bonus withdrawal eligibility. The deposit amount varies depending on the chosen payment method.
-3.6. The maximum profit available for withdrawal is 200$. The Minimum required traded Lot size to withdraw the profits is 5 Lots. Once the first withdrawal is made, 30$ will be deducted from the Client's Account.
+3.6. The maximum profit available for withdrawal is 200$. The Minimum required traded Lot size to withdraw the profits is 0.5 Lots. Once the first withdrawal is made, 30$ will be deducted from the Client's Account.
 3.7. To be eligible to withdraw profits earned from the 30 Welcome Bonus, all open trading positons should be closed in prior, 1 hour before bonus expiration date to get profit paid. This includes any positions opened with the 30 Welcome Bonus funds. Any remaining open positions will be closed by the Company. All profits and losses, occurred due to remaining positions closure, does belong to Company.
 3.8. All profits earned with the aid of the Welcome Bonus are deemed to be null and void, if the account holder has provided incorrect, false or misleading information during the registration process.
-3.9. The leverage on the Account cannot exceed 1:1000.
+3.9. The leverage on the Account cannot exceed 1:8888.
 3.10. The Account cannot participate in the MTrading investment service, that’s to become a money manager or investor accounts.
 3.11. Hedging trading positions internally (using other trading accounts held with MTrading) or externally (using other trading accounts held with other brokers) and thus avoiding market risk, is considered to be an abuse.
 3.12. Using the failures in the quote flow for getting guaranteed profit or any other form of fraudulent activities are considered to be an abuse.

@@ -50,9 +50,9 @@ Premium accounts
 Accredited investor
 Offers
 Earnings season
-a]:text-sm md:[&>a]:text-base 2xl:[&>a]:text-lg [&>a]:py-[10px] [&>a]:px-4 md:[&>a]:py-3 md:[&>a]:px-6 2xl:[&>a]:px-10">
+a]:text-[0.805rem] md:[&>a]:text-[0.92rem] 2xl:[&>a]:text-[1.035rem] [&>a]:py-[9px] [&>a]:px-[13px] md:[&>a]:py-[11px] md:[&>a]:px-[15px] 2xl:[&>a]:px-[18px]">
 Login
-a]:text-sm md:[&>a]:text-base 2xl:[&>a]:text-lg [&>a]:py-[10px] [&>a]:px-4 md:[&>a]:py-3 md:[&>a]:px-6 2xl:[&>a]:px-10">
+a]:text-[0.805rem] md:[&>a]:text-[0.92rem] 2xl:[&>a]:text-[1.035rem] [&>a]:py-[9px] [&>a]:px-[13px] md:[&>a]:py-[11px] md:[&>a]:px-[15px] 2xl:[&>a]:px-[18px]">
 Start Trading
 Trading
 Instruments
