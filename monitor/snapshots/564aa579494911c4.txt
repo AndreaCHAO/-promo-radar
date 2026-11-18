@@ -100,7 +100,7 @@ Max profit available for withdrawal is 200 USD.
 Profit will be unblocked for withdrawal once min required terms are met.
 Once the first attempt for profit withdrawal is confirmed by the Client, The Welcome bonus will be removed from the Client’s account.
 Bonus duration is 5 calendar days.
-Bonus is applicable to MT4 M.Premium account only.
+Bonus is applicable to M.Premium account only.
 More details are below.
 General terms
 1.1. The “30 USD Welcome Bonus” promotion (hereinafter called Welcome Bonus) is held by MTrading (ServiceComsvg LLC, hereinafter Company).
@@ -118,19 +118,18 @@ Participants
 2.7. The Welcome Bonus can be used for trading only. Withdrawals and internal transfers of the Welcome Bonus to other accounts of the Client are not allowed.
 2.8. Clients agree that information provided during the registration process may be used by MTrading both within the context of the Welcome Bonus promotion and for any other marketing purposes.
 How to receive the bonus
-3.1. The Client receives a trading account number after having registered successfully.
+3.1. The bonus is credited only to clients on the list provided by MIB.
 3.2. MTrading reserves the right to reject a bonus request or block the account with the Welcome Bonus, if there is a partial or complete match of IP address or other signs of another Welcome Bonus belonging to the same person.
-3.3. The Welcome Bonus can be used for the period of 5 calendar days from the day of depositing it to the Client's Account. After the 5-days period is over, the Welcome Bonus gets deducted from the account, as well as unclaimed profits gained with the aid of this bonus.
-3.5. The Client can withdraw profits gained with the aid of the Welcome Bonus. A minimum deposit is required to unlock bonus withdrawal eligibility. The deposit amount varies depending on the chosen payment method.
-3.6. The maximum profit available for withdrawal is 200$. The Minimum required traded Lot size to withdraw the profits is 0.5 Lots. Once the first withdrawal is made, 30$ will be deducted from the Client's Account.
-3.7. To be eligible to withdraw profits earned from the 30 Welcome Bonus, all open trading positons should be closed in prior, 1 hour before bonus expiration date to get profit paid. This includes any positions opened with the 30 Welcome Bonus funds. Any remaining open positions will be closed by the Company. All profits and losses, occurred due to remaining positions closure, does belong to Company.
-3.8. All profits earned with the aid of the Welcome Bonus are deemed to be null and void, if the account holder has provided incorrect, false or misleading information during the registration process.
-3.9. The leverage on the Account cannot exceed 1:8888.
-3.10. The Account cannot participate in the MTrading investment service, that’s to become a money manager or investor accounts.
-3.11. Hedging trading positions internally (using other trading accounts held with MTrading) or externally (using other trading accounts held with other brokers) and thus avoiding market risk, is considered to be an abuse.
-3.12. Using the failures in the quote flow for getting guaranteed profit or any other form of fraudulent activities are considered to be an abuse.
-3.13. No partners’ commissions are paid for trading with the Welcome Bonus.
-3.14. Any disputes or likely misunderstandings that may occur as a result of the Campaign terms will be resolved by the MTrading Management in a way that presents the fairest solution to all parties involved. Once such a decision has been made, it shall be regarded as final and/or binding for all parties.
+3.3. When the 5-day bonus period expires, the system automatically withdraws only the bonus amount. The Client's remaining balance stays in the account and can be withdrawn within 24 hours after the bonus expires.
+3.4. The maximum profit available for withdrawal is 200$. The Minimum required traded Lot size to withdraw the profits is 0.5 Lots.
+3.5. To be eligible to withdraw profits earned from the 30 Welcome Bonus, all open trading positons should be closed in prior, 1 hour before bonus expiration date to get profit paid. This includes any positions opened with the 30 Welcome Bonus funds. Any remaining open positions will be closed by the Company. All profits and losses, occurred due to remaining positions closure, does belong to Company.
+3.6. All profits earned with the aid of the Welcome Bonus are deemed to be null and void, if the account holder has provided incorrect, false or misleading information during the registration process.
+3.7. The leverage on the Account cannot exceed 1:8888.
+3.8. The Account cannot participate in the MTrading investment service, that’s to become a money manager or investor accounts.
+3.9. Hedging trading positions internally (using other trading accounts held with MTrading) or externally (using other trading accounts held with other brokers) and thus avoiding market risk, is considered to be an abuse.
+3.10. Using the failures in the quote flow for getting guaranteed profit or any other form of fraudulent activities are considered to be an abuse.
+3.11. No partners’ commissions are paid for trading with the Welcome Bonus.
+3.12. Any disputes or likely misunderstandings that may occur as a result of the Campaign terms will be resolved by the MTrading Management in a way that presents the fairest solution to all parties involved. Once such a decision has been made, it shall be regarded as final and/or binding for all parties.
 Miscellaneous
 4.1. At all times, ServiceComsvg LLC reserves the right to amend, change or cancel this promotion without any prior notice to current or prospective promotion participants.
 4.2. If the Company suspects that a Promotion participant has abused or attempted to abuse a Promotion or otherwise acted with a lack of good faith towards MTrading, MTrading’ reserves the right to deny, withhold, cancel or withdraw from that participant the bonus, and, if necessary, to cancel any terms and conditions of this promotion and client agreement with respect to that Promotion participant, either temporarily or permanently, or to terminate that participant`s access to the services and/or block that participant`s account(s).
@@ -147,10 +146,6 @@ Registration in the Trader’s Room of MTrading;
 Real trading account (currently active or deactivated).
 “Participant” – An user who applied for the bonus.
 “Minimum trading volume requirement” – The total volume required to trade before the client is able to withdraw bonus funds received from the Promotion. Trading volume is calculated in lots. Traded volume in lots can be checked by the Participant in the Trader Room by following progress on a special dashboard. Traded volume in lots counted as 1 lot = 100,000 USD Dashboard shows required volume in lots to be traded and current number of lots traded.
-“Valid trade for the required total volume calculation” – a full round turn trade that complies with all three of the following criteria:
-The trade remained open at least 3 minutes 00 seconds;
-The profit or loss in this trade is more than 3 pips, where:-for Forex instruments quoted to the 5th digit following the decimal point (e.g. GBPUSD – 1.32451), 1 pip is equal to a price increment of 0.00010;- for Forex instruments quoted to the 3rd digit following the decimal point (e.g. USDJPY – 101.522), 1 pip is equal to a price increment of 0.010;- for spot metals 1 pip is equal to a price increment of 0.01;- for indices 1 pip is equal to a price increment of 1.0, which is also called an Index Point;- for other instruments 1 pip is equal to Tick Size, as provided in the Contract Specifications on MTrading website
-The trade was not hedged, meaning that is has to conform with ALL of the points below to be considered a hedged trade:- the reversal position was opened within 15 minutes after opening the initial position;- the volume variance between the initial and reversal position does not exceed 20%;- the reversal position is closed within 15 minutes before or after the closing of the initial position.
 30 USD Welcome Bonus key points
 General terms
 Participants

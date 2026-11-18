@@ -36,7 +36,7 @@ Tools & skills
 Tools & skills
 Get powerful tools, skills and insights - essential to building a stronger trading strategy.
 Advanced charts
-MT4 premium indicators
+MetaTrader premium indicators
 Technical analysis
 Partners
 Skills & insights
@@ -83,7 +83,7 @@ OANDA API
 Platforms
 Tools & skills
 Advanced charts
-MT4 premium indicators
+MetaTrader premium indicators
 Technical analysis
 Partners
 Skills & insights

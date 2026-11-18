@@ -27,7 +27,7 @@ Shares
 ETFs
 Bonds
 Synthetic Indices
-24/7 Gold Trading
+24/7 Trading
 Trading Platforms
 PU Prime App
 PU Copy Trading
@@ -88,7 +88,7 @@ Shares
 ETFs
 Bonds
 Synthetic Indices
-24/7 Gold Trading
+24/7 Trading
 Trading Platforms
 PU Prime App
 PU Copy Trading
@@ -193,6 +193,7 @@ Shares
 ETFs
 Bonds
 Synthetic Indices
+24/7 Trading
 Trading Platforms
 PU Prime App
 PU Copy Trading
@@ -230,6 +231,7 @@ Shares
 ETFs
 Bonds
 Synthetic Indices
+24/7 Trading
 Trading Platforms
 PU Prime App
 PU Copy Trading
