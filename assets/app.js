@@ -219,7 +219,6 @@ function populateTypes() {
 function setRegion(key, move = true) {
   selectedRegion = key; $('regionFilter').value = key; visibleCount = 9;
   const reg = REGIONS[key];
-  if (move && reg && reg.lon != null) { targetLon = reg.lon; targetLat = Math.min(32, reg.lat * .55); }
   render();
 }
 function statusBadge(r) {
@@ -240,7 +239,7 @@ function card(r) {
 }
 function sortKey(r) { return { due: 0, active: 1, upcoming: 2, undated: 3, unclear: 4, expired: 5, excluded: 6 }[r.status]; }
 function render() {
-  renderDigest();
+  renderDigest(); renderMap();
   filtered = RECORDS.filter(matchRecord).sort((a, b) => (b.isSelf - a.isSelf) || (b.alert - a.alert) || ((b.auto && b.foundDays <= 7) - (a.auto && a.foundDays <= 7)) || sortKey(a) - sortKey(b) || a.rank - b.rank || (a.daysLeft ?? 9999) - (b.daysLeft ?? 9999) || (fmt(parseDate(b['最后核查'])) || '').localeCompare(fmt(parseDate(a['最后核查'])) || ''));
   const show = filtered.slice(0, visibleCount);
   if (LOAD_ERROR) { $('recordCards').innerHTML = `<div class="empty"><strong>数据读取失败</strong>${esc(LOAD_ERROR)}</div>`; return; }
@@ -500,59 +499,48 @@ $('exportCsv').onclick = () => {
 
 /* ---------- 地球（示意图） ---------- */
 const LAND=[ [[-168,70],[-150,72],[-136,68],[-128,59],[-133,55],[-125,49],[-123,40],[-117,32],[-111,29],[-110,23],[-103,20],[-97,16],[-91,18],[-87,21],[-86,17],[-82,9],[-78,9],[-82,13],[-84,22],[-81,25],[-80,31],[-75,35],[-70,42],[-63,45],[-55,51],[-61,56],[-64,60],[-76,63],[-83,69],[-97,70],[-105,73],[-125,74],[-146,72]], [[-81,12],[-73,11],[-70,12],[-60,8],[-51,3],[-47,-1],[-35,-5],[-35,-10],[-39,-18],[-43,-23],[-48,-28],[-52,-33],[-58,-38],[-65,-55],[-72,-54],[-75,-46],[-73,-38],[-71,-30],[-70,-18],[-76,-10],[-81,-5]], [[-52,60],[-44,60],[-38,67],[-21,70],[-18,77],[-31,83],[-46,83],[-59,78],[-62,70]], [[-17,21],[-17,15],[-15,11],[-10,6],[-5,5],[4,4],[9,1],[10,-5],[13,-12],[12,-18],[15,-27],[18,-34],[26,-34],[33,-25],[36,-18],[40,-12],[40,-3],[44,2],[51,12],[44,11],[40,16],[36,22],[33,30],[28,32],[20,33],[11,37],[5,36],[-4,35],[-10,30],[-13,25]], [[-10,36],[-10,43],[-2,44],[-5,48],[-1,50],[8,54],[9,58],[5,60],[5,66],[13,70],[26,71],[30,66],[40,65],[45,69],[61,69],[70,73],[90,75],[110,77],[131,72],[150,70],[169,67],[180,65],[178,59],[164,59],[159,52],[153,47],[144,46],[141,41],[131,43],[130,38],[123,39],[121,31],[116,23],[109,20],[105,16],[109,12],[106,9],[102,13],[100,7],[103,1],[99,3],[97,10],[94,17],[90,22],[85,21],[79,8],[76,9],[73,17],[68,24],[62,25],[57,25],[57,18],[52,16],[45,13],[42,16],[39,22],[35,29],[34,35],[29,37],[28,41],[23,40],[24,35],[20,38],[17,41],[16,38],[13,42],[10,45],[7,44],[3,43],[-1,43],[-2,37]], [[-10,50],[-5,50],[-3,53],[-4,57],[-6,59],[-8,56]], [[-11,51],[-7,51],[-6,55],[-10,55]], [[-25,63],[-14,64],[-15,67],[-23,67]], [[47,-13],[50,-16],[49,-23],[45,-26],[44,-21]], [[113,-22],[114,-27],[115,-34],[123,-35],[130,-32],[137,-35],[140,-38],[147,-38],[153,-29],[151,-22],[145,-15],[141,-12],[136,-13],[131,-12],[127,-15],[122,-17]], [[166,-34],[174,-39],[178,-39],[175,-35],[172,-34]], [[167,-46],[171,-43],[173,-40],[171,-40],[166,-44]], [[95,5],[102,1],[105,-6],[101,-5],[97,0]], [[106,-6],[114,-7],[115,-9],[108,-8]], [[109,7],[117,6],[118,1],[115,-4],[110,-3]], [[120,-1],[124,2],[125,1],[122,-4],[120,-5]], [[119,19],[122,18],[124,13],[126,8],[125,6],[121,12]], [[131,-2],[140,-2],[149,-6],[151,-10],[141,-9],[135,-4]], [[137,34],[141,40],[145,44],[146,43],[142,36],[139,34]], [[130,31],[132,34],[135,35],[133,32]], [[-84,22],[-79,22],[-74,20],[-78,20]], [[-73,19],[-68,18],[-70,20]] ];
-const canvas = $('globe'), ctx = canvas.getContext('2d');
-let width = 600, height = 470, dpr = 1, lon = 70, lat = 15, targetLon = 70, targetLat = 15, drag = false, down = null, moved = false, markers = [], lastFrame = 0;
-const rad = Math.PI / 180;
-function wrap(a) { return ((a + 180) % 360 + 360) % 360 - 180; }
-function projection(lo, la) { const p = la * rad, l = wrap(lo - lon) * rad, c = lat * rad; return { x: Math.cos(p) * Math.sin(l), y: Math.cos(c) * Math.sin(p) - Math.sin(c) * Math.cos(p) * Math.cos(l), z: Math.sin(c) * Math.sin(p) + Math.cos(c) * Math.cos(p) * Math.cos(l) }; }
-function coords(p, cx, cy, r) { return [cx + r * p.x, cy - r * p.y]; }
-function line(points, cx, cy, r, stroke, w = 1) { ctx.beginPath(); let on = false; for (const [a, b] of points) { const p = projection(a, b); if (p.z > 0) { const [x, y] = coords(p, cx, cy, r); on ? ctx.lineTo(x, y) : ctx.moveTo(x, y); on = true; } else on = false; } ctx.strokeStyle = stroke; ctx.lineWidth = w; ctx.stroke(); }
-function densify(poly) { const out = []; for (let i = 0; i < poly.length; i++) { const a = poly[i], b = poly[(i + 1) % poly.length], d = Math.max(Math.abs(b[0] - a[0]), Math.abs(b[1] - a[1])), n = Math.ceil(d / 2); for (let j = 0; j < n; j++) out.push([a[0] + (b[0] - a[0]) * j / n, a[1] + (b[1] - a[1]) * j / n]); } return out; }
-const coast = LAND.map(densify);
+/* ---------- 平面点阵世界地图：灰点 = 陆地，红点大小 = 该地区在推方案数，点击筛选 ---------- */
+const MAP_W = 360, MAP_H = 150, LAT_TOP = 76, LAT_BOT = -58;
+const mx = lo => (lo + 180) / 360 * MAP_W, my = la => (LAT_TOP - la) / (LAT_TOP - LAT_BOT) * MAP_H;
 function inPoly(x, y, p) { let ins = false; for (let i = 0, j = p.length - 1; i < p.length; j = i++) { const a = p[i], b = p[j]; if (((a[1] > y) !== (b[1] > y)) && (x < (b[0] - a[0]) * (y - a[1]) / (b[1] - a[1]) + a[0])) ins = !ins; } return ins; }
-const dots = []; for (let la = -55; la < 80; la += 3.2) for (let lo = -180; lo < 180; lo += 3.2 / Math.cos(la * rad)) if (LAND.some(p => inPoly(lo, la, p))) dots.push([lo, la]);
+const MAP_DOTS = []; for (let la = LAT_TOP - 2; la > LAT_BOT; la -= 3.6) for (let lo = -178; lo < 180; lo += 3.6) if (LAND.some(p => inPoly(lo, la, p))) MAP_DOTS.push([mx(lo), my(la)]);
+/* 标签位置手工排好，避免互相遮挡：[x, y, 对齐] */
+const MAP_LABELS = { '欧洲': [150, 14, 'end'], '伊朗/伊拉克': [246, 14, 'start'], '华语': [318, 40, 'start'], '中东北非': [160, 62, 'end'], '东南亚': [306, 104, 'start'], '非洲': [170, 112, 'end'], '拉美': [88, 128, 'end'], '全球': [14, 18, 'start'] };
 function regionCount(k) { return RECORDS.filter(r => r.region === k && !r.offline && (audience === 'all' || r.audience === audience) && inList(r)).length; }
-function draw(time) {
-  if (time - lastFrame < 33) { requestAnimationFrame(draw); return; } lastFrame = time;
-  lon += wrap(targetLon - lon) * .085; lat += (targetLat - lat) * .085;
-  ctx.clearRect(0, 0, width, height);
-  const r = Math.min(width * .37, height * .405), cx = width * .5, cy = height * .49;
-  const glow = ctx.createRadialGradient(cx, cy, r * .7, cx, cy, r * 1.27); glow.addColorStop(0, '#effff400'); glow.addColorStop(.7, '#19191912'); glow.addColorStop(1, '#19191900'); ctx.fillStyle = glow; ctx.fillRect(0, 0, width, height);
-  ctx.save(); ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.clip();
-  const ocean = ctx.createRadialGradient(cx - r * .35, cy - r * .4, 0, cx, cy, r * 1.1); ocean.addColorStop(0, '#ffffff'); ocean.addColorStop(.65, '#f7f7f7'); ocean.addColorStop(1, '#e9e9e9'); ctx.fillStyle = ocean; ctx.fillRect(cx - r, cy - r, r * 2, r * 2);
-  for (let la = -60; la <= 60; la += 20) { const pts = []; for (let lo = -180; lo <= 180; lo += 3) pts.push([lo, la]); line(pts, cx, cy, r, '#19191914', .7); }
-  for (let lo = -180; lo < 180; lo += 30) { const pts = []; for (let la = -90; la <= 90; la += 3) pts.push([lo, la]); line(pts, cx, cy, r, '#19191914', .7); }
-  for (const poly of coast) { if (poly.every(([a, b]) => projection(a, b).z <= 0)) continue; ctx.beginPath(); let first = true; for (const [a, b] of poly) { let p = projection(a, b); if (p.z < 0) { const rr = Math.hypot(p.x, p.y) || 1; p.x /= rr; p.y /= rr; } const [x, y] = coords(p, cx, cy, r); if (first) { ctx.moveTo(x, y); first = false; } else ctx.lineTo(x, y); } ctx.closePath(); ctx.fillStyle = '#e3e3e3'; ctx.fill(); line([...poly, poly[0]], cx, cy, r, '#19191940', .8); }
-  for (const [a, b] of dots) { const p = projection(a, b); if (p.z > .02) { const [x, y] = coords(p, cx, cy, r); ctx.beginPath(); ctx.arc(x, y, .55 + p.z * .22, 0, Math.PI * 2); ctx.fillStyle = `rgba(25,25,25,${.12 + p.z * .22})`; ctx.fill(); } }
-  const shade = ctx.createLinearGradient(cx - r, cy - r, cx + r, cy + r); shade.addColorStop(0, '#ffffff00'); shade.addColorStop(.6, '#ffffff00'); shade.addColorStop(1, '#1919191f'); ctx.fillStyle = shade; ctx.fillRect(cx - r, cy - r, r * 2, r * 2);
-  ctx.restore(); ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.strokeStyle = '#191919'; ctx.lineWidth = 1.2; ctx.stroke();
-  markers = [];
+const SVGNS = 'http://www.w3.org/2000/svg';
+function el(tag, attrs, parent) { const e = document.createElementNS(SVGNS, tag); for (const [a, v] of Object.entries(attrs)) e.setAttribute(a, v); if (parent) parent.appendChild(e); return e; }
+function renderMap() {
+  const svg = $('worldMap'); if (!svg) return;
+  svg.setAttribute('viewBox', `0 0 ${MAP_W} ${MAP_H}`); svg.textContent = '';
+  const land = el('g', { class: 'map-land' }, svg);
+  for (const [x, y] of MAP_DOTS) el('circle', { cx: x.toFixed(1), cy: y.toFixed(1), r: 1.05 }, land);
+  const counts = Object.fromEntries(Object.keys(REGIONS).map(k => [k, regionCount(k)])), max = Math.max(1, ...Object.values(counts));
+  const any = selectedRegion !== 'all';
   for (const [k, reg] of Object.entries(REGIONS)) {
-    if (reg.lon == null) continue;
-    const p = projection(reg.lon, reg.lat); if (p.z < .04) continue;
-    const [x, y] = coords(p, cx, cy, r), sel = selectedRegion === k, c = reg.accent;
-    ctx.beginPath(); ctx.arc(x, y, sel ? 10 : 7, 0, Math.PI * 2); ctx.fillStyle = sel ? '#EC1C2433' : '#EFFF04aa'; ctx.fill(); ctx.strokeStyle = sel ? '#EC1C24' : '#191919'; ctx.lineWidth = 1; ctx.stroke();
-    ctx.beginPath(); ctx.arc(x, y, sel ? 4 : 2.7, 0, Math.PI * 2); ctx.fillStyle = sel ? '#EC1C24' : '#191919'; ctx.fill();
-    const label = k + ' ' + regionCount(k);
-    let dx = 10, dy = -11; if (k === '东南亚') { dx = 10; dy = 16; } if (k === '中东北非') { dx = -80; dy = 16; } if (k === '伊朗/伊拉克') { dx = 10; dy = -12; } if (k === '非洲') { dx = 10; dy = 16; }
-    ctx.font = '700 ' + (width < 400 ? 10 : 11) + 'px "Poppins","Swei Gothic",system-ui,"PingFang SC","Microsoft YaHei"';
-    const tw = ctx.measureText(label).width, tx = Math.min(width - tw - 12, Math.max(8, x + dx)), ty = Math.max(35, Math.min(height - 18, y + dy));
-    ctx.fillStyle = sel ? '#EC1C24' : '#191919'; ctx.beginPath(); (ctx.roundRect ? ctx.roundRect(tx - 6, ty - 12, tw + 12, 17, 8.5) : ctx.rect(tx - 6, ty - 12, tw + 12, 17)); ctx.fill(); ctx.fillStyle = sel ? '#FFFFFF' : '#EFFF04'; ctx.fillText(label, tx, ty);
-    markers.push({ key: k, x, y, tx, ty, tw });
+    const [lx, ly, anchor] = MAP_LABELS[k] || [0, 0, 'start'], sel = selectedRegion === k;
+    const g = el('g', { class: 'map-region' + (sel ? ' sel' : '') + (any && !sel ? ' dim' : ''), tabindex: 0, role: 'button', 'aria-pressed': String(sel), 'aria-label': `${k}：${counts[k]} 个在推方案，点击筛选` }, svg);
+    if (reg.lon != null) {
+      const x = mx(reg.lon), y = my(reg.lat), r = 3 + Math.sqrt(counts[k] / max) * 7;
+      el('line', { class: 'map-leader', x1: x, y1: y, x2: lx, y2: ly - 3 }, g);
+      el('circle', { class: 'map-halo', cx: x, cy: y, r: r + 3 }, g);
+      el('circle', { class: 'map-dot', cx: x, cy: y, r }, g);
+    }
+    const label = el('g', { class: 'map-label' }, g);
+    const rect = el('rect', { rx: 7, ry: 7, height: 14 }, label);
+    const t = el('text', { x: lx, y: ly + 1.5, 'text-anchor': anchor }, label);
+    el('tspan', { class: 'map-name' }, t).textContent = k + ' ';
+    el('tspan', { class: 'map-num' }, t).textContent = counts[k];
+    const w = t.getComputedTextLength ? t.getComputedTextLength() : 40;
+    const left = anchor === 'end' ? lx - w : anchor === 'middle' ? lx - w / 2 : lx;
+    rect.setAttribute('x', (left - 6).toFixed(1)); rect.setAttribute('y', ly - 9); rect.setAttribute('width', (w + 12).toFixed(1));
+    const go = () => setRegion(selectedRegion === k ? 'all' : k);
+    g.addEventListener('click', go);
+    g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
   }
-  requestAnimationFrame(draw);
 }
-function resize() { const rect = canvas.getBoundingClientRect(); width = rect.width; height = rect.height; dpr = Math.min(window.devicePixelRatio || 1, 2); canvas.width = width * dpr; canvas.height = height * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); }
-canvas.addEventListener('pointerdown', e => { drag = true; moved = false; down = { x: e.clientX, y: e.clientY, lon: targetLon, lat: targetLat }; canvas.setPointerCapture(e.pointerId); });
-canvas.addEventListener('pointermove', e => { if (!drag) return; const dx = e.clientX - down.x, dy = e.clientY - down.y; if (Math.abs(dx) + Math.abs(dy) > 5) moved = true; targetLon = wrap(down.lon - dx * .35); targetLat = Math.max(-65, Math.min(65, down.lat + dy * .25)); });
-canvas.addEventListener('pointerup', e => { if (!moved) { const rect = canvas.getBoundingClientRect(), x = e.clientX - rect.left, y = e.clientY - rect.top; const f = markers.find(m => Math.hypot(m.x - x, m.y - y) < 18 || (x > m.tx - 5 && x < m.tx + m.tw + 6 && y > m.ty - 16 && y < m.ty + 8)); if (f) setRegion(f.key); } drag = false; });
-canvas.addEventListener('pointercancel', () => drag = false);
-$('resetGlobe').onclick = () => { targetLon = 70; targetLat = 15; setRegion('all', false); };
-new ResizeObserver(resize).observe(canvas);
 
 /* ---------- 启动 ---------- */
 (async function init() {
-  resize(); requestAnimationFrame(draw);
   try { await loadData(); }
   catch (err) { LOAD_ERROR = err.message + '。请点右上角「更多 → 重新读取」，或把截图发给 Andrea。'; $('sourceLabel').textContent = '数据读取失败'; render(); return; }
   populateFilters(); renderMeta(); setAudience('all');
