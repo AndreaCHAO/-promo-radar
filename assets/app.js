@@ -718,3 +718,16 @@ $('miniMore').addEventListener('click', () => document.querySelector('.filter-ca
   addEventListener('hashchange', () => setTimeout(check, 50));
   check();
 })();
+
+/* 鼠标聚光（只在有鼠标的设备上） */
+if (!REDUCED && matchMedia('(hover: hover) and (pointer: fine)').matches) {
+  document.querySelectorAll('.dark-card').forEach(c => {
+    let raf = 0, ev = null;
+    c.addEventListener('pointermove', e => {
+      ev = e; if (raf) return;
+      raf = requestAnimationFrame(() => { raf = 0; const r = c.getBoundingClientRect(); c.style.setProperty('--mx', (ev.clientX - r.left) + 'px'); c.style.setProperty('--my', (ev.clientY - r.top) + 'px'); });
+    });
+    c.addEventListener('pointerenter', () => c.classList.add('spot-on'));
+    c.addEventListener('pointerleave', () => c.classList.remove('spot-on'));
+  });
+}
