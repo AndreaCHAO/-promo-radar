@@ -515,6 +515,9 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .section-divider{display:flex;align-items:baseline;gap:14px;margin:44px 0 0;padding-top:28px;border-top:1px solid var(--line-strong)}
 .section-divider h2{margin:0;font-size:22px;font-weight:800;letter-spacing:-.01em}
 .section-divider span{font-size:13px;color:var(--muted)}
+.section-divider+.filter-card{margin-top:22px}
+.oc-stat b.txt{font-size:22px;line-height:1.36}
+.offline-card .toolbar label{color:var(--black)}
 @media(max-width:620px){.section-divider{margin-top:32px;padding-top:22px;flex-direction:column;gap:2px}.section-divider h2{font-size:20px}}
 
 /* ---------- 毛玻璃卡片：后面两团柔光，卡片半透明并模糊背后的颜色 ---------- */
@@ -522,7 +525,6 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .glass-stage .orb{position:absolute;z-index:-1;border-radius:50%;pointer-events:none;filter:blur(38px);transform:translate3d(var(--ox,0),var(--oy,0),0);transition:transform .6s cubic-bezier(.2,.8,.2,1)}
 .glass-stage .o1{width:300px;height:220px;left:-30px;top:-10px;background:var(--lemon);opacity:.75}
 .glass-stage .o2{width:260px;height:200px;right:4%;bottom:-40px;background:var(--red);opacity:.42}
-.filter-card.glass-card{margin-top:22px}
 .glass-card{background:rgba(255,255,255,.55);-webkit-backdrop-filter:blur(26px) saturate(1.6);backdrop-filter:blur(26px) saturate(1.6);
   box-shadow:inset 0 1px 0 rgba(255,255,255,.9),inset 0 0 0 1px rgba(255,255,255,.55),0 18px 44px rgba(25,25,25,.10)}
 .glass-card .filters input,.glass-card .filters select,.glass-card .toolbar select,.glass-card .audience-tabs,.glass-card .chip-tabs,.glass-card .oc-stat{background:rgba(255,255,255,.62)}
@@ -536,8 +538,6 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
   background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(239,255,4,.30),rgba(239,255,4,.08) 45%,transparent 70%)}
 .glass-card.spot-on::after{opacity:1}
 /* 精简筛选条：同样的毛玻璃 */
-.mini-filter{background:rgba(255,255,255,.86);-webkit-backdrop-filter:blur(22px) saturate(1.7);backdrop-filter:blur(22px) saturate(1.7)}
-.mini-filter .mf-aud,.mini-filter .mf-search input{background:rgba(25,25,25,.06)}
 @media(max-width:620px){.glass-stage .o1{width:200px;height:160px}.glass-stage .o2{width:180px;height:150px}}
 
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}

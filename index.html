@@ -3,7 +3,7 @@
 <title>竞品促销监测 · CFD Promo Radar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="assets/fonts/fonts.css"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/app.css?v=053b7c86">
+<link rel="stylesheet" href="assets/app.css?v=d08fede6">
 </head><body>
 <header><div class="header-inner"><a class="brand" href="#promos" data-view="promos" aria-label="回到活动监测首页" title="回到首页"><span class="brand-icon" aria-hidden="true">⌖</span>CFD / PROMO RADAR</a>
 <nav class="nav" aria-label="页面"><button data-view="promos" aria-current="page">活动监测<span class="nav-count" id="navPromosCount" hidden></span></button><button data-view="offline">线下活动</button><button data-view="regions">地区策略</button><button data-view="playbook">玩法案例库</button></nav>
@@ -16,9 +16,9 @@
 <div class="section-title"><h2>本周动态</h2><span id="digestScope"></span></div>
 <section class="digest" id="digest" aria-label="本周动态"></section>
 <div class="section-divider"><h2>全部活动</h2><span>按对象、品牌、地区和状态筛选</span></div>
-<div class="glass-stage"><i class="orb o1" aria-hidden="true"></i><i class="orb o2" aria-hidden="true"></i><section class="filter-bar filter-card glow-card glass-card" aria-label="筛选"><div class="audience-bar" role="group" aria-label="方案对象"><div class="audience-tabs"><button data-audience="all" aria-pressed="true">全部</button><button data-audience="direct" aria-pressed="false">直客活动</button><button data-audience="ib" aria-pressed="false">IB 合作</button></div><span class="audience-hint" id="audienceHint">直客活动与 IB 合作方案</span></div>
+<section class="filter-bar filter-card glow-card" aria-label="筛选"><div class="audience-bar" role="group" aria-label="方案对象"><div class="audience-tabs"><button data-audience="all" aria-pressed="true">全部</button><button data-audience="direct" aria-pressed="false">直客活动</button><button data-audience="ib" aria-pressed="false">IB 合作</button></div><span class="audience-hint" id="audienceHint">直客活动与 IB 合作方案</span></div>
 <div class="filters"><label>搜索<input id="searchInput" type="search" placeholder="品牌、活动、国家或条件…"></label><label>品牌<select id="brokerFilter"><option value="">全部品牌</option></select></label><label>地区<select id="regionFilter"><option value="all">全部地区</option></select></label><label>活动类型<select id="typeFilter"><option value="">全部类型</option></select></label><label>资料状态<select id="statusFilter"><option value="current">公开在列（进行中 / 未标期）</option><option value="recent">近 7 天新增或核查</option><option value="new">自动发现（近 7 天）</option><option value="auto">自动发现（全部）</option><option value="flag">需要核对：来源有更新 / 可能结束</option><option value="active">进行中（含即将截止）</option><option value="due">7 天内截止</option><option value="ended7">近 7 天结束</option><option value="stale">超过 60 天未核查</option><option value="undated">在列 · 未标期</option><option value="watch">待核与预告</option><option value="unclear">待核</option><option value="upcoming">尚未开始</option><option value="expired">已结束（历史参考）</option><option value="excluded">不适用</option><option value="all">全部记录</option></select></label></div>
-<div class="browse-meta"><div><strong id="resultSummary" aria-live="polite"></strong><span id="scopeNote"></span></div><button class="pill-button" id="clearFilters">重置筛选 ↺</button></div></section></div>
+<div class="browse-meta"><div><strong id="resultSummary" aria-live="polite"></strong><span id="scopeNote"></span></div><button class="pill-button" id="clearFilters">重置筛选 ↺</button></div></section>
 <section class="cards" id="recordCards" aria-label="匹配的活动与伙伴方案"><div class="empty"><strong>正在读取数据…</strong></div></section><button class="more" id="loadMore" hidden></button>
 <footer class="library-note"><span id="filteredStats"></span><button id="openResearchBottom">查看资料覆盖、区域研究与更新方式 →</button></footer>
 </section>
@@ -28,12 +28,12 @@
 <div class="timeline" id="timeline"></div>
 </section>
 <section class="view" id="view-regions" hidden>
-<div class="view-head"><div class="eyebrow">地区</div><h1>地区策略</h1><p>按雷达里的公开活动自动统计：每个地区有多少竞品在推、主流打法、IB 生态、线下动作、准入提示，以及竞品在这里较少做的类型。</p><span class="view-note">仅基于公开资料 · 不含 D Prime 内部数据与策略</span></div>
+<div class="glass-stage"><i class="orb o1" aria-hidden="true"></i><i class="orb o2" aria-hidden="true"></i><section class="offline-card glow-card glass-card" aria-label="地区策略"><div class="oc-head"><div><div class="eyebrow">地区</div><h1>地区策略</h1><p>各地区竞品在推什么、主流打法与 IB 生态 · 仅基于公开资料，不含 D Prime 内部数据</p></div><div class="oc-stats" id="regionStats" aria-live="polite"></div></div></section></div>
 <div class="region-grid" id="regionGrid"></div>
 </section>
 <section class="view" id="view-playbook" hidden>
-<div class="view-head"><div class="eyebrow">案例</div><h1>玩法案例库</h1><p>值得借鉴的活动设计：包括加密平台进军 TradFi（黄金、外汇、股票 CFD）时的拉新玩法，CFD 券商的经典设计，以及银行的活动玩法。每个案例都拆解了怎么玩、为什么有效、D Prime 可以怎么借鉴。</p><span class="view-note">借鉴前请走合规审核 · 风险等级为初步判断</span></div>
-<div class="toolbar"><div class="chip-tabs" role="group" aria-label="行业"><button data-industry="all" aria-pressed="true">全部</button><button data-industry="Web3 → TradFi" aria-pressed="false">Web3 → TradFi</button><button data-industry="CFD" aria-pressed="false">CFD 券商</button><button data-industry="银行" aria-pressed="false">银行</button></div><label>玩法<select id="playCategory"></select></label><label>合规风险<select id="playRisk"><option value="">全部</option><option>低</option><option>中</option><option>高</option></select></label><span class="view-note" id="playSummary"></span></div>
+<div class="glass-stage"><i class="orb o1" aria-hidden="true"></i><i class="orb o2" aria-hidden="true"></i><section class="offline-card glow-card glass-card" aria-label="玩法案例库"><div class="oc-head"><div><div class="eyebrow">案例</div><h1>玩法案例库</h1><p>拆解怎么玩、为什么有效、D Prime 可以怎么借鉴 · 借鉴前请走合规审核</p></div><div class="oc-stats" id="playSummary" aria-live="polite"></div></div>
+<div class="toolbar"><div class="chip-tabs" role="group" aria-label="行业"><button data-industry="all" aria-pressed="true">全部</button><button data-industry="Web3 → TradFi" aria-pressed="false">Web3 → TradFi</button><button data-industry="CFD" aria-pressed="false">CFD 券商</button><button data-industry="银行" aria-pressed="false">银行</button></div><label>玩法<select id="playCategory"></select></label><label>合规风险<select id="playRisk"><option value="">全部</option><option>低</option><option>中</option><option>高</option></select></label></div></section></div>
 <div class="play-grid" id="playGrid"></div>
 </section>
 </main>
@@ -10332,5 +10332,5 @@ pb-bank-uob-points-only,银行,UOB（新加坡）,积分换独家体验,积分�
 pb-bank-gx-pocket,银行,GX Bank / GXS（马来西亚 · 新加坡）,锁定期奖励,锁定口袋：放满期限才有加息,钱放进固定期限的「口袋」：GX Bank 6 个月最高 3.8%，GXS 4 个月最高 3.2%，提前取出就拿不到；GXS 的 BOOST4 要求口袋名字必须叫「BOOST4」，还要同时买一定金额的基金（已于 2026-10-30 结束）。,用锁定期换高回报，留住资金；指定口令本身就是传播钩子。,入金后 X 个月不出金，返一笔奖励；用活动口令当参与方式，方便追踪是哪个渠道带来的客户。,中,「不出金才有奖」需写清规则，避免被视为限制出金。,,https://rates.my/e-wallet | https://thekopinotes.com/articles/digital-banks/gxs-bank-boost4-october-2026/,2026-11
 </script>
 <script src="config.js?v=6ea7ef11"></script>
-<script src="assets/app.js?v=069b07b4"></script>
+<script src="assets/app.js?v=3d03e6f3"></script>
 </body></html>

@@ -411,7 +411,14 @@ function openEvent(id) {
 
 /* ---------- 地区策略：按公开资料自动统计 ---------- */
 function topCounts(list, key, n) { const c = new Map(); list.forEach(r => { const v = typeof key === 'function' ? key(r) : r[key]; if (v) c.set(v, (c.get(v) || 0) + 1); }); return [...c.entries()].sort((a, b) => b[1] - a[1]).slice(0, n); }
+function renderRegionStats() {
+  const live = RECORDS.filter(r => inList(r) && !r.offline);
+  const top = topCounts(live.filter(r => r.region !== '全球'), r => r.region, 1)[0];
+  const ib = live.length ? Math.round(live.filter(r => r.audience === 'ib').length / live.length * 100) : 0;
+  $('regionStats').innerHTML = ocStat(Object.keys(REGIONS).length, '个监测地区') + (top ? `<div class="oc-stat hot"><b class="txt">${esc(top[0])}</b><span>最热 · ${top[1]} 个在推</span></div>` : '') + ocStat(ib + '%', 'IB 方案占比');
+}
 function renderRegions() {
+  renderRegionStats();
   const allCur = RECORDS.filter(r => inList(r) && !r.offline);
   const globalTypes = topCounts(allCur, '活动类型', 10).map(([k]) => k);
   const keys = Object.keys(REGIONS).filter(k => k !== '全球');
@@ -454,7 +461,7 @@ ${insight ? `<div class="rc-block"><h3>研究要点</h3><p>${esc(short(insight, 
 function renderPlaybook() {
   const cat = $('playCategory').value, risk = $('playRisk').value;
   const list = PLAYBOOK.filter(p => (playIndustry === 'all' || p['行业'] === playIndustry) && (!cat || p['玩法类别'] === cat) && (!risk || p['合规风险'] === risk));
-  $('playSummary').textContent = list.length + ' 个案例';
+  $('playSummary').innerHTML = ocStat(list.length, '个案例') + ocStat(list.filter(p => p['合规风险'] === '低').length, '个低风险', true);
   $('playGrid').innerHTML = list.map(p => {
     const rec = (p['关联记录'] || '').split(/\s*\|\s*/).filter(id => BY_ID.has(id));
     const srcs = (p['来源链接'] || '').split(/\s*\|\s*/).filter(u => /^https?:/.test(u));
