@@ -3,7 +3,7 @@
 <title>竞品促销监测 · CFD Promo Radar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="assets/fonts/fonts.css"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/app.css?v=a5eb41bd">
+<link rel="stylesheet" href="assets/app.css?v=ee80f8f9">
 </head><body>
 <header><div class="header-inner"><a class="brand" href="#promos" data-view="promos" aria-label="回到活动监测首页" title="回到首页"><span class="brand-icon" aria-hidden="true">⌖</span>CFD / PROMO RADAR</a>
 <nav class="nav" aria-label="页面"><button data-view="promos" aria-current="page">活动监测<span class="nav-count" id="navPromosCount" hidden></span></button><button data-view="offline">线下活动</button><button data-view="regions">地区策略</button><button data-view="playbook">玩法案例库</button></nav>
@@ -16,7 +16,7 @@
 <div class="section-title"><h2>本周动态</h2><span id="digestScope"></span></div>
 <section class="digest" id="digest" aria-label="本周动态"></section>
 <div class="section-divider"><h2>全部活动</h2><span>按对象、品牌、地区和状态筛选</span></div>
-<section class="filter-bar filter-card glow-card dark-card" aria-label="筛选"><div class="audience-bar" role="group" aria-label="方案对象"><div class="audience-tabs"><button data-audience="all" aria-pressed="true">全部</button><button data-audience="direct" aria-pressed="false">直客活动</button><button data-audience="ib" aria-pressed="false">IB 合作</button></div><span class="audience-hint" id="audienceHint">直客活动与 IB 合作方案</span></div>
+<section class="filter-bar filter-card glow-card grain-card" aria-label="筛选"><div class="audience-bar" role="group" aria-label="方案对象"><div class="audience-tabs"><button data-audience="all" aria-pressed="true">全部</button><button data-audience="direct" aria-pressed="false">直客活动</button><button data-audience="ib" aria-pressed="false">IB 合作</button></div><span class="audience-hint" id="audienceHint">直客活动与 IB 合作方案</span></div>
 <div class="filters"><label>搜索<input id="searchInput" type="search" placeholder="品牌、活动、国家或条件…"></label><label>品牌<select id="brokerFilter"><option value="">全部品牌</option></select></label><label>地区<select id="regionFilter"><option value="all">全部地区</option></select></label><label>活动类型<select id="typeFilter"><option value="">全部类型</option></select></label><label>资料状态<select id="statusFilter"><option value="current">公开在列（进行中 / 未标期）</option><option value="recent">近 7 天新增或核查</option><option value="new">自动发现（近 7 天）</option><option value="auto">自动发现（全部）</option><option value="flag">需要核对：来源有更新 / 可能结束</option><option value="active">进行中（含即将截止）</option><option value="due">7 天内截止</option><option value="ended7">近 7 天结束</option><option value="stale">超过 60 天未核查</option><option value="undated">在列 · 未标期</option><option value="watch">待核与预告</option><option value="unclear">待核</option><option value="upcoming">尚未开始</option><option value="expired">已结束（历史参考）</option><option value="excluded">不适用</option><option value="all">全部记录</option></select></label></div>
 <div class="browse-meta"><div><strong id="resultSummary" aria-live="polite"></strong><span id="scopeNote"></span></div><button class="pill-button" id="clearFilters">重置筛选 ↺</button></div></section>
 <section class="cards" id="recordCards" aria-label="匹配的活动与伙伴方案"><div class="empty"><strong>正在读取数据…</strong></div></section><button class="more" id="loadMore" hidden></button>

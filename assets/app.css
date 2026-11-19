@@ -532,6 +532,12 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .grain-card .oc-stat.hot b{color:#F3E3BC}
 .grain-card .oc-stat.hot span{color:#BFB29A}
 .grain-card.offline-card .toolbar{border-top-color:rgba(90,70,30,.14)}
+.grain-card .filters input,.grain-card .filters select,.grain-card .audience-tabs{background:rgba(255,255,255,.62)}
+.grain-card .filters input:focus,.grain-card .filters select:focus{background:var(--white)}
+.grain-card .audience-hint,.grain-card .browse-meta span{color:#6E6555}
+.grain-card .browse-meta{border-top-color:rgba(90,70,30,.14)}
+.grain-card .pill-button{background:rgba(255,255,255,.7);border-color:rgba(90,70,30,.2)}
+.grain-card .pill-button:hover{border-color:var(--black)}
 /* 边框流光换成暖金色 */
 .grain-card::before{background:conic-gradient(from var(--glow-a,0deg),transparent 0deg 285deg,rgba(214,176,106,.9) 320deg,#9A6B22 352deg,transparent 360deg)}
 /* 鼠标聚光：暖白柔光 */
