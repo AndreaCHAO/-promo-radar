@@ -721,7 +721,7 @@ $('miniMore').addEventListener('click', () => document.querySelector('.filter-ca
 
 /* 鼠标聚光（只在有鼠标的设备上） */
 if (!REDUCED && matchMedia('(hover: hover) and (pointer: fine)').matches) {
-  document.querySelectorAll('.dark-card').forEach(c => {
+  document.querySelectorAll('.glass-card').forEach(c => {
     let raf = 0, ev = null;
     c.addEventListener('pointermove', e => {
       ev = e; if (raf) return;
@@ -730,4 +730,22 @@ if (!REDUCED && matchMedia('(hover: hover) and (pointer: fine)').matches) {
     c.addEventListener('pointerenter', () => c.classList.add('spot-on'));
     c.addEventListener('pointerleave', () => c.classList.remove('spot-on'));
   });
+}
+
+/* 毛玻璃后面的两团柔光随滚动轻微漂移 */
+if (!REDUCED) {
+  let tk = false;
+  const drift = () => {
+    tk = false;
+    document.querySelectorAll('.glass-stage').forEach(st => {
+      const r = st.getBoundingClientRect(); if (r.bottom < -200 || r.top > innerHeight + 200) return;
+      const p = (innerHeight / 2 - (r.top + r.height / 2)) / innerHeight; // -1…1
+      st.querySelector('.o1').style.setProperty('--ox', (p * 120).toFixed(1) + 'px');
+      st.querySelector('.o1').style.setProperty('--oy', (p * -30).toFixed(1) + 'px');
+      st.querySelector('.o2').style.setProperty('--ox', (p * -140).toFixed(1) + 'px');
+      st.querySelector('.o2').style.setProperty('--oy', (p * 24).toFixed(1) + 'px');
+    });
+  };
+  addEventListener('scroll', () => { if (!tk) { tk = true; requestAnimationFrame(drift); } }, { passive: true });
+  addEventListener('hashchange', () => setTimeout(drift, 60)); drift();
 }
