@@ -613,4 +613,7 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 @media(max-width:1000px){.home-hero{grid-template-columns:1fr;gap:20px}.home-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.home-hero{padding:22px 20px;margin-top:16px}.home-hero h1{font-size:30px}.home-grid{grid-template-columns:1fr;gap:10px}.home-card{min-height:0}.hc-main b{font-size:36px}}
 
+#view-home .masthead{margin-bottom:18px}
+@media(min-width:1101px){#view-home .map-wrap{width:500px}}
+
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}

@@ -280,7 +280,7 @@ function card(r) {
 }
 function sortKey(r) { return { due: 0, active: 1, upcoming: 2, undated: 3, unclear: 4, expired: 5, excluded: 6 }[r.status]; }
 function render() {
-  renderDigest(); renderMap();
+  renderDigest(); renderPromoStats();
   const prev = new Map();
   if (!REDUCED) document.querySelectorAll('#recordCards .record-card').forEach(c => prev.set(c.dataset.recordId, c.getBoundingClientRect()));
   filtered = RECORDS.filter(matchRecord).sort((a, b) => (b.isSelf - a.isSelf) || (b.alert - a.alert) || ((b.auto && b.foundDays <= 7) - (a.auto && a.foundDays <= 7)) || sortKey(a) - sortKey(b) || a.rank - b.rank || (a.daysLeft ?? 9999) - (b.daysLeft ?? 9999) || (fmt(parseDate(b['最后核查'])) || '').localeCompare(fmt(parseDate(a['最后核查'])) || ''));
@@ -590,9 +590,9 @@ function renderMap() {
   const land = el('g', { class: 'map-land' }, svg);
   for (const [x, y] of MAP_DOTS) el('circle', { cx: x.toFixed(1), cy: y.toFixed(1), r: 1.05 }, land);
   const counts = Object.fromEntries(Object.keys(REGIONS).map(k => [k, regionCount(k)])), max = Math.max(1, ...Object.values(counts));
-  const any = selectedRegion !== 'all';
+  const any = false; // 地图只在首页，不显示选中状态
   for (const [k, reg] of Object.entries(REGIONS)) {
-    const [lx, ly, anchor] = MAP_LABELS[k] || [0, 0, 'start'], sel = selectedRegion === k;
+    const [lx, ly, anchor] = MAP_LABELS[k] || [0, 0, 'start'], sel = false;
     const g = el('g', { class: 'map-region' + (sel ? ' sel' : '') + (any && !sel ? ' dim' : ''), tabindex: 0, role: 'button', 'aria-pressed': String(sel), 'aria-label': `${k}：${counts[k]} 个在推方案，点击筛选` }, svg);
     if (reg.lon != null) {
       const x = mx(reg.lon), y = my(reg.lat), r = 3 + Math.sqrt(counts[k] / max) * 7;
@@ -609,7 +609,7 @@ function renderMap() {
     const w = t.getComputedTextLength ? t.getComputedTextLength() : 40;
     const left = anchor === 'end' ? lx - w : anchor === 'middle' ? lx - w / 2 : lx;
     rect.setAttribute('x', (left - 6).toFixed(1)); rect.setAttribute('y', ly - 9); rect.setAttribute('width', (w + 12).toFixed(1));
-    const go = () => { hideTip(); setRegion(selectedRegion === k ? 'all' : k); };
+    const go = () => { hideTip(); if (VIEW === 'home') { showView('promos'); $('statusFilter').value = 'current'; setRegion(k); document.querySelector('.audience-bar').scrollIntoView({ block: 'start' }); return; } setRegion(selectedRegion === k ? 'all' : k); };
     g.addEventListener('pointerdown', e => { lastPointer = e.pointerType; });
     g.addEventListener('click', e => {
       // 手机：第一次点先出小卡片，再点一次才筛选
@@ -635,7 +635,7 @@ function regionStats(k) {
 function showTip(k, e) {
   const tip = $('mapTip'), st = regionStats(k);
   tipFor = k;
-  tip.innerHTML = `<b class="tip-title">${esc(k)}</b><span class="tip-row"><em>${st.cur.length}</em> 个在推方案 · 直客 ${st.direct} / IB ${st.ib}</span>${st.top.length ? `<span class="tip-row">活动最多：${st.top.map(([b, n]) => esc(b) + ' ' + n).join('、')}</span>` : '<span class="tip-row">暂无在推方案</span>'}<span class="tip-row">本周新增或核查 <em>${st.week}</em> 条（含线下）</span><span class="tip-cta">${selectedRegion === k ? '点击取消筛选' : (lastPointer === 'touch' ? '再点一次查看全部 →' : '点击查看全部 →')}</span>`;
+  tip.innerHTML = `<b class="tip-title">${esc(k)}</b><span class="tip-row"><em>${st.cur.length}</em> 个在推方案 · 直客 ${st.direct} / IB ${st.ib}</span>${st.top.length ? `<span class="tip-row">活动最多：${st.top.map(([b, n]) => esc(b) + ' ' + n).join('、')}</span>` : '<span class="tip-row">暂无在推方案</span>'}<span class="tip-row">本周新增或核查 <em>${st.week}</em> 条（含线下）</span><span class="tip-cta">${lastPointer === 'touch' ? '再点一次查看该地区活动 →' : '点击查看该地区活动 →'}</span>`;
   tip.hidden = false;
   moveTip(e, k);
 }
@@ -758,10 +758,13 @@ if (!REDUCED && matchMedia('(hover: hover) and (pointer: fine)').matches) {
 
 
 /* ---------- 总览（首页）：4 个模块入口 + 本周最值得关注 ---------- */
+function renderPromoStats() {
+  const pool = RECORDS.filter(r => selectedRegion === 'all' || r.region === selectedRegion);
+  $('promoStats').innerHTML = ocStat(pool.filter(r => inList(r) && !r.offline).length, selectedRegion === 'all' ? '个在推方案' : selectedRegion + ' 在推') + ocStat(pool.filter(r => r.foundDays <= 7).length, '本周新动态') + ocStat(pool.filter(r => r.alert).length, '需要核对', true);
+}
 function renderHome() {
-  $('homeDate').textContent = '今日 ' + fmt(today());
   if (!RECORDS.length) { $('homeGrid').innerHTML = '<p class="digest-empty">正在读取数据…</p>'; return; }
-  renderHighlights('homeHighlights', 'all');
+  renderHighlights('homeHighlights', 'all'); renderMap();
   const t = today(), live = RECORDS.filter(r => inList(r) && !r.offline);
   const week = RECORDS.filter(r => r.foundDays <= 7).length, alerts = RECORDS.filter(r => r.alert).length;
   const up = EVENTS.filter(e => (e.end || e.start) >= t).sort((a, b) => a.start - b.start), next = up[0];
