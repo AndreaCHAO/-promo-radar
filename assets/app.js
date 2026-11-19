@@ -20,7 +20,7 @@ const OFFLINE_KINDS = { expo: '展会 / 峰会', sponsor: '赞助', seminar: '�
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 let LOAD_ERROR = '', RECORDS = [], BY_ID = new Map(), META = { source: '', loadedAt: null, latestCheck: '' }, MON = null, RESEARCH = null, DISC = null, EVENTS = [], PLAYBOOK = [], RAW = { records: '', auto: '' };
-let VIEW = 'promos', selectedRegion = 'all', audience = 'all', visibleCount = 9, filtered = [], compareIds = [];
+let VIEW = 'home', selectedRegion = 'all', audience = 'all', visibleCount = 9, filtered = [], compareIds = [];
 let offlineKind = 'expo', playIndustry = 'all';
 /* ---------- 动效：系统开了「减少动态效果」时全部跳过 ---------- */
 const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
