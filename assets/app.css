@@ -574,4 +574,12 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
   background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.12),rgba(239,255,4,.04) 45%,transparent 70%)}
 .dark-card.spot-on::after{opacity:1}
 
+
+/* ---------- 活动卡片：暖白纸感（和米黄筛选栏同色系、更浅） ---------- */
+.record-card{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .25 0 0 0 0 .1 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),#FFFCF6}
+.record-card .facts div{background:#F6F0E3}
+.record-card .card-footer{border-top-color:#EFE6D3}
+.mini-filter{background:rgba(255,252,246,.95)}
+.mini-filter .mf-aud,.mini-filter .mf-search input{background:#F3EBDA}
+
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}
