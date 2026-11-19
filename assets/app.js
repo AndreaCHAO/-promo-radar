@@ -457,7 +457,7 @@ function rerenderAll() { populateFilters(); renderMeta(); if (VIEW === 'promos')
 document.addEventListener('click', e => {
   const o = e.target.closest('[data-open]'); if (o && !e.target.closest('[data-compare]')) { openRecord(o.dataset.open); return; }
   const l = e.target.closest('[data-open-link]'); if (l) { e.preventDefault(); openRecord(l.dataset.openLink); return; }
-  const v = e.target.closest('[data-view]'); if (v) { showView(v.dataset.view); return; }
+  const v = e.target.closest('[data-view]'); if (v) { e.preventDefault(); document.querySelectorAll('dialog[open]').forEach(d => d.close()); showView(v.dataset.view); return; }
   const g = e.target.closest('[data-go-region]'); if (g) { showView('promos'); $('statusFilter').value = 'current'; setRegion(g.dataset.goRegion); document.querySelector('.audience-bar').scrollIntoView({ behavior: 'smooth' }); return; }
   const tl = e.target.closest('[data-tl]'); if (tl) { const [k, id] = tl.dataset.tl.split(/:(.+)/); k === 'event' ? openEvent(id) : openRecord(id); return; }
   const d = e.target.closest('[data-digest]'); if (d) { $('statusFilter').value = { recent: 'recent', flag: 'flag', due: 'due', ended: 'ended7' }[d.dataset.digest]; setAudience('all'); visibleCount = 30; render(); $('recordCards').scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }

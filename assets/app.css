@@ -17,6 +17,8 @@ mark{background:linear-gradient(transparent 55%,var(--lemon) 55%);color:inherit;
 header{position:sticky;top:0;z-index:20;background:var(--black);color:var(--white)}
 .header-inner{max-width:1320px;margin:auto;height:64px;padding:0 28px;display:flex;align-items:center;gap:18px}
 .brand{font-size:13px;letter-spacing:.08em;font-weight:800;white-space:nowrap;display:flex;gap:10px;align-items:center;color:var(--white)}
+a.brand{text-decoration:none;border-radius:999px;padding:4px 10px 4px 4px;margin-left:-4px;transition:background .15s}
+a.brand:hover{background:#2A2A2A;text-decoration:none}
 .brand-icon{width:30px;height:30px;background:var(--red);color:var(--white);border-radius:50%;display:grid;place-items:center;font-size:17px;box-shadow:0 0 0 4px rgba(236,28,36,.25)}
 .nav{display:flex;gap:4px;margin-left:12px;flex:1;min-width:0}
 .nav button{color:#BDBDBD;font-size:14px;font-weight:600;padding:8px 14px;border-radius:999px;white-space:nowrap;transition:color .15s,background .15s}
