@@ -523,8 +523,8 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 /* ---------- 毛玻璃卡片：后面两团柔光，卡片半透明并模糊背后的颜色 ---------- */
 .glass-stage{position:relative;isolation:isolate}
 .glass-stage .orb{position:absolute;z-index:-1;border-radius:50%;pointer-events:none;filter:blur(38px);transform:translate3d(var(--ox,0),var(--oy,0),0);transition:transform .6s cubic-bezier(.2,.8,.2,1)}
-.glass-stage .o1{width:300px;height:220px;left:-30px;top:-10px;background:var(--lemon);opacity:.75}
-.glass-stage .o2{width:260px;height:200px;right:4%;bottom:-40px;background:var(--red);opacity:.42}
+.glass-stage .o1{width:300px;height:220px;left:-30px;top:-10px;background:var(--lemon);opacity:.6}
+.glass-stage .o2{width:280px;height:180px;right:4%;bottom:0;background:#FFD27A;opacity:.6}
 .glass-card{background:rgba(255,255,255,.55);-webkit-backdrop-filter:blur(26px) saturate(1.6);backdrop-filter:blur(26px) saturate(1.6);
   box-shadow:inset 0 1px 0 rgba(255,255,255,.9),inset 0 0 0 1px rgba(255,255,255,.55),0 18px 44px rgba(25,25,25,.10)}
 .glass-card .filters input,.glass-card .filters select,.glass-card .toolbar select,.glass-card .audience-tabs,.glass-card .chip-tabs,.glass-card .oc-stat{background:rgba(255,255,255,.62)}
@@ -539,5 +539,35 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .glass-card.spot-on::after{opacity:1}
 /* 精简筛选条：同样的毛玻璃 */
 @media(max-width:620px){.glass-stage .o1{width:200px;height:160px}.glass-stage .o2{width:180px;height:150px}}
+
+
+/* ---------- 首页筛选栏：有光感的黑 ---------- */
+.dark-card{color:var(--white);color-scheme:dark;isolation:isolate;
+  background:
+   linear-gradient(105deg,transparent 35%,rgba(255,255,255,.07) 47%,rgba(255,255,255,.02) 53%,transparent 65%) var(--shine,120%) 0/260% 100% no-repeat,
+   radial-gradient(680px 260px at 88% -30%,rgba(239,255,4,.28),transparent 70%),
+   radial-gradient(520px 260px at 0% 120%,rgba(255,210,122,.12),transparent 70%),
+   linear-gradient(160deg,#2B2B2B 0%,#1B1B1B 48%,#121212 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.14),inset 0 0 0 1px rgba(255,255,255,.05),0 22px 48px rgba(25,25,25,.26)}
+.dark-card .filters label{color:#C4C4C4}
+.dark-card .filters input,.dark-card .filters select{background:rgba(255,255,255,.07);color:var(--white);border-color:rgba(255,255,255,.06)}
+.dark-card .filters input:hover,.dark-card .filters select:hover{border-color:rgba(255,255,255,.22)}
+.dark-card .filters input:focus,.dark-card .filters select:focus{background:rgba(255,255,255,.1);border-color:var(--lemon)}
+.dark-card .filters input::placeholder{color:#8A8A8A}
+.dark-card .filters select option{background:#222;color:var(--white)}
+.dark-card .audience-tabs{background:rgba(255,255,255,.07)}
+.dark-card .audience-tabs button{color:#B0B0B0}
+.dark-card .audience-tabs button:hover{color:var(--white)}
+.dark-card .audience-tabs button[aria-pressed=true]{background:var(--lemon);color:var(--black);box-shadow:0 0 18px rgba(239,255,4,.35)}
+.dark-card .audience-hint,.dark-card .browse-meta span{color:#929292}
+.dark-card .browse-meta{border-top-color:rgba(255,255,255,.08)}
+.dark-card .browse-meta strong{color:var(--white)}
+.dark-card .rs-num{color:var(--lemon);text-shadow:0 0 18px rgba(239,255,4,.45)}
+.dark-card .pill-button{background:transparent;color:var(--white);border-color:rgba(255,255,255,.2)}
+.dark-card .pill-button:hover{border-color:var(--lemon);color:var(--lemon)}
+.dark-card :focus-visible{outline-color:var(--lemon)}
+.dark-card::after{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .35s ease;
+  background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.12),rgba(239,255,4,.04) 45%,transparent 70%)}
+.dark-card.spot-on::after{opacity:1}
 
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}

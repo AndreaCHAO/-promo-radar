@@ -652,6 +652,8 @@ for (const [fn, sel] of [['renderRegions', '#regionGrid > *'], ['renderPlaybook'
     if (!on && y > 80) { on = true; head.classList.add('scrolled'); document.documentElement.classList.add('scrolled'); }
     else if (on && y < 20) { on = false; head.classList.remove('scrolled'); document.documentElement.classList.remove('scrolled'); }
     if (!REDUCED) document.documentElement.style.setProperty('--glow-a', (y * 0.22 % 360).toFixed(1) + 'deg');
+    /* 黑色筛选栏上的斜向反光，随滚动从右滑到左 */
+    if (!REDUCED) document.documentElement.style.setProperty('--shine', (120 - (y * 0.06 % 140)).toFixed(1) + '%');
     if (bar) {
       const was = bar.classList.contains('stuck');
       const now = getComputedStyle(bar).position === 'sticky' && bar.getBoundingClientRect().top <= head.offsetHeight + 1 && y > 80;
@@ -728,7 +730,7 @@ $('miniMore').addEventListener('click', () => document.querySelector('.filter-ca
 
 /* 鼠标聚光（只在有鼠标的设备上） */
 if (!REDUCED && matchMedia('(hover: hover) and (pointer: fine)').matches) {
-  document.querySelectorAll('.glass-card').forEach(c => {
+  document.querySelectorAll('.glass-card, .dark-card').forEach(c => {
     let raf = 0, ev = null;
     c.addEventListener('pointermove', e => {
       ev = e; if (raf) return;
