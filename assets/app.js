@@ -143,14 +143,14 @@ function isImportant(r) {
   return lines.some(l => KEY_CHANGE.test(l));
 }
 async function fetchText(url) {
-  const res = await fetch(url, { cache: 'no-store' });
+  const res = await fetch(url, { cache: 'no-cache' });
   if (!res.ok) throw new Error('HTTP ' + res.status);
   return res.text();
 }
 const online = () => location.protocol !== 'file:';
 function embedded(id) { const el = document.getElementById(id); return el ? el.textContent.trim() : ''; }
 async function textOr(url, embedId) {
-  if (online()) { try { return await fetchText(url + (url.includes('?') ? '&' : '?') + '_t=' + Date.now()); } catch (err) { console.warn('读取失败，改用内置备份：', url, err); } }
+  if (online()) { try { return await fetchText(url); } catch (err) { console.warn('读取失败，改用内置备份：', url, err); } }
   return embedded(embedId);
 }
 async function loadData() {
@@ -159,9 +159,9 @@ async function loadData() {
     try { text = await fetchText(CFG.sheetCsvUrl + (CFG.sheetCsvUrl.includes('?') ? '&' : '?') + '_t=' + Date.now()); source = 'sheet'; }
     catch (err) { console.warn('Google 表格读取失败，改用仓库数据：', err); }
   }
-  if (!text && online()) { try { text = await fetchText(CFG.fallbackCsv + '?_t=' + Date.now()); source = 'repo'; } catch (err) { console.warn('仓库数据读取失败，改用内置备份：', err); } }
+  if (!text && online()) { try { text = await fetchText(CFG.fallbackCsv); source = 'repo'; } catch (err) { console.warn('仓库数据读取失败，改用内置备份：', err); } }
   if (!text) { text = embedded('seedData'); source = 'embedded'; }
-  if (!text) throw new Error('没有可用的数据');
+  if (!text) throw new Error(online() ? '没有可用的数据' : '请用线上网址打开（本地双击打开读不到数据）');
   RAW.records = text;
   MON = null;
   const monText = await textOr(CFG.monitorJson, 'monitorData');
@@ -175,7 +175,7 @@ async function loadData() {
   EVENTS = parseCSV(await textOr(CFG.eventsCsv, 'eventsData')).filter(e => e['名称']).map(e => Object.assign(e, { start: parseDate(e['开始日期']), end: parseDate(e['结束日期']) || parseDate(e['开始日期']), sources: (e['来源链接'] || '').split(/\s*\|\s*/).filter(u => /^https?:\/\//i.test(u)), brands: (e['竞品参与'] || '').split(/\s*\|\s*/).filter(Boolean) }));
   PLAYBOOK = parseCSV(await textOr(CFG.playbookCsv, 'playbookData')).filter(p => p['案例名']);
   DISC = null;
-  if (online()) { try { DISC = JSON.parse(await fetchText(CFG.discoveryJson + '?_t=' + Date.now())); } catch { DISC = null; } }
+  if (online()) { try { DISC = JSON.parse(await fetchText(CFG.discoveryJson)); } catch { DISC = null; } }
   RECORDS.forEach(r => { r.mon = MON?.records?.[r.id] || null; r.flag = monFlag(r); r.alert = isImportant(r); r.minor = (r.flag === 'changed' || r.flag === 'ended') && !r.alert; });
   BY_ID = new Map(RECORDS.map(r => [r.id, r]));
   META = { source, loadedAt: new Date(), latestCheck: RECORDS.map(r => fmt(parseDate(r['最后核查']))).filter(Boolean).sort().pop() || '' };
@@ -642,9 +642,9 @@ for (const [fn, sel] of [['renderRegions', '#regionGrid > *'], ['renderPlaybook'
   const orig = window[fn];
   window[fn] = function () { const out = orig.apply(this, arguments); revealIn(document.querySelectorAll(sel)); return out; };
 }
-/* 顶部导航：往下滚变窄 + 毛玻璃；筛选条吸顶时加阴影 */
+/* 顶部导航：往下滚变窄 + 毛玻璃；边框流光的角度跟着滚动 */
 (() => {
-  const head = document.querySelector('header'), bar = document.querySelector('.filter-bar');
+  const head = document.querySelector('header');
   let on = false, ticking = false;
   const check = () => {
     ticking = false;
@@ -652,17 +652,7 @@ for (const [fn, sel] of [['renderRegions', '#regionGrid > *'], ['renderPlaybook'
     if (!on && y > 80) { on = true; head.classList.add('scrolled'); document.documentElement.classList.add('scrolled'); }
     else if (on && y < 20) { on = false; head.classList.remove('scrolled'); document.documentElement.classList.remove('scrolled'); }
     if (!REDUCED) document.documentElement.style.setProperty('--glow-a', (y * 0.22 % 360).toFixed(1) + 'deg');
-    /* 黑色筛选栏上的斜向反光，随滚动从右滑到左 */
-    if (!REDUCED) document.documentElement.style.setProperty('--shine', (120 - (y * 0.06 % 140)).toFixed(1) + '%');
-    if (bar) {
-      const was = bar.classList.contains('stuck');
-      const now = getComputedStyle(bar).position === 'sticky' && bar.getBoundingClientRect().top <= head.offsetHeight + 1 && y > 80;
-      if (now !== was) { bar.classList.toggle('stuck', now); if (now && !REDUCED) { bar.classList.add('flash'); clearTimeout(check.f); check.f = setTimeout(() => bar.classList.remove('flash'), 650); } }
-    }
   };
-  /* 吸顶时，「全部 / 直客 / IB」那一行藏到导航后面，只露出筛选框和结果数 */
-  const setTop = () => { const a = bar && bar.querySelector('.audience-bar'); if (a) bar.style.setProperty('--fc-top', (a.offsetHeight + 14) + 'px'); };
-  addEventListener('resize', setTop); setTop();
   addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(check); } }, { passive: true });
   check();
 })();
@@ -730,7 +720,7 @@ $('miniMore').addEventListener('click', () => document.querySelector('.filter-ca
 
 /* 鼠标聚光（只在有鼠标的设备上） */
 if (!REDUCED && matchMedia('(hover: hover) and (pointer: fine)').matches) {
-  document.querySelectorAll('.grain-card, .dark-card').forEach(c => {
+  document.querySelectorAll('.grain-card').forEach(c => {
     let raf = 0, ev = null;
     c.addEventListener('pointermove', e => {
       ev = e; if (raf) return;

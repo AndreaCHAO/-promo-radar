@@ -43,11 +43,10 @@ main{max-width:1320px;margin:auto;padding:0 28px 90px}
 
 /* ---------- 头图 ---------- */
 .masthead{display:flex;justify-content:space-between;align-items:center;gap:28px;margin:24px 0 0;padding:28px 34px;background:var(--white);border-radius:24px;box-shadow:var(--shadow);position:relative;overflow:hidden}
-.masthead::before{display:none;content:"";position:absolute;right:-90px;top:-110px;width:330px;height:330px;border-radius:50%;background:var(--lemon);opacity:.55;pointer-events:none}
 .masthead>div:first-child{position:relative;z-index:1;min-width:0}
 .eyebrow{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--white);background:var(--red);border-radius:999px;padding:3px 12px}
-.masthead h1,.view-head h1{font-size:40px;font-weight:800;letter-spacing:-.02em;line-height:1.2;margin:12px 0 8px}
-.masthead p,.view-head p{font-size:15px;color:var(--muted);margin:0;max-width:620px}
+.masthead h1{font-size:40px;font-weight:800;letter-spacing:-.02em;line-height:1.2;margin:12px 0 8px}
+.masthead p{font-size:15px;color:var(--muted);margin:0;max-width:620px}
 .snapshot-inline{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;font-size:12px;color:var(--muted)}
 .snapshot-inline span{background:var(--salt);border-radius:999px;padding:4px 12px}
 .snapshot-inline span:empty{display:none}
@@ -77,9 +76,6 @@ main{max-width:1320px;margin:auto;padding:0 28px 90px}
 .map-region.dim{opacity:.4}
 .map-region.dim:hover{opacity:.8}
 .map-caption{font-size:11px;color:var(--faint);text-align:right}
-.view-head{margin:28px 0 6px;padding:0 4px}
-.view-head h1{font-size:34px;margin-top:10px}
-.view-note{display:inline-block;margin-top:12px;font-size:12px;color:var(--muted);background:var(--white);border-radius:999px;padding:4px 12px;box-shadow:var(--shadow)}
 
 /* ---------- 本周动态 ---------- */
 .section-title{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:30px 4px 12px}
@@ -370,8 +366,8 @@ main{max-width:1320px;margin:auto;padding:0 28px 90px}
 .header-actions .quiet-button{padding:6px 10px;font-size:11px}
 main{padding:0 16px 96px}
 .masthead{flex-direction:column;align-items:flex-start;padding:22px 20px 14px;gap:6px;margin-top:16px;border-radius:20px}
-.masthead::before{width:220px;height:220px;right:-80px;top:-90px}
-.masthead h1,.view-head h1{font-size:28px;margin:10px 0 6px}.masthead p,.view-head p{font-size:14px}
+
+.masthead h1{font-size:28px;margin:10px 0 6px}.masthead p{font-size:14px}
 .snapshot-inline{font-size:11px;gap:6px}
 .map-wrap{width:100%}.map-caption{text-align:left}.map-caption{font-size:10px}
 .digest{grid-template-columns:1fr;gap:10px}
@@ -544,36 +540,6 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .grain-card::after{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .35s ease;
   background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.55),rgba(255,255,255,.15) 45%,transparent 70%)}
 .grain-card.spot-on::after{opacity:1}
-
-/* ---------- 首页筛选栏：有光感的黑 ---------- */
-.dark-card{color:var(--white);color-scheme:dark;isolation:isolate;
-  background:
-   linear-gradient(105deg,transparent 35%,rgba(255,255,255,.07) 47%,rgba(255,255,255,.02) 53%,transparent 65%) var(--shine,120%) 0/260% 100% no-repeat,
-   radial-gradient(680px 260px at 88% -30%,rgba(239,255,4,.28),transparent 70%),
-   radial-gradient(520px 260px at 0% 120%,rgba(255,210,122,.12),transparent 70%),
-   linear-gradient(160deg,#2B2B2B 0%,#1B1B1B 48%,#121212 100%);
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.14),inset 0 0 0 1px rgba(255,255,255,.05),0 22px 48px rgba(25,25,25,.26)}
-.dark-card .filters label{color:#C4C4C4}
-.dark-card .filters input,.dark-card .filters select{background:rgba(255,255,255,.07);color:var(--white);border-color:rgba(255,255,255,.06)}
-.dark-card .filters input:hover,.dark-card .filters select:hover{border-color:rgba(255,255,255,.22)}
-.dark-card .filters input:focus,.dark-card .filters select:focus{background:rgba(255,255,255,.1);border-color:var(--lemon)}
-.dark-card .filters input::placeholder{color:#8A8A8A}
-.dark-card .filters select option{background:#222;color:var(--white)}
-.dark-card .audience-tabs{background:rgba(255,255,255,.07)}
-.dark-card .audience-tabs button{color:#B0B0B0}
-.dark-card .audience-tabs button:hover{color:var(--white)}
-.dark-card .audience-tabs button[aria-pressed=true]{background:var(--lemon);color:var(--black);box-shadow:0 0 18px rgba(239,255,4,.35)}
-.dark-card .audience-hint,.dark-card .browse-meta span{color:#929292}
-.dark-card .browse-meta{border-top-color:rgba(255,255,255,.08)}
-.dark-card .browse-meta strong{color:var(--white)}
-.dark-card .rs-num{color:var(--lemon);text-shadow:0 0 18px rgba(239,255,4,.45)}
-.dark-card .pill-button{background:transparent;color:var(--white);border-color:rgba(255,255,255,.2)}
-.dark-card .pill-button:hover{border-color:var(--lemon);color:var(--lemon)}
-.dark-card :focus-visible{outline-color:var(--lemon)}
-.dark-card::after{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .35s ease;
-  background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.12),rgba(239,255,4,.04) 45%,transparent 70%)}
-.dark-card.spot-on::after{opacity:1}
-
 
 /* ---------- 活动卡片：暖白纸感（和米黄筛选栏同色系、更浅） ---------- */
 .record-card{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .25 0 0 0 0 .1 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),#FFFCF6}
