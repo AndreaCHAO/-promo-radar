@@ -520,26 +520,24 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .offline-card .toolbar label{color:var(--black)}
 @media(max-width:620px){.section-divider{margin-top:32px;padding-top:22px;flex-direction:column;gap:2px}.section-divider h2{font-size:20px}}
 
-/* ---------- 毛玻璃卡片：后面两团柔光，卡片半透明并模糊背后的颜色 ---------- */
-.glass-stage{position:relative;isolation:isolate}
-.glass-stage .orb{position:absolute;z-index:-1;border-radius:50%;pointer-events:none;filter:blur(38px);transform:translate3d(var(--ox,0),var(--oy,0),0);transition:transform .6s cubic-bezier(.2,.8,.2,1)}
-.glass-stage .o1{width:300px;height:220px;left:-30px;top:-10px;background:var(--lemon);opacity:.6}
-.glass-stage .o2{width:280px;height:180px;right:4%;bottom:0;background:#FFD27A;opacity:.6}
-.glass-card{background:rgba(255,255,255,.55);-webkit-backdrop-filter:blur(26px) saturate(1.6);backdrop-filter:blur(26px) saturate(1.6);
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.9),inset 0 0 0 1px rgba(255,255,255,.55),0 18px 44px rgba(25,25,25,.10)}
-.glass-card .filters input,.glass-card .filters select,.glass-card .toolbar select,.glass-card .audience-tabs,.glass-card .chip-tabs,.glass-card .oc-stat{background:rgba(255,255,255,.62)}
-.glass-card .filters input:focus,.glass-card .filters select:focus,.glass-card .toolbar select:focus{background:var(--white)}
-.glass-card .browse-meta,.glass-card.offline-card .toolbar{border-top-color:rgba(25,25,25,.10)}
-.glass-card .oc-stat.hot{background:var(--lemon)}
-.glass-card .pill-button{background:rgba(255,255,255,.7)}
-/* 鼠标聚光：柠檬黄柔光跟着鼠标走（在内容下面） */
-.glass-card{isolation:isolate}
-.glass-card::after{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .35s ease;
-  background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(239,255,4,.30),rgba(239,255,4,.08) 45%,transparent 70%)}
-.glass-card.spot-on::after{opacity:1}
-/* 精简筛选条：同样的毛玻璃 */
-@media(max-width:620px){.glass-stage .o1{width:200px;height:160px}.glass-stage .o2{width:180px;height:150px}}
-
+/* ---------- 颗粒质感卡片（线下活动 / 地区策略 / 案例库）：米黄渐变 + 细颗粒 ---------- */
+.grain-card{isolation:isolate;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .25 0 0 0 0 .1 0 0 0 .22 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),linear-gradient(118deg,#EFE2C4 0%,#F7EEDB 45%,#FCF8EF 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 18px 44px rgba(90,70,30,.10)}
+.grain-card .oc-head p{color:#6E6555}
+.grain-card .oc-stat,.grain-card .chip-tabs,.grain-card .toolbar select{background:rgba(255,255,255,.62)}
+.grain-card .toolbar select:focus{background:var(--white)}
+.grain-card .oc-stat span{color:#6E6555}
+.grain-card .oc-stat.hot{background:var(--black)}
+.grain-card .oc-stat.hot b{color:#F3E3BC}
+.grain-card .oc-stat.hot span{color:#BFB29A}
+.grain-card.offline-card .toolbar{border-top-color:rgba(90,70,30,.14)}
+/* 边框流光换成暖金色 */
+.grain-card::before{background:conic-gradient(from var(--glow-a,0deg),transparent 0deg 285deg,rgba(214,176,106,.9) 320deg,#9A6B22 352deg,transparent 360deg)}
+/* 鼠标聚光：暖白柔光 */
+.grain-card::after{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .35s ease;
+  background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.55),rgba(255,255,255,.15) 45%,transparent 70%)}
+.grain-card.spot-on::after{opacity:1}
 
 /* ---------- 首页筛选栏：有光感的黑 ---------- */
 .dark-card{color:var(--white);color-scheme:dark;isolation:isolate;

@@ -3,7 +3,7 @@
 <title>竞品促销监测 · CFD Promo Radar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="assets/fonts/fonts.css"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/app.css?v=d575ecf2">
+<link rel="stylesheet" href="assets/app.css?v=a5eb41bd">
 </head><body>
 <header><div class="header-inner"><a class="brand" href="#promos" data-view="promos" aria-label="回到活动监测首页" title="回到首页"><span class="brand-icon" aria-hidden="true">⌖</span>CFD / PROMO RADAR</a>
 <nav class="nav" aria-label="页面"><button data-view="promos" aria-current="page">活动监测<span class="nav-count" id="navPromosCount" hidden></span></button><button data-view="offline">线下活动</button><button data-view="regions">地区策略</button><button data-view="playbook">玩法案例库</button></nav>
@@ -23,17 +23,17 @@
 <footer class="library-note"><span id="filteredStats"></span><button id="openResearchBottom">查看资料覆盖、区域研究与更新方式 →</button></footer>
 </section>
 <section class="view" id="view-offline" hidden>
-<div class="glass-stage"><i class="orb o1" aria-hidden="true"></i><i class="orb o2" aria-hidden="true"></i><section class="offline-card glow-card glass-card" aria-label="线下活动"><div class="oc-head"><div><div class="eyebrow">线下</div><h1>线下活动</h1><p>展会看哪里办什么展 · 赞助看给客户和伙伴的权益</p></div><div class="oc-stats" id="offlineSummary" aria-live="polite"></div></div>
-<div class="toolbar"><div class="chip-tabs" role="group" aria-label="线下形式"><button data-okind="expo" aria-pressed="true">行业展会</button><button data-okind="sponsor" aria-pressed="false">竞品赞助</button></div><label>地区<select id="offlineRegion"></select></label></div></section></div>
+<section class="offline-card glow-card grain-card" aria-label="线下活动"><div class="oc-head"><div><div class="eyebrow">线下</div><h1>线下活动</h1><p>展会看哪里办什么展 · 赞助看给客户和伙伴的权益</p></div><div class="oc-stats" id="offlineSummary" aria-live="polite"></div></div>
+<div class="toolbar"><div class="chip-tabs" role="group" aria-label="线下形式"><button data-okind="expo" aria-pressed="true">行业展会</button><button data-okind="sponsor" aria-pressed="false">竞品赞助</button></div><label>地区<select id="offlineRegion"></select></label></div></section>
 <div class="timeline" id="timeline"></div>
 </section>
 <section class="view" id="view-regions" hidden>
-<div class="glass-stage"><i class="orb o1" aria-hidden="true"></i><i class="orb o2" aria-hidden="true"></i><section class="offline-card glow-card glass-card" aria-label="地区策略"><div class="oc-head"><div><div class="eyebrow">地区</div><h1>地区策略</h1><p>各地区竞品在推什么、主流打法与 IB 生态 · 仅基于公开资料，不含 D Prime 内部数据</p></div><div class="oc-stats" id="regionStats" aria-live="polite"></div></div></section></div>
+<section class="offline-card glow-card grain-card" aria-label="地区策略"><div class="oc-head"><div><div class="eyebrow">地区</div><h1>地区策略</h1><p>各地区竞品在推什么、主流打法与 IB 生态 · 仅基于公开资料，不含 D Prime 内部数据</p></div><div class="oc-stats" id="regionStats" aria-live="polite"></div></div></section>
 <div class="region-grid" id="regionGrid"></div>
 </section>
 <section class="view" id="view-playbook" hidden>
-<div class="glass-stage"><i class="orb o1" aria-hidden="true"></i><i class="orb o2" aria-hidden="true"></i><section class="offline-card glow-card glass-card" aria-label="玩法案例库"><div class="oc-head"><div><div class="eyebrow">案例</div><h1>玩法案例库</h1><p>拆解怎么玩、为什么有效、D Prime 可以怎么借鉴 · 借鉴前请走合规审核</p></div><div class="oc-stats" id="playSummary" aria-live="polite"></div></div>
-<div class="toolbar"><div class="chip-tabs" role="group" aria-label="行业"><button data-industry="all" aria-pressed="true">全部</button><button data-industry="Web3 → TradFi" aria-pressed="false">Web3 → TradFi</button><button data-industry="CFD" aria-pressed="false">CFD 券商</button><button data-industry="银行" aria-pressed="false">银行</button></div><label>玩法<select id="playCategory"></select></label><label>合规风险<select id="playRisk"><option value="">全部</option><option>低</option><option>中</option><option>高</option></select></label></div></section></div>
+<section class="offline-card glow-card grain-card" aria-label="玩法案例库"><div class="oc-head"><div><div class="eyebrow">案例</div><h1>玩法案例库</h1><p>拆解怎么玩、为什么有效、D Prime 可以怎么借鉴 · 借鉴前请走合规审核</p></div><div class="oc-stats" id="playSummary" aria-live="polite"></div></div>
+<div class="toolbar"><div class="chip-tabs" role="group" aria-label="行业"><button data-industry="all" aria-pressed="true">全部</button><button data-industry="Web3 → TradFi" aria-pressed="false">Web3 → TradFi</button><button data-industry="CFD" aria-pressed="false">CFD 券商</button><button data-industry="银行" aria-pressed="false">银行</button></div><label>玩法<select id="playCategory"></select></label><label>合规风险<select id="playRisk"><option value="">全部</option><option>低</option><option>中</option><option>高</option></select></label></div></section>
 <div class="play-grid" id="playGrid"></div>
 </section>
 </main>
@@ -10332,5 +10332,5 @@ pb-bank-uob-points-only,银行,UOB（新加坡）,积分换独家体验,积分�
 pb-bank-gx-pocket,银行,GX Bank / GXS（马来西亚 · 新加坡）,锁定期奖励,锁定口袋：放满期限才有加息,钱放进固定期限的「口袋」：GX Bank 6 个月最高 3.8%，GXS 4 个月最高 3.2%，提前取出就拿不到；GXS 的 BOOST4 要求口袋名字必须叫「BOOST4」，还要同时买一定金额的基金（已于 2026-10-30 结束）。,用锁定期换高回报，留住资金；指定口令本身就是传播钩子。,入金后 X 个月不出金，返一笔奖励；用活动口令当参与方式，方便追踪是哪个渠道带来的客户。,中,「不出金才有奖」需写清规则，避免被视为限制出金。,,https://rates.my/e-wallet | https://thekopinotes.com/articles/digital-banks/gxs-bank-boost4-october-2026/,2026-11
 </script>
 <script src="config.js?v=6ea7ef11"></script>
-<script src="assets/app.js?v=e7100755"></script>
+<script src="assets/app.js?v=9c27b564"></script>
 </body></html>
