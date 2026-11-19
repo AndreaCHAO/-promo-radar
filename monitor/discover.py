@@ -429,7 +429,7 @@ def main():
         is_auto = r in auto
         try: fresh = dt.date.fromisoformat((r.get("最后核查") or "")[:10]) >= recent
         except ValueError: fresh = False
-        known_events.append((b, event_keys(title, b), norm_title(title), topic_tokens(title, b) if is_auto and fresh else set(), r if is_auto else None))
+        known_events.append((b, event_keys(title, b), norm_title(title), topic_tokens(title, b) if fresh else set(), r if is_auto else None))
 
     def same_event(brand, keys, t, toks):
         for b, k, nt, tk, rec in known_events:
