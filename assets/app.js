@@ -766,7 +766,7 @@ function renderPromoStats() {
 function renderHome() {
   if (!RECORDS.length) { $('homeGrid').innerHTML = '<p class="digest-empty">正在读取数据…</p>'; return; }
   renderHighlights('homeHighlights', 'all'); renderMap();
-  $('introStats').innerHTML = `<b>${RECORDS.filter(r => inList(r) && !r.offline).length}</b> 个在推方案 · 本周 <b>${RECORDS.filter(r => r.foundDays <= 7).length}</b> 条新动态 · 每天 08:00 自动更新`;
+  $('introStats').innerHTML = `<span><b>${RECORDS.filter(r => inList(r) && !r.offline).length}</b>在推方案</span><span><b>${RECORDS.filter(r => r.foundDays <= 7).length}</b>本周新动态</span><span><b>${Object.keys(REGIONS).length}</b>监测地区</span>`;
   const t = today(), live = RECORDS.filter(r => inList(r) && !r.offline);
   const week = RECORDS.filter(r => r.foundDays <= 7).length, alerts = RECORDS.filter(r => r.alert).length;
   const up = EVENTS.filter(e => (e.end || e.start) >= t).sort((a, b) => a.start - b.start), next = up[0];

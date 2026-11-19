@@ -617,26 +617,39 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 @media(min-width:1101px){#view-home .map-wrap{width:500px}}
 
 
-/* ---------- 首页开场幕布 ---------- */
+/* ---------- 首页开场幕布：品牌黑底 + 红色雷达扫描，上滑时卷起 ---------- */
 .intro-spacer{height:calc(100svh - 64px)}
-/* 保证首页总高度够把幕布完全卷走 */
 #view-home{min-height:200svh}
-.intro{--p:0;position:fixed;inset:0;z-index:19;display:flex;align-items:center;justify-content:center;overflow:hidden;
-  background:radial-gradient(70% 60% at 80% 15%,rgba(255,255,255,.14),transparent 60%),radial-gradient(60% 60% at 10% 100%,rgba(25,25,25,.28),transparent 60%),radial-gradient(rgba(255,255,255,.16) 1.2px,transparent 1.6px) 0 0/22px 22px,var(--red);
-  color:var(--white);transform:translate3d(0,calc(var(--p) * -100%),0);border-radius:0 0 calc(var(--p) * 56px) calc(var(--p) * 56px);box-shadow:0 30px 60px rgba(120,10,14,calc(var(--p) * .35));will-change:transform}
+.intro{--p:0;position:fixed;inset:0;z-index:19;display:flex;align-items:center;justify-content:center;overflow:hidden;color:#F4EFE6;
+  background:radial-gradient(60% 55% at 50% 52%,rgba(236,28,36,.16),transparent 70%),radial-gradient(rgba(255,255,255,.07) 1px,transparent 1.4px) 0 0/26px 26px,#121212;
+  transform:translate3d(0,calc(var(--p) * -100%),0);border-radius:0 0 calc(var(--p) * 48px) calc(var(--p) * 48px);will-change:transform}
 .intro[hidden]{display:none}
-.intro-inner{display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center;padding:96px 24px 40px;transform:translate3d(0,calc(var(--p) * -18vh),0) scale(calc(1 - var(--p) * .08));opacity:calc(1 - var(--p) * 1.4)}
-.intro-kicker{font-size:13px;font-weight:800;letter-spacing:.32em;opacity:.85}
-.intro-title{margin:0;font-size:clamp(48px,9vw,128px);font-weight:900;line-height:1.02;letter-spacing:-.03em;text-wrap:balance;animation:introUp .9s cubic-bezier(.2,.8,.2,1) both}
-.intro-title span{color:var(--black);background:var(--lemon);border-radius:.12em;padding:0 .12em;margin-left:.06em}
-.intro-stats{margin:0;font-size:clamp(14px,1.6vw,18px);opacity:.92;animation:introUp .9s .15s cubic-bezier(.2,.8,.2,1) both}
-.intro-stats b{font-size:1.25em;font-weight:800}
-.intro-skip{margin-top:22px;display:flex;flex-direction:column;align-items:center;gap:10px;color:var(--white);font-size:13px;font-weight:700;letter-spacing:.12em;opacity:.9;animation:introUp .9s .3s cubic-bezier(.2,.8,.2,1) both}
-.intro-skip:hover{opacity:1}
-.intro-mouse{width:24px;height:38px;border:2px solid currentColor;border-radius:14px;display:flex;justify-content:center;padding-top:6px}
-.intro-mouse i{width:3px;height:8px;border-radius:2px;background:currentColor;animation:wheel 1.6s ease-in-out infinite}
-@keyframes wheel{0%{transform:translateY(0);opacity:1}70%{transform:translateY(10px);opacity:0}100%{opacity:0}}
-@keyframes introUp{from{opacity:0;transform:translateY(24px)}}
-@media(max-width:820px){.intro-spacer{height:calc(100svh - 112px)}.intro-inner{padding-top:140px}}
+/* 雷达：三圈细环 + 旋转扫描光 + 几个闪烁的点 */
+.intro-radar{position:absolute;left:50%;top:50%;width:min(86vmin,760px);aspect-ratio:1;transform:translate(-50%,-50%) scale(calc(1 + var(--p) * .25));opacity:calc(1 - var(--p) * 1.2);pointer-events:none}
+.intro-radar span{position:absolute;inset:0;margin:auto;border-radius:50%;border:1px solid rgba(244,239,230,.10)}
+.intro-radar .r2{inset:17%}.intro-radar .r3{inset:34%}
+.intro-radar .sweep{position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 0deg,rgba(236,28,36,.0) 0deg,rgba(236,28,36,.0) 290deg,rgba(236,28,36,.16) 350deg,rgba(255,90,80,.36) 359deg,transparent 360deg);
+  -webkit-mask:radial-gradient(circle,#000 0 69.5%,transparent 70%);mask:radial-gradient(circle,#000 0 69.5%,transparent 70%);animation:sweep 6s linear infinite}
+.intro-radar .blip{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 0 0 rgba(236,28,36,.6);animation:blip 3s ease-out infinite}
+.intro-radar .b1{left:72%;top:30%}.intro-radar .b2{left:24%;top:62%;animation-delay:1s}.intro-radar .b3{left:60%;top:76%;animation-delay:2s}
+@keyframes sweep{to{transform:rotate(360deg)}}
+@keyframes blip{0%{box-shadow:0 0 0 0 rgba(236,28,36,.55);opacity:1}70%{box-shadow:0 0 0 16px rgba(236,28,36,0);opacity:.9}100%{opacity:.35}}
+.intro-inner{position:relative;display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center;padding:88px 24px 40px;transform:translate3d(0,calc(var(--p) * -14vh),0);opacity:calc(1 - var(--p) * 1.6)}
+.intro-kicker{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:.28em;color:#B9B2A6;animation:introUp .9s cubic-bezier(.2,.8,.2,1) both}
+.intro-kicker i{width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 12px rgba(236,28,36,.9)}
+.intro-title{margin:0;font-size:clamp(40px,6.4vw,84px);font-weight:800;line-height:1.08;letter-spacing:-.02em;color:#F7F3EC;animation:introUp 1s .1s cubic-bezier(.2,.8,.2,1) both}
+.intro-title em{font-style:normal;color:var(--red)}
+.intro-stats{display:flex;align-items:stretch;border-top:1px solid rgba(244,239,230,.14);border-bottom:1px solid rgba(244,239,230,.14);animation:introUp 1s .22s cubic-bezier(.2,.8,.2,1) both}
+.intro-stats:empty{display:none}
+.intro-stats span{display:flex;flex-direction:column;gap:2px;padding:12px 26px;font-size:12px;letter-spacing:.06em;color:#9E978B}
+.intro-stats span+span{border-left:1px solid rgba(244,239,230,.14)}
+.intro-stats b{font-size:26px;font-weight:700;letter-spacing:0;color:#F7F3EC;font-variant-numeric:tabular-nums}
+.intro-skip{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:12px;color:#B9B2A6;font-size:12px;font-weight:600;letter-spacing:.22em;animation:introUp 1s .34s cubic-bezier(.2,.8,.2,1) both}
+.intro-skip i{position:relative;width:1px;height:46px;background:rgba(244,239,230,.18);overflow:hidden}
+.intro-skip i::after{content:"";position:absolute;left:0;top:-40%;width:1px;height:40%;background:var(--red);animation:drop 1.8s cubic-bezier(.6,0,.4,1) infinite}
+.intro-skip:hover{color:#F7F3EC}
+@keyframes drop{to{top:100%}}
+@keyframes introUp{from{opacity:0;transform:translateY(18px)}}
+@media(max-width:820px){.intro-spacer{height:calc(100svh - 112px)}.intro-inner{padding-top:130px}.intro-stats span{padding:10px 16px}.intro-stats b{font-size:21px}}
 
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}
