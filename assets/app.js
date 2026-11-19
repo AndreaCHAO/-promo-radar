@@ -279,7 +279,7 @@ function card(r) {
 }
 function sortKey(r) { return { due: 0, active: 1, upcoming: 2, undated: 3, unclear: 4, expired: 5, excluded: 6 }[r.status]; }
 function render() {
-  renderDigest(); renderMap();
+  renderDigest(); renderHighlights(); renderMap();
   const prev = new Map();
   if (!REDUCED) document.querySelectorAll('#recordCards .record-card').forEach(c => prev.set(c.dataset.recordId, c.getBoundingClientRect()));
   filtered = RECORDS.filter(matchRecord).sort((a, b) => (b.isSelf - a.isSelf) || (b.alert - a.alert) || ((b.auto && b.foundDays <= 7) - (a.auto && a.foundDays <= 7)) || sortKey(a) - sortKey(b) || a.rank - b.rank || (a.daysLeft ?? 9999) - (b.daysLeft ?? 9999) || (fmt(parseDate(b['最后核查'])) || '').localeCompare(fmt(parseDate(a['最后核查'])) || ''));
@@ -309,6 +309,30 @@ function renderDigest() {
   ];
   $('digestScope').textContent = (selectedRegion === 'all' ? '全部地区' : selectedRegion) + ' · 直客与 IB · 含线下活动';
   $('digest').innerHTML = cols.map(([k, title, sub, list, meta]) => `<div class="digest-col" data-kind="${k}"><div class="digest-head"><b>${list.length}</b><div><span>${title}</span><small>${sub}</small></div></div>${list.length ? `<ul class="digest-list">${list.slice(0, 4).map(r => `<li><button data-open="${esc(r.id)}"><span class="d-brand">${esc(r['品牌'])}</span><span class="d-title">${esc(short(r['标题'], 34))}</span><span class="d-meta">${esc(r.region)} · ${esc(meta(r))}</span></button></li>`).join('')}</ul>` : '<p class="digest-empty">暂无</p>'}${list.length > 4 ? `<button class="digest-all" data-digest="${k}">查看全部 ${list.length} 条 →</button>` : ''}</div>`).join('');
+}
+/* 首页头部「本周最值得关注」：自动挑 1–3 条（新出现的大额活动 / 即将截止 / 重要变化或新赞助） */
+function rewardValue(r) {
+  let best = 0;
+  for (const m of String(r['奖励摘要'] || '').matchAll(/(\d[\d,]*(?:\.\d+)?)\s*(万|k|K|M|million|mil)?(?!\s*[%％])/g)) {
+    const n = parseFloat(m[1].replace(/,/g, '')) * ({ '万': 1e4, k: 1e3, K: 1e3, M: 1e6, million: 1e6, mil: 1e6 }[m[2]] || 1);
+    if (n > best) best = n;
+  }
+  return best;
+}
+function renderHighlights() {
+  const pool = RECORDS.filter(r => (selectedRegion === 'all' || r.region === selectedRegion) && !['expired', 'excluded'].includes(r.status));
+  const core = r => CFG.coreBrands.some(b => b.toLowerCase() === r['品牌'].toLowerCase()) ? 1 : 0;
+  const picks = [], used = new Set();
+  const say = r => r && ((r['奖励摘要'] || '').length >= 14 ? r['奖励摘要'] : [r['标题'], r['奖励摘要']].filter(Boolean).join(' · '));
+  const add = (r, tag, cls, note) => { if (r && !used.has(r.id)) { used.add(r.id); picks.push({ r, tag, cls, note }); } };
+  const fresh = pool.filter(r => r.foundDays <= 7 && !r.offline && !r.isSelf && r.status !== 'unclear').sort((a, b) => rewardValue(b) - rewardValue(a) || core(b) - core(a))[0];
+  add(fresh, '新活动', 'new', say(fresh));
+  const due = pool.filter(r => r.status === 'due' && !r.isSelf && !used.has(r.id)).sort((a, b) => core(b) - core(a) || a.daysLeft - b.daysLeft)[0];
+  add(due, due ? (due.daysLeft === 0 ? '今天截止' : '还剩 ' + due.daysLeft + ' 天') : '', 'due', say(due));
+  const alert = pool.filter(r => r.alert && !used.has(r.id)).sort((a, b) => (b.flag === 'ended') - (a.flag === 'ended'))[0];
+  if (alert) add(alert, alert.flag === 'ended' ? '可能已结束' : '条款有变化', 'flag', alert['标题']);
+  else { const sp = pool.filter(r => r.offline && r.foundDays <= 14 && !used.has(r.id)).sort((a, b) => a.foundDays - b.foundDays)[0]; add(sp, '新赞助 / 线下', 'off', sp && sp['标题']); }
+  $('highlights').innerHTML = picks.length ? `<span class="hl-title">本周最值得关注${selectedRegion === 'all' ? '' : ' · ' + esc(selectedRegion)}</span><ol>${picks.map(p => `<li><button data-open="${esc(p.r.id)}"><em class="hl-tag ${p.cls}">${esc(p.tag)}</em><b>${esc(p.r['品牌'])}</b><span>${esc(short(p.note || '', 40))}</span><i aria-hidden="true">→</i></button></li>`).join('')}</ol>` : '';
 }
 function updateNavCounts() {
   const n = RECORDS.filter(r => r.alert).length;

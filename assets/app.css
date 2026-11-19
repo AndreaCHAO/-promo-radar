@@ -569,4 +569,22 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .close-button{background:var(--paper)}
 .dialog-head{background:rgba(255,252,246,.94)}
 
+
+/* ---------- 首页头部：本周最值得关注 ---------- */
+.highlights{margin-top:14px;max-width:640px}
+.highlights:empty{display:none}
+.hl-title{display:block;font-size:12px;font-weight:800;letter-spacing:.04em;color:#6E6555;margin-bottom:8px}
+.highlights ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.highlights button{width:100%;display:flex;align-items:center;gap:10px;text-align:left;background:rgba(255,255,255,.62);border:1px solid rgba(255,255,255,.7);border-radius:14px;padding:9px 14px;font-size:13.5px;line-height:1.4;transition:background .15s,transform .15s,border-color .15s}
+.highlights button:hover{background:var(--white);border-color:var(--black);transform:translateX(3px)}
+.highlights b{font-weight:800;white-space:nowrap}
+.highlights button span{min-width:0;flex:1;color:#3E382E;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.highlights button i{font-style:normal;color:#9A8F7A}
+.hl-tag{flex-shrink:0;font-style:normal;font-size:11px;font-weight:800;border-radius:999px;padding:2px 9px;white-space:nowrap}
+.hl-tag.new{background:var(--black);color:#F3E3BC}
+.hl-tag.due{background:var(--red);color:var(--white)}
+.hl-tag.flag{background:var(--lemon);color:var(--black)}
+.hl-tag.off{background:var(--sand);color:var(--black)}
+@media(max-width:620px){.highlights button{flex-wrap:wrap;gap:4px 8px}.highlights button span{flex-basis:100%;white-space:normal}.highlights button i{display:none}}
+
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}
