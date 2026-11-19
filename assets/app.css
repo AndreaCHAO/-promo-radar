@@ -55,7 +55,13 @@ main{max-width:1320px;margin:auto;padding:0 28px 90px}
 .world-map{width:100%;height:auto;display:block;overflow:visible}
 .map-land{pointer-events:none}
 .map-land circle{fill:#C9C9C9}
-.map-region{cursor:pointer;outline:none}
+.world-map,.map-region{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='9' fill='none' stroke='%23EC1C24' stroke-width='1.5' opacity='.55'/%3E%3Ccircle cx='12' cy='12' r='4' fill='%23EC1C24' stroke='%23fff' stroke-width='1.5'/%3E%3C/svg%3E") 12 12,pointer}
+.map-region{outline:none}
+.map-tip{position:absolute;z-index:5;width:230px;background:var(--black);color:var(--white);border-radius:14px;padding:12px 14px;box-shadow:0 14px 40px rgba(25,25,25,.28);display:flex;flex-direction:column;gap:4px;font-size:12.5px;line-height:1.5;pointer-events:none}
+.map-tip .tip-title{font-size:15px;font-weight:800;color:var(--white)}
+.map-tip .tip-row{color:#D8D8D8}
+.map-tip em{font-style:normal;font-weight:800;color:var(--lemon)}
+.map-tip .tip-cta{margin-top:4px;font-weight:700;color:var(--lemon)}
 .map-dot{fill:var(--red);stroke:var(--white);stroke-width:1.2;transition:r .2s}
 .map-halo{fill:var(--red);opacity:0;transition:opacity .2s}
 .map-leader{stroke:#191919;stroke-width:.6;stroke-dasharray:1.5 1.5;opacity:.55}

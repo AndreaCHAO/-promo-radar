@@ -533,11 +533,50 @@ function renderMap() {
     const w = t.getComputedTextLength ? t.getComputedTextLength() : 40;
     const left = anchor === 'end' ? lx - w : anchor === 'middle' ? lx - w / 2 : lx;
     rect.setAttribute('x', (left - 6).toFixed(1)); rect.setAttribute('y', ly - 9); rect.setAttribute('width', (w + 12).toFixed(1));
-    const go = () => setRegion(selectedRegion === k ? 'all' : k);
-    g.addEventListener('click', go);
+    const go = () => { hideTip(); setRegion(selectedRegion === k ? 'all' : k); };
+    g.addEventListener('pointerdown', e => { lastPointer = e.pointerType; });
+    g.addEventListener('click', e => {
+      // 手机：第一次点先出小卡片，再点一次才筛选
+      if (lastPointer === 'touch' && tipFor !== k) { showTip(k, e); return; }
+      go();
+    });
+    g.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') { lastPointer = 'mouse'; showTip(k, e); } });
+    g.addEventListener('pointermove', e => { if (e.pointerType === 'mouse' && tipFor === k) moveTip(e); });
+    g.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') hideTip(); });
+    g.addEventListener('focus', () => { if (g.matches(':focus-visible')) showTip(k); });
+    g.addEventListener('blur', hideTip);
     g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
   }
 }
+/* 悬停小卡片：在推方案数（直客 / IB）、活动最多的 3 个品牌、本周新增 */
+let tipFor = '', lastPointer = 'mouse';
+function regionStats(k) {
+  const all = RECORDS.filter(r => r.region === k && !r.offline);
+  const cur = all.filter(r => inList(r) && (audience === 'all' || r.audience === audience));
+  const top = topCounts(cur, '品牌', 3);
+  return { cur, direct: cur.filter(r => r.audience === 'direct').length, ib: cur.filter(r => r.audience === 'ib').length, top, week: all.filter(r => r.foundDays <= 7).length };
+}
+function showTip(k, e) {
+  const tip = $('mapTip'), st = regionStats(k);
+  tipFor = k;
+  tip.innerHTML = `<b class="tip-title">${esc(k)}</b><span class="tip-row"><em>${st.cur.length}</em> 个在推方案 · 直客 ${st.direct} / IB ${st.ib}</span>${st.top.length ? `<span class="tip-row">活动最多：${st.top.map(([b, n]) => esc(b) + ' ' + n).join('、')}</span>` : '<span class="tip-row">暂无在推方案</span>'}<span class="tip-row">本周新增或核查 <em>${st.week}</em> 条</span><span class="tip-cta">${selectedRegion === k ? '点击取消筛选' : (lastPointer === 'touch' ? '再点一次查看全部 →' : '点击查看全部 →')}</span>`;
+  tip.hidden = false;
+  moveTip(e, k);
+}
+function moveTip(e, k) {
+  const tip = $('mapTip'), wrap = tip.parentElement.getBoundingClientRect();
+  let x, y;
+  if (e && e.clientX != null) { x = e.clientX - wrap.left; y = e.clientY - wrap.top; }
+  else { const reg = REGIONS[k || tipFor], svg = $('worldMap').getBoundingClientRect(), sc = svg.width / MAP_W; x = (reg && reg.lon != null ? mx(reg.lon) : 30) * sc; y = (reg && reg.lon != null ? my(reg.lat) : 20) * sc; }
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  let left = x + 14, top = y + 14;
+  if (left + w > wrap.width) left = x - w - 14;
+  if (left < 0) left = 0;
+  if (top + h > wrap.height + 40) top = y - h - 14;
+  tip.style.left = left + 'px'; tip.style.top = Math.max(-10, top) + 'px';
+}
+document.addEventListener('pointerdown', e => { if (tipFor && !e.target.closest('.map-region')) hideTip(); });
+function hideTip() { tipFor = ''; const tip = $('mapTip'); if (tip) tip.hidden = true; }
 
 /* ---------- 启动 ---------- */
 (async function init() {
