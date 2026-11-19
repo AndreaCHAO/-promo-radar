@@ -1,5 +1,5 @@
 /* 竞品促销监测 · 样式（D Prime 品牌色：鲜红 #EC1C24 / 浓黑 #191919 / 海盐 #F6F6F6 / 柠檬 #EFFF04） */
-:root{--red:#EC1C24;--red-dark:#C8141B;--red-soft:#FDE8E9;--black:#191919;--ink-2:#2A2A2A;--salt:#F6F6F6;--lemon:#EFFF04;--lemon-soft:#FAFFC7;--white:#FFFFFF;--text:#191919;--muted:#5E5E5E;--faint:#8A8A8A;--line:#E6E6E6;--line-strong:#D3D3D3;--ok:#2E7D32;--shadow:0 1px 2px rgba(25,25,25,.04),0 6px 20px rgba(25,25,25,.06);--shadow-hover:0 2px 4px rgba(25,25,25,.05),0 14px 34px rgba(25,25,25,.10);--radius:18px;font-family:"Poppins","Swei Gothic","PingFang SC","Microsoft YaHei",system-ui,sans-serif;color-scheme:light}
+:root{--red:#EC1C24;--red-dark:#C8141B;--red-soft:#FDE8E9;--black:#191919;--ink-2:#2A2A2A;--salt:#F4F0E7;--paper:#FFFCF6;--sand:#EFE2C4;--sand-soft:#F7EEDA;--gold:#B8862F;--lemon:#EFFF04;--lemon-soft:#FAFFC7;--white:#FFFFFF;--text:#191919;--muted:#5E5E5E;--faint:#8A8A8A;--line:#ECE4D4;--line-strong:#DACFBA;--ok:#2E7D32;--shadow:0 1px 2px rgba(25,25,25,.04),0 6px 20px rgba(25,25,25,.06);--shadow-hover:0 2px 4px rgba(25,25,25,.05),0 14px 34px rgba(25,25,25,.10);--radius:18px;font-family:"Poppins","Swei Gothic","PingFang SC","Microsoft YaHei",system-ui,sans-serif;color-scheme:light}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--salt);color:var(--text);font-size:14px;line-height:1.65;-webkit-font-smoothing:antialiased}
@@ -53,7 +53,7 @@ main{max-width:1320px;margin:auto;padding:0 28px 90px}
 .map-wrap{width:400px;flex-shrink:0;position:relative;z-index:1;display:flex;flex-direction:column;gap:6px}
 .world-map{width:100%;height:auto;display:block;overflow:visible}
 .map-land{pointer-events:none}
-.map-land circle{fill:#C9C9C9}
+.map-land circle{fill:#CDBF9F}
 .world-map,.map-region{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='9' fill='none' stroke='%23EC1C24' stroke-width='1.5' opacity='.55'/%3E%3Ccircle cx='12' cy='12' r='4' fill='%23EC1C24' stroke='%23fff' stroke-width='1.5'/%3E%3C/svg%3E") 12 12,pointer}
 .map-region{outline:none}
 .map-tip{position:absolute;z-index:5;width:230px;background:var(--black);color:var(--white);border-radius:14px;padding:12px 14px;box-shadow:0 14px 40px rgba(25,25,25,.28);display:flex;flex-direction:column;gap:4px;font-size:12.5px;line-height:1.5;pointer-events:none}
@@ -547,5 +547,26 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .record-card .card-footer{border-top-color:#EFE6D3}
 .mini-filter{background:rgba(255,252,246,.95)}
 .mini-filter .mf-aud,.mini-filter .mf-search input{background:#F3EBDA}
+
+
+/* ---------- 全站统一：米黄颗粒（页头 / 筛选）+ 暖白纸感（内容卡片） ---------- */
+/* 首页头部与各子页头部同一质感 */
+.masthead{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .25 0 0 0 0 .1 0 0 0 .22 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),linear-gradient(118deg,#EFE2C4 0%,#F7EEDB 45%,#FCF8EF 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 18px 44px rgba(90,70,30,.10)}
+.masthead p{color:#6E6555}
+.masthead .snapshot-inline span{background:rgba(255,255,255,.62)}
+.map-label rect{fill:var(--black)}
+/* 内容卡片：暖白纸感 */
+.digest-col,.tl-item,.region-card,.play-card,.empty,.drawer,.comparison-dialog,.research-dialog{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .25 0 0 0 0 .1 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),var(--paper)}
+.tl-item.past{opacity:.78}
+/* 「可参考 / 可借鉴」说明框：柠檬黄 → 米金 */
+.borrow,.card-analysis{background:var(--sand-soft)}
+.analysis-panel{background:var(--sand-soft);border-left-color:var(--gold)}
+/* 小标题统一：标题 + 一条细线 */
+.tl-group h3{display:flex;align-items:center;gap:12px;font-size:16px;margin:0 2px 12px}
+.tl-group h3::after{content:"";flex:1;height:1px;background:var(--line-strong)}
+.section-title h2,.section-divider h2{font-size:22px}
+/* 按钮、关闭键在暖底上的边线 */
+.close-button{background:var(--paper)}
+.dialog-head{background:rgba(255,252,246,.94)}
 
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}
