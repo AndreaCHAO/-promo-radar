@@ -455,7 +455,7 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 
 /* ---------- 筛选卡片 / 线下活动卡片 ---------- */
 .filter-card,.offline-card{background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);margin-top:30px}
-.filter-card{padding:16px 18px 12px}
+.filter-card{padding:16px 18px 12px;margin-bottom:20px}
 .filter-card .audience-bar{margin:0 0 14px}
 .filter-card .audience-tabs,.offline-card .chip-tabs{background:var(--salt);box-shadow:none}
 .filter-card .filters{margin:0;padding:0;background:none;box-shadow:none;border-radius:0}
@@ -474,7 +474,7 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .offline-card .toolbar{margin:18px 0 0;padding-top:16px;border-top:1px solid var(--line)}
 .offline-card .toolbar select{background:var(--salt)}
 @media(max-width:620px){
-.filter-card{padding:14px 14px 10px;margin-top:20px}.filter-card .filters{padding:0}
+.filter-card{padding:14px 14px 10px;margin-top:20px;margin-bottom:16px}.filter-card .filters{padding:0}
 .offline-card{padding:20px 18px 14px}.oc-head{flex-direction:column;align-items:stretch;gap:14px}.oc-head h1{font-size:28px}
 .oc-stat{flex:1;min-width:0}.oc-stat b{font-size:26px}
 }
