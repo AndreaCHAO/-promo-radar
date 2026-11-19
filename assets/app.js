@@ -674,8 +674,9 @@ for (const id of ['recordDrawer', 'comparisonDialog', 'researchDialog']) {
 document.querySelectorAll('[data-close]').forEach(b => b.onclick = () => animClose($(b.dataset.close)));
 
 /* ---------- 滚过筛选卡片后，导航下方滑出的精简筛选条 ---------- */
+var miniClosed = false;
 function updateMini(n) {
-  $('miniCount').innerHTML = `<b>${n}</b> 条匹配`;
+  $('miniCount').innerHTML = `<b>${n}</b> 条匹配`; $('miniReopenCount').textContent = n;
   const ms = $('miniSearch'); if (document.activeElement !== ms) ms.value = $('searchInput').value;
   const chips = [];
   const opt = id => { const el = $(id); return el.value && el.selectedOptions[0] ? el.selectedOptions[0].textContent : ''; };
@@ -697,12 +698,20 @@ $('miniMore').addEventListener('click', () => document.querySelector('.filter-ca
 (() => {
   const mini = $('miniFilter'), card = document.querySelector('.filter-card'), head = document.querySelector('header');
   let shown = false, ticking = false;
+  /* 收起后只留右上角一颗「筛选」小按钮；收起状态在本浏览器记住 */
+  try { miniClosed = localStorage.getItem('miniFilterClosed') === '1'; } catch (e) {}
+  const setClosed = v => { miniClosed = v; try { localStorage.setItem('miniFilterClosed', v ? '1' : '0'); } catch (e) {} check(); };
+  $('miniClose').addEventListener('click', () => setClosed(true));
+  $('miniReopen').addEventListener('click', () => setClosed(false));
   const check = () => {
     ticking = false;
     // 正在小搜索框里打字时不收起（结果变少、页面变短也不打断输入）
     const vis = card.offsetParent !== null && (card.getBoundingClientRect().bottom < head.offsetHeight || (shown && mini.contains(document.activeElement) && document.activeElement.id === 'miniSearch'));
     mini.style.top = head.getBoundingClientRect().bottom + 'px';
-    if (vis !== shown) { shown = vis; mini.classList.toggle('show', vis); mini.inert = !vis; }
+    const want = vis && !miniClosed;
+    if (want !== shown) { shown = want; mini.classList.toggle('show', want); mini.inert = !want; }
+    $('miniReopen').hidden = !(vis && miniClosed);
+    $('miniReopen').style.top = (head.getBoundingClientRect().bottom + 10) + 'px';
     if (!REDUCED) mini.style.setProperty('--sweep', ((scrollY * 0.06) % 130 - 30).toFixed(1) + '%');
   };
   addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(check); } }, { passive: true });

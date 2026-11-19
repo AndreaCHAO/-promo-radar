@@ -26,5 +26,12 @@ for tag, name in (("eventsData", "data/events.csv"), ("playbookData", "data/play
     embed(tag, "text/csv", open(fp, encoding="utf-8-sig").read().strip() if os.path.exists(fp) else "")
 mp = os.path.join(ROOT, "data/monitor.json")
 embed("monitorData", "application/json", open(mp, encoding="utf-8").read() if os.path.exists(mp) else "")
+# 给样式和脚本加上内容版本号，更新后浏览器会自动加载新文件，不再用旧缓存
+import hashlib
+for asset in ("assets/app.css", "assets/app.js", "config.js"):
+    fp = os.path.join(ROOT, asset)
+    if os.path.exists(fp):
+        v = hashlib.md5(open(fp, "rb").read()).hexdigest()[:8]
+        s = re.sub(rf'(["\']){re.escape(asset)}(\?v=[0-9a-f]+)?(["\'])', lambda m: f"{m.group(1)}{asset}?v={v}{m.group(3)}", s)
 open(idx, "w", encoding="utf-8").write(s)
 print("index.html 已更新离线备份")

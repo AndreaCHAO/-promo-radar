@@ -501,6 +501,13 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .mf-count b{font-size:18px;font-weight:800;color:var(--red);margin-right:2px}
 .mf-more{flex-shrink:0;height:34px;padding:0 14px;border:1px solid var(--line-strong);border-radius:999px;background:var(--white);font-size:13px;font-weight:700}
 .mf-more:hover{border-color:var(--black)}
+.mf-close{flex-shrink:0;width:34px;height:34px;border-radius:50%;font-size:20px;line-height:1;color:var(--muted)}
+.mf-close:hover{background:var(--salt);color:var(--black)}
+.mf-reopen{position:fixed;right:20px;z-index:19;display:inline-flex;align-items:center;gap:8px;height:38px;padding:0 14px 0 16px;border-radius:999px;background:var(--black);color:var(--white);font-size:13px;font-weight:700;box-shadow:0 10px 26px rgba(25,25,25,.22);animation:popIn .3s cubic-bezier(.2,1.05,.3,1)}
+.mf-reopen b{background:var(--red);border-radius:999px;padding:1px 8px;font-size:12px}
+.mf-reopen:hover{background:#2A2A2A}
+.mf-reopen[hidden]{display:none}
+@keyframes popIn{from{opacity:0;transform:translateY(-6px) scale(.96)}}
 @media(max-width:820px){.mf-search,.mf-chips{display:none}.mf-inner{padding:8px 16px;gap:10px}.mf-aud button{padding:6px 11px}}
 
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}

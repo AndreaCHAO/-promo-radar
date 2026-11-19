@@ -3,12 +3,13 @@
 <title>竞品促销监测 · CFD Promo Radar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="assets/fonts/fonts.css"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/app.css">
+<link rel="stylesheet" href="assets/app.css?v=e662e876">
 </head><body>
 <header><div class="header-inner"><a class="brand" href="#promos" data-view="promos" aria-label="回到活动监测首页" title="回到首页"><span class="brand-icon" aria-hidden="true">⌖</span>CFD / PROMO RADAR</a>
 <nav class="nav" aria-label="页面"><button data-view="promos" aria-current="page">活动监测<span class="nav-count" id="navPromosCount" hidden></span></button><button data-view="offline">线下活动</button><button data-view="regions">地区策略</button><button data-view="playbook">玩法案例库</button></nav>
 <div class="header-actions"><details class="more-menu"><summary class="quiet-button">更多 ▾</summary><div class="menu"><button id="reloadData">重新读取数据 ↺</button><button id="openResearch">覆盖与方法</button><button id="exportCsv">导出当前列表 ↗</button></div></details></div></div></header>
-<div class="mini-filter" id="miniFilter" aria-label="快捷筛选" inert><div class="mf-inner"><div class="audience-tabs mf-aud" role="group" aria-label="方案对象"><button data-audience="all" aria-pressed="true">全部</button><button data-audience="direct" aria-pressed="false">直客</button><button data-audience="ib" aria-pressed="false">IB</button></div><label class="mf-search"><span class="sr-only">搜索</span><input id="miniSearch" type="search" placeholder="搜索品牌、活动…"></label><div class="mf-chips" id="miniChips"></div><span class="mf-count" id="miniCount"></span><button class="mf-more" id="miniMore" type="button">全部筛选 ↑</button></div></div>
+<div class="mini-filter" id="miniFilter" aria-label="快捷筛选" inert><div class="mf-inner"><div class="audience-tabs mf-aud" role="group" aria-label="方案对象"><button data-audience="all" aria-pressed="true">全部</button><button data-audience="direct" aria-pressed="false">直客</button><button data-audience="ib" aria-pressed="false">IB</button></div><label class="mf-search"><span class="sr-only">搜索</span><input id="miniSearch" type="search" placeholder="搜索品牌、活动…"></label><div class="mf-chips" id="miniChips"></div><span class="mf-count" id="miniCount"></span><button class="mf-more" id="miniMore" type="button">全部筛选 ↑</button><button class="mf-close" id="miniClose" type="button" aria-label="收起筛选条" title="收起">×</button></div></div>
+<button class="mf-reopen" id="miniReopen" type="button" aria-label="展开筛选条" hidden>筛选 <b id="miniReopenCount"></b></button>
 <main>
 <section class="view" id="view-promos">
 <section class="masthead"><div><div class="eyebrow" id="todayLabel">今日</div><h1>竞品促销<mark>监测</mark></h1><p>汇总主要 CFD / 外汇券商公开的直客与 IB 促销活动，按奖励、对象与门槛结构化呈现。活动状态按日期自动判定，来源页面每日复核。</p><div class="snapshot-inline"><span id="sourceLabel">正在读取数据…</span><span id="checkLabel"></span><span>仅基于公开信息 · 不构成地区准入或合规意见</span></div></div><div class="map-wrap"><svg id="worldMap" class="world-map" role="group" aria-label="地区导航地图：点击地区筛选"></svg><div class="map-tip" id="mapTip" role="tooltip" hidden></div><span class="map-caption">红点越大，在推方案越多 · 波纹 = 本周有新动态 · 停在地区上看概况，点击筛选</span></div></section>
@@ -10329,6 +10330,6 @@ pb-bank-hsbc-dual-track,银行,HSBC（新加坡）,保底 + 抽奖,保底档 + �
 pb-bank-uob-points-only,银行,UOB（新加坡）,积分换独家体验,积分换独家体验：只换不卖,郑秀文私人专场（2026-09-06），只能用 UNI$ 积分换票，不公开售票；高端卡客户优先兑换，先到先得。,钱买不到的东西，积分价值感最高，也能分层服务高端客户。,VIP 和大 IB 的积分可以换独家体验：F1 观赛、海岛总决赛观礼、球星见面会，和赞助资源结合。,低,—,,https://www.asiaone.com/money/best-bank-offers-singapore-july-2026-win-sq-first-class-tickets-japan-1000-cash-and-more,2026-07
 pb-bank-gx-pocket,银行,GX Bank / GXS（马来西亚 · 新加坡）,锁定期奖励,锁定口袋：放满期限才有加息,钱放进固定期限的「口袋」：GX Bank 6 个月最高 3.8%，GXS 4 个月最高 3.2%，提前取出就拿不到；GXS 的 BOOST4 要求口袋名字必须叫「BOOST4」，还要同时买一定金额的基金（已于 2026-10-30 结束）。,用锁定期换高回报，留住资金；指定口令本身就是传播钩子。,入金后 X 个月不出金，返一笔奖励；用活动口令当参与方式，方便追踪是哪个渠道带来的客户。,中,「不出金才有奖」需写清规则，避免被视为限制出金。,,https://rates.my/e-wallet | https://thekopinotes.com/articles/digital-banks/gxs-bank-boost4-october-2026/,2026-11
 </script>
-<script src="config.js"></script>
-<script src="assets/app.js"></script>
+<script src="config.js?v=6ea7ef11"></script>
+<script src="assets/app.js?v=5f91af66"></script>
 </body></html>
