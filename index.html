@@ -3,14 +3,14 @@
 <title>竞品促销监测 · CFD Promo Radar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="assets/fonts/fonts.css"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/app.css?v=d25b37db">
+<link rel="stylesheet" href="assets/app.css?v=44236ead">
 </head><body>
 <header><div class="header-inner"><a class="brand" href="#home" data-view="home" aria-label="回到总览首页" title="回到首页"><span class="brand-icon" aria-hidden="true">⌖</span>CFD / PROMO RADAR</a>
 <nav class="nav" aria-label="页面"><button data-view="home">总览</button><button data-view="promos" aria-current="page">活动监测<span class="nav-count" id="navPromosCount" hidden></span></button><button data-view="offline">线下活动</button><button data-view="regions">地区策略</button><button data-view="playbook">玩法案例库</button></nav>
 <div class="header-actions"><details class="more-menu"><summary class="quiet-button">更多 ▾</summary><div class="menu"><button id="reloadData">重新读取数据 ↺</button><button id="openResearch">覆盖与方法</button><button id="exportCsv">导出当前列表 ↗</button></div></details></div></div></header>
 <div class="mini-filter" id="miniFilter" aria-label="快捷筛选" inert><div class="mf-inner"><div class="audience-tabs mf-aud" role="group" aria-label="方案对象"><button data-audience="all" aria-pressed="true">全部</button><button data-audience="direct" aria-pressed="false">直客</button><button data-audience="ib" aria-pressed="false">IB</button></div><label class="mf-search"><span class="sr-only">搜索</span><input id="miniSearch" type="search" placeholder="搜索品牌、活动…"></label><div class="mf-chips" id="miniChips"></div><span class="mf-count" id="miniCount"></span><button class="mf-more" id="miniMore" type="button">全部筛选 ↑</button><button class="mf-close" id="miniClose" type="button" aria-label="收起筛选条" title="收起">×</button></div></div>
 <button class="mf-reopen" id="miniReopen" type="button" aria-label="展开筛选条" hidden>筛选 <b id="miniReopenCount"></b></button>
-<section class="intro" id="intro" aria-label="开场" hidden><div class="intro-radar" aria-hidden="true"><span class="r1"></span><span class="r2"></span><span class="r3"></span><i class="sweep"></i><b class="blip b1"></b><b class="blip b2"></b><b class="blip b3"></b></div><div class="intro-inner"><span class="intro-kicker"><i></i>CFD / PROMO RADAR</span><h2 class="intro-title">竞品促销<em>监测</em></h2><div class="intro-stats" id="introStats"></div><button class="intro-skip" id="introSkip" type="button"><span>上滑查看</span><i aria-hidden="true"></i></button></div></section>
+<section class="intro" id="intro" aria-label="开场" hidden><div class="intro-glow" aria-hidden="true"></div><div class="intro-inner"><span class="intro-kicker"><i></i>CFD / PROMO RADAR</span><h2 class="intro-title"><span class="mask"><span>竞品促销<em>监测</em></span></span></h2><div class="intro-stats" id="introStats"></div><button class="intro-skip" id="introSkip" type="button"><span>上滑查看</span><i aria-hidden="true"></i></button></div></section>
 <main>
 <section class="view" id="view-home" hidden>
 <div class="intro-spacer" aria-hidden="true"></div>
