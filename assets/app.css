@@ -427,8 +427,7 @@ header.scrolled{background:rgba(25,25,25,.9);-webkit-backdrop-filter:saturate(1.
 @media(min-width:821px){html.scrolled{--hh:52px}header.scrolled .header-inner{height:52px}}
 /* 筛选条吸顶（电脑端） */
 @media(min-width:1001px){
-.filter-bar{position:sticky;top:calc(var(--hh) - var(--fc-top,0px));z-index:15;transition:top .25s ease,box-shadow .25s}
-.filter-bar.stuck{box-shadow:0 16px 36px rgba(25,25,25,.16)}
+
 #recordCards,.audience-bar{scroll-margin-top:190px}
 }
 
@@ -461,7 +460,6 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .filter-card .filters{margin:0;padding:0;background:none;box-shadow:none;border-radius:0}
 .filter-card .browse-meta{margin:14px 0 0;padding-top:12px;border-top:1px solid var(--line)}
 .rs-num{font-size:22px;font-weight:800;color:var(--red);letter-spacing:-.01em;vertical-align:-1px}
-.filter-card.flash{box-shadow:0 0 0 2px var(--lemon),0 16px 36px rgba(25,25,25,.16)}
 .offline-card{padding:24px 26px 18px;margin:24px 0 18px}
 .oc-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px}
 .oc-head h1{font-size:34px;font-weight:800;letter-spacing:-.02em;line-height:1.2;margin:10px 0 6px}
@@ -480,9 +478,29 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 }
 /* 边框流光：一段柠檬黄→红的光，随页面滚动沿边框绕行 */
 .glow-card{position:relative}
-@media(min-width:1001px){.glow-card.filter-bar{position:sticky}}
 .glow-card::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:2px;pointer-events:none;z-index:1;
   background:conic-gradient(from var(--glow-a,0deg),transparent 0deg 285deg,rgba(239,255,4,.9) 320deg,var(--red) 352deg,transparent 360deg);
   -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+
+
+/* 精简筛选条：滚过筛选卡片后从导航下方滑出 */
+.mini-filter{position:fixed;left:0;right:0;top:var(--hh);z-index:19;background:rgba(255,255,255,.95);-webkit-backdrop-filter:saturate(1.6) blur(14px);backdrop-filter:saturate(1.6) blur(14px);border-bottom:1px solid var(--line);box-shadow:0 10px 26px rgba(25,25,25,.08);
+  transform:translateY(-100%);opacity:0;visibility:hidden;transition:transform .35s cubic-bezier(.2,.8,.2,1),opacity .25s,visibility 0s .35s}
+.mini-filter.show{transform:none;opacity:1;visibility:visible;transition:transform .35s cubic-bezier(.2,.8,.2,1),opacity .25s}
+.mini-filter::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;pointer-events:none;background:linear-gradient(90deg,transparent,var(--lemon) 35%,var(--red) 70%,transparent) no-repeat;background-size:30% 100%;background-position:var(--sweep,0%) 0}
+.mf-inner{max-width:1320px;margin:auto;padding:9px 28px;display:flex;align-items:center;gap:12px}
+.mf-aud{padding:3px;box-shadow:none;background:var(--salt);flex-shrink:0}
+.mf-aud button{padding:6px 14px;font-size:13px}
+.mf-search{flex:0 1 260px;min-width:140px}
+.mf-search input{width:100%;height:36px;border:0;border-radius:999px;background:var(--salt);padding:0 16px;font-size:13px}
+.mf-chips{display:flex;gap:6px;flex:1;min-width:0;overflow:hidden}
+.mf-chip{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;height:30px;padding:0 10px 0 12px;border-radius:999px;background:var(--black);color:var(--white);font-size:12.5px;font-weight:600}
+.mf-chip i{font-style:normal;opacity:.7;font-size:14px}
+.mf-chip:hover i{opacity:1;color:var(--lemon)}
+.mf-count{margin-left:auto;font-size:13px;color:var(--muted);white-space:nowrap}
+.mf-count b{font-size:18px;font-weight:800;color:var(--red);margin-right:2px}
+.mf-more{flex-shrink:0;height:34px;padding:0 14px;border:1px solid var(--line-strong);border-radius:999px;background:var(--white);font-size:13px;font-weight:700}
+.mf-more:hover{border-color:var(--black)}
+@media(max-width:820px){.mf-search,.mf-chips{display:none}.mf-inner{padding:8px 16px;gap:10px}.mf-aud button{padding:6px 11px}}
 
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}

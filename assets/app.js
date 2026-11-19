@@ -294,7 +294,7 @@ function render() {
   const urls = new Set(filtered.flatMap(r => r.sources));
   $('filteredStats').textContent = '当前筛选：' + new Set(filtered.map(r => r['品牌'])).size + ' 个品牌 · ' + urls.size + ' 个来源链接';
   updateCompareBar(); updateNavCounts();
-  animateCards(prev);
+  animateCards(prev); updateMini(filtered.length);
   if (firstPaint && RECORDS.length) { firstPaint = false; countUp(document.querySelectorAll('.digest-head b, .map-num')); revealIn(document.querySelectorAll('.digest-col')); }
 }
 /* 本周动态：全部地区、全部对象 */
@@ -672,3 +672,40 @@ for (const id of ['recordDrawer', 'comparisonDialog', 'researchDialog']) {
   d.addEventListener('click', e => { if (e.target === d) { e.stopImmediatePropagation(); animClose(d); } }, true);
 }
 document.querySelectorAll('[data-close]').forEach(b => b.onclick = () => animClose($(b.dataset.close)));
+
+/* ---------- 滚过筛选卡片后，导航下方滑出的精简筛选条 ---------- */
+function updateMini(n) {
+  $('miniCount').innerHTML = `<b>${n}</b> 条匹配`;
+  const ms = $('miniSearch'); if (document.activeElement !== ms) ms.value = $('searchInput').value;
+  const chips = [];
+  const opt = id => { const el = $(id); return el.value && el.selectedOptions[0] ? el.selectedOptions[0].textContent : ''; };
+  if ($('brokerFilter').value) chips.push(['brokerFilter', opt('brokerFilter')]);
+  if (selectedRegion !== 'all') chips.push(['region', selectedRegion]);
+  if ($('typeFilter').value) chips.push(['typeFilter', opt('typeFilter')]);
+  if ($('statusFilter').value !== 'current') chips.push(['statusFilter', opt('statusFilter').replace(/[（(].*$/, '')]);
+  $('miniChips').innerHTML = chips.map(([k, l]) => `<button type="button" class="mf-chip" data-clear="${k}" aria-label="取消筛选：${esc(l)}">${esc(l)}<i aria-hidden="true">×</i></button>`).join('');
+}
+$('miniSearch').addEventListener('input', e => { $('searchInput').value = e.target.value; visibleCount = 9; render(); });
+$('miniSearch').addEventListener('blur', () => dispatchEvent(new Event('scroll')));
+$('miniChips').addEventListener('click', e => {
+  const b = e.target.closest('[data-clear]'); if (!b) return;
+  const k = b.dataset.clear;
+  if (k === 'region') { setRegion('all', false); return; }
+  $(k).value = k === 'statusFilter' ? 'current' : ''; visibleCount = 9; render();
+});
+$('miniMore').addEventListener('click', () => document.querySelector('.filter-card').scrollIntoView({ behavior: REDUCED ? 'auto' : 'smooth', block: 'start' }));
+(() => {
+  const mini = $('miniFilter'), card = document.querySelector('.filter-card'), head = document.querySelector('header');
+  let shown = false, ticking = false;
+  const check = () => {
+    ticking = false;
+    // 正在小搜索框里打字时不收起（结果变少、页面变短也不打断输入）
+    const vis = card.offsetParent !== null && (card.getBoundingClientRect().bottom < head.offsetHeight || (shown && mini.contains(document.activeElement) && document.activeElement.id === 'miniSearch'));
+    mini.style.top = head.getBoundingClientRect().bottom + 'px';
+    if (vis !== shown) { shown = vis; mini.classList.toggle('show', vis); mini.inert = !vis; }
+    if (!REDUCED) mini.style.setProperty('--sweep', ((scrollY * 0.06) % 130 - 30).toFixed(1) + '%');
+  };
+  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(check); } }, { passive: true });
+  addEventListener('hashchange', () => setTimeout(check, 50));
+  check();
+})();
