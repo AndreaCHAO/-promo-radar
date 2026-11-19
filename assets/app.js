@@ -286,7 +286,7 @@ function render() {
   const show = filtered.slice(0, visibleCount);
   if (LOAD_ERROR) { $('recordCards').innerHTML = `<div class="empty"><strong>数据读取失败</strong>${esc(LOAD_ERROR)}</div>`; return; }
   $('recordCards').innerHTML = show.map(card).join('') || '<div class="empty"><strong>没有符合筛选的记录</strong>试试切换资料状态，或重置品牌、地区与类型。没有记录不代表市场上没有活动。</div>';
-  $('resultSummary').textContent = ({ all: '全部活动', direct: '直客活动', ib: 'IB 合作' })[audience] + ' · ' + filtered.length + ' 条匹配' + (filtered.length ? ' · 展示 ' + show.length + ' 条' : '');
+  $('resultSummary').innerHTML = esc(({ all: '全部活动', direct: '直客活动', ib: 'IB 合作' })[audience]) + ' · <b class="rs-num">' + filtered.length + '</b> 条匹配' + (filtered.length ? ' · 展示 ' + show.length + ' 条' : '');
   const st = $('statusFilter').value;
   $('scopeNote').textContent = st === 'current' ? '状态按今天日期自动计算；未标期 ≠ 确认仍可参加。' : st === 'expired' || st === 'ended7' ? '已结束的历史案例，可作机制参考。' : st === 'stale' ? '超过 60 天没人核查，可能早已结束，建议逐条确认。' : st === 'watch' || st === 'unclear' ? '条款、资格或来源有缺口，须进一步确认。' : st === 'all' ? '包含全部状态，每张卡分别标注。' : '时效、国家与客户类别请分别核验。';
   $('loadMore').hidden = show.length >= filtered.length;
@@ -384,13 +384,14 @@ function rangeTxt(a, b) {
   if (!b || fmt(a) === fmt(b)) return a.getFullYear() + '年' + md(a);
   return a.getFullYear() + '年' + (a.getMonth() === b.getMonth() ? (a.getMonth() + 1) + '月' + a.getDate() + '–' + b.getDate() + '日' : md(a) + '–' + md(b));
 }
+const ocStat = (n, label, hot) => `<div class="oc-stat${hot ? ' hot' : ''}"><b>${n}</b><span>${esc(label)}</span></div>`;
 function renderOffline() {
   const region = $('offlineRegion').value || 'all', t = today();
   if (offlineKind === 'sponsor') {
     const list = RECORDS.filter(r => r.offline && r.okind === 'sponsor' && r.audience === 'direct' && !isExpoish(r) && (region === 'all' || r.region === region))
       .sort((a, b) => (fmt(parseDate(b['开始日期'])) || '0').localeCompare(fmt(parseDate(a['开始日期'])) || '0'));
     $('timeline').innerHTML = list.length ? `<div class="tl-items">${list.map(r => { const s0 = parseDate(r['开始日期']), e0 = parseDate(r['截止日期']); const when = s0 ? (e0 ? rangeTxt(s0, e0) : s0.getFullYear() + ' 年起') : '时间未公开'; return `<button class="tl-item simple" data-open="${esc(r.id)}"><span class="tl-date">${esc(when)}</span><span class="tl-body"><span class="tl-title">${esc(r['品牌'])}${r.isSelf ? '<span class="self-badge">我方</span>' : ''} · ${esc(r['标题'])}</span><span class="tl-sub">${esc(r.region)} · ${esc(short(r['奖励摘要'] || r['活动说明'], 80))}</span></span><span class="tl-arrow">→</span></button>`; }).join('')}</div>` : '<div class="empty"><strong>这个地区暂无赞助记录</strong></div>';
-    $('offlineSummary').textContent = list.length + ' 个竞品赞助 · 点开看给客户 / 伙伴的权益';
+    $('offlineSummary').innerHTML = ocStat(list.length, '个竞品赞助') + ocStat(new Set(list.map(r => r['品牌'])).size, '个品牌');
     return;
   }
   const evs = EVENTS.filter(e => region === 'all' || e['地区'] === region);
@@ -398,7 +399,7 @@ function renderOffline() {
   const past = evs.filter(e => (e.end || e.start) < t).sort((a, b) => b.start - a.start);
   const row = e => `<a class="tl-item simple${(e.end || e.start) < t ? ' past' : ''}" href="${esc(safeUrl(e.sources[0] || '#'))}" target="_blank" rel="noopener noreferrer"><span class="tl-date">${esc(rangeTxt(e.start, e.end))}${(e.end || e.start) >= t ? `<small>${e.start > t ? Math.round((e.start - t) / 864e5) + ' 天后' : '进行中'}</small>` : ''}</span><span class="tl-body"><span class="tl-title">${esc(e['城市'])} · ${esc(e['名称'])}</span></span><span class="tl-arrow">↗</span></a>`;
   $('timeline').innerHTML = (up.length ? `<div class="tl-group"><h3>即将举办</h3><div class="tl-items">${up.map(row).join('')}</div></div>` : '') + (past.length ? `<div class="tl-group"><h3>已举办</h3><div class="tl-items">${past.map(row).join('')}</div></div>` : '') || '<div class="empty"><strong>这个地区暂无展会记录</strong></div>';
-  $('offlineSummary').textContent = `${evs.length} 场行业展会 · 即将举办 ${up.length} 场`;
+  $('offlineSummary').innerHTML = ocStat(evs.length, '场行业展会') + ocStat(up.length, '场即将举办', up.length > 0);
 }
 function openEvent(id) {
   const e = EVENTS.find(x => x['ID'] === id); if (!e) return;
@@ -643,8 +644,16 @@ for (const [fn, sel] of [['renderRegions', '#regionGrid > *'], ['renderPlaybook'
     const y = scrollY;
     if (!on && y > 80) { on = true; head.classList.add('scrolled'); document.documentElement.classList.add('scrolled'); }
     else if (on && y < 20) { on = false; head.classList.remove('scrolled'); document.documentElement.classList.remove('scrolled'); }
-    if (bar) bar.classList.toggle('stuck', getComputedStyle(bar).position === 'sticky' && bar.getBoundingClientRect().top <= head.offsetHeight + 1 && y > 80);
+    if (!REDUCED) document.documentElement.style.setProperty('--glow-a', (y * 0.22 % 360).toFixed(1) + 'deg');
+    if (bar) {
+      const was = bar.classList.contains('stuck');
+      const now = getComputedStyle(bar).position === 'sticky' && bar.getBoundingClientRect().top <= head.offsetHeight + 1 && y > 80;
+      if (now !== was) { bar.classList.toggle('stuck', now); if (now && !REDUCED) { bar.classList.add('flash'); clearTimeout(check.f); check.f = setTimeout(() => bar.classList.remove('flash'), 650); } }
+    }
   };
+  /* 吸顶时，「全部 / 直客 / IB」那一行藏到导航后面，只露出筛选框和结果数 */
+  const setTop = () => { const a = bar && bar.querySelector('.audience-bar'); if (a) bar.style.setProperty('--fc-top', (a.offsetHeight + 14) + 'px'); };
+  addEventListener('resize', setTop); setTop();
   addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(check); } }, { passive: true });
   check();
 })();
