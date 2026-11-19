@@ -90,7 +90,16 @@ NOT_PROMO = re.compile(r"(appoints|hires|joins as|steps down|fined|penalt|lawsui
                        r"trading volume|earnings|revenue|acquires|acquisition|outage|scam warning|clone|"
                        r"referral code|promo code|coupon|invite code|sign[- ]?up bonus code|"  # 第三方推荐码 / 优惠码广告页
                        r"hold ?& ?earn|launchpool|launchpad|airdrop|staking|savings|\bAPR\b|\bAPY\b|"  # 加密理财，不是交易促销
-                       r"seeks .*partnership|enters? the (us|u\.s\.)|market entry|partnership with)", re.I)
+                       r"seeks .*partnership|enters? the (us|u\.s\.)|market entry|partnership with|"
+                       # 周报、市场回顾、宏观新闻、人物访谈、自营交易公司：标题里带了券商名，但不是活动
+                       r"recap|weekly review|week in review|roundup|round-up|market (wrap|update|outlook|analysis|commentary)|"
+                       r"daily (brief|outlook|report)|morning (brief|note)|in conversation|interview|podcast|"
+                       r"\bAPEC\b|\bG20\b|\bG7\b|summit since|leaders? (to )?(hold|meet)|world leaders|tariff|\bFOMC\b|nonfarm|\bCPI\b|"
+                       r"prop (firm|trading)|prediction[- ]markets?|funded trader|"
+                       r"\b(gold|dollar|usd|euro|eur|yen|jpy|oil|bitcoin|btc|stocks?|nasdaq|s&p)\b.{0,20}\b(tests?|challenges?|eyes|slips|rises|falls|rall(y|ies)|surges|drops)\b|"
+                       r"support level|resistance|price action|technical analysis|forecast|opportunities and challenges|the rise of|"
+                       r"sign-?ups|client numbers|net deposits|active clients|"
+                       r"周报|周回顾|市场回顾|财经回顾|財經回顧|早报|晚报|每日财经|每日市场|领导人|領導人|峰会召开|关税|關稅)", re.I)
 
 TYPE_RULES = [
     ("品牌赞助", r"sponsor|official (regional |global )?partner|brand ambassador|赞助|贊助|冠名|品牌大使"),
