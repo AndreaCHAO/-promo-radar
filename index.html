@@ -3,16 +3,21 @@
 <title>竞品促销监测 · CFD Promo Radar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="assets/fonts/fonts.css"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/app.css?v=fd6e3559">
+<link rel="stylesheet" href="assets/app.css?v=8a7e07c7">
 </head><body>
-<header><div class="header-inner"><a class="brand" href="#promos" data-view="promos" aria-label="回到活动监测首页" title="回到首页"><span class="brand-icon" aria-hidden="true">⌖</span>CFD / PROMO RADAR</a>
-<nav class="nav" aria-label="页面"><button data-view="promos" aria-current="page">活动监测<span class="nav-count" id="navPromosCount" hidden></span></button><button data-view="offline">线下活动</button><button data-view="regions">地区策略</button><button data-view="playbook">玩法案例库</button></nav>
+<header><div class="header-inner"><a class="brand" href="#home" data-view="home" aria-label="回到总览首页" title="回到首页"><span class="brand-icon" aria-hidden="true">⌖</span>CFD / PROMO RADAR</a>
+<nav class="nav" aria-label="页面"><button data-view="home">总览</button><button data-view="promos" aria-current="page">活动监测<span class="nav-count" id="navPromosCount" hidden></span></button><button data-view="offline">线下活动</button><button data-view="regions">地区策略</button><button data-view="playbook">玩法案例库</button></nav>
 <div class="header-actions"><details class="more-menu"><summary class="quiet-button">更多 ▾</summary><div class="menu"><button id="reloadData">重新读取数据 ↺</button><button id="openResearch">覆盖与方法</button><button id="exportCsv">导出当前列表 ↗</button></div></details></div></div></header>
 <div class="mini-filter" id="miniFilter" aria-label="快捷筛选" inert><div class="mf-inner"><div class="audience-tabs mf-aud" role="group" aria-label="方案对象"><button data-audience="all" aria-pressed="true">全部</button><button data-audience="direct" aria-pressed="false">直客</button><button data-audience="ib" aria-pressed="false">IB</button></div><label class="mf-search"><span class="sr-only">搜索</span><input id="miniSearch" type="search" placeholder="搜索品牌、活动…"></label><div class="mf-chips" id="miniChips"></div><span class="mf-count" id="miniCount"></span><button class="mf-more" id="miniMore" type="button">全部筛选 ↑</button><button class="mf-close" id="miniClose" type="button" aria-label="收起筛选条" title="收起">×</button></div></div>
 <button class="mf-reopen" id="miniReopen" type="button" aria-label="展开筛选条" hidden>筛选 <b id="miniReopenCount"></b></button>
 <main>
+<section class="view" id="view-home" hidden>
+<section class="home-hero grain-card glow-card" aria-label="总览"><div class="hh-left"><div class="eyebrow" id="homeDate">今日</div><h1>D Prime 竞品情报</h1><p>竞品的促销活动、线下展会与赞助、各地区打法和可借鉴玩法，每天 08:00 自动更新。</p></div><div class="highlights" id="homeHighlights" aria-label="本周最值得关注"></div></section>
+<div class="home-grid" id="homeGrid"></div>
+<p class="home-foot">仅基于公开信息 · 不含 D Prime 内部数据 · 不构成地区准入或合规意见</p>
+</section>
 <section class="view" id="view-promos">
-<section class="masthead"><div><div class="eyebrow" id="todayLabel">今日</div><h1>竞品促销<mark>监测</mark></h1><p class="sr-only">汇总主要 CFD / 外汇券商公开的直客与 IB 促销活动，按奖励、对象与门槛结构化呈现。</p><div class="highlights" id="highlights" aria-label="本周最值得关注"></div><div class="snapshot-inline"><span id="sourceLabel">正在读取数据…</span><span id="checkLabel"></span><span>仅基于公开信息 · 不构成地区准入或合规意见</span></div></div><div class="map-wrap"><svg id="worldMap" class="world-map" role="group" aria-label="地区导航地图：点击地区筛选"></svg><div class="map-tip" id="mapTip" role="tooltip" hidden></div><span class="map-caption">红点越大，在推方案越多 · 波纹 = 本周有新动态 · 停在地区上看概况，点击筛选</span></div></section>
+<section class="masthead"><div><div class="eyebrow" id="todayLabel">今日</div><h1>竞品促销<mark>监测</mark></h1><p>汇总主要 CFD / 外汇券商公开的直客与 IB 促销活动，按奖励、对象与门槛结构化呈现。</p><div class="snapshot-inline"><span id="sourceLabel">正在读取数据…</span><span id="checkLabel"></span><span>仅基于公开信息 · 不构成地区准入或合规意见</span></div></div><div class="map-wrap"><svg id="worldMap" class="world-map" role="group" aria-label="地区导航地图：点击地区筛选"></svg><div class="map-tip" id="mapTip" role="tooltip" hidden></div><span class="map-caption">红点越大，在推方案越多 · 波纹 = 本周有新动态 · 停在地区上看概况，点击筛选</span></div></section>
 <div class="section-title"><h2>本周动态</h2><span id="digestScope"></span></div>
 <section class="digest" id="digest" aria-label="本周动态"></section>
 <div class="section-divider"><h2>全部活动</h2><span>按对象、品牌、地区和状态筛选</span></div>
@@ -42,5 +47,5 @@
 <dialog class="comparison-dialog" id="comparisonDialog" aria-labelledby="comparisonTitle"><div class="dialog-head"><strong id="comparisonTitle">同类方案比较</strong><button class="close-button" data-close="comparisonDialog">关闭 ×</button></div><div class="compare-content" id="comparisonContent"></div></dialog>
 <dialog class="research-dialog" id="researchDialog" aria-labelledby="researchTitle"><div class="dialog-head"><strong id="researchTitle">资料覆盖与更新方式</strong><button class="close-button" data-close="researchDialog">关闭 ×</button></div><div class="research-content" id="researchContent"></div></dialog><div class="toast" id="toast" role="status"></div>
 <script src="config.js?v=6ea7ef11"></script>
-<script src="assets/app.js?v=d3ddf8f9"></script>
+<script src="assets/app.js?v=5e071acc"></script>
 </body></html>

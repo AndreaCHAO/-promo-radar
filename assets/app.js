@@ -197,14 +197,15 @@ function monTime() {
 const inList = r => ['active', 'due', 'undated'].includes(r.status) && !r.offList;
 
 /* ---------- 视图切换 ---------- */
-const VIEWS = ['promos', 'offline', 'regions', 'playbook'];
+const VIEWS = ['home', 'promos', 'offline', 'regions', 'playbook'];
 function showView(v, push = true) {
-  if (!VIEWS.includes(v)) v = 'promos';
+  if (!VIEWS.includes(v)) v = 'home';
   VIEW = v;
   VIEWS.forEach(x => { $('view-' + x).hidden = x !== v; });
   document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-current', b.dataset.view === v ? 'page' : 'false'));
   if (push && location.hash !== '#' + v) history.replaceState(null, '', '#' + v);
   if (v === 'promos') render();
+  if (v === 'home') renderHome();
   if (v === 'offline') renderOffline();
   if (v === 'regions') renderRegions();
   if (v === 'playbook') renderPlaybook();
@@ -279,7 +280,7 @@ function card(r) {
 }
 function sortKey(r) { return { due: 0, active: 1, upcoming: 2, undated: 3, unclear: 4, expired: 5, excluded: 6 }[r.status]; }
 function render() {
-  renderDigest(); renderHighlights(); renderMap();
+  renderDigest(); renderMap();
   const prev = new Map();
   if (!REDUCED) document.querySelectorAll('#recordCards .record-card').forEach(c => prev.set(c.dataset.recordId, c.getBoundingClientRect()));
   filtered = RECORDS.filter(matchRecord).sort((a, b) => (b.isSelf - a.isSelf) || (b.alert - a.alert) || ((b.auto && b.foundDays <= 7) - (a.auto && a.foundDays <= 7)) || sortKey(a) - sortKey(b) || a.rank - b.rank || (a.daysLeft ?? 9999) - (b.daysLeft ?? 9999) || (fmt(parseDate(b['最后核查'])) || '').localeCompare(fmt(parseDate(a['最后核查'])) || ''));
@@ -319,8 +320,8 @@ function rewardValue(r) {
   }
   return best;
 }
-function renderHighlights() {
-  const pool = RECORDS.filter(r => (selectedRegion === 'all' || r.region === selectedRegion) && !['expired', 'excluded'].includes(r.status));
+function renderHighlights(id = 'homeHighlights', region = 'all') {
+  const pool = RECORDS.filter(r => (region === 'all' || r.region === region) && !['expired', 'excluded'].includes(r.status));
   const core = r => CFG.coreBrands.some(b => b.toLowerCase() === r['品牌'].toLowerCase()) ? 1 : 0;
   const picks = [], used = new Set();
   const say = r => r && ((r['奖励摘要'] || '').length >= 14 ? r['奖励摘要'] : [r['标题'], r['奖励摘要']].filter(Boolean).join(' · '));
@@ -332,7 +333,7 @@ function renderHighlights() {
   const alert = pool.filter(r => r.alert && !used.has(r.id)).sort((a, b) => (b.flag === 'ended') - (a.flag === 'ended'))[0];
   if (alert) add(alert, alert.flag === 'ended' ? '可能已结束' : '条款有变化', 'flag', alert['标题']);
   else { const sp = pool.filter(r => r.offline && r.foundDays <= 14 && !used.has(r.id)).sort((a, b) => a.foundDays - b.foundDays)[0]; add(sp, '新赞助 / 线下', 'off', sp && sp['标题']); }
-  $('highlights').innerHTML = picks.length ? `<span class="hl-title">本周最值得关注${selectedRegion === 'all' ? '' : ' · ' + esc(selectedRegion)}</span><ol>${picks.map(p => `<li><button data-open="${esc(p.r.id)}"><em class="hl-tag ${p.cls}">${esc(p.tag)}</em><b>${esc(p.r['品牌'])}</b><span>${esc(short(p.note || '', 40))}</span><i aria-hidden="true">→</i></button></li>`).join('')}</ol>` : '';
+  $(id).innerHTML = picks.length ? `<span class="hl-title">本周最值得关注${region === 'all' ? '' : ' · ' + esc(region)}</span><ol>${picks.map(p => `<li><button data-open="${esc(p.r.id)}"><em class="hl-tag ${p.cls}">${esc(p.tag)}</em><b>${esc(p.r['品牌'])}</b><span>${esc(short(p.note || '', 40))}</span><i aria-hidden="true">→</i></button></li>`).join('')}</ol>` : '';
 }
 function updateNavCounts() {
   const n = RECORDS.filter(r => r.alert).length;
@@ -658,7 +659,7 @@ function hideTip() { tipFor = ''; const tip = $('mapTip'); if (tip) tip.hidden =
   try { await loadData(); }
   catch (err) { LOAD_ERROR = err.message + '。请点右上角「更多 → 重新读取」，或把截图发给 Andrea。'; $('sourceLabel').textContent = '数据读取失败'; render(); return; }
   populateFilters(); renderMeta(); setAudience('all');
-  showView(location.hash.slice(1) || 'promos', false);
+  showView(location.hash.slice(1) || 'home', false);
 })();
 
 /* 其他页的卡片也依次浮现 */
@@ -755,3 +756,22 @@ if (!REDUCED && matchMedia('(hover: hover) and (pointer: fine)').matches) {
   });
 }
 
+
+/* ---------- 总览（首页）：4 个模块入口 + 本周最值得关注 ---------- */
+function renderHome() {
+  $('homeDate').textContent = '今日 ' + fmt(today());
+  if (!RECORDS.length) { $('homeGrid').innerHTML = '<p class="digest-empty">正在读取数据…</p>'; return; }
+  renderHighlights('homeHighlights', 'all');
+  const t = today(), live = RECORDS.filter(r => inList(r) && !r.offline);
+  const week = RECORDS.filter(r => r.foundDays <= 7).length, alerts = RECORDS.filter(r => r.alert).length;
+  const up = EVENTS.filter(e => (e.end || e.start) >= t).sort((a, b) => a.start - b.start), next = up[0];
+  const top = topCounts(live.filter(r => r.region !== '全球'), r => r.region, 1)[0];
+  const low = PLAYBOOK.filter(p => p['合规风险'] === '低').length;
+  const card = (view, name, num, label, note, cls = '') => `<button class="home-card${cls}" data-view="${view}"><span class="hc-name">${name}</span><span class="hc-main"><b>${num}</b><span>${label}</span></span><span class="hc-note">${note}</span><span class="hc-go" aria-hidden="true">进入 →</span></button>`;
+  $('homeGrid').innerHTML =
+    card('promos', '活动监测', live.length, '个在推方案', `本周新增或核查 <em>${week}</em> 条${alerts ? ` · 需要核对 <em>${alerts}</em> 条` : ''}`, ' main') +
+    card('offline', '线下活动', up.length, '场展会即将举办', next ? `下一场：${md(next.start)} · ${esc(next['城市'] || '')} · ${esc(short(next['名称'], 26))}` : '近期没有已知展会') +
+    card('regions', '地区策略', Object.keys(REGIONS).length, '个监测地区', top ? `最热：${esc(top[0])} · ${top[1]} 个在推方案` : '') +
+    card('playbook', '玩法案例库', PLAYBOOK.length, '个可借鉴案例', `其中 <em>${low}</em> 个合规风险低 · 覆盖 CFD、Web3、银行`);
+  countUp(document.querySelectorAll('#homeGrid .hc-main b'));
+}

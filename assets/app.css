@@ -587,4 +587,30 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 .hl-tag.off{background:var(--sand);color:var(--black)}
 @media(max-width:620px){.highlights button{flex-wrap:wrap;gap:4px 8px}.highlights button span{flex-basis:100%;white-space:normal}.highlights button i{display:none}}
 
+
+/* ---------- 总览（首页） ---------- */
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:34px;align-items:center;margin:24px 0 18px;padding:30px 34px;border-radius:24px}
+.home-hero h1{font-size:42px;font-weight:800;letter-spacing:-.02em;line-height:1.15;margin:12px 0 10px;text-wrap:balance}
+.home-hero p{margin:0;font-size:15px;line-height:1.7;color:#6E6555;max-width:34em}
+.home-hero .highlights{margin:0;max-width:none}
+.home-grid{display:grid;grid-template-columns:1.25fr 1fr 1fr 1fr;gap:14px}
+.home-card{position:relative;display:flex;flex-direction:column;gap:10px;text-align:left;padding:20px 22px 18px;border-radius:var(--radius);background:var(--paper);box-shadow:var(--shadow);border:1px solid transparent;min-height:190px;transition:transform .18s,box-shadow .18s,border-color .18s}
+.home-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover);border-color:var(--black)}
+.home-card.main{background:var(--black);color:var(--white)}
+.hc-name{font-size:13px;font-weight:800;letter-spacing:.02em}
+.hc-main{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.hc-main b{font-size:44px;font-weight:800;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.hc-main span{font-size:13px;font-weight:600;color:var(--muted)}
+.home-card.main .hc-main span{color:#BFB29A}
+.hc-note{font-size:13px;line-height:1.55;color:#4A443A;flex:1}
+.home-card.main .hc-note{color:#D9D2C4}
+.hc-note em{font-style:normal;font-weight:800;color:var(--red)}
+.home-card.main .hc-note em{color:#F3E3BC}
+.hc-go{font-size:12.5px;font-weight:800;color:var(--black);opacity:.55;transition:opacity .15s,transform .15s}
+.home-card.main .hc-go{color:#F3E3BC;opacity:.8}
+.home-card:hover .hc-go{opacity:1;transform:translateX(3px)}
+.home-foot{margin:18px 4px 0;font-size:12px;color:var(--faint)}
+@media(max-width:1000px){.home-hero{grid-template-columns:1fr;gap:20px}.home-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.home-hero{padding:22px 20px;margin-top:16px}.home-hero h1{font-size:30px}.home-grid{grid-template-columns:1fr;gap:10px}.home-card{min-height:0}.hc-main b{font-size:36px}}
+
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}
