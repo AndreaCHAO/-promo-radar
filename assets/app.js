@@ -660,7 +660,9 @@ function hideTip() { tipFor = ''; const tip = $('mapTip'); if (tip) tip.hidden =
   try { await loadData(); }
   catch (err) { LOAD_ERROR = err.message + '。请点右上角「更多 → 重新读取」，或把截图发给 Andrea。'; $('sourceLabel').textContent = '数据读取失败'; render(); return; }
   populateFilters(); renderMeta(); setAudience('all');
-  showView(location.hash.slice(1) || 'home', false);
+  // 每次打开网站都先进「总览」；地址栏里残留的 #promos 等不再决定落地页
+  if (location.hash && location.hash !== '#home') history.replaceState(null, '', location.pathname + location.search + '#home');
+  showView('home', false);
 })();
 
 /* 其他页的卡片也依次浮现 */
