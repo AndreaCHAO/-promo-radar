@@ -453,4 +453,62 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 @keyframes fadeIn{from{opacity:0}}
 @keyframes fadeOut{to{opacity:0}}
 
+
+/* ---------- 深色光束卡片（各页头部） ---------- */
+.hero{--beam-x:0px;position:relative;overflow:hidden;isolation:isolate;background:#0A0A0A;color:var(--white);border-radius:24px;box-shadow:0 20px 50px rgba(25,25,25,.18);
+  background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:92px 92px}
+.hero::before{content:"";position:absolute;z-index:-1;inset:-60% -20% -60% 18%;pointer-events:none;transform:rotate(-7deg) translateX(var(--beam-x));
+  background:
+   linear-gradient(180deg,transparent 49.7%,rgba(255,226,210,.85) 50%,transparent 50.3%),
+   radial-gradient(55% 7% at 78% 50%,rgba(255,196,170,.75),transparent 70%),
+   radial-gradient(60% 20% at 82% 51%,rgba(255,92,60,.55),transparent 72%),
+   radial-gradient(75% 42% at 92% 52%,rgba(236,28,36,.6),transparent 75%),
+   linear-gradient(90deg,transparent 30%,rgba(120,8,14,.45) 100%);
+  filter:blur(2px)}
+.hero::after{content:"";position:absolute;z-index:-1;right:7%;top:-30%;width:200px;height:160%;pointer-events:none;background:linear-gradient(160deg,rgba(255,255,255,.09),rgba(255,255,255,.01));transform:skewX(-34deg)}
+.hero h1{color:var(--white)}
+.masthead.hero::before{display:block;width:auto;height:auto;border-radius:0;opacity:.8;right:-20%;top:-60%}
+.hero .view-note{background:none;border:0;padding:0;border-radius:0;box-shadow:none}
+.hero .view-note,.hero .map-caption{color:#9A9A9A}
+.view-head.hero{padding:30px 34px 22px;margin:24px 0 10px}
+.view-head.hero .view-note{display:block;margin-top:14px;font-size:12px}
+.hero-stats{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;margin-top:18px;max-width:760px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:16px;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.hero-stats .hs{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:16px 12px;text-align:center;min-width:0}
+.hero-stats .hs+.hs{border-left:1px solid rgba(255,255,255,.08)}
+.hero-stats b{font-size:32px;font-weight:800;line-height:1.1;letter-spacing:-.01em;font-variant-numeric:tabular-nums;color:var(--white)}
+.hero-stats .hs.txt b{font-size:20px;line-height:1.35}
+.hero-stats span{font-size:11.5px;font-weight:600;color:#A8A8A8;letter-spacing:.06em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+/* 首页：地图放在深色上 */
+.masthead.hero{background-color:#0A0A0A}
+.masthead.hero .snapshot-inline span{background:rgba(255,255,255,.07);color:#A8A8A8}
+.hero .map-land circle{fill:#3B3B3B}
+.hero .map-leader{stroke:#FFFFFF;opacity:.35}
+.hero .map-label rect{fill:rgba(255,255,255,.12)}
+.hero .map-region:hover .map-label rect,.hero .map-region:focus-visible .map-label rect{fill:rgba(255,255,255,.24)}
+.hero .map-region.sel .map-label rect{fill:var(--red)}
+.hero .map-dot{stroke:#0A0A0A}
+.hero .map-tip{background:#1E1E1E;border:1px solid rgba(255,255,255,.14)}
+@media(max-width:1000px){.hero-stats b{font-size:26px}}
+@media(max-width:620px){
+.view-head.hero{padding:22px 20px 18px;border-radius:20px}
+.hero-stats{grid-auto-flow:row;grid-template-columns:1fr 1fr}
+.hero-stats .hs{padding:12px 8px}.hero-stats .hs+.hs{border-left:0}
+.hero-stats .hs:nth-child(even){border-left:1px solid rgba(255,255,255,.08)}
+.hero-stats .hs:nth-child(n+3){border-top:1px solid rgba(255,255,255,.08)}
+.hero-stats .hs.txt:last-child:nth-child(odd){grid-column:1/-1}
+.hero-stats b{font-size:24px}.hero-stats .hs.txt b{font-size:16px}
+.hero::after{width:110px}
+}
+
+/* ---------- 随滚动变化（支持的浏览器才有，其他静态显示） ---------- */
+.record-card::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;opacity:0;border-top:3px solid var(--red);background:linear-gradient(180deg,rgba(236,28,36,.07),transparent 45%)}
+@supports (animation-timeline: view()){
+  /* A：光束随页面滚动流动、变亮 */
+  .hero::before{animation:beamFlow linear both;animation-timeline:scroll(root);animation-range:0 700px}
+  @keyframes beamFlow{from{transform:rotate(-7deg) translateX(0);filter:blur(2px) brightness(1) hue-rotate(0deg)}to{transform:rotate(-4deg) translateX(-14%);filter:blur(1px) brightness(1.35) hue-rotate(14deg)}}
+  /* B：卡片滚到屏幕中间时被点亮 */
+  .record-card::after{animation:cardLit linear both;animation-timeline:view();animation-range:cover 20% cover 80%}
+  @keyframes cardLit{0%,100%{opacity:0}40%,60%{opacity:1}}
+}
+
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}
