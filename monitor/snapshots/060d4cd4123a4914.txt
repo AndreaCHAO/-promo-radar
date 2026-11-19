@@ -19,6 +19,7 @@ Brokers IC
 Capital.com
 ActivTrades
 Scope Markets
+FP Markets
 Bullwaves
 See all reviews Directory Liquidity Providers
 26 Degrees
@@ -51,6 +52,7 @@ Brokers IC
 Capital.com
 ActivTrades
 Scope Markets
+FP Markets
 Bullwaves
 See all reviews
 Directory Liquidity Providers
@@ -68,13 +70,12 @@ Subscribe to TradeInformer
 Get the industry's favourite newsletter in your inbox every Monday morning.
 Subscribe
 Best Brokers
-1 IG
-2 ActivTrades
-3 IC
-4 Capital.com
-5 Scope Markets
-6 CFI
-7 ATFX
+ActivTrades
+Capital.com
+FP Markets
+Scope Markets
+CFI
+ATFX
 Compare All Brokers
 Broker News Traders Can Unlock up to $52,500 in Bonuses With XM
 David Kimberley · February 10, 2026
@@ -91,12 +92,12 @@ XM is an internationally established trading and investment firm, with over 15 m
 With over 15 years of serving clients, XM has proven to be fair, trustworthy, and dependable. Traders can access over 1,400 instruments across all devices. The award-winning broker is known for its wide range of products, excellent support, and outstanding education.
 Risk Warning: Trading involves significant risks and may result in the loss of your invested capital. T&Cs apply Disclaimer: Promotions and bonuses are not available for accounts registered under XM’s EU-based entity. Specific regions may be excluded. The XM Group operates globally under various entities, so products, services, and features listed here vary between XM entities. For further information, please visit the XM website.
 Related Articles
-Amana secures investment banking licence from Malaysia’s Labuan FSA
-Nov 17, 2026
-Tony Sharpe launches new CFD broker Made4Trading, gets Tom Hougaard as brand ambassador
-Nov 17, 2026
-CMC Markets inks 12 month partnership with Anthony Joshua
-Nov 17, 2026
+FP Markets to launch Anthropic share CFDs on MT5, cTrader and TradingView
+Nov 18, 2026
+Ondo Finance to launch tokenised Anthropic stock on Nasdaq IPO day
+Nov 18, 2026
+EBC launches Anthropic pre-IPO CFDs on MT5 ahead of expected Nasdaq listing
+Nov 18, 2026
 Subscribe to TradeInformer
 Get the industry's favourite newsletter every Monday morning.
 Subscribe

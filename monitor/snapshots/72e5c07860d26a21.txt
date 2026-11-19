@@ -1,4 +1,4 @@
-LUCKY_POST_PAGE_TITLE - Investizo
+Lucky Post - Investizo
 العربية‏
 Español
 فارسی
@@ -82,19 +82,19 @@ Small prize
 $ 75
 Small prize
 $ 50
-Winners on 17.11.2026
+Winners on 18.11.2026
 Rank
 Participant
 Prize
-assizer
+Albi1Avital
 $ 500
-Candelabra
+malacoid
 $ 250
-Loculate
+nevosity
 $ 125
-NilsxxoVintry
+wastive
 $ 75
-Theomancy
+Etamine
 $ 50
 Lucky Post
 tickets

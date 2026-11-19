@@ -13,25 +13,25 @@ How to protect my account
 What is FBS
 Can I trade with FBS if I'm underage?
 Trader Area
-I want to change my Trader Area e-mail
-I forgot my Trader Area password
-I want a Swap-free (Islamic) account
-How can I change my account leverage?
 How do I change my country in FBS – Stocks & Forex Trading app?
+I forgot my Trader Area password
+My account was archived
+How can I verify my Trader Area?
+I want to change my Trader Area e-mail
 See all 17 articles →
 Deposits and Withdrawals
+How to deposit via digital wallet
+How to deposit via bank card
+How to deposit via local bank
 What is Quick Access Wallet Verification?
 How can I transfer funds between my accounts?
-What is the minimum deposit amount to trade with FBS?
-When will my deposit be accepted?
-I have not received my card withdrawal yet
 See all 14 articles →
 Trading
-What is Stop Out?
-Trading and Quoting Sessions
-Margin Requirement and Free Margin
-How can I change my account leverage?
+How to log in to my trading account?
 What is leverage?
+Margin Requirement and Free Margin
+Trading and Quoting Sessions
+What is Stop Out?
 See all 22 articles →
 FBS Partnership Program
 How is the IB commission calculated?
@@ -40,8 +40,6 @@ I want to attach a client to my Partner account
 I want to detach my account from a Partner
 I want to attach my account to a Partner
 See all 6 articles →
-FAQs
-There isn't anything here, yet.
 Trending Articles
 I want to create an Investor password
 I want to delete my account
@@ -50,6 +48,13 @@ How can I withdraw
 Why was my withdrawal request rejected?
 How can I change my account leverage?
 How can I verify my Trader Area?
+I forgot my trading password
+How to log in to my trading account?
+My account was archived
+I want to try a Demo account in the FBS Trader Area
+I want to register an account with FBS
+I want a Swap-free (Islamic) account
+I want to change my Trader Area e-mail
 FBS Help Center
 HelpCenter.io
 Back to top

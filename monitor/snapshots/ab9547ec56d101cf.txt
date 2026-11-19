@@ -19,6 +19,7 @@ Brokers IC
 Capital.com
 ActivTrades
 Scope Markets
+FP Markets
 Bullwaves
 See all reviews Directory Liquidity Providers
 26 Degrees
@@ -51,6 +52,7 @@ Brokers IC
 Capital.com
 ActivTrades
 Scope Markets
+FP Markets
 Bullwaves
 See all reviews
 Directory Liquidity Providers
@@ -68,13 +70,12 @@ Subscribe to TradeInformer
 Get the industry's favourite newsletter in your inbox every Monday morning.
 Subscribe
 Best Brokers
-1 IG
-2 ActivTrades
-3 IC
-4 Capital.com
-5 Scope Markets
-6 CFI
-7 ATFX
+ActivTrades
+Capital.com
+FP Markets
+Scope Markets
+CFI
+ATFX
 Compare All Brokers
 Broker News XM Launches Unlimited Cashback Promo Rewarding Traders in 2026
 David Kimberley · April 7, 2026
@@ -88,12 +89,12 @@ Companies in this story
 Broker review We've reviewed XM ★ 4.8/5 Read the review →
 Tags
 Related Articles
-Amana secures investment banking licence from Malaysia’s Labuan FSA
-Nov 17, 2026
-Tony Sharpe launches new CFD broker Made4Trading, gets Tom Hougaard as brand ambassador
-Nov 17, 2026
-CMC Markets inks 12 month partnership with Anthony Joshua
-Nov 17, 2026
+FP Markets to launch Anthropic share CFDs on MT5, cTrader and TradingView
+Nov 18, 2026
+Ondo Finance to launch tokenised Anthropic stock on Nasdaq IPO day
+Nov 18, 2026
+EBC launches Anthropic pre-IPO CFDs on MT5 ahead of expected Nasdaq listing
+Nov 18, 2026
 Subscribe to TradeInformer
 Get the industry's favourite newsletter every Monday morning.
 Subscribe
