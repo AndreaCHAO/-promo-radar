@@ -22,6 +22,42 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': 
 let LOAD_ERROR = '', RECORDS = [], BY_ID = new Map(), META = { source: '', loadedAt: null, latestCheck: '' }, MON = null, RESEARCH = null, DISC = null, EVENTS = [], PLAYBOOK = [], RAW = { records: '', auto: '' };
 let VIEW = 'promos', selectedRegion = 'all', audience = 'all', visibleCount = 9, filtered = [], compareIds = [];
 let offlineKind = 'expo', playIndustry = 'all';
+/* ---------- 动效：系统开了「减少动态效果」时全部跳过 ---------- */
+const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+var firstPaint = true;
+function countUp(nodes) {
+  if (REDUCED) return;
+  nodes.forEach(n => {
+    const end = parseInt(n.textContent, 10); if (!(end > 1)) return;
+    const t0 = performance.now(), dur = 900; n.textContent = '0';
+    const step = t => { const p = Math.min(1, (t - t0) / dur); n.textContent = Math.round(end * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(step); };
+    requestAnimationFrame(step);
+  });
+}
+const revealIO = !REDUCED && 'IntersectionObserver' in window ? new IntersectionObserver(es => {
+  let n = 0;
+  es.forEach(e => {
+    if (!e.isIntersecting) return;
+    const c = e.target; revealIO.unobserve(c);
+    c.style.setProperty('--d', Math.min(n++, 8) * 55 + 'ms'); c.classList.add('in');
+    setTimeout(() => { c.classList.remove('reveal-pre', 'in'); c.style.removeProperty('--d'); }, 1100);
+  });
+}, { rootMargin: '0px 0px -30px 0px' }) : null;
+function revealIn(nodes) { if (!revealIO) return; nodes.forEach(c => { c.classList.add('reveal-pre'); revealIO.observe(c); }); }
+/* 筛选切换：留下来的卡片滑到新位置（FLIP），新出现的淡入 */
+function animateCards(prev) {
+  if (REDUCED) return;
+  const cards = [...document.querySelectorAll('#recordCards .record-card')];
+  if (!prev.size) { revealIn(cards); return; }
+  let i = 0;
+  cards.forEach(c => {
+    const old = prev.get(c.dataset.recordId);
+    if (old) {
+      const now = c.getBoundingClientRect(), dx = old.left - now.left, dy = old.top - now.top;
+      if (Math.abs(dx) > 1 || Math.abs(dy) > 1) c.animate([{ transform: `translate(${dx}px,${dy}px)` }, { transform: 'none' }], { duration: 480, easing: 'cubic-bezier(.2,.8,.2,1)' });
+    } else c.animate([{ opacity: 0, transform: 'translateY(12px) scale(.97)' }, { opacity: 1, transform: 'none' }], { duration: 380, delay: Math.min(i++, 8) * 45, easing: 'cubic-bezier(.2,.8,.2,1)', fill: 'backwards' });
+  });
+}
 
 /* ---------- CSV ---------- */
 function parseCSV(text) {
@@ -224,7 +260,7 @@ function setRegion(key, move = true) {
 function statusBadge(r) {
   let label = STATUS[r.status];
   if (r.status === 'due' && r.daysLeft != null) label = r.daysLeft === 0 ? '今天截止' : '还剩 ' + r.daysLeft + ' 天';
-  return `<span class="status ${r.status}">${esc(label)}</span>`;
+  return `<span class="status ${r.status}">${r.status === 'due' ? '<i class="pulse-dot" aria-hidden="true"></i>' : ''}${esc(label)}</span>`;
 }
 function deadlineText(r) {
   const s = parseDate(r['开始日期']), e = parseDate(r['截止日期']);
@@ -232,14 +268,20 @@ function deadlineText(r) {
   if (e) return fmt(e) + (r.daysLeft != null && r.daysLeft >= 0 ? '（' + (r.daysLeft === 0 ? '今天' : r.daysLeft + ' 天后') + '）' : '');
   return r['日期说明'] ? short(r['日期说明'], 40) : '未公开截止日';
 }
+/* 奖励里的第一个金额 / 比例用柠檬黄高亮 */
+const AMT = /(?:US\$|HK\$|S\$|A\$|USDT\s?|USD\s?|RM\s?|\$|€|£|¥)\s?\d[\d,.]*(?:\s?(?:k|K|M|万|million|mil))?|\d[\d,.]*\s?(?:万美元|美元|USDT|USD|%|％|万)/;
+function hiAmount(v) { return esc(v).replace(AMT, m => `<mark class="amt">${m}</mark>`); }
+/* 卡片只留 4 项：品牌、奖励、门槛、截止；其余（可参考点、标签）收进详情 */
 function card(r) {
   const picked = compareIds.includes(r.id), hasImg = !!imgSrc(r['截图链接']);
-  const tags = [r['活动类型'] && `<span class="tag dark">${esc(r['活动类型'])}</span>`, r['奖励性质'] && `<span class="tag">${esc(r['奖励性质'])}</span>`, `<span class="tag outline">${r.audience === 'ib' ? 'IB / 伙伴' : '直客'}</span>`, hasImg && '<span class="tag outline">有截图</span>'].filter(Boolean).join('');
-  return `<article class="record-card${r.isSelf ? ' self' : ''}" data-record-id="${esc(r.id)}"><button class="card-main" data-open="${esc(r.id)}" aria-label="查看${esc(r['品牌'] + ' ' + r['标题'])}的详情"><div class="card-content"><div class="card-top"><div class="broker-name">${esc(r['品牌'])}${r.isSelf ? '<span class="self-badge">我方</span>' : ''}${r.auto ? `<span class="auto-badge">${r.foundDays <= 7 ? '新 · ' : ''}自动发现 · 未核实</span>` : ''}<span class="region-name">${esc(r.region)}</span></div>${statusBadge(r)}</div><div class="tag-line">${tags}</div>${r.alert || r.flag === 'down' ? `<div class="mon-flag ${r.flag}">⚑ ${esc(FLAG[r.flag])}${r.mon?.ai ? ' · 有 AI 建议' : ''}</div>` : ''}<h2>${esc(r['标题'])}</h2><p class="headline-reward">${esc(r['奖励摘要'] || '金额未公开，需确认')}</p><dl class="facts"><div><dt>门槛</dt><dd>${esc(r['门槛'] || '未公开，需确认')}</dd></div><div class="deadline${r.status === 'due' ? ' soon' : ''}"><dt>${r.status === 'upcoming' ? '开始' : '截止'}</dt><dd>${esc(deadlineText(r))}</dd></div></dl>${r['可参考点'] ? `<p class="card-analysis"><b>可参考点</b>${esc(r['可参考点'])}</p>` : ''}</div></button><div class="card-footer"><span>${r.sources.length} 个来源 · ${r.auto ? '发现于' : '核查'} ${esc(fmt(parseDate(r['最后核查'])) || '未标')}</span><button class="compare-pick" data-compare="${esc(r.id)}" aria-pressed="${picked}">${picked ? '已加入比较 ✓' : '＋ 同类比较'}</button></div></article>`;
+  const meta = [r.region, r['活动类型'], r.audience === 'ib' ? 'IB / 伙伴' : '直客', hasImg && '有截图'].filter(Boolean).map(esc).join('<i>·</i>');
+  return `<article class="record-card${r.isSelf ? ' self' : ''}" data-record-id="${esc(r.id)}"><button class="card-main" data-open="${esc(r.id)}" aria-label="查看${esc(r['品牌'] + ' ' + r['标题'])}的详情"><div class="card-content"><div class="card-top"><div class="broker-name">${esc(r['品牌'])}${r.isSelf ? '<span class="self-badge">我方</span>' : ''}${r.auto ? `<span class="auto-badge">${r.foundDays <= 7 ? '新 · ' : ''}自动发现 · 未核实</span>` : ''}</div>${statusBadge(r)}</div><p class="card-meta">${meta}</p><p class="headline-reward">${hiAmount(r['奖励摘要'] || '金额未公开，需确认')}</p><h2>${esc(r['标题'])}</h2><dl class="facts"><div><dt>门槛</dt><dd>${esc(r['门槛'] || '未公开，需确认')}</dd></div><div class="deadline${r.status === 'due' ? ' soon' : ''}"><dt>${r.status === 'upcoming' ? '开始' : '截止'}</dt><dd>${esc(deadlineText(r))}</dd></div></dl>${r.alert || r.flag === 'down' ? `<div class="mon-flag ${r.flag}">⚑ ${esc(FLAG[r.flag])}${r.mon?.ai ? ' · 有 AI 建议' : ''}</div>` : ''}</div></button><div class="card-footer"><span>${r.auto ? '发现于' : '核查'} ${esc(fmt(parseDate(r['最后核查'])) || '未标')}</span><button class="compare-pick" data-compare="${esc(r.id)}" aria-pressed="${picked}">${picked ? '已加入比较 ✓' : '＋ 同类比较'}</button></div></article>`;
 }
 function sortKey(r) { return { due: 0, active: 1, upcoming: 2, undated: 3, unclear: 4, expired: 5, excluded: 6 }[r.status]; }
 function render() {
   renderDigest(); renderMap();
+  const prev = new Map();
+  if (!REDUCED) document.querySelectorAll('#recordCards .record-card').forEach(c => prev.set(c.dataset.recordId, c.getBoundingClientRect()));
   filtered = RECORDS.filter(matchRecord).sort((a, b) => (b.isSelf - a.isSelf) || (b.alert - a.alert) || ((b.auto && b.foundDays <= 7) - (a.auto && a.foundDays <= 7)) || sortKey(a) - sortKey(b) || a.rank - b.rank || (a.daysLeft ?? 9999) - (b.daysLeft ?? 9999) || (fmt(parseDate(b['最后核查'])) || '').localeCompare(fmt(parseDate(a['最后核查'])) || ''));
   const show = filtered.slice(0, visibleCount);
   if (LOAD_ERROR) { $('recordCards').innerHTML = `<div class="empty"><strong>数据读取失败</strong>${esc(LOAD_ERROR)}</div>`; return; }
@@ -252,6 +294,8 @@ function render() {
   const urls = new Set(filtered.flatMap(r => r.sources));
   $('filteredStats').textContent = '当前筛选：' + new Set(filtered.map(r => r['品牌'])).size + ' 个品牌 · ' + urls.size + ' 个来源链接';
   updateCompareBar(); updateNavCounts();
+  animateCards(prev);
+  if (firstPaint && RECORDS.length) { firstPaint = false; countUp(document.querySelectorAll('.digest-head b, .map-num')); revealIn(document.querySelectorAll('.digest-col')); }
 }
 /* 本周动态：全部地区、全部对象 */
 function renderDigest() {
@@ -478,8 +522,6 @@ for (const id of ['openResearch', 'openResearchBottom']) $(id).onclick = () => {
 $('researchContent').addEventListener('click', e => { const a = e.target.closest('[data-research-record]'); if (a) { e.preventDefault(); $('researchDialog').close(); openRecord(a.dataset.researchRecord); } });
 $('drawerContent').addEventListener('click', async e => { const b = e.target.closest('[data-copy-tsv]'); if (!b) return; const r = BY_ID.get(b.dataset.copyTsv); try { await navigator.clipboard.writeText(r.mon.ai.tsv); toast('已复制整行（ID：' + r.id + '）。'); } catch { toast('复制失败，请手动选中复制。'); } });
 $('reloadData').onclick = async () => { document.querySelectorAll('.more-menu[open]').forEach(m => m.removeAttribute('open')); try { await loadData(); LOAD_ERROR = ''; rerenderAll(); toast('已重新读取，共 ' + RECORDS.length + ' 条'); } catch (err) { toast('读取失败：' + err.message); } };
-document.querySelectorAll('[data-close]').forEach(b => b.onclick = () => $(b.dataset.close).close());
-for (const id of ['recordDrawer', 'comparisonDialog', 'researchDialog']) $(id).addEventListener('click', e => { if (e.target === $(id)) $(id).close(); });
 document.querySelectorAll('[data-okind]').forEach(b => b.addEventListener('click', () => { offlineKind = b.dataset.okind; document.querySelectorAll('[data-okind]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); renderOffline(); }));
 $('offlineRegion').onchange = renderOffline;
 document.querySelectorAll('[data-industry]').forEach(b => b.addEventListener('click', () => { playIndustry = b.dataset.industry; document.querySelectorAll('[data-industry]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); renderPlaybook(); }));
@@ -523,6 +565,7 @@ function renderMap() {
       const x = mx(reg.lon), y = my(reg.lat), r = 3 + Math.sqrt(counts[k] / max) * 7;
       el('line', { class: 'map-leader', x1: x, y1: y, x2: lx, y2: ly - 3 }, g);
       el('circle', { class: 'map-halo', cx: x, cy: y, r: r + 3 }, g);
+      if (RECORDS.some(x => x.region === k && x.foundDays <= 7)) for (const p of ['p1', 'p2']) el('circle', { class: 'map-pulse ' + p, cx: x, cy: y, r }, g);
       el('circle', { class: 'map-dot', cx: x, cy: y, r }, g);
     }
     const label = el('g', { class: 'map-label' }, g);
@@ -554,12 +597,12 @@ function regionStats(k) {
   const all = RECORDS.filter(r => r.region === k && !r.offline);
   const cur = all.filter(r => inList(r) && (audience === 'all' || r.audience === audience));
   const top = topCounts(cur, '品牌', 3);
-  return { cur, direct: cur.filter(r => r.audience === 'direct').length, ib: cur.filter(r => r.audience === 'ib').length, top, week: all.filter(r => r.foundDays <= 7).length };
+  return { cur, direct: cur.filter(r => r.audience === 'direct').length, ib: cur.filter(r => r.audience === 'ib').length, top, week: RECORDS.filter(r => r.region === k && r.foundDays <= 7).length };
 }
 function showTip(k, e) {
   const tip = $('mapTip'), st = regionStats(k);
   tipFor = k;
-  tip.innerHTML = `<b class="tip-title">${esc(k)}</b><span class="tip-row"><em>${st.cur.length}</em> 个在推方案 · 直客 ${st.direct} / IB ${st.ib}</span>${st.top.length ? `<span class="tip-row">活动最多：${st.top.map(([b, n]) => esc(b) + ' ' + n).join('、')}</span>` : '<span class="tip-row">暂无在推方案</span>'}<span class="tip-row">本周新增或核查 <em>${st.week}</em> 条</span><span class="tip-cta">${selectedRegion === k ? '点击取消筛选' : (lastPointer === 'touch' ? '再点一次查看全部 →' : '点击查看全部 →')}</span>`;
+  tip.innerHTML = `<b class="tip-title">${esc(k)}</b><span class="tip-row"><em>${st.cur.length}</em> 个在推方案 · 直客 ${st.direct} / IB ${st.ib}</span>${st.top.length ? `<span class="tip-row">活动最多：${st.top.map(([b, n]) => esc(b) + ' ' + n).join('、')}</span>` : '<span class="tip-row">暂无在推方案</span>'}<span class="tip-row">本周新增或核查 <em>${st.week}</em> 条（含线下）</span><span class="tip-cta">${selectedRegion === k ? '点击取消筛选' : (lastPointer === 'touch' ? '再点一次查看全部 →' : '点击查看全部 →')}</span>`;
   tip.hidden = false;
   moveTip(e, k);
 }
@@ -585,3 +628,38 @@ function hideTip() { tipFor = ''; const tip = $('mapTip'); if (tip) tip.hidden =
   populateFilters(); renderMeta(); setAudience('all');
   showView(location.hash.slice(1) || 'promos', false);
 })();
+
+/* 其他页的卡片也依次浮现 */
+for (const [fn, sel] of [['renderRegions', '#regionGrid > *'], ['renderPlaybook', '#playGrid > *'], ['renderOffline', '#timeline .tl-item']]) {
+  const orig = window[fn];
+  window[fn] = function () { const out = orig.apply(this, arguments); revealIn(document.querySelectorAll(sel)); return out; };
+}
+/* 顶部导航：往下滚变窄 + 毛玻璃；筛选条吸顶时加阴影 */
+(() => {
+  const head = document.querySelector('header'), bar = document.querySelector('.filter-bar');
+  let on = false, ticking = false;
+  const check = () => {
+    ticking = false;
+    const y = scrollY;
+    if (!on && y > 80) { on = true; head.classList.add('scrolled'); document.documentElement.classList.add('scrolled'); }
+    else if (on && y < 20) { on = false; head.classList.remove('scrolled'); document.documentElement.classList.remove('scrolled'); }
+    if (bar) bar.classList.toggle('stuck', getComputedStyle(bar).position === 'sticky' && bar.getBoundingClientRect().top <= head.offsetHeight + 1 && y > 80);
+  };
+  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(check); } }, { passive: true });
+  check();
+})();
+/* 弹窗关闭时也有动画（Esc、关闭按钮、点背景） */
+function animClose(d) {
+  if (REDUCED || !d.open || d.classList.contains('closing')) { if (d.open && REDUCED) d.close(); return; }
+  d.classList.add('closing');
+  const done = () => { clearTimeout(t); d.removeEventListener('animationend', onEnd); d.classList.remove('closing'); d.close(); };
+  const onEnd = e => { if (e.target === d) done(); };
+  const t = setTimeout(done, 450);
+  d.addEventListener('animationend', onEnd);
+}
+for (const id of ['recordDrawer', 'comparisonDialog', 'researchDialog']) {
+  const d = $(id);
+  d.addEventListener('cancel', e => { e.preventDefault(); animClose(d); });
+  d.addEventListener('click', e => { if (e.target === d) { e.stopImmediatePropagation(); animClose(d); } }, true);
+}
+document.querySelectorAll('[data-close]').forEach(b => b.onclick = () => animClose($(b.dataset.close)));
