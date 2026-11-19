@@ -616,4 +616,27 @@ dialog.closing::backdrop{animation:fadeOut .3s ease forwards}
 #view-home .masthead{margin-bottom:18px}
 @media(min-width:1101px){#view-home .map-wrap{width:500px}}
 
+
+/* ---------- 首页开场幕布 ---------- */
+.intro-spacer{height:calc(100svh - 64px)}
+/* 保证首页总高度够把幕布完全卷走 */
+#view-home{min-height:200svh}
+.intro{--p:0;position:fixed;inset:0;z-index:19;display:flex;align-items:center;justify-content:center;overflow:hidden;
+  background:radial-gradient(70% 60% at 80% 15%,rgba(255,255,255,.14),transparent 60%),radial-gradient(60% 60% at 10% 100%,rgba(25,25,25,.28),transparent 60%),radial-gradient(rgba(255,255,255,.16) 1.2px,transparent 1.6px) 0 0/22px 22px,var(--red);
+  color:var(--white);transform:translate3d(0,calc(var(--p) * -100%),0);border-radius:0 0 calc(var(--p) * 56px) calc(var(--p) * 56px);box-shadow:0 30px 60px rgba(120,10,14,calc(var(--p) * .35));will-change:transform}
+.intro[hidden]{display:none}
+.intro-inner{display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center;padding:96px 24px 40px;transform:translate3d(0,calc(var(--p) * -18vh),0) scale(calc(1 - var(--p) * .08));opacity:calc(1 - var(--p) * 1.4)}
+.intro-kicker{font-size:13px;font-weight:800;letter-spacing:.32em;opacity:.85}
+.intro-title{margin:0;font-size:clamp(48px,9vw,128px);font-weight:900;line-height:1.02;letter-spacing:-.03em;text-wrap:balance;animation:introUp .9s cubic-bezier(.2,.8,.2,1) both}
+.intro-title span{color:var(--black);background:var(--lemon);border-radius:.12em;padding:0 .12em;margin-left:.06em}
+.intro-stats{margin:0;font-size:clamp(14px,1.6vw,18px);opacity:.92;animation:introUp .9s .15s cubic-bezier(.2,.8,.2,1) both}
+.intro-stats b{font-size:1.25em;font-weight:800}
+.intro-skip{margin-top:22px;display:flex;flex-direction:column;align-items:center;gap:10px;color:var(--white);font-size:13px;font-weight:700;letter-spacing:.12em;opacity:.9;animation:introUp .9s .3s cubic-bezier(.2,.8,.2,1) both}
+.intro-skip:hover{opacity:1}
+.intro-mouse{width:24px;height:38px;border:2px solid currentColor;border-radius:14px;display:flex;justify-content:center;padding-top:6px}
+.intro-mouse i{width:3px;height:8px;border-radius:2px;background:currentColor;animation:wheel 1.6s ease-in-out infinite}
+@keyframes wheel{0%{transform:translateY(0);opacity:1}70%{transform:translateY(10px);opacity:0}100%{opacity:0}}
+@keyframes introUp{from{opacity:0;transform:translateY(24px)}}
+@media(max-width:820px){.intro-spacer{height:calc(100svh - 112px)}.intro-inner{padding-top:140px}}
+
 @media(prefers-reduced-motion:reduce){*,*::backdrop{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal-pre{opacity:1;transform:none}}

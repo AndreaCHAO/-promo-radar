@@ -209,7 +209,8 @@ function showView(v, push = true) {
   if (v === 'offline') renderOffline();
   if (v === 'regions') renderRegions();
   if (v === 'playbook') renderPlaybook();
-  window.scrollTo(0, 0);
+  window.scrollTo(0, v === 'home' ? introStart() : 0);
+  if (typeof updIntro === 'function') updIntro();
 }
 
 /* ---------- 活动监测 ---------- */
@@ -765,6 +766,7 @@ function renderPromoStats() {
 function renderHome() {
   if (!RECORDS.length) { $('homeGrid').innerHTML = '<p class="digest-empty">正在读取数据…</p>'; return; }
   renderHighlights('homeHighlights', 'all'); renderMap();
+  $('introStats').innerHTML = `<b>${RECORDS.filter(r => inList(r) && !r.offline).length}</b> 个在推方案 · 本周 <b>${RECORDS.filter(r => r.foundDays <= 7).length}</b> 条新动态 · 每天 08:00 自动更新`;
   const t = today(), live = RECORDS.filter(r => inList(r) && !r.offline);
   const week = RECORDS.filter(r => r.foundDays <= 7).length, alerts = RECORDS.filter(r => r.alert).length;
   const up = EVENTS.filter(e => (e.end || e.start) >= t).sort((a, b) => a.start - b.start), next = up[0];
@@ -778,3 +780,26 @@ function renderHome() {
     card('playbook', '玩法案例库', PLAYBOOK.length, '个可借鉴案例', `其中 <em>${low}</em> 个合规风险低 · 覆盖 CFD、Web3、银行`);
   countUp(document.querySelectorAll('#homeGrid .hc-main b'));
 }
+
+/* ---------- 首页开场：品牌红整屏，上滑时像幕布一样收起，露出总览 ---------- */
+var introOn = !REDUCED;
+function introSeen() { try { return sessionStorage.getItem('introSeen') === '1'; } catch (e) { return false; } }
+function markIntroSeen() { try { sessionStorage.setItem('introSeen', '1'); } catch (e) {} }
+function introStart() { const sp = document.querySelector('.intro-spacer'); return introOn && introSeen() && sp ? sp.offsetHeight : 0; }
+var updIntro = () => {};
+(() => {
+  const intro = $('intro'), sp = document.querySelector('.intro-spacer');
+  if (!introOn) { intro.remove(); sp.remove(); return; }
+  let ticking = false;
+  updIntro = () => {
+    ticking = false;
+    const H = sp.offsetHeight || 1, p = Math.min(1, Math.max(0, scrollY / H));
+    intro.style.setProperty('--p', p.toFixed(3));
+    intro.hidden = VIEW !== 'home' || p >= 1;
+    if (p >= 1) markIntroSeen();
+  };
+  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(updIntro); } }, { passive: true });
+  addEventListener('resize', updIntro);
+  $('introSkip').addEventListener('click', () => { markIntroSeen(); scrollTo({ top: sp.offsetHeight, behavior: 'smooth' }); });
+  updIntro();
+})();
