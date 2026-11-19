@@ -28,9 +28,9 @@ var firstPaint = true;
 function countUp(nodes) {
   if (REDUCED) return;
   nodes.forEach(n => {
-    const m = n.textContent.match(/^(\d+)(\D*)$/); if (!m || !(+m[1] > 1)) return;
-    const end = +m[1], suf = m[2], t0 = performance.now(), dur = 900; n.textContent = '0' + suf;
-    const step = t => { const p = Math.min(1, (t - t0) / dur); n.textContent = Math.round(end * (1 - Math.pow(1 - p, 3))) + suf; if (p < 1) requestAnimationFrame(step); };
+    const end = parseInt(n.textContent, 10); if (!(end > 1)) return;
+    const t0 = performance.now(), dur = 900; n.textContent = '0';
+    const step = t => { const p = Math.min(1, (t - t0) / dur); n.textContent = Math.round(end * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(step); };
     requestAnimationFrame(step);
   });
 }
@@ -294,7 +294,7 @@ function render() {
   const urls = new Set(filtered.flatMap(r => r.sources));
   $('filteredStats').textContent = '当前筛选：' + new Set(filtered.map(r => r['品牌'])).size + ' 个品牌 · ' + urls.size + ' 个来源链接';
   updateCompareBar(); updateNavCounts();
-  animateCards(prev); renderHero('promos');
+  animateCards(prev);
   if (firstPaint && RECORDS.length) { firstPaint = false; countUp(document.querySelectorAll('.digest-head b, .map-num')); revealIn(document.querySelectorAll('.digest-col')); }
 }
 /* 本周动态：全部地区、全部对象 */
@@ -632,7 +632,7 @@ function hideTip() { tipFor = ''; const tip = $('mapTip'); if (tip) tip.hidden =
 /* 其他页的卡片也依次浮现 */
 for (const [fn, sel] of [['renderRegions', '#regionGrid > *'], ['renderPlaybook', '#playGrid > *'], ['renderOffline', '#timeline .tl-item']]) {
   const orig = window[fn];
-  window[fn] = function () { const out = orig.apply(this, arguments); renderHero({ renderRegions: 'regions', renderPlaybook: 'playbook', renderOffline: 'offline' }[fn]); revealIn(document.querySelectorAll(sel)); return out; };
+  window[fn] = function () { const out = orig.apply(this, arguments); revealIn(document.querySelectorAll(sel)); return out; };
 }
 /* 顶部导航：往下滚变窄 + 毛玻璃；筛选条吸顶时加阴影 */
 (() => {
@@ -663,28 +663,3 @@ for (const id of ['recordDrawer', 'comparisonDialog', 'researchDialog']) {
   d.addEventListener('click', e => { if (e.target === d) { e.stopImmediatePropagation(); animClose(d); } }, true);
 }
 document.querySelectorAll('[data-close]').forEach(b => b.onclick = () => animClose($(b.dataset.close)));
-
-/* ---------- 页面头部：深色卡片 + 大数字 ---------- */
-var heroSeen = new Set();
-function renderHero(v) {
-  const box = $('hero-' + v); if (!box) return;
-  const live = RECORDS.filter(r => inList(r) && !r.offline), t = today();
-  const st = (n, label, text) => `<div class="hs${text ? ' txt' : ''}"><b>${esc(n)}</b><span>${esc(label)}</span></div>`;
-  let html = '';
-  if (!RECORDS.length) html = st('—', '正在读取');
-  else if (v === 'promos') {
-    html = st(live.length, '在推方案') + st(new Set(live.map(r => r['品牌'])).size, '竞品品牌') + st(Object.keys(REGIONS).length, '监测地区') + st(RECORDS.filter(r => r.foundDays <= 7).length, '本周新动态');
-  } else if (v === 'offline') {
-    const up = EVENTS.filter(e => e.start && e.start >= t).sort((a, b) => a.start - b.start);
-    const sp = RECORDS.filter(r => r.offline && r.okind === 'sponsor' && r.audience === 'direct' && !isExpoish(r)).length;
-    html = st(up.length, '即将举办展会') + st(sp, '竞品赞助') + (up[0] ? st(md(up[0].start) + ' · ' + up[0]['城市'], '下一场 · ' + up[0]['名称'].replace(/\s*20\d\d$/, ''), 1) : '');
-  } else if (v === 'regions') {
-    const top = topCounts(live.filter(r => r.region !== '全球'), r => r.region, 1)[0];
-    const ib = live.length ? Math.round(live.filter(r => r.audience === 'ib').length / live.length * 100) : 0;
-    html = st(Object.keys(REGIONS).length, '监测地区') + (top ? st(top[0], '最热地区 · ' + top[1] + ' 个在推', 1) : '') + st(ib + '%', 'IB 方案占比');
-  } else if (v === 'playbook') {
-    html = st(PLAYBOOK.length, '玩法案例') + st(new Set(PLAYBOOK.map(p => p['行业']).filter(Boolean)).size, '覆盖行业') + st(PLAYBOOK.filter(p => p['合规风险'] === '低').length, '低风险可借鉴');
-  }
-  box.innerHTML = html;
-  if (RECORDS.length && !heroSeen.has(v)) { heroSeen.add(v); countUp(box.querySelectorAll('.hs:not(.txt) b')); }
-}

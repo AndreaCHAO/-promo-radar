@@ -10,7 +10,7 @@
 <div class="header-actions"><details class="more-menu"><summary class="quiet-button">更多 ▾</summary><div class="menu"><button id="reloadData">重新读取数据 ↺</button><button id="openResearch">覆盖与方法</button><button id="exportCsv">导出当前列表 ↗</button></div></details></div></div></header>
 <main>
 <section class="view" id="view-promos">
-<section class="masthead hero"><div><div class="eyebrow" id="todayLabel">今日</div><h1>竞品促销<mark>监测</mark></h1><p class="sr-only">汇总主要 CFD / 外汇券商公开的直客与 IB 促销活动，按奖励、对象与门槛结构化呈现。</p><div class="hero-stats" id="hero-promos"></div><div class="snapshot-inline"><span id="sourceLabel">正在读取数据…</span><span id="checkLabel"></span><span>仅基于公开信息 · 不构成地区准入或合规意见</span></div></div><div class="map-wrap"><svg id="worldMap" class="world-map" role="group" aria-label="地区导航地图：点击地区筛选"></svg><div class="map-tip" id="mapTip" role="tooltip" hidden></div><span class="map-caption">红点越大，在推方案越多 · 波纹 = 本周有新动态 · 停在地区上看概况，点击筛选</span></div></section>
+<section class="masthead"><div><div class="eyebrow" id="todayLabel">今日</div><h1>竞品促销<mark>监测</mark></h1><p>汇总主要 CFD / 外汇券商公开的直客与 IB 促销活动，按奖励、对象与门槛结构化呈现。活动状态按日期自动判定，来源页面每日复核。</p><div class="snapshot-inline"><span id="sourceLabel">正在读取数据…</span><span id="checkLabel"></span><span>仅基于公开信息 · 不构成地区准入或合规意见</span></div></div><div class="map-wrap"><svg id="worldMap" class="world-map" role="group" aria-label="地区导航地图：点击地区筛选"></svg><div class="map-tip" id="mapTip" role="tooltip" hidden></div><span class="map-caption">红点越大，在推方案越多 · 波纹 = 本周有新动态 · 停在地区上看概况，点击筛选</span></div></section>
 <div class="section-title"><h2>本周动态</h2><span id="digestScope"></span></div>
 <section class="digest" id="digest" aria-label="本周动态"></section>
 <section class="audience-bar" aria-label="方案对象"><div class="audience-tabs"><button data-audience="all" aria-pressed="true">全部</button><button data-audience="direct" aria-pressed="false">直客活动</button><button data-audience="ib" aria-pressed="false">IB 合作</button></div><span class="audience-hint" id="audienceHint">直客活动与 IB 合作方案</span></section>
@@ -20,16 +20,16 @@
 <footer class="library-note"><span id="filteredStats"></span><button id="openResearchBottom">查看资料覆盖、区域研究与更新方式 →</button></footer>
 </section>
 <section class="view" id="view-offline" hidden>
-<div class="view-head hero"><div class="eyebrow">线下</div><h1>线下活动</h1><div class="hero-stats" id="hero-offline"></div><span class="view-note">行业展会看哪里办什么展 · 竞品赞助看给客户和伙伴的权益 · <span id="offlineSummary"></span></span></div>
+<div class="view-head"><div class="eyebrow">线下</div><h1>线下活动</h1><p>行业展会：哪里、什么时候办什么展。竞品赞助：体育 / IP 赞助，以及给客户和伙伴的权益。</p><span class="view-note" id="offlineSummary"></span></div>
 <div class="toolbar"><div class="chip-tabs" role="group" aria-label="线下形式"><button data-okind="expo" aria-pressed="true">行业展会</button><button data-okind="sponsor" aria-pressed="false">竞品赞助</button></div><label>地区<select id="offlineRegion"></select></label></div>
 <div class="timeline" id="timeline"></div>
 </section>
 <section class="view" id="view-regions" hidden>
-<div class="view-head hero"><div class="eyebrow">地区</div><h1>地区策略</h1><div class="hero-stats" id="hero-regions"></div><span class="view-note">按公开活动自动统计 · 不含 D Prime 内部数据与策略</span></div>
+<div class="view-head"><div class="eyebrow">地区</div><h1>地区策略</h1><p>按雷达里的公开活动自动统计：每个地区有多少竞品在推、主流打法、IB 生态、线下动作、准入提示，以及竞品在这里较少做的类型。</p><span class="view-note">仅基于公开资料 · 不含 D Prime 内部数据与策略</span></div>
 <div class="region-grid" id="regionGrid"></div>
 </section>
 <section class="view" id="view-playbook" hidden>
-<div class="view-head hero"><div class="eyebrow">案例</div><h1>玩法案例库</h1><div class="hero-stats" id="hero-playbook"></div><span class="view-note">每个案例拆解怎么玩、为什么有效、D Prime 可以怎么借鉴 · 借鉴前请走合规审核</span></div>
+<div class="view-head"><div class="eyebrow">案例</div><h1>玩法案例库</h1><p>值得借鉴的活动设计：包括加密平台进军 TradFi（黄金、外汇、股票 CFD）时的拉新玩法，CFD 券商的经典设计，以及银行的活动玩法。每个案例都拆解了怎么玩、为什么有效、D Prime 可以怎么借鉴。</p><span class="view-note">借鉴前请走合规审核 · 风险等级为初步判断</span></div>
 <div class="toolbar"><div class="chip-tabs" role="group" aria-label="行业"><button data-industry="all" aria-pressed="true">全部</button><button data-industry="Web3 → TradFi" aria-pressed="false">Web3 → TradFi</button><button data-industry="CFD" aria-pressed="false">CFD 券商</button><button data-industry="银行" aria-pressed="false">银行</button></div><label>玩法<select id="playCategory"></select></label><label>合规风险<select id="playRisk"><option value="">全部</option><option>低</option><option>中</option><option>高</option></select></label><span class="view-note" id="playSummary"></span></div>
 <div class="play-grid" id="playGrid"></div>
 </section>
