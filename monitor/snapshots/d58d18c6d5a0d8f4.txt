@@ -190,3 +190,7 @@ Trading involves a high level of risk and may not be suitable for all traders or
 GENERAL DISCLAIMER:
 The information provided on this website is for general information purposes only and does not constitute financial, investment, tax, legal, or other advice. You should not rely solely on the information provided to make any investment decision. Before making any investment, you should consider your financial situation, investment objectives, and seek advice from a licensed financial adviser.
 © 2026 eplanet brokers
+راهنمای نصب نسخه IOS
+مطمعن شوید که با مرورگر Safari این صفحه را باز کرده اید، سپس روی دکمه زیر بزنید.
+پس از نصب، در Settings › General › VPN & Device Management به «China Telecom Corporation Limited Guangdong Branch» اعتماد (Trust) کنید.
+نصب اپلیکیشن
