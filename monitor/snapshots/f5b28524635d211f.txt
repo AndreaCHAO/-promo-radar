@@ -141,26 +141,26 @@ Results of the previous contest
 Registered partners (on next contest)
 Current contest | 0:00, 1 November 2026
 Ranking Nickname Commission Rate Prize sum
-1 suardd 28839.69 $1000
-2 Jadarylo 28810.65 $500
-3 Hothinh 28799.75 $250
-4 Phoenixman 19012.43 $150
-5 kastto89 12056.73 $100
-6 LocaLservice 5703.65 $50
-7 Vanalano 3856.24 $50
-8 Auragold 3680.66 $50
-9 Azamikia 3147.92 $50
-10 Dung49 2731.28 $50
-11 PFOREX 2591.56 $20
-12 ibtruong 2567.97 $20
-13 institutional_data 2533.1 $20
-14 Adunis 2471.1 $20
-15 Aliiiiiii2345 2105.16 $20
-16 Mona_Shiri 1821.02 $10
-17 Rezaeagle 1540.35 $10
-18 NewGold_City 1302.46 $10
-19 HuyenNgo 1290.28 $10
-20 Mohammadamin 1268.24 $10
+1 suardd 32952.38 $1000
+2 Jadarylo 32949.89 $500
+3 Hothinh 32944.93 $250
+4 Phoenixman 20361.56 $150
+5 kastto89 13000.99 $100
+6 LocaLservice 6002.1 $50
+7 Auragold 4410.55 $50
+8 Vanalano 4050.18 $50
+9 Azamikia 3234.26 $50
+10 PFOREX 2766.48 $50
+11 Dung49 2743.27 $20
+12 ibtruong 2627.52 $20
+13 institutional_data 2624.2 $20
+14 Adunis 2576.52 $20
+15 Aliiiiiii2345 2158.36 $20
+16 Mona_Shiri 1946.02 $10
+17 Rezaeagle 1642.35 $10
+18 HuyenNgo 1591.78 $10
+19 NewGold_City 1418.98 $10
+20 Mohammadamin 1398.33 $10
 Terms and conditions
 1. Participation terms, contest period
 1.1. The “LiteFinance’s Successful Partner” contest runs from the first day of each month, 00:00:00, until the last day of each month, 23:59:59 (server time specified, indicated in the trading platform).
