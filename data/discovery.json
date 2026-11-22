@@ -1,19 +1,15 @@
 {
-"generated": "2026-11-21",
-"generated_at": "2026-11-21T00:50:37+00:00",
+"generated": "2026-11-22",
+"generated_at": "2026-11-22T00:42:20+00:00",
 "ai_enabled": false,
-"candidates": 525,
-"new_today": [
-"auto-ultima-markets-65182f2b",
-"auto-ebc-4f9d48e1",
-"auto-startrader-85a430b0"
-],
+"candidates": 426,
+"new_today": [],
 "total_auto": 19,
 "sources": [
 {
 "source": "Google 新闻：\"D Prime\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 1
+"items": 2
 },
 {
 "source": "Google 新闻：\"EC Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -23,7 +19,7 @@
 {
 "source": "Google 新闻：\"EBC Financial\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 2
+"items": 1
 },
 {
 "source": "Google 新闻：\"IC Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -33,17 +29,17 @@
 {
 "source": "Google 新闻：\"Exness\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 4
+"items": 3
 },
 {
 "source": "Google 新闻：\"Bybit\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 25
+"items": 18
 },
 {
 "source": "Google 新闻：\"XM.com\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 8
+"items": 7
 },
 {
 "source": "Google 新闻：\"Pepperstone\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -73,7 +69,7 @@
 {
 "source": "Google 新闻：\"ATFX\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 2
+"items": 3
 },
 {
 "source": "Google 新闻：\"Tickmill\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -93,17 +89,17 @@
 {
 "source": "Google 新闻：\"FOREX.com\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 28
+"items": 26
 },
 {
 "source": "Google 新闻：\"TMGM\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 58
+"items": 33
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 3
+"items": 5
 },
 {
 "source": "Google 新闻：\"D Prime\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -118,17 +114,17 @@
 {
 "source": "Google 新闻：\"EBC Financial\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 3
+"items": 2
 },
 {
 "source": "Google 新闻：\"IC Markets\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 1
+"items": 2
 },
 {
 "source": "Google 新闻：\"Exness\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 9
+"items": 5
 },
 {
 "source": "Google 新闻：\"XM.com\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -183,12 +179,12 @@
 {
 "source": "Google 新闻：\"FOREX.com\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 24
+"items": 20
 },
 {
 "source": "Google 新闻：\"TMGM\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 15
+"items": 16
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -293,7 +289,7 @@
 {
 "source": "Google 新闻：\"WeTrade\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
 "ok": true,
-"items": 1
+"items": 0
 },
 {
 "source": "Google 新闻：\"Hantec\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -312,8 +308,8 @@
 },
 {
 "source": "Google 新闻：\"ATFX\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
-"ok": true,
-"items": 6
+"ok": false,
+"error": "HTTPError"
 },
 {
 "source": "Google 新闻：\"Tickmill\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -357,13 +353,13 @@
 },
 {
 "source": "Google 新闻：\"TMGM\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
-"ok": true,
-"items": 7
+"ok": false,
+"error": "HTTPError"
 },
 {
 "source": "Google 新闻：\"TMGM\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
 "ok": true,
-"items": 32
+"items": 31
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -412,8 +408,8 @@
 },
 {
 "source": "Google 新闻：\"Exness\" (交易大賽 OR 活動 OR 講座 OR 博覽會)",
-"ok": true,
-"items": 0
+"ok": false,
+"error": "HTTPError"
 },
 {
 "source": "Google 新闻：\"D Prime\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -428,7 +424,7 @@
 {
 "source": "Google 新闻：\"TMGM\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 23
+"items": 28
 },
 {
 "source": "Google 新闻：\"ATFX\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -438,7 +434,7 @@
 {
 "source": "Google 新闻：\"Ultima Markets\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 2
+"items": 3
 },
 {
 "source": "Google 新闻：\"WeTrade\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -463,22 +459,22 @@
 {
 "source": "Google 新闻：forex broker \"trading competition\"",
 "ok": true,
-"items": 10
+"items": 12
 },
 {
 "source": "Google 新闻：CFD broker \"trading contest\" prize",
 "ok": true,
-"items": 4
+"items": 3
 },
 {
 "source": "Google 新闻：forex broker \"deposit bonus\" launch",
 "ok": true,
-"items": 5
+"items": 6
 },
 {
 "source": "Google 新闻：broker \"lucky draw\" trading",
 "ok": true,
-"items": 8
+"items": 6
 },
 {
 "source": "Google 新闻：外汇 交易大赛 奖金",
@@ -498,7 +494,7 @@
 {
 "source": "Google 新闻：外汇 模拟交易大赛",
 "ok": true,
-"items": 33
+"items": 14
 },
 {
 "source": "Google 新闻：外匯 券商 贈金 活動",
@@ -523,27 +519,27 @@
 {
 "source": "Google 新闻：forex broker \"trading competition\" Malaysia OR Singapore",
 "ok": true,
-"items": 6
+"items": 7
 },
 {
 "source": "Google 新闻：forex \"trading competition\" Malaysia OR Thailand OR Indonesia OR Vietnam",
 "ok": true,
-"items": 14
+"items": 10
 },
 {
 "source": "Google 新闻：pertandingan dagangan forex hadiah",
 "ok": true,
-"items": 2
+"items": 0
 },
 {
 "source": "Google 新闻：forex broker sponsor expo 2026 OR 2027",
 "ok": true,
-"items": 13
+"items": 9
 },
 {
 "source": "Google 新闻：\"iFX EXPO\" sponsor broker",
 "ok": true,
-"items": 2
+"items": 0
 },
 {
 "source": "Google 新闻：\"Traders Fair\" broker sponsor",
@@ -578,12 +574,12 @@
 {
 "source": "LeapRate",
 "ok": false,
-"error": "RemoteDisconnected"
+"error": "ParseError"
 },
 {
 "source": "FinanceFeeds",
-"ok": true,
-"items": 20
+"ok": false,
+"error": "HTTPError"
 },
 {
 "source": "PR Newswire 金融服务",
@@ -780,6 +776,7 @@
 "692d695ab3b3",
 "69dac203981b",
 "6f7fad4b7059",
+"72da5df5164a",
 "7648bc357325",
 "76ac5ca3d7a0",
 "7b4509d6f27f",
@@ -829,6 +826,7 @@
 "ec461c3f7aca",
 "ee629d7ec2d4",
 "ef4b465a17f1",
+"eff5d2aeaeb5",
 "f327242bcbbd",
 "f79826819476",
 "fd62c6e3508b",
@@ -873,6 +871,7 @@
 "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb21LMzZlZC1hWGxUUm56Y0FTLUNKRktPMWJsX3ZCbDlPbE0xUmZkeHV0VHduSWpQZ3NQaHZ6ak9ERlU0elRGZG9iX0FvN0xnQkFpc1ZyTVNfX2pkSnpZMWdBT0ZQcEs1SHJjYUs0eDV1bk5fdFhjWWdpWHN4ZEptVW9iRHlyV25Ld0xmVXlIaFM",
 "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQk9PdTFVLTV5N1FjeTd4SEozbjU0bjVyOFFBaV9TWi1rU2oteVhmZHFmU1hiZEl3QXdPSFdfOGFWallfV2t3ZjhySnBmczVuV3F5YkpSUkxJRTNMXzRoOWlQMzRlOUgwSzFPTlpqRHJib3NUa3Z4dmJpWlJoUXlrWjJ1NFRISThiaXZlZ3d0LVU",
 "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR1BHUzQ5ZkRYUGxnalBOQmE5eG5zcFlJNzJDX0I1Q3VleVVkcFNfR2N3c3lxUEVhQVFMZHlJMzVZbllkNHBnbkZiYngyNENYWUxvdDUta1QwQ3VxY2F2WFRCVGp4Rk4wY3VvM1NycUJCWWNqNDgwcjk2NlIwd2FTZ3V4cWs3YlFyLS0xSlIxQ00",
+"https://news.google.com/rss/articles/CBMikAFBVV95cUxQZG1weE42bXJ1UEpETF8yc0w0MXZUOHNSNDM5dGhraW1FeUNTMEhxZzU1ZmZrOGtXNnBHMENCQXpIXzNQdmxIN2hseFNUVDBxVWYtVkIyRDZsSk0xUDlIcTZvcW01ZEJWc243RWpydzh1cU9EY1pObGtLYVR6WDV6VDVQU3NYV0lsRVBMbW9ES1E",
 "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjliLW9MUlRUNFJrWWo3djd0OW1jSi03UXZrLWVaWXkwUlJObTczcGNqNDEyVVZkaVF6OEgyYkY2Nl9pOU5zdEJwdUFSeFB5MVV1M2haNTZTQjdkendDLVYxOGNNMktYM1VXTW1YT1JMem9pVktBd1RicmotUFZzLVAzUEtSMXV2V2V5UHIyZnREZw",
 "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTW9Xakx0MVNGSEpmakhRTlBSUU5DbXowQVVTTDd5Y2RJblJYUy1seHZPSkczLTJRc2VSR2x0bjVyWXcyUGxvQmxBenJJcTJXUkpXNnhDS3BMenBPVWRicERQekZES2JBanY4MWlQczU5anhXN2xKWUVwSkRHRERwN2poX1AwMVNIbHFfQUw4cmJwdw",
 "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVWcyZGZDdGF5QVJFWV9TOEUzUjJDek82aWs1ZjZ4Y00tTDlTVEJKV2NpRTBUU2lTeVpBOUdMeHQ2SjZMRmxWMzJGVVBIWUNYOUtmUkxEOHNmQ01mSnRUSFpHSHVZRWV6dm54X05KZG4wVGoxU29ZSldiSmluSGd4UWxRRlliQ2J6akdBTDlwT3lYQQ",
@@ -907,6 +906,7 @@
 "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVWFpRVRCcEZhY1A0Tm9VTlFYZVJfUkxsWU83OE9vUVlmNmRPbDV5M1dBbElHcmpLbkZhelY0WmN6QWNRb2h5X1ZENkRzdk03NVRha0pjWE5jc3hEb2piT0dfRFlJRWNoWWhIYmFsQVl5QmZlR3pYN2ZsSVRPdDE3aGxfSlpLOGR1YWpVc2J0bHVXLXpXVEZJcDM3c0s",
 "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNlRhdGtPOWZvT0NNeTR4SG5RU1VTcGhUUXozdEVvYnJiYThpV2VUZ0pVZDFmX1RnU180VVpEMF9wY1RlTHBnVXlBSW5zVlhIVExWYnhSOUtycmxSUGZpX1VfcUxaYnM3UE85MnlCbEhXRmxhX0duSnExVVFBTExreTNfZVBlUm5aQ3NkZ2FDQ3dXVFl0aTMySlpZMXk",
 "https://news.google.com/rss/articles/CBMingFBVV95cUxOa1dNekxQXzhSLUZaZVZVWlFabmhRelRNY2FPZnJQM2xGRDBNX210NGt3U1VGZXZPa1F3Z2M0WkZHeUhReE9VR09TUjhEaTBBUlREaG4yRnlISXVPQ0IxZV9GYm5LZUxfSnpzckgyWTY0V0dBckRHSzhVREdtWXRmWW4zQkdUTHE5a2UtY0dqdWpNa2xzVFNjVFZpdHlxdw",
+"https://news.google.com/rss/articles/CBMingFBVV95cUxPaEhxaW1nODNwTzIyMHNyMkZFS0pwWDZ4MFo3Q1YwZ1lQYkluR0hFOHV3bkozZ2tBTnA0ejFwR0o3dXo4N3MwaGNxcXJBOHJYR0NoX18wcFB5MHhyWlNja0J6bDJuMk8yeUNiQTlaeWxLYWVCNXBxeGtnWlFlOXRtbnpyU0Q1cnF2TVY4VEI1bm1xZHBjb3BIN2JreGhyUQ",
 "https://news.google.com/rss/articles/CBMingFBVV95cUxQcjVrUTVzRTVZTF9oQTRmS184T2VRMDJpM3d6T2hzZFpXNllrVHVDd0VSY1Zrb2JOZklkSnBVSWtWSHFyTlR6Sk5UYksxRmhsSk5CcFp0ZWJ4ZlNWQ2NyUTJtVVU0d19JdktrT1JqaGxYMUFnOVBFM2Zlek16WExMZTRSLU9sTkwtRzFaR2QxZmk1enVpMWFhNHpIXzJtdw",
 "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUlBsbUt2aktiVHRqX1lReTY5WWVhVElSZjhpTlMzTHFnM3JlUjZvVmxFNTRMc1F5a3pQbWJvaTl5ZFRQWGo2TmJIRUJfV3REUkFodl9QcUpHWTNRcVcwOG9lb2dVeUhKRUdXcGwzc0ZVS0RPemttWG9UMEJKbjhSMnNvMlgwWGVsakxsdGFnRmNBZVZsSkxHOFJJdnJjZUE",
 "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTnhWcGJKMVF1YXpnVW5KSHlxTGh1WW8tWFBIcHFCbTFndkhnUktwS1JFeDZVSWtqcE5yeUlWVmJwVlRTMzNyRzJ1dnhuTkdySHM4TWFLZGNNREtPNVFEaFlCcTMyMThMZG15UG9VTE9ScTEwNmRfMW5oazFNVVg2VHlWSmxMWk5iR3h1aHlmTXpTOGRCMW1xUTUxbTNFM00t",
