@@ -1,8 +1,8 @@
 {
-"generated": "2026-11-22",
-"generated_at": "2026-11-22T00:42:20+00:00",
+"generated": "2026-11-23",
+"generated_at": "2026-11-23T00:48:37+00:00",
 "ai_enabled": false,
-"candidates": 426,
+"candidates": 457,
 "new_today": [],
 "total_auto": 19,
 "sources": [
@@ -14,17 +14,17 @@
 {
 "source": "Google 新闻：\"EC Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 8
+"items": 7
 },
 {
 "source": "Google 新闻：\"EBC Financial\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 1
+"items": 2
 },
 {
 "source": "Google 新闻：\"IC Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 0
+"items": 1
 },
 {
 "source": "Google 新闻：\"Exness\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -34,12 +34,12 @@
 {
 "source": "Google 新闻：\"Bybit\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 18
+"items": 13
 },
 {
 "source": "Google 新闻：\"XM.com\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 7
+"items": 10
 },
 {
 "source": "Google 新闻：\"Pepperstone\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -49,12 +49,12 @@
 {
 "source": "Google 新闻：\"FxPro\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 3
+"items": 2
 },
 {
 "source": "Google 新闻：\"AxiTrader\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
-"ok": true,
-"items": 0
+"ok": false,
+"error": "HTTPError"
 },
 {
 "source": "Google 新闻：\"WeTrade\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -69,7 +69,7 @@
 {
 "source": "Google 新闻：\"ATFX\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 3
+"items": 2
 },
 {
 "source": "Google 新闻：\"Tickmill\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -78,8 +78,8 @@
 },
 {
 "source": "Google 新闻：\"AvaTrade\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
-"ok": true,
-"items": 0
+"ok": false,
+"error": "HTTPError"
 },
 {
 "source": "Google 新闻：\"FXCM\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -89,17 +89,17 @@
 {
 "source": "Google 新闻：\"FOREX.com\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 26
+"items": 27
 },
 {
 "source": "Google 新闻：\"TMGM\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 33
+"items": 54
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 5
+"items": 4
 },
 {
 "source": "Google 新闻：\"D Prime\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -119,12 +119,12 @@
 {
 "source": "Google 新闻：\"IC Markets\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 2
+"items": 1
 },
 {
 "source": "Google 新闻：\"Exness\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 5
+"items": 9
 },
 {
 "source": "Google 新闻：\"XM.com\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -153,8 +153,8 @@
 },
 {
 "source": "Google 新闻：\"Hantec\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
-"ok": true,
-"items": 0
+"ok": false,
+"error": "HTTPError"
 },
 {
 "source": "Google 新闻：\"ATFX\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -164,7 +164,7 @@
 {
 "source": "Google 新闻：\"Tickmill\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 1
+"items": 0
 },
 {
 "source": "Google 新闻：\"AvaTrade\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -183,8 +183,8 @@
 },
 {
 "source": "Google 新闻：\"TMGM\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
-"ok": true,
-"items": 16
+"ok": false,
+"error": "HTTPError"
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -209,7 +209,7 @@
 {
 "source": "Google 新闻：\"EC Markets\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
 "ok": true,
-"items": 0
+"items": 1
 },
 {
 "source": "Google 新闻：\"EBC Financial\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -288,8 +288,8 @@
 },
 {
 "source": "Google 新闻：\"WeTrade\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
-"ok": true,
-"items": 0
+"ok": false,
+"error": "HTTPError"
 },
 {
 "source": "Google 新闻：\"Hantec\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -308,8 +308,8 @@
 },
 {
 "source": "Google 新闻：\"ATFX\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
-"ok": false,
-"error": "HTTPError"
+"ok": true,
+"items": 4
 },
 {
 "source": "Google 新闻：\"Tickmill\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -353,13 +353,13 @@
 },
 {
 "source": "Google 新闻：\"TMGM\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
-"ok": false,
-"error": "HTTPError"
+"ok": true,
+"items": 6
 },
 {
 "source": "Google 新闻：\"TMGM\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
 "ok": true,
-"items": 31
+"items": 26
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -384,7 +384,7 @@
 {
 "source": "Google 新闻：\"TMGM\" (交易大賽 OR 活動 OR 講座 OR 博覽會)",
 "ok": true,
-"items": 7
+"items": 6
 },
 {
 "source": "Google 新闻：\"ATFX\" (交易大賽 OR 活動 OR 講座 OR 博覽會)",
@@ -408,8 +408,8 @@
 },
 {
 "source": "Google 新闻：\"Exness\" (交易大賽 OR 活動 OR 講座 OR 博覽會)",
-"ok": false,
-"error": "HTTPError"
+"ok": true,
+"items": 0
 },
 {
 "source": "Google 新闻：\"D Prime\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -424,12 +424,12 @@
 {
 "source": "Google 新闻：\"TMGM\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 28
+"items": 26
 },
 {
 "source": "Google 新闻：\"ATFX\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 2
+"items": 1
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -459,17 +459,17 @@
 {
 "source": "Google 新闻：forex broker \"trading competition\"",
 "ok": true,
-"items": 12
+"items": 11
 },
 {
 "source": "Google 新闻：CFD broker \"trading contest\" prize",
 "ok": true,
-"items": 3
+"items": 2
 },
 {
 "source": "Google 新闻：forex broker \"deposit bonus\" launch",
 "ok": true,
-"items": 6
+"items": 5
 },
 {
 "source": "Google 新闻：broker \"lucky draw\" trading",
@@ -494,12 +494,12 @@
 {
 "source": "Google 新闻：外汇 模拟交易大赛",
 "ok": true,
-"items": 14
+"items": 25
 },
 {
 "source": "Google 新闻：外匯 券商 贈金 活動",
 "ok": true,
-"items": 2
+"items": 1
 },
 {
 "source": "Google 新闻：差價合約 交易比賽 香港",
@@ -519,7 +519,7 @@
 {
 "source": "Google 新闻：forex broker \"trading competition\" Malaysia OR Singapore",
 "ok": true,
-"items": 7
+"items": 8
 },
 {
 "source": "Google 新闻：forex \"trading competition\" Malaysia OR Thailand OR Indonesia OR Vietnam",
@@ -534,7 +534,7 @@
 {
 "source": "Google 新闻：forex broker sponsor expo 2026 OR 2027",
 "ok": true,
-"items": 9
+"items": 7
 },
 {
 "source": "Google 新闻：\"iFX EXPO\" sponsor broker",
@@ -554,7 +554,7 @@
 {
 "source": "Google 新闻：外汇 券商 赞助 OR 展会",
 "ok": true,
-"items": 1
+"items": 0
 },
 {
 "source": "Google 新闻：外匯 券商 贊助 OR 展會",
@@ -574,12 +574,12 @@
 {
 "source": "LeapRate",
 "ok": false,
-"error": "ParseError"
+"error": "RemoteDisconnected"
 },
 {
 "source": "FinanceFeeds",
-"ok": false,
-"error": "HTTPError"
+"ok": true,
+"items": 20
 },
 {
 "source": "PR Newswire 金融服务",

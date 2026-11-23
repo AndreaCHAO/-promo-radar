@@ -917,6 +917,7 @@ If an Introducing Broker (IB) has any active incentive program, special agreemen
 This restriction is imposed to prevent the misuse of special programs and the abnormal transfer of clients.
 The Company reserves the right to reject any transfer request falling under this restriction without reviewing any other applicable conditions.
 Note: A client leaving the sub-network of an IB with an active incentive program or the ordinary registration of a new client through an IB referral link shall not be prohibited under this clause.
+Individuals who hold IB status are not permitted to change their Upline IB or transfer to the sub-network of another IB.
 Force Majeure
 If the company determines a force majeure event has occurred, it will take reasonable measures to inform the IB in due course. Force majeure events include, without limitation: market disruptions, governmental actions or restrictions, war, abandoned war weapons, nuclear, radioactive, biological, chemical, biochemical, or electromagnetic weapons or contamination, revolution, strikes, lockouts, other industrial actions, fire, flood, natural disasters, explosions, unavoidable accidents, terrorism, utility or transport failures, trade suspensions or restrictions by any execution venue, or any malfunction in telecommunications, settlement, or other systems. If deemed reasonable by the company, it may take or refrain from taking any necessary action without prior written notice.
 Amendment and Termination:
