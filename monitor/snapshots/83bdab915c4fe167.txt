@@ -1,7 +1,13 @@
 Affiliate Forex program "Revenue Share" | LiteFinance
+Please note:
+Your country is identified as United States
+LiteFinance Global LLC does not provide brokerage services in your country.
+By continuing to use the https://www.litefinance.org website, you confirm that all programs and services are accessible to you for informational purposes only and are not an invitation to sign up.
+Stay on LiteFinance Global LLC site
 Live Chat
 EN Indonesian
 Русский
+فارسی
 မြန်မာ
 Malay
 Thai
@@ -14,6 +20,7 @@ Login
 Registration
 English Indonesian
 Русский
+فارسی
 မြန်မာ
 Malay
 Thai
@@ -50,7 +57,6 @@ Download cTrader Powerful platform for online trading.
 Mobile Apps Forex trading apps for Android and iOS
 Additional services Autowithdrawal Automatic money withdrawals from Forex trading accounts
 VPS Virtual private servers from LiteFinance for a stable connection
-Forecasts for Quotes Forecast quotes and increase your equity
 Trading Assets Currency Major and cross currency pairs
 Commodities Precious metals and energy commodities
 Global stock indices US, European, and Australian stock indices

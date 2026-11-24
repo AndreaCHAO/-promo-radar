@@ -1,7 +1,13 @@
 Earn the highest monthly commission and win a prize! | LiteFinance
+Please note:
+Your country is identified as United States
+LiteFinance Global LLC does not provide brokerage services in your country.
+By continuing to use the https://www.litefinance.org website, you confirm that all programs and services are accessible to you for informational purposes only and are not an invitation to sign up.
+Stay on LiteFinance Global LLC site
 Live Chat
 EN Indonesian
 Русский
+فارسی
 မြန်မာ
 Thai
 العربية
@@ -13,6 +19,7 @@ Login
 Registration
 English Indonesian
 Русский
+فارسی
 မြန်မာ
 Thai
 العربية
@@ -48,7 +55,6 @@ Download cTrader Powerful platform for online trading.
 Mobile Apps Forex trading apps for Android and iOS
 Additional services Autowithdrawal Automatic money withdrawals from Forex trading accounts
 VPS Virtual private servers from LiteFinance for a stable connection
-Forecasts for Quotes Forecast quotes and increase your equity
 Trading Assets Currency Major and cross currency pairs
 Commodities Precious metals and energy commodities
 Global stock indices US, European, and Australian stock indices
@@ -134,26 +140,26 @@ Results of the previous contest
 Registered partners (on next contest)
 Current contest | 0:00, 1 November 2026
 Ranking Nickname Commission Rate Prize sum
-1 suardd 38402.81 $1000
-2 Jadarylo 38399.48 $500
-3 Hothinh 38385.04 $250
-4 Phoenixman 20425.17 $150
-5 kastto89 13000.99 $100
-6 LocaLservice 6528.33 $50
-7 Auragold 5015.78 $50
-8 Vanalano 4050.18 $50
-9 Azamikia 3314.87 $50
-10 PFOREX 2811.68 $50
-11 Dung49 2786.66 $20
-12 institutional_data 2679.33 $20
-13 ibtruong 2627.52 $20
-14 Adunis 2591.4 $20
-15 Aliiiiiii2345 2305.6 $20
-16 Mona_Shiri 1951.96 $10
-17 Rezaeagle 1687.11 $10
-18 HuyenNgo 1591.78 $10
-19 zzzzzzzzzzzzzzz 1565.04 $10
-20 NewGold_City 1493.08 $10
+1 Jadarylo 40150.86 $1000
+2 suardd 40132.47 $500
+3 Hothinh 40126.27 $250
+4 Phoenixman 21583.17 $150
+5 kastto89 13608.92 $100
+6 LocaLservice 6714.55 $50
+7 Auragold 5397.45 $50
+8 Vanalano 4226.37 $50
+9 Azamikia 3460.44 $50
+10 PFOREX 2968.96 $50
+11 Adunis 2821.87 $20
+12 Dung49 2793.82 $20
+13 ibtruong 2703.52 $20
+14 institutional_data 2680.49 $20
+15 Aliiiiiii2345 2426.38 $20
+16 Mona_Shiri 2057.12 $10
+17 HuyenNgo 1964.28 $10
+18 Rezaeagle 1821.75 $10
+19 zzzzzzzzzzzzzzz 1665.55 $10
+20 NewGold_City 1554.88 $10
 Terms and conditions
 1. Participation terms, contest period
 1.1. The “LiteFinance’s Successful Partner” contest runs from the first day of each month, 00:00:00, until the last day of each month, 23:59:59 (server time specified, indicated in the trading platform).

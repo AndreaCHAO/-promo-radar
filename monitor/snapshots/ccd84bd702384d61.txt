@@ -62,6 +62,7 @@ MetaTrader 5 Automations
 What You Can Automate
 Popular Automation Workflows
 Payments
+Certification
 Comparison with MetaTrader 4
 How to start a brokerage business
 Find Broker
