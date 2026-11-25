@@ -1,13 +1,7 @@
 Earn the highest monthly commission and win a prize! | LiteFinance
-Please note:
-Your country is identified as United States
-LiteFinance Global LLC does not provide brokerage services in your country.
-By continuing to use the https://www.litefinance.org website, you confirm that all programs and services are accessible to you for informational purposes only and are not an invitation to sign up.
-Stay on LiteFinance Global LLC site
 Live Chat
 EN Indonesian
 Русский
-فارسی
 မြန်မာ
 Thai
 العربية
@@ -19,7 +13,6 @@ Login
 Registration
 English Indonesian
 Русский
-فارسی
 မြန်မာ
 Thai
 العربية
@@ -140,26 +133,26 @@ Results of the previous contest
 Registered partners (on next contest)
 Current contest | 0:00, 1 November 2026
 Ranking Nickname Commission Rate Prize sum
-1 Jadarylo 40150.86 $1000
-2 suardd 40132.47 $500
-3 Hothinh 40126.27 $250
-4 Phoenixman 21583.17 $150
-5 kastto89 13608.92 $100
-6 LocaLservice 6714.55 $50
-7 Auragold 5397.45 $50
-8 Vanalano 4226.37 $50
-9 Azamikia 3460.44 $50
-10 PFOREX 2968.96 $50
-11 Adunis 2821.87 $20
-12 Dung49 2793.82 $20
-13 ibtruong 2703.52 $20
-14 institutional_data 2680.49 $20
-15 Aliiiiiii2345 2426.38 $20
-16 Mona_Shiri 2057.12 $10
-17 HuyenNgo 1964.28 $10
-18 Rezaeagle 1821.75 $10
-19 zzzzzzzzzzzzzzz 1665.55 $10
-20 NewGold_City 1554.88 $10
+1 Jadarylo 42621.58 $1000
+2 suardd 42605.3 $500
+3 Hothinh 42586.28 $250
+4 Phoenixman 22515.3 $150
+5 kastto89 14669.2 $100
+6 LocaLservice 7035.47 $50
+7 Auragold 5638.51 $50
+8 Vanalano 4546.51 $50
+9 Azamikia 3628.68 $50
+10 Adunis 3427.07 $50
+11 PFOREX 3122.73 $20
+12 ibtruong 2804.98 $20
+13 Dung49 2803 $20
+14 institutional_data 2681.12 $20
+15 Aliiiiiii2345 2572.26 $20
+16 HuyenNgo 2146.87 $10
+17 Mona_Shiri 2141.3 $10
+18 Rezaeagle 1972.82 $10
+19 zzzzzzzzzzzzzzz 1758.14 $10
+20 Mohammadamin 1635.02 $10
 Terms and conditions
 1. Participation terms, contest period
 1.1. The “LiteFinance’s Successful Partner” contest runs from the first day of each month, 00:00:00, until the last day of each month, 23:59:59 (server time specified, indicated in the trading platform).
