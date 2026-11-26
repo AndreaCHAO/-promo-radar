@@ -194,14 +194,6 @@ Raw Account
 Professional Clients
 Islamic Account
 Demo Account
-TOOLS
-Economic Calendar
-Forex Calculators
-Advanced Trading Toolkit
-Acuity Trading
-Earnings Calendar
-Signal Centre
-Earn Interest
 ABOUT TICKMILL
 Why Tickmill?
 Safety Of Funds
@@ -230,6 +222,13 @@ Seminars
 Ebooks
 Video Tutorials
 Forex Glossary
+TOOLS
+Economic Calendar
+Forex Calculators
+Acuity Trading
+Earnings Calendar
+Signal Centre
+Earn Interest
 PARTNERSHIP
 White Label
 Affiliate Program (CPA)

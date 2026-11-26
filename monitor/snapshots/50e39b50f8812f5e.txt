@@ -243,14 +243,6 @@ Análisis Técnico
 Artículos
 Perspectivas del mercado
 Al Alza Podcast
-HERRAMIENTAS
-Calendario Económico
-Calculadora de Divisas Forex
-Kit de herramientas de trading avanzado
-Herramienta de Trading ACUITY
-Calendario de Resultados
-Herramienta “Signal Centre”
-Ganar intereses
 SOBRE TICKMILL
 ¿Por qué Tickmill?
 Seguridad de Fondos
@@ -266,6 +258,13 @@ Depósitos y Retiros
 Spreads y Swaps
 Apalancamiento y margen
 Apalancamiento dinámico
+HERRAMIENTAS
+Calendario Económico
+Calculadora de Divisas Forex
+Herramienta de Trading ACUITY
+Calendario de Resultados
+Herramienta “Signal Centre”
+Ganar intereses
 COPY TRADING
 Trading social de Tickmill
 PROMOCIONES
