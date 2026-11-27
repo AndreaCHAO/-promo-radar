@@ -185,7 +185,7 @@ USDCAD
 Buy Sell
 EURCHF
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 EURUSD
 Bid
 Ask
@@ -216,7 +216,7 @@ Bid
 Ask
 Spread
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 Bid
 Ask
 Spread
@@ -226,7 +226,7 @@ XAUUSD
 Buy Sell
 XPTUSD
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 XAGUSD
 Bid
 Ask
@@ -242,7 +242,7 @@ Bid
 Ask
 Spread
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 Bid
 Ask
 Spread
@@ -256,7 +256,7 @@ DOGEUSD
 Buy Sell
 DOTUSD
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 BTCUSD
 Bid
 Ask
@@ -282,7 +282,7 @@ Bid
 Ask
 Spread
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 Bid
 Ask
 Spread
@@ -290,7 +290,7 @@ XBRUSD
 Buy Sell
 XTIUSD
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 XBRUSD
 Bid
 Ask
@@ -301,7 +301,7 @@ Bid
 Ask
 Spread
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 Bid
 Ask
 Spread
@@ -315,7 +315,7 @@ AAPL
 Buy Sell
 AMD
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 NVDA
 Bid
 Ask
@@ -341,7 +341,7 @@ Bid
 Ask
 Spread
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 Bid
 Ask
 Spread
@@ -355,7 +355,7 @@ UK100
 Buy Sell
 JPN225
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 US500
 Bid
 Ask
@@ -381,7 +381,7 @@ Bid
 Ask
 Spread
 Buy Sell
-LIVE (INDICATIVE) UPDATED: 3:55:20 AM GMT+3
+LIVE (INDICATIVE) UPDATED: 3:59:18 AM GMT+3
 Forex
 With TMGM, you can access the world's largest financial market and trade major, minor, and exotic currency pairs with competitive spreads and leverage.
 Trade Forex Read about Forex trading
@@ -605,7 +605,7 @@ The information provided on this website is of a general nature only and does no
 TMGM is authorized and regulated in various jurisdictions.
 Trademax Australia Limited, trading as TMGM, is regulated by the Australian Securities and Investments Commission (ASIC), AFSL no. 436416 and is located at Level 28, One International Tower, 100 Barangaroo Avenue, 2000 Sydney, NSW Australia.
 Email: support@tmgm.com.au
-Trademax Global Limited, trading as TMGM, is authorized and regulated by the Vanuatu Financial Services Commission (VFSC), registration number 40356 and registered at 1276, Kumul Highway, Port Vila, Vanuatu, Republic of Vanuatu.
+Trademax Global Limited, trading as TMGM, is authorized and regulated by the Vanuatu Financial Services Commission (VFSC), registration number 40356 and registered at Law Partners House, Kumul Highway, PO BOX 212, Port Vila, Vanuatu.
 Email: support@tmgm.com
 Trademax Global Markets (SE) Limited, trading as TMGM, is authorized and regulated by the Financial Services Authority (FSA) of Seychelles, with license number SD224. The company is registered at Office No 13, Providence Estate ABIS Centre, Mahe, Seychelles.
 Email: support@tmgm.com
