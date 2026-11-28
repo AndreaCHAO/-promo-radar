@@ -24,6 +24,7 @@ Bullwaves
 See all reviews Directory Liquidity Providers
 26 Degrees
 ATFX Connect
+CMC Markets Institutional
 FX-EDGE
 Match-Prime
 Payments Providers
@@ -58,6 +59,7 @@ See all reviews
 Directory Liquidity Providers
 26 Degrees
 ATFX Connect
+CMC Markets Institutional
 FX-EDGE
 Match-Prime
 Payments Providers
@@ -89,12 +91,12 @@ Companies in this story
 Broker review We've reviewed XM ★ 4.8/5 Read the review →
 Tags
 Related Articles
-Trive’s EU entity was loss-making before shut down
-Nov 26, 2026
-VARIANSE launches free online trading and investment academy
-Nov 26, 2026
-Taurex appoints former Exinity executive Luca Chiacchiaretta as Growth Director
-Nov 26, 2026
+OANDA Singapore saw 54.2% decline in profit in 2025
+Nov 27, 2026
+RADEX MARKETS to launch new trading account with up to 1:5000 leverage
+Nov 27, 2026
+Vantage doubles leverage on 24/7 gold to 1,000:1
+Nov 27, 2026
 Subscribe to TradeInformer
 Get the industry's favourite newsletter every Monday morning.
 Subscribe

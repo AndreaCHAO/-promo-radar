@@ -1,24 +1,24 @@
 {
-"generated": "2026-11-27",
-"generated_at": "2026-11-27T00:58:46+00:00",
+"generated": "2026-11-28",
+"generated_at": "2026-11-28T00:54:53+00:00",
 "ai_enabled": false,
-"candidates": 511,
+"candidates": 619,
 "new_today": [
-"auto-ultima-markets-6cda8e37",
-"auto-xchief-3d194cb9",
-"auto-xchief-63913f61"
+"auto-ultima-markets-5a05b5a0",
+"auto-ultima-markets-023dbfd8",
+"auto-ultima-markets-84a95e16"
 ],
-"total_auto": 24,
+"total_auto": 27,
 "sources": [
 {
 "source": "Google 新闻：\"D Prime\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 1
+"items": 0
 },
 {
 "source": "Google 新闻：\"EC Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 9
+"items": 10
 },
 {
 "source": "Google 新闻：\"EBC Financial\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -28,17 +28,17 @@
 {
 "source": "Google 新闻：\"IC Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 4
+"items": 3
 },
 {
 "source": "Google 新闻：\"Exness\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 3
+"items": 2
 },
 {
 "source": "Google 新闻：\"Bybit\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 36
+"items": 42
 },
 {
 "source": "Google 新闻：\"XM.com\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -73,7 +73,7 @@
 {
 "source": "Google 新闻：\"ATFX\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 1
+"items": 0
 },
 {
 "source": "Google 新闻：\"Tickmill\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -93,17 +93,17 @@
 {
 "source": "Google 新闻：\"FOREX.com\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 23
+"items": 66
 },
 {
 "source": "Google 新闻：\"TMGM\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 27
+"items": 45
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 6
+"items": 8
 },
 {
 "source": "Google 新闻：\"D Prime\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -113,27 +113,27 @@
 {
 "source": "Google 新闻：\"EC Markets\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 20
+"items": 21
 },
 {
 "source": "Google 新闻：\"EBC Financial\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 4
+"items": 5
 },
 {
 "source": "Google 新闻：\"IC Markets\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 3
+"items": 1
 },
 {
 "source": "Google 新闻：\"Exness\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 5
+"items": 4
 },
 {
 "source": "Google 新闻：\"XM.com\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 3
+"items": 4
 },
 {
 "source": "Google 新闻：\"Pepperstone\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -168,7 +168,7 @@
 {
 "source": "Google 新闻：\"Tickmill\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 1
+"items": 3
 },
 {
 "source": "Google 新闻：\"AvaTrade\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -183,12 +183,12 @@
 {
 "source": "Google 新闻：\"FOREX.com\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 20
+"items": 50
 },
 {
 "source": "Google 新闻：\"TMGM\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
 "ok": true,
-"items": 11
+"items": 10
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (expo OR summit OR sponsor OR \"official partner\" OR booth)",
@@ -313,7 +313,7 @@
 {
 "source": "Google 新闻：\"ATFX\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
 "ok": true,
-"items": 5
+"items": 6
 },
 {
 "source": "Google 新闻：\"Tickmill\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -353,17 +353,17 @@
 {
 "source": "Google 新闻：\"FOREX.com\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
 "ok": true,
-"items": 7
+"items": 8
 },
 {
 "source": "Google 新闻：\"TMGM\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
 "ok": true,
-"items": 13
+"items": 11
 },
 {
 "source": "Google 新闻：\"TMGM\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
 "ok": true,
-"items": 30
+"items": 54
 },
 {
 "source": "Google 新闻：\"Ultima Markets\" (交易大賽 OR 活動 OR 贈金 OR 抽獎 OR 獎金 OR 獎池)",
@@ -373,7 +373,7 @@
 {
 "source": "Google 新闻：\"Ultima Markets\" (交易大赛 OR 活动 OR 赠金 OR 抽奖 OR 奖金 OR 奖池)",
 "ok": true,
-"items": 4
+"items": 6
 },
 {
 "source": "Google 新闻：\"D Prime\" (交易大賽 OR 活動 OR 講座 OR 博覽會)",
@@ -428,7 +428,7 @@
 {
 "source": "Google 新闻：\"TMGM\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 18
+"items": 16
 },
 {
 "source": "Google 新闻：\"ATFX\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -438,7 +438,7 @@
 {
 "source": "Google 新闻：\"Ultima Markets\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
 "ok": true,
-"items": 1
+"items": 2
 },
 {
 "source": "Google 新闻：\"WeTrade\" (Singapore OR Malaysia OR \"Kuala Lumpur\") (promotion OR competition OR contest OR \"trading cup\" OR bonus OR cashback OR giveaway OR \"lucky draw\" OR \"prize pool\")",
@@ -463,27 +463,27 @@
 {
 "source": "Google 新闻：forex broker \"trading competition\"",
 "ok": true,
-"items": 15
+"items": 17
 },
 {
 "source": "Google 新闻：CFD broker \"trading contest\" prize",
 "ok": true,
-"items": 4
+"items": 2
 },
 {
 "source": "Google 新闻：forex broker \"deposit bonus\" launch",
 "ok": true,
-"items": 22
+"items": 16
 },
 {
 "source": "Google 新闻：broker \"lucky draw\" trading",
 "ok": true,
-"items": 9
+"items": 7
 },
 {
 "source": "Google 新闻：外汇 交易大赛 奖金",
 "ok": true,
-"items": 0
+"items": 2
 },
 {
 "source": "Google 新闻：外匯 交易大賽 獎金",
@@ -498,7 +498,7 @@
 {
 "source": "Google 新闻：外汇 模拟交易大赛",
 "ok": true,
-"items": 18
+"items": 5
 },
 {
 "source": "Google 新闻：外匯 券商 贈金 活動",
@@ -513,7 +513,7 @@
 {
 "source": "Google 新闻：外汇 券商 马来西亚 活动 奖金",
 "ok": true,
-"items": 2
+"items": 3
 },
 {
 "source": "Google 新闻：外匯 博覽會 台北 OR 香港 券商",
@@ -523,12 +523,12 @@
 {
 "source": "Google 新闻：forex broker \"trading competition\" Malaysia OR Singapore",
 "ok": true,
-"items": 3
+"items": 6
 },
 {
 "source": "Google 新闻：forex \"trading competition\" Malaysia OR Thailand OR Indonesia OR Vietnam",
 "ok": true,
-"items": 5
+"items": 6
 },
 {
 "source": "Google 新闻：pertandingan dagangan forex hadiah",
@@ -548,7 +548,7 @@
 {
 "source": "Google 新闻：\"Traders Fair\" broker sponsor",
 "ok": true,
-"items": 2
+"items": 1
 },
 {
 "source": "Google 新闻：\"Money Expo\" broker sponsor",
@@ -558,7 +558,7 @@
 {
 "source": "Google 新闻：外汇 券商 赞助 OR 展会",
 "ok": true,
-"items": 3
+"items": 4
 },
 {
 "source": "Google 新闻：外匯 券商 贊助 OR 展會",
@@ -733,6 +733,7 @@
 ],
 "seen": [
 "00202dfd7506",
+"023dbfd8bec4",
 "0351dfb65a04",
 "03b5dcbcb947",
 "03cc631300cb",
@@ -756,9 +757,11 @@
 "2cdca3866748",
 "2f6f52d6df6a",
 "311bbdd9c472",
+"335eafb0ec7b",
 "3a9794ef0c3f",
 "3adbfc794d76",
 "3c73339c2777",
+"3cf75e1321e6",
 "3d194cb9acb6",
 "3fd6c337e673",
 "4168ceb9d703",
@@ -775,6 +778,7 @@
 "52ded0331b54",
 "5302b1d13ace",
 "577a901fe4ac",
+"5a05b5a06269",
 "5b9fbe047327",
 "5dd7390f6de4",
 "6114469bc8fa",
@@ -795,6 +799,7 @@
 "7eba5aef1b34",
 "80cad881bc8c",
 "8483ed1dcc4e",
+"84a95e16b50d",
 "85a430b0762d",
 "89789e44c7a9",
 "8e5ed4135c9b",
@@ -831,6 +836,7 @@
 "c2d28a9f81b7",
 "c6093a2db09d",
 "c726956a6339",
+"cb7bd7bc8225",
 "cdf9652d350f",
 "d4509fc0b7fd",
 "d958c764b517",
@@ -868,6 +874,7 @@
 "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1OTVpndUQyLXFlZWxLRm5tVGhtQ21YaXFaZEFmemk4T0JlUTZFd3pRNy00MGFtdnBfT0dNUnJocnRfemxUcTN1Ym10cFBPcE1zeC1iZmVOQXF1bFdNZmdLTVZn",
 "https://news.google.com/rss/articles/CBMia0FVX3lxTE12MGVIb1BRSk92Y0I2c09LX2poVlYwLUthM19GNEQtNjNJdmJTb0FmME9ONTJzRV9rNDVMSTN3WFBNUnk4Mi10cjBHN3Z5Mzg4Smh6UGszd2hLaDhfNW02Zi03bmF6UFR5Y1VB",
 "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNTZtWEZSRHkydHZHdWIyZF9UUEpJNEhodHgwbW1UU2o3d19kaUdCZ2o3WnVSbHZ6YWNtWmJ0MFdqbWpON1ZQX28xek5sX2IzWEl2dEhlUDhNWUdTVGhITkE4a2VZbjBibkE",
+"https://news.google.com/rss/articles/CBMib0FVX3lxTE95NE9RbVEyb25TSERRWDZ0UGxmWUFFNHdtMmRyWmdLbDVneWo1YTFINkNFVFZ1T2NjNW1vRVg5YTV2bGtlMnZGVFJ6TG5VWnZqbHREV19VLVBGVUQ1MHI4NGF2Q09fS3BmbVg3cTNyYw",
 "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EVDNveVl0Y1hrS1VPaGlhMU12eUo1TzJLV21xUGV6TFRNS1BYZXY2OXhsTHVtdF9wOUdJclRTNWptRzd1NHVoYWRkSVlRRGNRRmlRNkJwMlE0ck8yaDJzdkdzdmd0d3hnbzAzU1U1U3RCRnM",
 "https://news.google.com/rss/articles/CBMie0FVX3lxTE1nYjRFNWtYU3hRMVRrUzdhaXpNZUtDYXBMVHpQRzYwT1BhSGpsWC04ZzdIQmdHMHBDeW9NVXU2Z0dSSElSUnFtS0o3Y2VKLU9HVFJCa2RUQXo2YThGb1B0UFFJTnFRbF93SGx1VTVaUk5OVWR4eWpxaHVrUQ",
 "https://news.google.com/rss/articles/CBMiekFVX3lxTE03OGQ2RWNKTXRYRjlvc3BMVmtjOWk2S09JQ001b3R0NlBBUnV5UUhMOEZ0OGFVS19xOFdnbkJCYjNRQ0NfRnQ2WHBxU0pQbndmamFKb3pOZVQwb3F4WlFKQlRuZTk5Z0xHUHFPbDZLeFJHb2ZEMXc3OU5R",
@@ -892,6 +899,7 @@
 "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZG1weE42bXJ1UEpETF8yc0w0MXZUOHNSNDM5dGhraW1FeUNTMEhxZzU1ZmZrOGtXNnBHMENCQXpIXzNQdmxIN2hseFNUVDBxVWYtVkIyRDZsSk0xUDlIcTZvcW01ZEJWc243RWpydzh1cU9EY1pObGtLYVR6WDV6VDVQU3NYV0lsRVBMbW9ES1E",
 "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjliLW9MUlRUNFJrWWo3djd0OW1jSi03UXZrLWVaWXkwUlJObTczcGNqNDEyVVZkaVF6OEgyYkY2Nl9pOU5zdEJwdUFSeFB5MVV1M2haNTZTQjdkendDLVYxOGNNMktYM1VXTW1YT1JMem9pVktBd1RicmotUFZzLVAzUEtSMXV2V2V5UHIyZnREZw",
 "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTW9Xakx0MVNGSEpmakhRTlBSUU5DbXowQVVTTDd5Y2RJblJYUy1seHZPSkczLTJRc2VSR2x0bjVyWXcyUGxvQmxBenJJcTJXUkpXNnhDS3BMenBPVWRicERQekZES2JBanY4MWlQczU5anhXN2xKWUVwSkRHRERwN2poX1AwMVNIbHFfQUw4cmJwdw",
+"https://news.google.com/rss/articles/CBMikgFBVV95cUxNUzZGRDFJOVRxMG1SZGNnZnVVZlRVTWNaUmFaTHlEbE12LUFCb251UXdYNE13S3BjLWpOVVpzWUZsdDhyVE05LWJTTGNpQUNPWXJabHFXcW0zaHpGRzlBelpvSTZ3UWU3enlmNjlUYUZVUG1LZUtGX04zNzg0ZG9DZWdXWXVDdldJTFdHVUxudGlYQQ",
 "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVWcyZGZDdGF5QVJFWV9TOEUzUjJDek82aWs1ZjZ4Y00tTDlTVEJKV2NpRTBUU2lTeVpBOUdMeHQ2SjZMRmxWMzJGVVBIWUNYOUtmUkxEOHNmQ01mSnRUSFpHSHVZRWV6dm54X05KZG4wVGoxU29ZSldiSmluSGd4UWxRRlliQ2J6akdBTDlwT3lYQQ",
 "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUDJ1QVNQRjlrdElfdlJQRTZad2Z0NW1SbWVJck9KUTBsRXhIbjMtS3NyQm5tZ1UyNVhoYnZEajNoWG9uZUZGVk9TZ1ZYOFhOZG53TERnZldxb0hZZHR0RzY5RWRBazYtd0JMYm1ZTGJoUFUxM0dSTlAtRGE3Z0FQeklmREUwc21rdENpUnpLRE5rQQ",
 "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeFk4NWxSYi1IOXN5clZrdEV0LS1VZkdBdnROU29uYW05aEp6U01wSHBJOTA1X2VnNWhTenU1UzdDdVNJTzhqVHdhRi0zbDk5QURSQ0ZuVVNBaEk4akRHcUxSTW93UkZuZUJvVEFsNVhnWjA1dE1GdE5FNkFjdEJqUG0xX0lKa1Q4d2Jld1RyR1BGNlE",
@@ -913,6 +921,7 @@
 "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYjZ1ZDROMmlxcDZKVFBZa3A3SVlFLVliRmxrZkVfNkx3TlB2QWJwZ2ZxdjNnZW54LVpkNUMyV2E5M0Y3blBsc01OOUJydncySmJ5T0FUUV9JUzhHXzBQZDd5ZEQzS0FCbmcwZVpxY3BLc20xMG5paG1KTGVqU3dRc1pYMEF5WWFkNlNBcEEzSGpIWjJoR2d4dA",
 "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWTRFNnE2WGVnTUJscHRaamRhcTF2RUUzMUZOZkVWd1d1alVtRVRLa0lkTXhBN1ZYY3VjR3luR2FZc2ZCOFR1OVRJT1VHTmYyNzdIanUwamlDTEk0Y0trOFRCMWdpVHJ1cTdBZEZVNWtnVERkalM2VWIwUXRJU3ZWU2RDU3cyeEhRVDI2S1MtY2ZSZ0FsdDdtOQ",
 "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTVg3c0tVajNJam9hTkhDLXFfT0lVeEQyZFJfRzd2al9JeWMxVFNrQWU5RWtWV0lXYXFXd1MybzJzcFN3a0tWR3N6UU9kam51dDl3YzladGllcl9UZ2hVNkRsR0VCQy1HakIwbjlLeE9NRlR2azloVjNZRkpHeUtrMEJxYmpQckRORm5qNi1EWlhqMjF6RzhsQQ",
+"https://news.google.com/rss/articles/CBMimAFBVV95cUxQYUNzYTdNbGdic2dGRjkzRDhVbElWVG9zWl80ZFBZak1jSHdueTB5WG5rc0Q2VUZLUGQzbnJlWnhQSFNHeXN4ck5mMll2d3R1ZmM3Wk0yZ2c3YTNHVFl5YlpiQTc5Q0JBcTRPUkpRV1pQd1dlQ291YmJHQm5fazJsUGViVmRCMXdXSE5ZQngxeERJcnVkeUNMdA",
 "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdWFPVEI5TmdDOF9ackhvVXpBTUE0REo1WnJvZEwtelowN0lzcGJLR2V0Q2pvelJnclEtN2o4UUNNRnV6UW9rRE1pUk8zclR0S0V1Q2h2QU9yQXlfakE3MkEwei1KeDJOSFoyeGFYTmhSN050Y0EwZkJFY3FIOVg0c0tSMUdqa182NWdMWXhiYTdyeXhzRWtIVmxn",
 "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUhzalRVWm9RZnJSUGhTNG1XT2pPTlRsLVM2Z01YUmtfb0ZUVTdYcjZ4Ml9qWEVrX2ZhYngxOTlYRTdoT19KejlYVFRod3gwSWJiRUFXQnRQeVhSdzFMYWw3MTlmbi1hdXJLSDJHVzlBNHFRMk1VZmpaSjRHY015aklQZUZDc2Z6U05iUmdxSEtzTVlVeno0MWVB",
 "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdWlUVEZpTldxMWhwRjRINFFGTDdmMktXZENCSGtScUp0QzRnMW5EWUdJS2UwVUR3d1lrek0zSDNVdmh5ZUpmajZzcjFNVU9RcEZLNndJREVTc3JjVFAwcU15SE54T0RXODVkU0FISm1jckFwTTRlUjhySXRMd2Y4ek16V0stMHE3dktHcWJkN2E1WGdFMzY1ak93",
@@ -925,6 +934,7 @@
 "https://news.google.com/rss/articles/CBMimwFBVV95cUxQak1xcUJPX0x4NXdvRVloYjNzbkpyQTRTMjdscVdRZ05JcWtDV2g5MXlqR1pMZkJvbllGS3B5R19ibDRSa082aDU3Y1NmaHVzRkg4X2Nyd0xGd04zeW42Z0hjakIteF9XQ3BDWE4tcU53RTJGVmRpbEduVWViT2Eta2QxRk0xd3g0QTZQSFZncU1mVVBNQnN3VHZoSQ",
 "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUFVrVFhqMnZjVTN3VW9ZbjcwSTlyaHdVX1JOc3l6UFFoc0x3YkxKRFpubmNXOUhHWEtHX1FXWHlNMDVNWHZ1dk5UYUNSZTRuV0x0cTc2Z083OXhKdnBoZlRHT0RWVkYyTlJnLUNHbmNwZlhRZzMydHR5VUoydkZSSUVNb0ZuX01qSURQVXBKYWU2RnlDem9aem9TMU0",
 "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVWFpRVRCcEZhY1A0Tm9VTlFYZVJfUkxsWU83OE9vUVlmNmRPbDV5M1dBbElHcmpLbkZhelY0WmN6QWNRb2h5X1ZENkRzdk03NVRha0pjWE5jc3hEb2piT0dfRFlJRWNoWWhIYmFsQVl5QmZlR3pYN2ZsSVRPdDE3aGxfSlpLOGR1YWpVc2J0bHVXLXpXVEZJcDM3c0s",
+"https://news.google.com/rss/articles/CBMinAFBVV95cUxPeW5yLUtXME1xWXBQbUx2WjRid01HcmROS3hCdjdVSXhndl9KY0JYY3BET1c2enNEcUV3OHlTYnNZUnNRSUNZQjhxWU9GNVB0czhGN0g2NjNnU0o5NUZUMTNpVlhDR2Z6NUJqM051QmtjWVRmeXN4Y19ueXF2TU1hUmthQ1gwZ2dCdC1Zbnhrdkd4QnFJSXVSV2lGYlI",
 "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNlRhdGtPOWZvT0NNeTR4SG5RU1VTcGhUUXozdEVvYnJiYThpV2VUZ0pVZDFmX1RnU180VVpEMF9wY1RlTHBnVXlBSW5zVlhIVExWYnhSOUtycmxSUGZpX1VfcUxaYnM3UE85MnlCbEhXRmxhX0duSnExVVFBTExreTNfZVBlUm5aQ3NkZ2FDQ3dXVFl0aTMySlpZMXk",
 "https://news.google.com/rss/articles/CBMingFBVV95cUxOa1dNekxQXzhSLUZaZVZVWlFabmhRelRNY2FPZnJQM2xGRDBNX210NGt3U1VGZXZPa1F3Z2M0WkZHeUhReE9VR09TUjhEaTBBUlREaG4yRnlISXVPQ0IxZV9GYm5LZUxfSnpzckgyWTY0V0dBckRHSzhVREdtWXRmWW4zQkdUTHE5a2UtY0dqdWpNa2xzVFNjVFZpdHlxdw",
 "https://news.google.com/rss/articles/CBMingFBVV95cUxPaEhxaW1nODNwTzIyMHNyMkZFS0pwWDZ4MFo3Q1YwZ1lQYkluR0hFOHV3bkozZ2tBTnA0ejFwR0o3dXo4N3MwaGNxcXJBOHJYR0NoX18wcFB5MHhyWlNja0J6bDJuMk8yeUNiQTlaeWxLYWVCNXBxeGtnWlFlOXRtbnpyU0Q1cnF2TVY4VEI1bm1xZHBjb3BIN2JreGhyUQ",
@@ -937,7 +947,9 @@
 "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTnhWcGJKMVF1YXpnVW5KSHlxTGh1WW8tWFBIcHFCbTFndkhnUktwS1JFeDZVSWtqcE5yeUlWVmJwVlRTMzNyRzJ1dnhuTkdySHM4TWFLZGNNREtPNVFEaFlCcTMyMThMZG15UG9VTE9ScTEwNmRfMW5oazFNVVg2VHlWSmxMWk5iR3h1aHlmTXpTOGRCMW1xUTUxbTNFM00t",
 "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYl96akN6MDdHWTc4WjkwRTJVUmNKeUdpdUt2VDhvbXpVaDRQT0xaRXpONGVIUmx0ZTVldjNkWHBoUDNBT2p1M3F2eERhdUtYekxob3NXYW1QSTBxaG5COVpkdzl4VGpUazFvTmJMWlkxbk4tUnR3NUZxSXhiR1Q1Z1FyZmhBS291UkpMWGhkSFd2SjM5UzdzdENKckV0Q25E",
 "https://news.google.com/rss/articles/CBMiogFBVV95cUxPY21JbTcyekpaLW1vT0ptSFlhNm50b3ZqZkdHd29reERSRFRwZFQ5b0VmQTg1NWh6RDh2Zi13c3lXeTBPNW1DOXlLdVpSWE9zd0FXNklVSDVrRWFtT1RLRU56M01WM09LdGlyN3l4SXdpdE9UWUc2T0N2WVhwOFZVZ1BzRVhpRmhUbEJEMGt0MnZyMlV5R2ZYa1c5QlVoM1hPdUE",
+"https://news.google.com/rss/articles/CBMiowFBVV95cUxNcFdfUkNqbXl0Q2tselpKc0x4SjVCcFdqYU5HVkVIOXlkRzZSZTA4WlB2Nk85ckt3Y0ZKc0h2OHVnSG5YcXdTT3QwYmNUVkcyNGlWREtJdUxtZ19fNGpScEJPb1JRb0dIN2RMYjBZYmVSaU5WUWlQYk4ybHkzSDhBdHBhLTdQUmRKTVY2ajRFMENxeU5XY3BKWTBtUlhreW9oRHpF",
 "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSzdVSXpMMEppLW5Od1dHTUdZV3F3NlBEeG8wNWlaalZsVlJzNTlqMkZCV2pRWVpCM2hRaUhSNHBZLUdjdUF2dmRodXFQOFN3cVdCc1B5VG5lZXhiX05DVDM0Mkk5d1ZVbzNUYVhuMjFFc1hSYkxFZTYxT05SR2R4SG1hYTJUZlFyUHhLX3dDVG51SDRRbjBhendDaEpjRUhYVnd5SQ",
+"https://news.google.com/rss/articles/CBMipwFBVV95cUxQdWxtSUp2dzhQclJsX2F4cHhTdlZUaC1DdlNzZG9JeHVmY1JYQlZiQURKQkwySWhkekhRYVQ0ellpX2hYX0h3Y3dyZWVkVEt4M1FhYWxqekE5QWtNNXdBUDhtYVJYLUg3cWdpUEpkOGtPVi0ycHlmSWp6RmJXNnVpX2Z4X1NERXpzbnE5dUkxajJ2RUtRc0p1MlVRYjdFUGYwRWExMXdaZw",
 "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWXcxajkzcDFPUXRKaUFTMlk3NHVnOFRpWHByVWpDODRKY0Y1NHhHZEQ2N2d2cEMzTE9ZUEpKQzM5YWhnMFlWMmx1WFBXNHkyY3JSckxlaWE4S0EteW1RY3VMT3JCSWU3ZGpKblA3aW44cW5VUnBROXlSUHpObTNRNVdvbE4tZ1hqS081LXFEQk12VDVrUFVuaDg1MzlkUXdGQ0pZYnZ0WTk",
 "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS2t0UGZCdU9ydERsZ0Z4dnhVbFY2cEpOWk1DV1Y4U242UXJFNDVjVUZWc2Y5S0dZZDN6OHFpUnh0M1ZzWFFxMTlsWWtiM1VUNloySHh2SVZiQUlneG5qOWF3REhadDloMjdIN2lXd2FOSjNNRGNkS1J0NXVKaVJVX3B6SjVyN0xvMFZ0RDcxaU42eG9WN0NYZW9iOGh0Z01GWlZtNXJOS2tEQQ",
 "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPczRIQmVBSkJrYjNOMEFQT09WWDVPQ29DNEpHVGdmckxEUUtzRVV6blNJQmUwb29rc2JXNDJUbmM5b3NlZFhEcEhkSkpmUkxhOVBFNFVjaTZyNHRBSnM3enFWcmFrUzBpNExpZzFxcnpGTlR6a1RUWjZJamFXTzlQSzROQ0tTUnA4d0FUSU9IMUFrZVVnb3VicUV1OG4xVmpmOGVPZEotaUhYWVnSAbcBQVVfeXFMTUFUZC13WlZXUjVHblpvR3dsSFd5WnZ1c29DdFYzLTI2ZHVCbEU0dTl0Ym5Ka3g4ZWQ2cUk2Nm1VbW1La1ExYl9GczA3NXBwd0dkX0F6MWxmR3h2aTBRbHJjbDgxbDBYbmVJSHhienBqZHU4cjFPdGxxS0duMk9Kb3pHMWp4OV9HV3lNWDUzSHZMN0N2QVQ5Ynl6VF9vRFgzclVFLWtLOUg0YTFrT1BQdjA4MGlXSzh3",

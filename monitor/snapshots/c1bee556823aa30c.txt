@@ -59,6 +59,7 @@ Resources
 Market Outlook
 Trading Dictionary
 Academy
+Monthly Ebook
 News
 Analysis
 Tools
@@ -162,6 +163,7 @@ Resources
 Market Outlook
 Trading Dictionary
 Academy
+Monthly Ebook
 News
 Analysis
 Tools
@@ -216,6 +218,7 @@ Academy
 Research
 Trade News
 Market Analysis
+Monthly Ebook
 Trading Tools
 Trading Central
 Economic Calendar

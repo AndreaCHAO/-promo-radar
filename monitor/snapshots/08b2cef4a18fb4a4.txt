@@ -37,6 +37,7 @@ US500 6,284 ▲ 0.21%
 Market news
 What is moving the markets
 All news
+Commodities · Silver Silver rebounds from 15 -month low, beats gold as the gold/silver ratio dips 27 November 2026
 Crypto · Bitcoin Bitcoin back above $60,000 as crypto rebounds despite ETF outflows 26 November 2026
 Indices · Wall Street US stocks shut for Thanksgiving after Dow erases 1,100 -point drop 26 November 2026
 Commodities · Strait of Hormuz Iran says LNG carrier and oil tankers hit mines in Hormuz: oil, gas react 25 November 2026
@@ -46,7 +47,6 @@ Commodities · Silver Silver slumps as Fed hike bets wipe out Monday's rebound b
 Stocks · Nvidia Nvidia has best day since 2003 as Jensen Huang returns as CEO 24 November 2026
 Indices · Global stocks US stock futures rebound after Wall Street's worst week since April 2025 23 November 2026
 Inflation · Turkish lira Turkish household inflation expectations ease to 43.24% in November 23 November 2026
-Commodities · Oil and Iran Iran says tankers hit Hormuz mines as Trump eyes new strikes; oil dips 23 November 2026
 0.0 *
 Pips — spreads from
 1:3000 †
